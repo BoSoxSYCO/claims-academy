@@ -1,30 +1,92 @@
-# Academy Charter
+# Claims Academy Charter
+Version: 1.0
+Status: Approved
+Last Updated: July 4, 2026
 
-## Mission
-To train competent, ethical insurance claims professionals through a
-structured curriculum, realistic simulation, and portfolio-based assessment.
+---
 
-## Vision
-A self-contained academy where a learner can progress from foundational
-concepts to independent claim handling, with clear standards at every stage.
+# Mission
 
-## Scope
-- **In scope:** claims curriculum, case libraries, simulation exercises,
-  student and instructor materials, assessment templates.
-- **Out of scope:** binding legal advice, production claims systems,
-  handling of real policyholder PII.
+Claims Academy prepares people with little or no insurance experience to become competent claims professionals through realistic, simulation-based training.
 
-## Guiding Principles
-1. **Practice over theory** — every concept is paired with a realistic exercise.
-2. **Transparent standards** — rubrics and expectations are published, not hidden.
-3. **Portfolio evidence** — competency is demonstrated, not merely asserted.
-4. **Ethical grounding** — fair claims handling and good faith are non-negotiable.
+Students will learn to investigate, evaluate, document, negotiate, and resolve claims before handling real customer files.
 
-## Roles
-- **Student** — completes curriculum, simulations, and portfolio work.
-- **Instructor** — guides learners, evaluates work against rubrics.
-- **Maintainer** — curates curriculum and keeps materials current.
+Passing the Associate in Claims (AIC) designation is a milestone, not the final objective.
 
-## Definition of Success
-A graduate can independently intake, investigate, evaluate, and resolve a
-standard claim to the academy's published standard.
+---
+
+# Vision
+
+To become the most practical claims training platform available by combining structured education with immersive claim simulations.
+
+---
+
+# Core Principles
+
+1. Realism over memorization.
+2. Every lesson ends with application.
+3. Every decision must be supported by evidence.
+4. Mistakes are learning opportunities.
+5. Documentation is part of every claim.
+6. Students learn by doing.
+
+---
+
+# Educational Model
+
+Learn
+
+↓
+
+Observe
+
+↓
+
+Practice
+
+↓
+
+Receive Feedback
+
+↓
+
+Improve
+
+↓
+
+Repeat
+
+---
+
+# Graduate Outcomes
+
+Graduates will be able to:
+
+- Analyze insurance coverage
+- Conduct claim investigations
+- Evaluate liability
+- Assess damages
+- Write professional claim notes
+- Communicate with insureds and claimants
+- Negotiate settlements
+- Manage a claim from FNOL through closure
+- Successfully complete the AIC curriculum
+
+---
+
+# Development Philosophy
+
+Claims Academy is developed as a professional software product.
+
+Every lesson, case file, assessment, and simulator feature must:
+
+- solve a specific learning objective
+- be version controlled
+- be documented
+- be reusable
+
+---
+
+# Success Criteria
+
+The academy succeeds when graduates can confidently perform the work of an entry-level claims adjuster.

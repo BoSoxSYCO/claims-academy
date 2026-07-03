@@ -1,27 +1,48 @@
-# Roadmap
+# Claims Academy Roadmap
 
-Status legend: 🟢 done · 🟡 in progress · ⚪ planned
+## Phase 1
+Foundation
 
-## Phase 1 — Foundation
-- 🟢 Establish repository structure
-- ⚪ Draft Academy Charter and guiding standards
-- ⚪ Outline core curriculum modules
+- Academy Charter
+- Repository
+- Documentation Standards
+- Simulator Architecture
 
-## Phase 2 — Curriculum
-- ⚪ Author foundational lessons (claims lifecycle, policy basics)
-- ⚪ Build the initial claim library with annotated cases
-- ⚪ Publish assessment rubrics
+## Phase 2
+Core Curriculum
 
-## Phase 3 — Simulation
-- ⚪ Design first end-to-end claim simulation
-- ⚪ Add scenario variations (auto, property, liability)
-- ⚪ Create instructor answer keys
+- Insurance Fundamentals
+- Coverage
+- Investigation
+- Liability
+- Damages
 
-## Phase 4 — Assessment & Portfolio
-- ⚪ Define portfolio requirements
-- ⚪ Pilot with a test cohort
-- ⚪ Iterate on feedback
+## Phase 3
+Simulator
 
-## Backlog
-- Certification pathway
-- Interactive/digital delivery
+- Dashboard
+- Case Files
+- Notes
+- Documents
+- Performance Tracking
+
+## Phase 4
+Advanced Claims
+
+- Auto
+- General Liability
+- Workers' Compensation
+
+## Phase 5
+Certification
+
+- AIC Alignment
+- Practice Exams
+- Interview Preparation
+
+## Phase 6
+Public Release
+
+- Beta Testing
+- Student Feedback
+- Version 1.0

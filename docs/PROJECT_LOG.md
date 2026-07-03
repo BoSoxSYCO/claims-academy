@@ -1,10 +1,20 @@
 # Project Log
 
-A running, dated record of decisions and progress. Newest entries on top.
+## Session 001
 
-## 2026-07-03
-- Initialized the Claims Academy repository structure.
-- Created governing docs: charter, roadmap, project log, version history.
-- Added README, LICENSE (MIT), and .gitignore.
-- Scaffolded top-level folders: curriculum, claim-library, simulator,
-  student, instructor, portfolio, templates, research, assets.
+Date: July 4, 2026
+
+Completed
+
+- Repository created
+- GitHub Desktop installed
+- VS Code installed
+- Project folder structure created
+- Academy Charter created
+- Roadmap created
+
+Next
+
+- Documentation standards
+- Case file template
+- Simulator specification
