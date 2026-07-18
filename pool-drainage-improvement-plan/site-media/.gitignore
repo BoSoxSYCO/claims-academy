@@ -1,0 +1,7 @@
+# Source photos/videos kept out of version control due to size
+*.mov
+*.jpeg
+*.jpg
+*.png
+*.mp4
+!.gitignore
