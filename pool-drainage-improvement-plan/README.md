@@ -14,7 +14,8 @@ the street (the intended outlet) is on the opposite (left) side.
 |---|------|--------|
 | 01 | `01-site-assessment-report.md` — site assessment, runoff analysis, and recommended strategy (no products yet) | ✅ Complete |
 | 02 | `02-drainage-improvement-plan.md` — full design, product recommendations, phased build plan (no survey; hose-test self-check built in) | ✅ Complete |
-| 03 | Materials takeoff + dig-day sequence for the chosen outlet (street vs. dry well) & build method (DIY vs. contractor) | ⏳ Pending hose-test result + owner preference |
+| 03 | `03-final-fix-plan.md` — consolidated 6-part fix for **zero flow into the pool**, refined with the full 57-photo survey (bowl grading, roof downspouts, failing deck drain) | ✅ Complete |
+| 04 | Materials takeoff + dig-day sequence for the chosen outlet (street vs. dry well) & build method (DIY vs. contractor) | ⏳ Pending hose-test result + owner preference |
 
 ## Source media
 Owner-supplied dry-condition photos (3) and heavy-rain storm videos (2). The storm videos are
