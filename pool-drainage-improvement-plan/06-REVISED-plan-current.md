@@ -25,11 +25,13 @@ See `design/design_0_master_plan.jpg` (v2) and `design/design_5_xsection.jpg`.
 
 | # | Element | What it does |
 |---|---|---|
-| **①** | **Catch drain at the retaining wall** (channel/trench drain along the deck's back edge, buried, grate flush, with a sediment **sump**) | Grabs the 4–5 ft strip's runoff before it goes over the wall |
+| **①** | **Catch drain ringing the deck** (buried channel/trench drain along the back edge **and both sides**, grate flush, with a sediment **sump on the street/left side**) | Grabs the 4–5 ft strip's runoff before it goes over the wall |
 | **②** | **Regrade the 4–5 ft back strip** | Makes that strip fall **into** the catch drain instead of over the wall |
-| **③** | **Capture both downspouts** (tie into solid pipe; neighbor-side one ties in at the sump by the pump) | Removes roof water from the deck area |
-| **④** | **Pipe to the street** (solid pipe from the sump, around the pool, to a pop-up at the curb) | Carries it all off-site by gravity |
+| **③** | **Capture both downspouts** (each ties **up** into the nearest side leg at the corner) | Removes roof water without running pipe along the house |
+| **④** | **Pipe out to the street** (from the street-side sump, straight out to a pop-up at the curb) | Carries it all off-site by gravity |
 | **⑤** | **Re-sod the bare strip** | Stops the sand at the source |
+
+> **Routing rule (important):** the collection **rings the back and the two sides** and the sump + exit sit on the **street (left) side**. The pipe **never crosses the house** at the bottom — the house side stays clear. The pump-side downspout ties up into the side leg and is carried around, not along the house wall.
 
 **Dropped from the old plan:** the fence-line **offsite interceptor (old ①)** — not needed, since no water comes from off-property. That was the biggest, most expensive piece. This revision is **smaller, cheaper, and faster.**
 
@@ -39,10 +41,10 @@ See `design/design_0_master_plan.jpg` (v2) and `design/design_5_xsection.jpg`.
 
 | # | Measure | Your number |
 |---|---|---|
-| **B** | Length of the pool's **back (retaining-wall) edge** to line with the catch drain | _____ ft |
-| **C** | **Back strip** area to regrade + re-sod ( B × ~5 ft ) | _____ sf |
-| **D** | Downspouts to capture + distance from each to the sump | ___ ea / _____ ft |
-| **E** | Distance from the **sump (by the pump)** around the pool to the **street** | _____ ft |
+| **B** | Catch-drain length = **back edge + both sides** of the deck | _____ ft |
+| **C** | **Back strip** area to regrade + re-sod ( back edge × ~5 ft ) | _____ sf |
+| **D** | Downspouts to capture + distance from each up to the side leg | ___ ea / _____ ft |
+| **E** | Distance from the **street-side sump** straight out to the **street** | _____ ft |
 
 ---
 
