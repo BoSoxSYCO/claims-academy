@@ -82,8 +82,8 @@ A settling point where sand drops out and you scoop it up — instead of it reac
 - **Daylight/pop-up:** a **pop-up emitter** at the discharge end keeps debris and critters out and opens under flow.
 - **Corner-lot note (Florida):** discharging to the right-of-way / swale is common but often regulated. **Confirm with your county/city stormwater or code office before connecting to anything in the right-of-way** — see §5.
 
-#### ⑤ Deck trench drain — clean up and keep as backstop
-Your deck already has a linear channel drain; in the video it's overwhelmed and silted.
+#### ⑤ Deck-edge drain — build new (there is none today)
+*(Corrected per owner walk-through, 2026-07-19: there is no existing deck drain — just decorative rock and an edge that was tried for drainage and doesn't work.)* Build a proper deck-edge drain where the rock is now.
 
 - **Clean it out**, confirm it has a real outlet (not just a soak line that's now clogged), and add a **small catch basin/sump at its low end** so it, too, drops sediment before discharge.
 - Tie its outlet into the same conveyance line to the street (④) if grade allows.

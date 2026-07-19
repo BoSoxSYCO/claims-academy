@@ -16,7 +16,7 @@ The full photo set shows the backyard is a **shallow bowl with the pool/deck at 
 2. **The yard's own bowl** — the lawn is higher on essentially every side and pitches inward toward the deck.
 3. **Roof downspouts** discharging near the house corner / pool equipment pad, right beside the deck.
 
-An existing gravel-and-black-corrugated-pipe drain along the deck edge is **undersized and failing** — sand rides right over it and fans out on the deck by the spa.
+There is **no working drain** at the deck edge — both sides of the pool are just **decorative rock and an edge** that the owner tried to use for drainage, and it doesn't work. Sand rides right over it and fans out on the deck by the spa.
 
 **To get *zero* flow into the pool, two things must both be true:**
 - **(A)** Nothing that lands uphill can reach the deck — it gets intercepted first.
@@ -53,7 +53,7 @@ A French drain (fabric-wrapped perforated pipe in washed gravel) and/or a shallo
 A continuous collection line wrapping the **uphill sides of the pool deck** — the back and fence sides:
 - **At the deck edge:** a slot/channel (trench) drain flush with the pavers, so any water arriving at the deck drops in instead of crossing onto it.
 - **Just upslope in the lawn:** a shallow French drain feeding the same line.
-This **replaces the failing black corrugated pipe.** With ① reducing the volume, this moat catches the rest. Nothing gets past it onto the deck.
+This is **new construction** where today there is only decorative rock. With ① reducing the volume, this moat catches the rest. Nothing gets past it onto the deck.
 
 #### ③ Regrade the yard — *break the bowl (non-negotiable)*
 Re-shape the lawn so the ground **falls away from the deck** on all sides, toward the interceptor/moat lines and then toward the street. This is what fixes the root cause: after regrading, the yard no longer drains to the pool — it drains to the collection lines. Create a shallow **swale** along the side yard to carry water to the street.

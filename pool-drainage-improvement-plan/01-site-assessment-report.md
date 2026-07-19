@@ -32,7 +32,7 @@ Findings are based on:
 - **Decorative knee wall:** A low tan brick wall wraps the back/side of the deck in an "L." It is a **landscape/retaining accent — not a water-tight barrier.** It has at least one **stepped opening / gap** (visible near the spa) that concentrates flow onto the deck.
 - **Back lawn (fence side):** Largely **bare, sandy soil** with patchy grass — the classic signature of repeated erosion. Sandy Florida soil mobilizes easily.
 - **Perimeter:** White vinyl privacy fence along the elevated (uphill) corner, with older wood fence and a chain-link section elsewhere. Neighboring homes/sheds sit on **higher ground** behind the vinyl fence.
-- **Existing drainage:** A linear **trench/channel drain already exists in the pool deck.** In the storm video it is clearly **overwhelmed and sediment-laden** — it is capturing some water but is undersized for the volume and has no upstream sediment control.
+- **Existing drainage:** *(Corrected per owner walk-through, 2026-07-19.)* There is **no working drain.** Both sides of the pool have only **decorative rock and an edge**; the owner tried to use this for drainage and it does not work. What looked drain-like in the photos is loose rock/edging, not a functioning system.
 
 ---
 
