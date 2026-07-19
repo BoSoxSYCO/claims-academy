@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461241.1167592593
+2461241.1201157407
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461241.1167592593
+2461241.1201157407
   9
 $TDUUPDATE
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-60
+61
   9
 $SURFTAB1
  70
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{1A3AEC69-F1EA-439A-A657-BF8949825D22}
+{C69C0F4F-927C-4616-9A80-B2F29E0C419E}
   9
 $VERSIONGUID
   2
-{5982AE65-55D2-4919-BAA7-1E0EDF033044}
+{19ED0031-148B-4C63-B430-0C29C334905E}
   9
 $EXTNAMES
 290
@@ -1323,9 +1323,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1339,9 +1339,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -2037,7 +2037,7 @@ ACAD
   0
 APPID
   5
-5D
+5E
 330
 3
 100
@@ -2051,7 +2051,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-5E
+5F
 330
 3
 100
@@ -2679,17 +2679,13 @@ DRAIN_PIPE
 100
 AcDbPolyline
  90
-3
+2
  70
 0
  10
-11.0
- 20
-2.0
- 10
 8.5
  20
-2.0
+-1.5
  10
 8.5
  20
@@ -2707,17 +2703,13 @@ DRAIN_PIPE
 100
 AcDbPolyline
  90
-3
+2
  70
 0
  10
-49.0
- 20
-2.0
- 10
 51.5
  20
-2.0
+-1.5
  10
 51.5
  20
@@ -2771,9 +2763,9 @@ DOWNSPOUT
 100
 AcDbCircle
  10
-11.0
+8.5
  20
-2.0
+-1.5
  30
 0.0
  40
@@ -2791,9 +2783,9 @@ DOWNSPOUT
 100
 AcDbCircle
  10
-49.0
+51.5
  20
-2.0
+-1.5
  30
 0.0
  40
@@ -2815,25 +2807,25 @@ AcDbPolyline
  70
 1
  10
-51.7
+52.2
  20
-0.19999999999999996
+-2.8
  10
-53.3
+53.8
  20
-0.19999999999999996
+-2.8
  10
-53.3
+53.8
  20
-1.8
+-1.2
  10
-51.7
+52.2
  20
-1.8
+-1.2
  10
-51.7
+52.2
  20
-0.19999999999999996
+-2.8
   0
 LWPOLYLINE
   5
@@ -3081,9 +3073,9 @@ TEXT
 100
 AcDbText
  10
-9.0
+-7.0
  20
-1.0
+-2.0
  30
 0.0
  40
@@ -3091,9 +3083,9 @@ AcDbText
   1
 downspout
  11
-9.0
+-7.0
  21
-1.0
+-2.0
  31
 0.0
 100
@@ -3111,9 +3103,9 @@ TEXT
 100
 AcDbText
  10
-45.0
+52.5
  20
-1.0
+-2.0
  30
 0.0
  40
@@ -3121,9 +3113,9 @@ AcDbText
   1
 downspout
  11
-45.0
+52.5
  21
-1.0
+-2.0
  31
 0.0
 100
@@ -3141,19 +3133,19 @@ TEXT
 100
 AcDbText
  10
-50.0
+11.0
  20
-2.4
+-12.0
  30
 0.0
  40
 0.9
   1
-pump
+DOWNSPOUTS: L & R side walls, ~1-2 ft from pool-facing wall
  11
-50.0
+11.0
  21
-2.4
+-12.0
  31
 0.0
 100
@@ -3162,6 +3154,36 @@ AcDbText
 TEXT
   5
 58
+330
+17
+100
+AcDbEntity
+  8
+TEXT
+100
+AcDbText
+ 10
+54.5
+ 20
+-2.0
+ 30
+0.0
+ 40
+0.9
+  1
+pump
+ 11
+54.5
+ 21
+-2.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+59
 330
 17
 100
@@ -3191,7 +3213,7 @@ AcDbText
   0
 TEXT
   5
-59
+5A
 330
 17
 100
@@ -3221,7 +3243,7 @@ AcDbText
   0
 TEXT
   5
-5A
+5B
 330
 17
 100
@@ -3251,7 +3273,7 @@ AcDbText
   0
 TEXT
   5
-5B
+5C
 330
 17
 100
@@ -3281,7 +3303,7 @@ AcDbText
   0
 TEXT
   5
-5C
+5D
 330
 17
 100
@@ -4299,7 +4321,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-5F
+60
   0
 DICTIONARYVAR
   5
@@ -4311,11 +4333,11 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-07-19T02:48:08.188593+00:00
+1.4.4 @ 2026-07-19T02:52:58.172643+00:00
   0
 DICTIONARYVAR
   5
-5F
+60
 330
 2D
 100
@@ -4323,7 +4345,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-07-19T02:48:08.191810+00:00
+1.4.4 @ 2026-07-19T02:52:58.177197+00:00
   0
 ENDSEC
   0
