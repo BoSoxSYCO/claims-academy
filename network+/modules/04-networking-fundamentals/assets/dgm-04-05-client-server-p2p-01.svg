@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Client-server compared with peer-to-peer</title>
+  <desc id="desc">Two panels. On the left, a client-server network: four small client boxes each send an arrow to one large central server box. On the right, a peer-to-peer network: four equal peer boxes are joined directly to one another with no central server.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Two ways to organize a network</text>
+
+  <!-- arrowhead marker -->
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#166534"/>
+    </marker>
+  </defs>
+
+  <!-- panels -->
+  <rect x="30"  y="55" width="410" height="380" rx="10" fill="#f0fdf4" stroke="#166534" stroke-width="1.5"/>
+  <rect x="460" y="55" width="410" height="380" rx="10" fill="#faf5ff" stroke="#6d28d9" stroke-width="1.5"/>
+  <text x="235" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#166534">Client-server</text>
+  <text x="665" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#6d28d9">Peer-to-peer (P2P)</text>
+
+  <!-- CLIENT-SERVER: center server + 4 clients -->
+  <rect x="175" y="215" width="120" height="60" rx="8" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <text x="235" y="242" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">SERVER</text>
+  <text x="235" y="261" text-anchor="middle" font-size="11" fill="#166534">(provides)</text>
+
+  <g fill="#dbeafe" stroke="#1e40af" stroke-width="2">
+    <rect x="70"  y="110" width="90" height="40" rx="6"/>
+    <rect x="310" y="110" width="90" height="40" rx="6"/>
+    <rect x="70"  y="340" width="90" height="40" rx="6"/>
+    <rect x="310" y="340" width="90" height="40" rx="6"/>
+  </g>
+  <g font-size="12" fill="#1e40af" text-anchor="middle">
+    <text x="115" y="134">client</text>
+    <text x="355" y="134">client</text>
+    <text x="115" y="364">client</text>
+    <text x="355" y="364">client</text>
+  </g>
+  <g stroke="#166534" stroke-width="2.5" marker-end="url(#arrow)">
+    <line x1="130" y1="150" x2="195" y2="216"/>
+    <line x1="340" y1="150" x2="275" y2="216"/>
+    <line x1="130" y1="340" x2="195" y2="274"/>
+    <line x1="340" y1="340" x2="275" y2="274"/>
+  </g>
+  <text x="235" y="410" text-anchor="middle" font-size="12" fill="#334155">Many clients ask one central server.</text>
+
+  <!-- PEER-TO-PEER: 4 equal peers fully linked -->
+  <g stroke="#6d28d9" stroke-width="2.5">
+    <line x1="560" y1="150" x2="770" y2="150"/>
+    <line x1="560" y1="340" x2="770" y2="340"/>
+    <line x1="560" y1="150" x2="560" y2="340"/>
+    <line x1="770" y1="150" x2="770" y2="340"/>
+    <line x1="560" y1="150" x2="770" y2="340"/>
+    <line x1="770" y1="150" x2="560" y2="340"/>
+  </g>
+  <g fill="#ede9fe" stroke="#6d28d9" stroke-width="2">
+    <rect x="515" y="130" width="90" height="40" rx="6"/>
+    <rect x="725" y="130" width="90" height="40" rx="6"/>
+    <rect x="515" y="320" width="90" height="40" rx="6"/>
+    <rect x="725" y="320" width="90" height="40" rx="6"/>
+  </g>
+  <g font-size="12" fill="#6d28d9" text-anchor="middle">
+    <text x="560" y="154">peer</text>
+    <text x="770" y="154">peer</text>
+    <text x="560" y="344">peer</text>
+    <text x="770" y="344">peer</text>
+  </g>
+  <text x="665" y="410" text-anchor="middle" font-size="12" fill="#334155">Equal peers share directly — no central server.</text>
+</svg>

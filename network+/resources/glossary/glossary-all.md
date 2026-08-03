@@ -28,6 +28,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
+- **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
 - **Command** — A short instruction you type for the computer to run. *(First taught: NA-M02-L03)*
 - **Command line (CLI)** — A place where you type text commands instead of clicking. *(First taught: NA-M02-L03)*
 - **Command Prompt** — The classic, simple Windows terminal. *(First taught: NA-M02-L03)*
@@ -112,6 +113,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Packet loss** — The percent of ping messages that got no reply (0% is best). *(First taught: NA-M02-L05)*
 - **PAN (Personal Area Network)** — A tiny network around one person (Bluetooth). *(First taught: NA-M04-L03)*
+- **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
+- **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
@@ -133,12 +136,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## S
 
+- **Scale** — To grow to handle more users or devices without breaking. *(First taught: NA-M04-L05)*
 - **Search box** — The box where you type a tool's name to find it. *(First taught: NA-M02-L02)*
 - **Section** — A group of output lines under a heading, such as one network connection. *(First taught: NA-M02-L05)*
 - **Server** — A computer or program that provides something when asked. *(First taught: NA-M01-L06)*
 - **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
+- **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
 - **Star topology** — A network shape where every node connects to one central device. *(First taught: NA-M04-L04)*
@@ -167,10 +172,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## W
 
 - **WAN (Wide Area Network)** — A network over a long distance; the internet is one. *(First taught: NA-M04-L03)*
+- **Web server** — A server that stores and sends web pages to browsers. *(First taught: NA-M04-L05)*
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 - **Wired link** — A link that uses a cable to connect two nodes. *(First taught: NA-M04-L02)*
 - **Wireless link** — A link that uses radio waves (Wi-Fi) to connect two nodes. *(First taught: NA-M04-L02)*
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L05)_

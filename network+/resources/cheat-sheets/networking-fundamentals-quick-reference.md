@@ -91,4 +91,22 @@ STAR        BUS            RING        MESH
 > **Remember:** the shape decides what breaks, what it costs, and how easily you add a device.
 
 ---
+
+## Client-server vs. peer-to-peer (Lesson 04-05)
+
+| | **Client-server** | **Peer-to-peer (P2P)** |
+|---|-------------------|------------------------|
+| Setup | one server, many clients | equal peers, no server |
+| Analogy | restaurant (one kitchen) | potluck (everyone shares) |
+| Strength | central, managed, scales | cheap, simple |
+| Weakness | server = single point of failure; costs money | hard to manage/secure/grow |
+| Examples | web, email, file server | AirDrop, two-laptop file share |
+
+- **Peer** = an equal that can be both client and server.
+- **Key question:** is there one main computer everyone depends on? Yes → client-server; no → P2P.
+- **Model ≠ topology:** model = *who serves whom*; topology = *what shape* (Lesson 04-04).
+
+> **Remember:** client-server has a boss (the server); peer-to-peer is all equals.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 04_
