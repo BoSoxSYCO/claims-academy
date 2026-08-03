@@ -92,6 +92,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Label** — The name on the left of an output line (before the colon). *(First taught: NA-M02-L05)*
 - **LAN (Local Area Network)** — A network in one place, like a home or office. *(First taught: NA-M04-L03)*
 - **Latency** — The delay — how long data takes to arrive (measured in ms). *(First taught: NA-M04-L06)*
+- **Layer** — One job in a model, stacked on the others; it hands data up or down. *(First taught: NA-M05-L01)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 
 ## M
@@ -102,6 +103,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
 - **Millisecond (ms)** — One thousandth of a second; the unit for latency. *(First taught: NA-M04-L06)*
+- **Model** — A simplified plan of a complex thing, showing just the needed parts. *(First taught: NA-M05-L01)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
 
 ## N
@@ -114,6 +116,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Octet** — One byte (8 bits) of an IPv4 address — one of the four numbers. *(First taught: NA-M03-L05)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
+- **OSI model** — The 7-layer reference model used to describe networks. *(First taught: NA-M05-L01)*
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
 - **Output device** — Hardware that sends information out to you (screen, speakers, printer). *(First taught: NA-M01-L03)*
 
@@ -132,6 +135,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
 - **Program** — A set of instructions that tells a computer what to do. *(First taught: NA-M01-L01)*
 - **Prompt** — The text ending in `>` that shows where you are and waits for input. *(First taught: NA-M02-L03)*
+- **Protocol** — An agreed set of rules a layer follows so devices understand each other. *(First taught: NA-M05-L01)*
 
 ## R
 
@@ -153,6 +157,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
+- **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
 - **Star topology** — A network shape where every node connects to one central device. *(First taught: NA-M04-L04)*
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
@@ -163,6 +168,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## T
 
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
+- **TCP/IP model** — The 4-layer practical model the internet actually uses. *(First taught: NA-M05-L01)*
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
@@ -188,4 +194,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L06)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L01)_
