@@ -7,6 +7,11 @@ through the course. Each stage unlocks after a specific module (see the
 **Your equipment:** Windows laptop · Dell PowerConnect 3424 managed switch ·
 home router · Ethernet cables.
 
+> 📍 **The full, granular plan is in [LAB-ROADMAP.md](LAB-ROADMAP.md)** — 24 labs that
+> grow one concept at a time, each with a diagram, expected LED behavior, troubleshooting,
+> and instructor notes. The nine milestone stages below (LAB-A…LAB-CAP) are the checkpoints
+> those 24 labs build toward.
+
 | Stage | You build | Unlocked after | Status |
 |-------|-----------|----------------|--------|
 | LAB-A | Wire and test your first Ethernet link | Module 06 | Planned |
