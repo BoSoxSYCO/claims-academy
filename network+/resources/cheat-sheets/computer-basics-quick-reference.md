@@ -50,4 +50,26 @@
 > If it does **In → Work → Out**, it's a computer.
 
 ---
+
+## Inside a computer (Lesson 01-02)
+
+```
+   CPU (worker)      ← does the work / "the brain"
+     ↕ very fast
+   RAM (workbench)   ← fast, TEMPORARY (cleared at power-off)
+     ↕ slower
+   STORAGE (cabinet) ← slower, PERMANENT (kept at power-off)
+```
+
+| Part | Job | Key fact |
+|------|-----|----------|
+| **CPU** | Follows instructions, does the work | The "brain" |
+| **RAM** | Holds what you're using **now** | Fast, **temporary** (wiped at power-off) |
+| **Storage** | Keeps files & programs | Slower, **permanent** (kept at power-off) |
+
+> **Key rule:** RAM ≠ storage. RAM = room to *work*; storage = room to *keep*.
+> **Desk analogy:** you = CPU · desktop = RAM · filing cabinet = Storage.
+> Measured in **gigabytes (GB)** — more GB = more room.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 01_

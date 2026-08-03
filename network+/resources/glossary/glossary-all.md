@@ -12,6 +12,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## C
 
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
+- **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
+
+## G
+
+- **Gigabyte (GB)** — A unit for measuring memory and storage size; more GB means more room. *(First taught: NA-M01-L02)*
 
 ## H
 
@@ -23,7 +28,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## M
 
-- **Memory** — Where a computer holds the information it is working on right now. (Covered in depth in NA-M01-L02.) *(First named: NA-M01-L01)*
+- **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 
 ## O
 
@@ -31,12 +36,21 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## P
 
+- **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
 - **Program** — A set of instructions that tells a computer what to do. *(First taught: NA-M01-L01)*
 
+## R
+
+- **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
+
 ## S
 
-- **Storage** — Where a computer saves information to use later. (Covered in depth in NA-M01-L02.) *(First named: NA-M01-L01)*
+- **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
+
+## T
+
+- **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L02)_

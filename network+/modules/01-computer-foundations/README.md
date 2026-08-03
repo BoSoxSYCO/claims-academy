@@ -25,7 +25,7 @@ this board is updated:
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 01-01 | [What Is a Computer?](lessons/01-01-what-is-a-computer.md) | ✅ Published |
-| 01-02 | The parts inside: CPU, memory (RAM), storage | Planned |
+| 01-02 | [The Parts Inside: CPU, Memory (RAM), and Storage](lessons/01-02-parts-inside-cpu-ram-storage.md) | ✅ Published |
 | 01-03 | Inputs, outputs, and ports on your laptop | Planned |
 | 01-04 | What an operating system does | Planned |
 | 01-05 | Hardware vs. software | Planned |

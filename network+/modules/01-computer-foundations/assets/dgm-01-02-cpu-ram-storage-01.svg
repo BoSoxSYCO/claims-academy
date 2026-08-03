@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">A computer's three main parts: CPU, RAM, and Storage</title>
+  <desc id="desc">A diagram of a computer's three main parts stacked vertically: the CPU at top does the work, RAM in the middle is fast but temporary space for what is used now, and Storage at the bottom is slower but permanent. Fast arrows link CPU and RAM; slower arrows link RAM and Storage.</desc>
+
+  <rect x="0" y="0" width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="44" text-anchor="middle" font-size="28" font-weight="bold" fill="#111111">Inside a computer: three main parts</text>
+
+  <!-- CPU (green) -->
+  <rect x="300" y="70" width="300" height="90" rx="16" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <text x="450" y="104" text-anchor="middle" font-size="22" font-weight="bold" fill="#166534">CPU — the worker</text>
+  <text x="450" y="132" text-anchor="middle" font-size="15" fill="#111111">follows instructions, does the work ("the brain")</text>
+
+  <!-- fast arrows CPU<->RAM -->
+  <line x1="450" y1="160" x2="450" y2="205" stroke="#333" stroke-width="4"/>
+  <polygon points="442,160 450,146 458,160" fill="#333"/>
+  <polygon points="442,205 450,219 458,205" fill="#333"/>
+  <text x="470" y="188" font-size="14" fill="#166534" font-weight="bold">very fast</text>
+
+  <!-- RAM (blue) -->
+  <rect x="300" y="220" width="300" height="90" rx="16" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+  <text x="450" y="254" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e40af">RAM — the workbench</text>
+  <text x="450" y="282" text-anchor="middle" font-size="15" fill="#111111">what you're using right now</text>
+  <!-- TEMPORARY tag -->
+  <rect x="612" y="238" width="150" height="54" rx="10" fill="#ffffff" stroke="#1e40af" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="687" y="262" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e40af">TEMPORARY</text>
+  <text x="687" y="281" text-anchor="middle" font-size="12" fill="#111111">cleared at power-off</text>
+
+  <!-- slower arrows RAM<->Storage -->
+  <line x1="450" y1="310" x2="450" y2="360" stroke="#333" stroke-width="4" stroke-dasharray="10 6"/>
+  <polygon points="442,310 450,296 458,310" fill="#333"/>
+  <polygon points="442,360 450,374 458,360" fill="#333"/>
+  <text x="470" y="340" font-size="14" fill="#6b7280" font-weight="bold">slower</text>
+
+  <!-- STORAGE (gray) -->
+  <rect x="300" y="375" width="300" height="95" rx="16" fill="#e5e7eb" stroke="#374151" stroke-width="3"/>
+  <text x="450" y="409" text-anchor="middle" font-size="22" font-weight="bold" fill="#374151">STORAGE — the cabinet</text>
+  <text x="450" y="437" text-anchor="middle" font-size="15" fill="#111111">files &amp; programs kept long-term</text>
+  <!-- PERMANENT tag -->
+  <rect x="612" y="398" width="150" height="54" rx="10" fill="#ffffff" stroke="#374151" stroke-width="2"/>
+  <text x="687" y="422" text-anchor="middle" font-size="15" font-weight="bold" fill="#374151">PERMANENT</text>
+  <text x="687" y="441" text-anchor="middle" font-size="12" fill="#111111">kept at power-off</text>
+
+  <!-- desk analogy footer -->
+  <text x="450" y="500" text-anchor="middle" font-size="15" fill="#444">Desk analogy:  you = CPU  ·  desktop = RAM  ·  filing cabinet = Storage</text>
+</svg>
