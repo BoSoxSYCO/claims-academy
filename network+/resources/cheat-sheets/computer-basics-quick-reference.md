@@ -92,4 +92,23 @@
 > **Never force a plug** — if it doesn't slide in gently, it's the wrong shape.
 
 ---
+
+## Operating system (Lesson 01-04)
+
+```
+   YOU + YOUR APPS      ← you click and type
+        ↓ requests
+   OPERATING SYSTEM     ← the "manager": runs programs, manages hardware, user interface
+        ↓ controls
+   HARDWARE             ← CPU · RAM · Storage · Ports
+```
+
+- **OS** = the main program that runs your programs and manages the hardware.
+- You never touch the hardware directly — the **OS** does it for you.
+- **Examples:** Windows · macOS · Linux · Android · iOS.
+- ⭐ **Routers and switches run an OS too** — that's what you configure later.
+- **Restaurant analogy:** customers = apps · manager = OS · kitchen = hardware.
+- Find yours: **Start → type `winver` → Enter**.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 01_

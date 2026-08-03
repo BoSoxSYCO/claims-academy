@@ -12,6 +12,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## A
 
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
+- **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 
 ## C
 
@@ -38,9 +39,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## M
 
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
+- **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
 
 ## O
 
+- **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
 - **Output device** — Hardware that sends information out to you (screen, speakers, printer). *(First taught: NA-M01-L03)*
 
@@ -57,6 +60,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## S
 
+- **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 
 ## T
@@ -66,6 +70,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## U
 
 - **USB** — A common port shape used for many devices and adapters. *(First taught: NA-M01-L03)*
+- **User interface** — The part of the operating system you see and click: desktop, icons, menus. *(First taught: NA-M01-L04)*
+
+## W
+
+- **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L04)_
