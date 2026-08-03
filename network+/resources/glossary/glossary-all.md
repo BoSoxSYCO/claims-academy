@@ -14,6 +14,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 
+## B
+
+- **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
+- **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
+
 ## C
 
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
@@ -28,6 +33,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## D
 
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
+- **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
@@ -105,6 +111,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
+- **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 
 ## T
@@ -112,6 +119,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
+- **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 
 ## U
 
@@ -127,4 +135,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M02-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L01)_
