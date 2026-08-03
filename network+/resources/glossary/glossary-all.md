@@ -23,6 +23,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
+## F
+
+- **Firmware** — Software built into a device, like a switch, that rarely changes. *(First taught: NA-M01-L05)*
+
 ## G
 
 - **Gigabyte (GB)** — A unit for measuring memory and storage size; more GB means more room. *(First taught: NA-M01-L02)*
@@ -77,4 +81,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L05)_

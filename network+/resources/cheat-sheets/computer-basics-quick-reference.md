@@ -111,4 +111,15 @@
 - Find yours: **Start → type `winver` → Enter**.
 
 ---
+
+## Hardware vs. software (Lesson 01-05)
+
+- **Hardware** = physical parts you **can touch** (laptop, CPU, RAM, cables, ports).
+- **Software** = instructions/programs you **can't touch** (Windows, browser, apps).
+- **Quick test:** *Can I touch it?* → hardware. *Is it instructions?* → software.
+- **They need each other:** software runs on hardware; hardware needs software.
+- **Firmware** = software built into a device (like your Dell switch).
+- **Memory trick:** hardware = the body · software = the ideas.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 01_

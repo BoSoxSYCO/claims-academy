@@ -28,7 +28,7 @@ this board is updated:
 | 01-02 | [The Parts Inside: CPU, Memory (RAM), and Storage](lessons/01-02-parts-inside-cpu-ram-storage.md) | ✅ Published |
 | 01-03 | [Inputs, Outputs, and Ports on Your Laptop](lessons/01-03-inputs-outputs-and-ports.md) | ✅ Published |
 | 01-04 | [What an Operating System Does](lessons/01-04-what-an-operating-system-does.md) | ✅ Published |
-| 01-05 | Hardware vs. software | Planned |
+| 01-05 | [Hardware vs. Software](lessons/01-05-hardware-vs-software.md) | ✅ Published |
 | 01-06 | What a "server" and a "client" are | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`

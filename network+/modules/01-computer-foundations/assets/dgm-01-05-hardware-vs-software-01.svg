@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Hardware versus software</title>
+  <desc id="desc">Two columns comparing hardware and software: the hardware column (things you can touch, like a laptop, CPU, and cable) and the software column (instructions you can't touch, like Windows and apps), joined by a bridge showing they work together. Firmware is software built into hardware.</desc>
+
+  <rect x="0" y="0" width="900" height="430" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#111111">Hardware vs. Software</text>
+
+  <!-- Hardware column (gray) -->
+  <rect x="60" y="75" width="340" height="230" rx="14" fill="#e5e7eb" stroke="#374151" stroke-width="3"/>
+  <text x="230" y="108" text-anchor="middle" font-size="20" font-weight="bold" fill="#374151">HARDWARE</text>
+  <text x="230" y="131" text-anchor="middle" font-size="14" fill="#111">you CAN touch it</text>
+  <text x="230" y="170" text-anchor="middle" font-size="15" fill="#111">laptop · keyboard · screen</text>
+  <text x="230" y="198" text-anchor="middle" font-size="15" fill="#111">CPU · RAM · storage</text>
+  <text x="230" y="226" text-anchor="middle" font-size="15" fill="#111">cables · ports</text>
+  <text x="230" y="270" text-anchor="middle" font-size="13" fill="#6b7280">"the body"</text>
+
+  <!-- Software column (blue) -->
+  <rect x="500" y="75" width="340" height="230" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+  <text x="670" y="108" text-anchor="middle" font-size="20" font-weight="bold" fill="#1e40af">SOFTWARE</text>
+  <text x="670" y="131" text-anchor="middle" font-size="14" fill="#111">you CANNOT touch it</text>
+  <text x="670" y="170" text-anchor="middle" font-size="15" fill="#111">Windows (operating system)</text>
+  <text x="670" y="198" text-anchor="middle" font-size="15" fill="#111">web browser · Notepad</text>
+  <text x="670" y="226" text-anchor="middle" font-size="15" fill="#111">apps you install</text>
+  <text x="670" y="270" text-anchor="middle" font-size="13" fill="#1e40af">"the ideas"</text>
+
+  <!-- bridge -->
+  <line x1="400" y1="190" x2="500" y2="190" stroke="#333" stroke-width="4"/>
+  <polygon points="400,182 386,190 400,198" fill="#333"/>
+  <polygon points="500,182 514,190 500,198" fill="#333"/>
+  <text x="450" y="180" text-anchor="middle" font-size="12" fill="#444" font-weight="bold">work</text>
+  <text x="450" y="210" text-anchor="middle" font-size="12" fill="#444" font-weight="bold">together</text>
+
+  <!-- firmware note -->
+  <rect x="230" y="340" width="440" height="56" rx="10" fill="#fff7ed" stroke="#9a3412" stroke-width="2"/>
+  <text x="450" y="365" text-anchor="middle" font-size="15" font-weight="bold" fill="#9a3412">Firmware = software built INTO a device</text>
+  <text x="450" y="385" text-anchor="middle" font-size="13" fill="#111">(like the software inside your Dell switch)</text>
+</svg>
