@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Scan command output for the key line</title>
+  <desc id="desc">A block of ipconfig output with the IPv4 Address and Default Gateway lines highlighted, and a block of ping output with the summary Packets line highlighted, showing that you scan for the key line and ignore the rest.</desc>
+
+  <rect x="0" y="0" width="900" height="460" fill="#ffffff"/>
+  <text x="450" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Scan for the key line — ignore the rest</text>
+
+  <!-- ipconfig block -->
+  <rect x="60" y="60" width="780" height="180" rx="8" fill="#0b1020" stroke="#334155" stroke-width="2"/>
+  <text x="80" y="88" font-size="14" font-family="monospace" fill="#93c5fd">C:\&gt; ipconfig</text>
+  <text x="80" y="116" font-size="14" font-family="monospace" fill="#94a3b8">Wireless LAN adapter Wi-Fi:</text>
+  <!-- key line 1 highlighted -->
+  <rect x="76" y="126" width="700" height="24" rx="4" fill="#facc15" opacity="0.25"/>
+  <text x="90" y="143" font-size="14" font-family="monospace" fill="#fde68a">★ IPv4 Address. . . . : 192.168.1.24    (your address)</text>
+  <text x="90" y="168" font-size="14" font-family="monospace" fill="#64748b">  Subnet Mask . . . . : 255.255.255.0   (ignore for now)</text>
+  <!-- key line 2 highlighted -->
+  <rect x="76" y="178" width="700" height="24" rx="4" fill="#facc15" opacity="0.25"/>
+  <text x="90" y="195" font-size="14" font-family="monospace" fill="#fde68a">★ Default Gateway . . : 192.168.1.1     (your router)</text>
+  <text x="90" y="222" font-size="13" font-family="monospace" fill="#64748b">  ...more lines you can ignore...</text>
+
+  <!-- ping block -->
+  <rect x="60" y="260" width="780" height="150" rx="8" fill="#0b1020" stroke="#334155" stroke-width="2"/>
+  <text x="80" y="288" font-size="14" font-family="monospace" fill="#93c5fd">C:\&gt; ping 8.8.8.8</text>
+  <text x="80" y="312" font-size="14" font-family="monospace" fill="#64748b">  Reply from 8.8.8.8: bytes=32 time=14ms ...</text>
+  <text x="80" y="332" font-size="14" font-family="monospace" fill="#64748b">  ...</text>
+  <!-- summary highlighted -->
+  <rect x="76" y="344" width="740" height="26" rx="4" fill="#facc15" opacity="0.25"/>
+  <text x="90" y="362" font-size="14" font-family="monospace" fill="#fde68a">★ Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)</text>
+  <text x="90" y="388" font-size="13" font-family="monospace" fill="#4ade80">   0% loss = perfect ✓</text>
+
+  <!-- footer -->
+  <text x="450" y="440" text-anchor="middle" font-size="14" fill="#444">Each line = label : value.  Know your key line → scan → read value → ignore the rest.</text>
+</svg>

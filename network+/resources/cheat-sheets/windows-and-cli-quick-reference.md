@@ -86,4 +86,16 @@ C:\Users\You> _            ← ready for the next
 - *(IP addresses are covered fully in Module 08 — here, it's just "your address.")*
 
 ---
-_NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 02_
+
+## Reading output (Lesson 02-05)
+
+- Every line = **label** (name) **:** **value** (answer). Dots are just spacing.
+- Long output splits into **sections** (e.g., one per connection — Wi-Fi vs. Ethernet).
+- **Method:** know your key line → **scan** → read its value → ignore the rest.
+- `ipconfig` key lines: **IPv4 Address**, **Default Gateway**.
+- `ping` key line: the summary — `Packets: Sent = X, Received = Y, Lost = Z (N% loss)`.
+  - **0% loss = perfect** · **100% loss = nothing got through.**
+- Don't panic at a wall of text — scan, don't read it all.
+
+---
+_NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 02 (complete)_

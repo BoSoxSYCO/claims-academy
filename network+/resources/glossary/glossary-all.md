@@ -59,6 +59,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
 - **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
 
+## K
+
+- **Key line** — The one line in command output that has the answer you need. *(First taught: NA-M02-L05)*
+
+## L
+
+- **Label** — The name on the left of an output line (before the colon). *(First taught: NA-M02-L05)*
+
 ## M
 
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
@@ -72,6 +80,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## P
 
+- **Packet loss** — The percent of ping messages that got no reply (0% is best). *(First taught: NA-M02-L05)*
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
@@ -90,6 +99,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## S
 
 - **Search box** — The box where you type a tool's name to find it. *(First taught: NA-M02-L02)*
+- **Section** — A group of output lines under a heading, such as one network connection. *(First taught: NA-M02-L05)*
 - **Server** — A computer or program that provides something when asked. *(First taught: NA-M01-L06)*
 - **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
@@ -108,9 +118,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **USB** — A common port shape used for many devices and adapters. *(First taught: NA-M01-L03)*
 - **User interface** — The part of the operating system you see and click: desktop, icons, menus. *(First taught: NA-M01-L04)*
 
+## V
+
+- **Value** — The answer on the right of an output line (after the colon). *(First taught: NA-M02-L05)*
+
 ## W
 
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M02-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M02-L05)_
