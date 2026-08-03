@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">TCP/IP four layers mapped to OSI seven layers</title>
+  <desc id="desc">Two layer stacks side by side. On the left the four TCP/IP layers; on the right the seven OSI layers. Brackets connect TCP/IP Application to OSI layers 7, 6, and 5; Transport to OSI layer 4; Internet to OSI layer 3; and Network Access to OSI layers 2 and 1.</desc>
+
+  <rect x="0" y="0" width="900" height="540" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111111">TCP/IP (4 layers) mapped to OSI (7 layers)</text>
+  <text x="200" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">TCP/IP</text>
+  <text x="690" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">OSI</text>
+
+  <!-- OSI stack (right): 7 boxes, 58 tall, from y=80 -->
+  <g stroke="#166534" stroke-width="2">
+    <rect x="600" y="80"  width="230" height="58" rx="5" fill="#dbeafe"/>
+    <rect x="600" y="138" width="230" height="58" rx="5" fill="#dbeafe"/>
+    <rect x="600" y="196" width="230" height="58" rx="5" fill="#dbeafe"/>
+    <rect x="600" y="254" width="230" height="58" rx="5" fill="#fef9c3"/>
+    <rect x="600" y="312" width="230" height="58" rx="5" fill="#ffedd5"/>
+    <rect x="600" y="370" width="230" height="58" rx="5" fill="#dcfce7"/>
+    <rect x="600" y="428" width="230" height="58" rx="5" fill="#dcfce7"/>
+  </g>
+  <g font-size="13" fill="#111" font-weight="bold">
+    <text x="615" y="114">L7 Application</text>
+    <text x="615" y="172">L6 Presentation</text>
+    <text x="615" y="230">L5 Session</text>
+    <text x="615" y="288">L4 Transport</text>
+    <text x="615" y="346">L3 Network</text>
+    <text x="615" y="404">L2 Data Link</text>
+    <text x="615" y="462">L1 Physical</text>
+  </g>
+
+  <!-- TCP/IP stack (left): 4 boxes -->
+  <!-- Application covers OSI 80..254 (3 boxes) -> height 174 -->
+  <rect x="70" y="80"  width="240" height="174" rx="6" fill="#bfdbfe" stroke="#1e3a8a" stroke-width="2.5"/>
+  <text x="190" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e3a8a">Application</text>
+  <text x="190" y="182" text-anchor="middle" font-size="11" fill="#1e3a8a">= OSI 7 + 6 + 5</text>
+  <!-- Transport covers OSI 254..312 -->
+  <rect x="70" y="254" width="240" height="58" rx="6" fill="#fde68a" stroke="#1e3a8a" stroke-width="2.5"/>
+  <text x="190" y="282" text-anchor="middle" font-size="15" font-weight="bold" fill="#78350f">Transport</text>
+  <text x="190" y="300" text-anchor="middle" font-size="11" fill="#78350f">= OSI 4  (TCP)</text>
+  <!-- Internet covers OSI 312..370 -->
+  <rect x="70" y="312" width="240" height="58" rx="6" fill="#fdba74" stroke="#1e3a8a" stroke-width="2.5"/>
+  <text x="190" y="340" text-anchor="middle" font-size="15" font-weight="bold" fill="#7c2d12">Internet</text>
+  <text x="190" y="358" text-anchor="middle" font-size="11" fill="#7c2d12">= OSI 3  (IP)</text>
+  <!-- Network Access covers OSI 370..486 (2 boxes) height 116 -->
+  <rect x="70" y="370" width="240" height="116" rx="6" fill="#86efac" stroke="#1e3a8a" stroke-width="2.5"/>
+  <text x="190" y="424" text-anchor="middle" font-size="15" font-weight="bold" fill="#14532d">Network Access</text>
+  <text x="190" y="444" text-anchor="middle" font-size="11" fill="#14532d">= OSI 2 + 1</text>
+
+  <!-- connector brackets -->
+  <g stroke="#334155" stroke-width="2" fill="none">
+    <line x1="310" y1="167" x2="600" y2="167"/>  <!-- App region mid -->
+    <line x1="310" y1="283" x2="600" y2="283"/>  <!-- Transport 1:1 -->
+    <line x1="310" y1="341" x2="600" y2="341"/>  <!-- Internet 1:1 -->
+    <line x1="310" y1="428" x2="600" y2="428"/>  <!-- Net access mid -->
+  </g>
+  <text x="455" y="160" text-anchor="middle" font-size="11" fill="#334155">merges 3 layers</text>
+  <text x="455" y="277" text-anchor="middle" font-size="11" fill="#334155">1-to-1</text>
+  <text x="455" y="335" text-anchor="middle" font-size="11" fill="#334155">1-to-1</text>
+  <text x="455" y="421" text-anchor="middle" font-size="11" fill="#334155">merges 2 layers</text>
+
+  <text x="450" y="516" text-anchor="middle" font-size="12" fill="#475569">Anchor on the middle: Internet = OSI Layer 3 · Transport = OSI Layer 4.</text>
+</svg>

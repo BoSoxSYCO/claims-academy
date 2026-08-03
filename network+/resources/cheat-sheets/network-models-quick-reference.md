@@ -58,4 +58,24 @@ Bottom (Layer 1) = the wire · Top (Layer 7) = your app. **Down = send, up = rec
 > **Remember:** know the 7 in order, their numbers, and one job each — it's the backbone of the whole exam.
 
 ---
+
+## TCP/IP model & the OSI mapping (Lesson 05-03)
+
+The internet's own model — **4 layers** (bottom → top): Network Access · Internet · Transport · Application.
+
+| TCP/IP (4) | = OSI layer(s) | Holds |
+|------------|----------------|-------|
+| **Application** | 7 + 6 + 5 | your apps, format, encrypt |
+| **Transport** | 4 | **TCP**, ports |
+| **Internet** | 3 | **IP**, routers |
+| **Network Access** | 2 + 1 | MAC, cable / Wi-Fi |
+
+- **Anchor the mapping on the middle:** Internet = **OSI 3** (IP) · Transport = **OSI 4** (TCP).
+- The **top and bottom** TCP/IP layers each **merge** several OSI layers; the middle two are **1-to-1**.
+- **IP** = addressing/routing (Internet). **TCP** = reliable, in-order delivery (Transport).
+- TCP/IP and OSI **do not compete** — same networking, fewer layers.
+
+> **Remember:** "Layer 3 issue" = the Internet layer = IP/routing. Both models, one network.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 05_

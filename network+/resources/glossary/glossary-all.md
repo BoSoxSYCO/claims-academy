@@ -77,6 +77,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
+- **Internet layer** — The TCP/IP layer that routes between networks with IP (OSI 3). *(First taught: NA-M05-L03)*
+- **IP (Internet Protocol)** — The rule-set for addressing and routing data between networks. *(First taught: NA-M05-L03)*
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
 - **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
 - **IPv4 address** — A device's network address: four bytes (0–255) written with dots. *(First taught: NA-M03-L05)*
@@ -101,6 +103,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **MAN (Metropolitan Area Network)** — A network across a city. *(First taught: NA-M04-L03)*
+- **Map (verb)** — To line up one model's layers against another's. *(First taught: NA-M05-L03)*
 - **Mbps** — Megabits per second — millions of bits each second. *(First taught: NA-M04-L06)*
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
@@ -111,6 +114,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## N
 
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
+- **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
 - **Network layer** — Layer 3 — addressing and routing between networks, using IP (routers). *(First taught: NA-M05-L02)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 - **Node** — Any device that connects to a network. *(First taught: NA-M04-L02)*
@@ -174,6 +178,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## T
 
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
+- **TCP (Transmission Control Protocol)** — A rule-set for splitting data and making sure it arrives in order. *(First taught: NA-M05-L03)*
 - **TCP/IP model** — The 4-layer practical model the internet actually uses. *(First taught: NA-M05-L01)*
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
@@ -201,4 +206,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L03)_
