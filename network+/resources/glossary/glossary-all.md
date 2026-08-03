@@ -69,6 +69,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
 - **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
+- **IPv4 address** — A device's network address: four bytes (0–255) written with dots. *(First taught: NA-M03-L05)*
 
 ## K
 
@@ -90,6 +91,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## O
 
+- **Octet** — One byte (8 bits) of an IPv4 address — one of the four numbers. *(First taught: NA-M03-L05)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
 - **Output device** — Hardware that sends information out to you (screen, speakers, printer). *(First taught: NA-M01-L03)*
@@ -148,4 +150,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L05)_

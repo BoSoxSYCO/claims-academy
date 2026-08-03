@@ -1,7 +1,7 @@
 # Module 03 — How Numbers Work in Computers
 
 **Phase:** On-Ramp
-**Status:** In production (Lessons 03-01 through 03-04 Published)
+**Status:** ✅ Content-complete — all 5 lessons Published (finishes Unit 1)
 
 > **By the end of this module, you will be able to:** read binary and hexadecimal — the secret language behind IP addresses.
 
@@ -28,7 +28,7 @@ this board is updated:
 | 03-02 | [Bits, Bytes, and Counting in Binary](lessons/03-02-bits-bytes-counting.md) | ✅ Published |
 | 03-03 | [Converting Binary ↔ Decimal the Easy Way](lessons/03-03-converting-binary-decimal.md) | ✅ Published |
 | 03-04 | [Hexadecimal — Shorthand for Computers](lessons/03-04-hexadecimal.md) | ✅ Published |
-| 03-05 | Why this matters for IP and MAC addresses | Planned |
+| 03-05 | [Why This Matters for IP and MAC Addresses](lessons/03-05-why-it-matters-ip-mac.md) | ✅ Published |
 
 Status values: `Planned → Drafting → In Review → Published`
 

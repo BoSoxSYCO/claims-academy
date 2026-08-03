@@ -87,4 +87,19 @@ Convert 168:   128 fits (168−128=40) → 1
 - Find your MAC: `ipconfig /all` → **Physical Address**.
 
 ---
-_NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 03_
+
+## Numbers in real addresses (Lesson 03-05)
+
+| Address | Written in | Bytes | Bits | Example |
+|---------|------------|:-----:|:----:|---------|
+| **IPv4** | decimal (dots) | 4 | 32 | `192.168.1.10` |
+| **MAC** | hexadecimal | 6 | 48 | `00:1A:2B:3C:4D:5E` |
+
+- Each IP part is an **octet** = one byte = **0–255**.
+- Each MAC **pair** of hex digits = one byte.
+- Two questions for any address: **decimal or hex? how many bytes?** → IP (4, decimal) vs MAC (6, hex).
+- `192.168.1.10` = `11000000.10101000.00000001.00001010`.
+- Find yours: `ipconfig` (IP) · `ipconfig /all` (MAC).
+
+---
+_NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 03 (complete)_
