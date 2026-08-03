@@ -70,4 +70,20 @@ C:\Users\You> _            ← ready for the next
 - ⚠️ Type exactly — a typo means "not recognized." Just retype it.
 
 ---
+
+## First four networking commands (Lesson 02-04)
+
+| Command | Asks | Shows |
+|---------|------|-------|
+| `ipconfig` | "What's my address?" | **IPv4 Address** + **Default Gateway** (your router) |
+| `ping <address>` | "Can I reach you?" | "Reply from" = yes · "Request timed out" = no |
+| `cd <folder>` | "Go into a folder" | moves you in (`cd ..` = up one) |
+| `dir` | "What's here?" | lists files & folders |
+
+- **Fast connection test:** `ipconfig` → note the Default Gateway → `ping <that address>`.
+- **Where's the problem?** gateway replies but `8.8.8.8` times out → issue is past the router (internet/ISP).
+- Put a **space** in `ping 8.8.8.8`. Return home: `cd %USERPROFILE%`.
+- *(IP addresses are covered fully in Module 08 — here, it's just "your address.")*
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 02_

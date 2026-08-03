@@ -16,6 +16,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## C
 
+- **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Command** — A short instruction you type for the computer to run. *(First taught: NA-M02-L03)*
 - **Command line (CLI)** — A place where you type text commands instead of clicking. *(First taught: NA-M02-L03)*
@@ -26,6 +27,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## D
 
+- **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
+- **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
 
@@ -53,6 +56,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
+- **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
+- **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
 
 ## M
 
@@ -69,6 +74,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
+- **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
@@ -107,4 +113,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M02-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M02-L04)_

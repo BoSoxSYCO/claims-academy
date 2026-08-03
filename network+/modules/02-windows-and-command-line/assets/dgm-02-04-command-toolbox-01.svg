@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">A toolbox of four first commands</title>
+  <desc id="desc">A toolbox of four first commands: ipconfig shows your address, ping tests if you can reach a device, cd moves into a folder, and dir lists what is inside. ipconfig and ping are network tools; cd and dir are folder tools.</desc>
+
+  <rect x="0" y="0" width="900" height="440" fill="#ffffff"/>
+  <text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Your first four commands</text>
+
+  <!-- Network tools header -->
+  <text x="250" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e40af">NETWORK TOOLS</text>
+  <!-- Folder tools header -->
+  <text x="650" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">FOLDER TOOLS</text>
+
+  <!-- ipconfig -->
+  <rect x="70" y="95" width="360" height="120" rx="12" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+  <text x="95" y="130" font-size="20" font-weight="bold" font-family="monospace" fill="#1e40af">ipconfig</text>
+  <text x="95" y="158" font-size="15" fill="#111">"What is my address?"</text>
+  <text x="95" y="184" font-size="13" font-family="monospace" fill="#374151">IPv4 Address . : 192.168.1.24</text>
+  <text x="95" y="204" font-size="13" font-family="monospace" fill="#374151">Default Gateway: 192.168.1.1 (router)</text>
+
+  <!-- ping -->
+  <rect x="70" y="230" width="360" height="120" rx="12" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+  <text x="95" y="265" font-size="20" font-weight="bold" font-family="monospace" fill="#1e40af">ping</text>
+  <text x="95" y="293" font-size="15" fill="#111">"Can I reach you?"</text>
+  <text x="95" y="319" font-size="13" font-family="monospace" fill="#166534">Reply from ... = yes ✓</text>
+  <text x="95" y="339" font-size="13" font-family="monospace" fill="#9a3412">Request timed out = no answer</text>
+
+  <!-- cd -->
+  <rect x="470" y="95" width="360" height="120" rx="12" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <text x="495" y="130" font-size="20" font-weight="bold" font-family="monospace" fill="#166534">cd</text>
+  <text x="495" y="158" font-size="15" fill="#111">"Go into a folder"</text>
+  <text x="495" y="184" font-size="13" font-family="monospace" fill="#374151">cd Documents  → moves in</text>
+  <text x="495" y="204" font-size="13" font-family="monospace" fill="#374151">cd ..         → goes up one</text>
+
+  <!-- dir -->
+  <rect x="470" y="230" width="360" height="120" rx="12" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <text x="495" y="265" font-size="20" font-weight="bold" font-family="monospace" fill="#166534">dir</text>
+  <text x="495" y="293" font-size="15" fill="#111">"Show me what's here"</text>
+  <text x="495" y="319" font-size="13" font-family="monospace" fill="#374151">lists files &amp; folders</text>
+  <text x="495" y="339" font-size="13" font-family="monospace" fill="#374151">(like looking in a folder)</text>
+
+  <!-- footer -->
+  <text x="450" y="400" text-anchor="middle" font-size="14" fill="#444">Same rhythm every time: see prompt → type command → press Enter → read output</text>
+</svg>

@@ -1,7 +1,7 @@
 # Module 02 — Windows & the Command Line
 
 **Phase:** On-Ramp
-**Status:** In production (Lessons 02-01 through 02-03 Published)
+**Status:** In production (Lessons 02-01 through 02-04 Published)
 
 > **By the end of this module, you will be able to:** confidently move around Windows and run your first commands.
 
@@ -27,7 +27,7 @@ this board is updated:
 | 02-01 | [Files, Folders, and How Windows Organizes Them](lessons/02-01-files-folders-and-organization.md) | ✅ Published |
 | 02-02 | [Finding and Opening the Tools You'll Use](lessons/02-02-finding-and-opening-tools.md) | ✅ Published |
 | 02-03 | [Meet the Command Prompt and PowerShell](lessons/02-03-meet-command-prompt-and-powershell.md) | ✅ Published |
-| 02-04 | Your first commands: ipconfig, ping, cd, dir | Planned |
+| 02-04 | [Your First Commands: ipconfig, ping, cd, dir](lessons/02-04-first-commands.md) | ✅ Published |
 | 02-05 | Reading command output without fear | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
