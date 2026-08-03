@@ -9,10 +9,18 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ---
 
+## A
+
+- **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
+
 ## C
 
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
+
+## E
+
+- **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
 ## G
 
@@ -25,6 +33,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## I
 
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
+- **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
 
 ## M
 
@@ -33,10 +42,12 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## O
 
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
+- **Output device** — Hardware that sends information out to you (screen, speakers, printer). *(First taught: NA-M01-L03)*
 
 ## P
 
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
+- **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
 - **Program** — A set of instructions that tells a computer what to do. *(First taught: NA-M01-L01)*
 
@@ -52,5 +63,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 
+## U
+
+- **USB** — A common port shape used for many devices and adapters. *(First taught: NA-M01-L03)*
+
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L03)_

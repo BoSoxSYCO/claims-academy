@@ -72,4 +72,24 @@
 > Measured in **gigabytes (GB)** — more GB = more room.
 
 ---
+
+## Ports & devices (Lesson 01-03)
+
+- **Input device** = sends info *in* (keyboard, mouse, mic, webcam).
+- **Output device** = sends info *out* (screen, speakers, printer).
+- **Port** = a shaped slot for a device or cable — the shape tells you what fits.
+
+| Port | Used for |
+|------|----------|
+| Power | Charge the laptop |
+| USB | Many devices & adapters |
+| HDMI | Video to a monitor/TV |
+| Audio | Headphones/speakers |
+| ⭐ **Ethernet** | **Network cable — our star** |
+
+> **Ethernet port** = small, near-square slot where the network cable clicks in.
+> **No Ethernet port?** Use a **USB-to-Ethernet adapter**.
+> **Never force a plug** — if it doesn't slide in gently, it's the wrong shape.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 01_

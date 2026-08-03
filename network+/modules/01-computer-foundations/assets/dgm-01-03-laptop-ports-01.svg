@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Common ports on a laptop, with the Ethernet port highlighted</title>
+  <desc id="desc">A laptop with its edge ports labeled — power, USB, HDMI, audio, and Ethernet — with the Ethernet network port highlighted and starred as the most important one for this course.</desc>
+
+  <rect x="0" y="0" width="900" height="460" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#111111">Find the ports on your laptop</text>
+
+  <!-- laptop body -->
+  <rect x="210" y="120" width="480" height="230" rx="14" fill="#f3f4f6" stroke="#374151" stroke-width="4"/>
+  <rect x="240" y="150" width="420" height="150" rx="6" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+  <text x="450" y="235" text-anchor="middle" font-size="15" fill="#9ca3af">screen (output)</text>
+  <rect x="210" y="350" width="480" height="26" rx="6" fill="#e5e7eb" stroke="#374151" stroke-width="3"/>
+  <text x="450" y="368" text-anchor="middle" font-size="12" fill="#6b7280">keyboard &amp; trackpad (input)</text>
+
+  <!-- LEFT edge ports -->
+  <text x="120" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">LEFT EDGE</text>
+  <!-- power -->
+  <rect x="80" y="170" width="90" height="30" rx="5" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="125" y="190" text-anchor="middle" font-size="13" fill="#1e40af">Power</text>
+  <!-- usb -->
+  <rect x="80" y="215" width="90" height="30" rx="5" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="125" y="235" text-anchor="middle" font-size="13" fill="#1e40af">USB</text>
+  <!-- hdmi -->
+  <rect x="80" y="260" width="90" height="30" rx="5" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="125" y="280" text-anchor="middle" font-size="13" fill="#1e40af">HDMI</text>
+
+  <!-- RIGHT edge ports -->
+  <text x="785" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">RIGHT EDGE</text>
+  <!-- audio -->
+  <rect x="730" y="170" width="110" height="30" rx="5" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="785" y="190" text-anchor="middle" font-size="13" fill="#1e40af">Audio</text>
+  <!-- usb -->
+  <rect x="730" y="215" width="110" height="30" rx="5" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="785" y="235" text-anchor="middle" font-size="13" fill="#1e40af">USB</text>
+  <!-- ethernet highlighted -->
+  <rect x="730" y="260" width="110" height="34" rx="5" fill="#ffedd5" stroke="#9a3412" stroke-width="3"/>
+  <text x="785" y="282" text-anchor="middle" font-size="13" font-weight="bold" fill="#9a3412">Ethernet</text>
+  <text x="700" y="283" text-anchor="middle" font-size="20" fill="#9a3412">&#9733;</text>
+
+  <!-- connector lines to laptop edges -->
+  <line x1="170" y1="185" x2="210" y2="185" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="170" y1="230" x2="210" y2="230" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="170" y1="275" x2="210" y2="275" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="690" y1="185" x2="730" y2="185" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="690" y1="230" x2="730" y2="230" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="690" y1="277" x2="730" y2="277" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- callout -->
+  <text x="450" y="430" text-anchor="middle" font-size="15" fill="#9a3412" font-weight="bold">&#9733; Ethernet = where your network cable plugs in (no port? use a USB-to-Ethernet adapter)</text>
+</svg>
