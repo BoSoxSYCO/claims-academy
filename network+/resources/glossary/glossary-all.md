@@ -16,10 +16,12 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## B
 
+- **Backbone** — The single shared cable that a bus network is built on. *(First taught: NA-M04-L04)*
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
 - **Bluetooth** — A short-range wireless way to link nearby devices (a common PAN). *(First taught: NA-M04-L03)*
+- **Bus topology** — A network shape where all nodes share one backbone cable. *(First taught: NA-M04-L04)*
 - **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
 
 ## C
@@ -90,6 +92,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **MAN (Metropolitan Area Network)** — A network across a city. *(First taught: NA-M04-L03)*
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
+- **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
 
 ## N
@@ -126,6 +129,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
 - **Resource** — Something a network lets you share: a file, printer, or internet connection. *(First taught: NA-M04-L01)*
 - **Response** — The server's answer ("here it is"). *(First taught: NA-M01-L06)*
+- **Ring topology** — A network shape where each node connects to two neighbors, forming a loop. *(First taught: NA-M04-L04)*
 
 ## S
 
@@ -137,6 +141,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
+- **Star topology** — A network shape where every node connects to one central device. *(First taught: NA-M04-L04)*
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
@@ -147,6 +152,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
+- **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 
 ## U
@@ -167,4 +173,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L04)_

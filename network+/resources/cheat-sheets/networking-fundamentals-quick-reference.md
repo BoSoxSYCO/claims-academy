@@ -66,4 +66,29 @@ you    one place   city   the world  (bigger →)
 > **Remember:** the names sort networks by **how big** they are, from your body to the whole planet.
 
 ---
+
+## Topologies — network shapes (Lesson 04-04)
+
+- **Topology** = the shape of a network (how nodes and links are arranged).
+
+| Shape | Layout | Strength | Weakness |
+|-------|--------|----------|----------|
+| **Star** | all nodes → one center | one cable fault drops only one node | center = single point of failure |
+| **Bus** | all nodes on one backbone | cheap, little cable | one break stops everything |
+| **Ring** | closed loop of neighbors | orderly flow | one break can halt it |
+| **Mesh** | many cross-links | very reliable (many paths) | expensive (lots of links) |
+
+- **Your home network is a star** — the router is the center.
+- **Pattern test for a diagram:** one center (star)? one line (bus)? a loop (ring)? many cross-links (mesh)?
+
+```
+STAR        BUS            RING        MESH
+ [N]        [N][N][N]      [N]-[N]     [N]=[N]
+  |          | | |          |   |       | X |
+[N]-C-[N]  ==+=+=+==       [N]-[N]     [N]=[N]
+```
+
+> **Remember:** the shape decides what breaks, what it costs, and how easily you add a device.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 04_
