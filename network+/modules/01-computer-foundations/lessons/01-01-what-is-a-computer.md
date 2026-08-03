@@ -48,7 +48,7 @@ Here's the good news. You already use computers every day — your laptop, your 
 
 ## 3. Simple explanation
 
-A **computer** is a machine that follows instructions to turn information you put in into a useful result you get out.
+A **computer** is a machine that follows instructions. It takes information you put in, works on it, and gives you back a useful result.
 
 Let's break that into three small jobs. Every computer, from a tiny watch to a giant server, does these same three things:
 
@@ -274,10 +274,9 @@ Print and complete these worksheets (in this module's `assessments/` and `labs/`
    - C) The input
    - D) The memory
 
-8. **Matching —** draw a line from each word to its meaning. *(Objective: vocabulary)*
-   - Input · · gives you a result
-   - Output · · information you put in
-   - Program · · a set of instructions
+8. **Matching —** write the letter of the correct meaning next to each word. *(Objective: vocabulary)*
+   - ___ Input &nbsp;&nbsp; ___ Output &nbsp;&nbsp; ___ Program
+   - A) a set of instructions &nbsp; B) information you put in &nbsp; C) the result you get back
 
 9. Fill in the blank: The short way to remember a computer's three jobs is "In → ______ → Out." *(Objective: name the three jobs)*
 

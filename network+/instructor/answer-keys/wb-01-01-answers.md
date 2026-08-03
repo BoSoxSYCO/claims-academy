@@ -51,7 +51,7 @@
 - **Part A:** Computer = machine that turns input into output; Input = info put in; Output = result given back; Program = set of instructions.
 - **Part B:** 1. Processing 2. Hardware 3. Input.
 - **Part C:** any correct sentence for each term.
-- **Part D:** any valid Orientation study habit (e.g., spaced practice, take notes); two goals = **pass the Network+ exam** and **build a real home lab**.
+- **Part D:** two goals = **pass the Network+ exam** and **build a real home lab**; any hidden computer named in the lesson (phone, smart TV, home router, car, smart watch).
 
 ## Worksheet 1.1.G — Hands-on observation (25 pts)
 

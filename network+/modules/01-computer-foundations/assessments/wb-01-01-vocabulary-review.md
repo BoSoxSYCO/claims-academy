@@ -41,10 +41,10 @@ answer_key: instructor/answer-keys/wb-01-01-answers.md
 - **Output:** ________________________________________________________
 - **Program:** _______________________________________________________
 
-**Part D — Spaced recall (from Module 00 Orientation).** Answer without peeking.
+**Part D — Spaced recall.** Answer from memory, without peeking back.
 
-- What is one study habit the Orientation recommended? _______________________
-- What are the two goals of this whole course? _______________________
+- What are the **two goals** of this whole course? _______________________
+- Name **one "hidden" computer** from this lesson (something that doesn't look like a computer). _______________________
 
 ---
 
