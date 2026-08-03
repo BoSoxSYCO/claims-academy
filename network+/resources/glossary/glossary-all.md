@@ -17,6 +17,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## C
 
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
+- **Command** — A short instruction you type for the computer to run. *(First taught: NA-M02-L03)*
+- **Command line (CLI)** — A place where you type text commands instead of clicking. *(First taught: NA-M02-L03)*
+- **Command Prompt** — The classic, simple Windows terminal. *(First taught: NA-M02-L03)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
@@ -67,8 +70,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
+- **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
 - **Program** — A set of instructions that tells a computer what to do. *(First taught: NA-M01-L01)*
+- **Prompt** — The text ending in `>` that shows where you are and waits for input. *(First taught: NA-M02-L03)*
 
 ## R
 
@@ -90,6 +95,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
+- **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
 
 ## U
 
@@ -101,4 +107,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M02-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M02-L03)_

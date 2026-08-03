@@ -51,4 +51,23 @@ C:\                         (the drive)
 > **Habit:** Windows key → type → Enter.
 
 ---
+
+## The command line (Lesson 02-03)
+
+- **Command line (CLI)** = type text commands instead of clicking.
+- **Terminal** = the window for it: **Command Prompt** (classic) or **PowerShell** (newer).
+- **Prompt** = text ending in `>` (e.g., `C:\Users\You>`). Type only *after* the `>`.
+
+```
+C:\Users\You> ver          ← prompt + command
+Microsoft Windows [Version 10.0.22631]   ← output
+C:\Users\You> _            ← ready for the next
+```
+
+- **Rhythm:** see prompt → type command → press **Enter** → read **output**.
+- **Open:** taskbar icon or Windows key → `cmd` → Enter. **Close:** type `exit`.
+- **Safe first commands:** `ver` (version) · `whoami` (your user) · `hostname` (computer name).
+- ⚠️ Type exactly — a typo means "not recognized." Just retype it.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 02_
