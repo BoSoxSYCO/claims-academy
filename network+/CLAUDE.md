@@ -121,6 +121,8 @@ prerequisites: ["NA-M08-L03", "NA-M08-L04"]
 
 ## 5. Workbook Standards
 
+**Canonical system:** the workbook is a full printable lab manual defined in `docs/WORKBOOK-SYSTEM.md`, built from the twelve reusable templates in `assets/templates/workbook/` (fill-in-the-blank, matching, label-the-diagram, draw-your-diagram, short-answer, hands-on-observation, reflection, lab-documentation, vocabulary-review, end-of-unit-review, progress tracker, certification-readiness tracker). Realize each lesson's Section 13 exercises by copying the right template(s); every worksheet keeps the standard header/footer frame, maps to an objective, and gets a matching answer-key entry.
+
 Each module has a hands-on workbook component (lives in the module's `labs/` folder; the cumulative build lives in `labs/home-lab-guide/`).
 
 - **State the goal and the "why"** at the top: what you'll build and why it matters.
