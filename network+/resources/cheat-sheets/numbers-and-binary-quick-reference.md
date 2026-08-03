@@ -24,4 +24,26 @@ Bit:      1   0    1   1   0    0    1   0     ← 8 bits = 1 byte (next lesson)
 > Why this matters: IP addresses, subnet masks, and MAC addresses are all binary underneath (Modules 07–08).
 
 ---
+
+## Bytes & place values (Lesson 03-02)
+
+- **8 bits = 1 byte.**
+- **Memorize the place values (right → left, values double):**
+
+```
+ 128   64   32   16    8    4    2    1
+```
+
+- **Read a byte:** add each place value where the bit is **1**.
+
+```
+ 128  64  32  16   8   4   2   1
+  0    0   0   0   1   0   1   0     →  8 + 2 = 10
+```
+
+- **All 1s = 255** (128+64+32+16+8+4+2+1). A byte counts **0 to 255**.
+- Examples: `00001010`=10 · `11000000`=192 · `10100000`=160 · `11111111`=255.
+- ⭐ These eight values are the key to **subnetting** (Module 08) — learn them cold.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 03_

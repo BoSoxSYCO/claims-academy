@@ -18,6 +18,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
+- **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
 
 ## C
 
@@ -32,6 +33,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## D
 
+- **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
@@ -90,6 +92,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
+- **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
@@ -135,4 +138,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L02)_
