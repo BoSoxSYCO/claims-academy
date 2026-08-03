@@ -1,7 +1,7 @@
 # Module 05 — Network Models: OSI & TCP/IP
 
 **Phase:** Core Networking
-**Status:** In production (Lesson 05-01 Published) — Unit 2
+**Status:** In production (Lessons 05-01, 05-02 Published) — Unit 2
 
 > **By the end of this module, you will be able to:** use the OSI and TCP/IP models to reason about any network problem.
 
@@ -25,7 +25,7 @@ this board is updated:
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 05-01 | [Why We Need a "Model" of a Network](lessons/05-01-why-we-need-a-model.md) | ✅ Published |
-| 05-02 | The OSI 7 layers — a floor-by-floor tour | Planned |
+| 05-02 | [The OSI 7 Layers — A Floor-by-Floor Tour](lessons/05-02-osi-seven-layers.md) | ✅ Published |
 | 05-03 | The TCP/IP model and how it maps to OSI | Planned |
 | 05-04 | Encapsulation: how data gets wrapped and unwrapped | Planned |
 | 05-05 | Following one packet through all the layers | Planned |

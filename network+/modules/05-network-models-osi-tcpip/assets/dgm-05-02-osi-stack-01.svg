@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">The seven OSI layers as a stack</title>
+  <desc id="desc">A vertical stack of the seven OSI layers, numbered from Layer 7 Application at the top down to Layer 1 Physical at the bottom, each labeled with its one job: Application is your apps, Presentation is format and encrypt, Session is start and end the talk, Transport is split, check and ports, Network is IP addresses and routers, Data Link is MAC addresses and switches, Physical is cable or Wi-Fi and raw bits. A down arrow marks to send and an up arrow marks to receive. The mnemonic is Please Do Not Throw Sausage Pizza Away.</desc>
+
+  <rect x="0" y="0" width="900" height="540" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111111">The OSI model — 7 layers (Layer 1 = wire, Layer 7 = your app)</text>
+
+  <!-- 7 floors: y from top(L7) to bottom(L1) -->
+  <!-- Each row 58 tall starting y=60 -->
+  <g stroke="#334155" stroke-width="2" font-family="Arial">
+    <rect x="110" y="60"  width="560" height="58" rx="6" fill="#dbeafe"/>
+    <rect x="110" y="118" width="560" height="58" rx="6" fill="#e0e7ff"/>
+    <rect x="110" y="176" width="560" height="58" rx="6" fill="#ede9fe"/>
+    <rect x="110" y="234" width="560" height="58" rx="6" fill="#fce7f3"/>
+    <rect x="110" y="292" width="560" height="58" rx="6" fill="#fef9c3"/>
+    <rect x="110" y="350" width="560" height="58" rx="6" fill="#ffedd5"/>
+    <rect x="110" y="408" width="560" height="58" rx="6" fill="#dcfce7"/>
+  </g>
+
+  <g font-size="15" font-weight="bold" fill="#111">
+    <text x="128" y="94">L7 · Application</text>
+    <text x="128" y="152">L6 · Presentation</text>
+    <text x="128" y="210">L5 · Session</text>
+    <text x="128" y="268">L4 · Transport</text>
+    <text x="128" y="326">L3 · Network</text>
+    <text x="128" y="384">L2 · Data Link</text>
+    <text x="128" y="442">L1 · Physical</text>
+  </g>
+  <g font-size="13" fill="#333">
+    <text x="330" y="94">your apps (browser, email)</text>
+    <text x="330" y="152">format, encrypt, translate</text>
+    <text x="330" y="210">start, keep, and end the talk</text>
+    <text x="330" y="268">split, check, ports</text>
+    <text x="330" y="326">IP addresses, routers</text>
+    <text x="330" y="384">MAC addresses, switches</text>
+    <text x="330" y="442">cable / Wi-Fi, raw bits</text>
+  </g>
+
+  <!-- send / receive arrows -->
+  <line x1="90" y1="70" x2="90" y2="456" stroke="#b91c1c" stroke-width="3" marker-end="url(#dn)"/>
+  <text x="72" y="265" font-size="12" fill="#b91c1c" transform="rotate(-90 72 265)" text-anchor="middle">DOWN = to send</text>
+  <line x1="688" y1="456" x2="688" y2="70" stroke="#166534" stroke-width="3" marker-end="url(#up)"/>
+  <text x="706" y="265" font-size="12" fill="#166534" transform="rotate(90 706 265)" text-anchor="middle">UP = to receive</text>
+
+  <defs>
+    <marker id="dn" markerWidth="9" markerHeight="9" refX="4" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,0 L4,7 z" fill="#b91c1c"/>
+    </marker>
+    <marker id="up" markerWidth="9" markerHeight="9" refX="4" refY="0" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,7 L8,7 L4,0 z" fill="#166534"/>
+    </marker>
+  </defs>
+
+  <!-- mnemonic -->
+  <rect x="110" y="482" width="680" height="42" rx="8" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+  <text x="450" y="503" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">Mnemonic (Layer 1 → 7):  Please Do Not Throw Sausage Pizza Away</text>
+  <text x="450" y="518" text-anchor="middle" font-size="11" fill="#475569">Physical · Data Link · Network · Transport · Session · Presentation · Application</text>
+</svg>

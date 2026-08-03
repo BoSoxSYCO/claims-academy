@@ -13,6 +13,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
+- **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
 
 ## B
 
@@ -42,6 +43,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## D
 
+- **Data Link layer** — Layer 2 — local delivery on one network, using MAC addresses (switches). *(First taught: NA-M05-L02)*
 - **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
@@ -109,6 +111,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## N
 
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
+- **Network layer** — Layer 3 — addressing and routing between networks, using IP (routers). *(First taught: NA-M05-L02)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 - **Node** — Any device that connects to a network. *(First taught: NA-M04-L02)*
 
@@ -127,11 +130,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
 - **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
+- **Physical layer** — Layer 1 — the wire, fiber, or radio and the raw bits on it. *(First taught: NA-M05-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
+- **Presentation layer** — Layer 6 — formats, encrypts, and translates the data. *(First taught: NA-M05-L02)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
 - **Program** — A set of instructions that tells a computer what to do. *(First taught: NA-M01-L01)*
 - **Prompt** — The text ending in `>` that shows where you are and waits for input. *(First taught: NA-M02-L03)*
@@ -153,6 +158,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Section** — A group of output lines under a heading, such as one network connection. *(First taught: NA-M02-L05)*
 - **Server** — A computer or program that provides something when asked. *(First taught: NA-M01-L06)*
 - **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
+- **Session layer** — Layer 5 — starts, keeps, and ends a connection between apps. *(First taught: NA-M05-L02)*
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
@@ -174,6 +180,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
+- **Transport layer** — Layer 4 — splits data, checks it arrives, uses ports. *(First taught: NA-M05-L02)*
 
 ## U
 
@@ -194,4 +201,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L02)_
