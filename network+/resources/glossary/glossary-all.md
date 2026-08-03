@@ -30,6 +30,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Command Prompt** — The classic, simple Windows terminal. *(First taught: NA-M02-L03)*
 - **Communicate** — To send and receive information between devices or people. *(First taught: NA-M04-L01)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
+- **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
 - **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
@@ -45,6 +46,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## E
 
+- **Endpoint** — A node that sends or gets information, like a laptop or phone. *(First taught: NA-M04-L02)*
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
 ## F
@@ -79,6 +81,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## L
 
 - **Label** — The name on the left of an output line (before the colon). *(First taught: NA-M02-L05)*
+- **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 
 ## M
 
@@ -90,6 +93,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
+- **Node** — Any device that connects to a network. *(First taught: NA-M04-L02)*
 
 ## O
 
@@ -153,6 +157,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## W
 
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
+- **Wired link** — A link that uses a cable to connect two nodes. *(First taught: NA-M04-L02)*
+- **Wireless link** — A link that uses radio waves (Wi-Fi) to connect two nodes. *(First taught: NA-M04-L02)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L02)_

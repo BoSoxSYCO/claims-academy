@@ -1,7 +1,7 @@
 # Module 04 — Networking Fundamentals
 
 **Phase:** Core Networking
-**Status:** In production (Lesson 04-01 Published) — first lesson of Unit 2
+**Status:** In production (Lessons 04-01, 04-02 Published) — Unit 2
 
 > **By the end of this module, you will be able to:** explain what a network is, why it exists, and the main types.
 
@@ -25,7 +25,7 @@ this board is updated:
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 04-01 | [Why Networks Exist (The Problem They Solve)](lessons/04-01-why-networks-exist.md) | ✅ Published |
-| 04-02 | Nodes, links, and the idea of a "connection" | Planned |
+| 04-02 | [Nodes, Links, and the Idea of a "Connection"](lessons/04-02-nodes-links-connections.md) | ✅ Published |
 | 04-03 | LAN, WAN, MAN, PAN, and WLAN explained | Planned |
 | 04-04 | Network topologies (star, bus, ring, mesh) | Planned |
 | 04-05 | Client-server vs. peer-to-peer | Planned |
