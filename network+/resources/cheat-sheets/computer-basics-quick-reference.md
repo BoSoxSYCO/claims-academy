@@ -122,4 +122,20 @@
 - **Memory trick:** hardware = the body · software = the ideas.
 
 ---
-_NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 01_
+
+## Client & server (Lesson 01-06)
+
+```
+   CLIENT  ── 1. REQUEST ("send the page") ──▶  SERVER
+   (asks)  ◀─ 2. RESPONSE ("here it is") ─────  (provides)
+```
+
+- **Client** = asks for something (your laptop's browser).
+- **Server** = provides something when asked (web server, your router).
+- **Request** = the client's ask · **Response** = the server's answer.
+- A **server is usually just a computer with a job** — not always a big machine.
+- **Roles depend on the job**, not the machine (a computer can be both).
+- **Waiter analogy:** customer = client · waiter = server · order = request · food = response.
+
+---
+_NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 01 (complete)_

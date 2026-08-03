@@ -16,6 +16,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## C
 
+- **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
 
@@ -61,9 +62,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## R
 
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
+- **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
+- **Response** — The server's answer ("here it is"). *(First taught: NA-M01-L06)*
 
 ## S
 
+- **Server** — A computer or program that provides something when asked. *(First taught: NA-M01-L06)*
+- **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 
@@ -81,4 +86,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L06)_

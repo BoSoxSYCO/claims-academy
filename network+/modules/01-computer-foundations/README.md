@@ -1,7 +1,7 @@
 # Module 01 — Computer Foundations
 
 **Phase:** On-Ramp
-**Status:** In production (Lesson 01-01 Published)
+**Status:** ✅ Content-complete — all 6 lessons Published
 
 > **By the end of this module, you will be able to:** name the parts of a computer and explain what each one does.
 
@@ -29,7 +29,7 @@ this board is updated:
 | 01-03 | [Inputs, Outputs, and Ports on Your Laptop](lessons/01-03-inputs-outputs-and-ports.md) | ✅ Published |
 | 01-04 | [What an Operating System Does](lessons/01-04-what-an-operating-system-does.md) | ✅ Published |
 | 01-05 | [Hardware vs. Software](lessons/01-05-hardware-vs-software.md) | ✅ Published |
-| 01-06 | What a "server" and a "client" are | Planned |
+| 01-06 | [What a Server and a Client Are](lessons/01-06-server-and-client.md) | ✅ Published |
 
 Status values: `Planned → Drafting → In Review → Published`
 

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Client and server: request and response</title>
+  <desc id="desc">A client laptop on the left sends a request arrow to a server on the right, which sends a response arrow back; the client asks and the server provides. A server is just a computer with a job.</desc>
+
+  <rect x="0" y="0" width="900" height="380" fill="#ffffff"/>
+  <text x="450" y="44" text-anchor="middle" font-size="26" font-weight="bold" fill="#111111">Client asks · Server provides</text>
+
+  <!-- Client (blue) -->
+  <rect x="70" y="120" width="230" height="140" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+  <text x="185" y="152" text-anchor="middle" font-size="20" font-weight="bold" fill="#1e40af">CLIENT</text>
+  <!-- laptop icon -->
+  <rect x="140" y="168" width="90" height="55" rx="4" fill="#ffffff" stroke="#1e40af" stroke-width="2"/>
+  <rect x="132" y="223" width="106" height="8" rx="3" fill="#1e40af"/>
+  <text x="185" y="250" text-anchor="middle" font-size="14" fill="#111">your laptop — asks</text>
+
+  <!-- Server (green) -->
+  <rect x="600" y="120" width="230" height="140" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <text x="715" y="152" text-anchor="middle" font-size="20" font-weight="bold" fill="#166534">SERVER</text>
+  <!-- server rack icon -->
+  <rect x="680" y="168" width="70" height="55" rx="4" fill="#ffffff" stroke="#166534" stroke-width="2"/>
+  <line x1="680" y1="186" x2="750" y2="186" stroke="#166534" stroke-width="2"/>
+  <line x1="680" y1="204" x2="750" y2="204" stroke="#166534" stroke-width="2"/>
+  <circle cx="690" cy="177" r="3" fill="#166534"/>
+  <circle cx="690" cy="195" r="3" fill="#166534"/>
+  <circle cx="690" cy="213" r="3" fill="#166534"/>
+  <text x="715" y="250" text-anchor="middle" font-size="14" fill="#111">provides</text>
+
+  <!-- request arrow (client -> server) -->
+  <line x1="305" y1="165" x2="595" y2="165" stroke="#1e40af" stroke-width="4"/>
+  <polygon points="595,157 612,165 595,173" fill="#1e40af"/>
+  <text x="450" y="153" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e40af">1. REQUEST — "send the page"</text>
+
+  <!-- response arrow (server -> client) -->
+  <line x1="595" y1="215" x2="305" y2="215" stroke="#166534" stroke-width="4"/>
+  <polygon points="305,207 288,215 305,223" fill="#166534"/>
+  <text x="450" y="238" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">2. RESPONSE — "here it is"</text>
+
+  <!-- note -->
+  <text x="450" y="320" text-anchor="middle" font-size="14" fill="#444">A server is just a computer with a job — even your home router acts as one.</text>
+</svg>
