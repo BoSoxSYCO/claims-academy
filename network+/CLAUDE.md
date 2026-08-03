@@ -61,7 +61,9 @@ Companion blueprint docs (do not duplicate them — extend them): `docs/PROJECT-
 
 ## 3. Lesson Format
 
-Every lesson is one Markdown file and follows this exact 7-part structure, in order:
+**Canonical template:** every lesson is authored from `assets/templates/lesson-template.md`, the binding 21-section shell (objectives → introduction → simple explanation → analogy → vocabulary → ASCII diagram → color-diagram brief → real-photo brief → hands-on lab → steps → expected results → common mistakes → troubleshooting → summary → workbook → quiz → answer key → instructor notes → cheat sheet → glossary updates → homework → self-reflection → learning checklist). Do not remove or reorder its sections. The 7-part flow below is the learner-facing spine that lives **inside** that fuller template.
+
+Every lesson is one Markdown file and follows this exact 7-part teaching spine, in order:
 
 ```
 1. Why this matters      – the real-world problem this solves (WHY first)
