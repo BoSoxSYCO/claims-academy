@@ -31,4 +31,24 @@ C:\                         (the drive)
 > **Remember:** drive = the filing cabinet · folder = a drawer/folder · file = a paper · path = the label that leads to it.
 
 ---
+
+## Finding tools (Lesson 02-02)
+
+- **Open anything:** press the **Windows key** → type the tool's name → press **Enter**.
+- **Pin to taskbar:** search the tool → right-click → **Pin to taskbar**.
+- **Key tools:**
+
+| Tool | For |
+|------|-----|
+| Settings | Change how Windows works (incl. network) |
+| Control Panel | Older settings; some network tools |
+| Command Prompt (`cmd`) | Type commands |
+| File Explorer | See files & folders |
+| Task Manager | See what's running; CPU/RAM use |
+| Network settings | See/change your connection |
+
+> **Taskbar** = bottom strip of one-click tools · **Start menu** = click Start / press Windows key.
+> **Habit:** Windows key → type → Enter.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 02_
