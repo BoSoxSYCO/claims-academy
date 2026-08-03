@@ -78,4 +78,25 @@ The internet's own model — **4 layers** (bottom → top): Network Access · In
 > **Remember:** "Layer 3 issue" = the Internet layer = IP/routing. Both models, one network.
 
 ---
+
+## Encapsulation & the PDUs (Lesson 05-04)
+
+- **Encapsulation** = each layer **adds a header** going **down** the stack. **De-encapsulation** = each layer **removes** it going **up**.
+- **Header** = front label (control info). **Trailer** = end label for error-checking (Layer 2 only).
+- The data rides **inside**, untouched — only wrappers change.
+
+| Layer | Adds | PDU name |
+|-------|------|----------|
+| Application | the message | **Data** |
+| Transport (L4) | port header (TCP) | **Segment** |
+| Network (L3) | IP header | **Packet** |
+| Data Link (L2) | MAC header + trailer | **Frame** |
+| Physical (L1) | — (signals) | **Bits** |
+
+- **Order down:** Data → Segment → Packet → Frame → Bits.
+- **Address names the layer:** IP → **packet** (L3) · MAC → **frame** (L2).
+
+> **Remember:** a "packet" is data wrapped with an IP header; a "frame" is data wrapped with a MAC header.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 05_

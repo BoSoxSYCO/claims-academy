@@ -44,6 +44,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## D
 
 - **Data Link layer** — Layer 2 — local delivery on one network, using MAC addresses (switches). *(First taught: NA-M05-L02)*
+- **De-encapsulation** — Unwrapping the headers at each layer, going up the stack. *(First taught: NA-M05-L04)*
 - **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
@@ -53,6 +54,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## E
 
+- **Encapsulation** — Wrapping data with a header at each layer, going down the stack. *(First taught: NA-M05-L04)*
 - **Endpoint** — A node that sends or gets information, like a laptop or phone. *(First taught: NA-M04-L02)*
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
@@ -63,6 +65,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **File path** — The address that lists each folder to open to reach a file. *(First taught: NA-M02-L01)*
 - **Firmware** — Software built into a device, like a switch, that rarely changes. *(First taught: NA-M01-L05)*
 - **Folder** — A container that holds files and other folders; also called a directory. *(First taught: NA-M02-L01)*
+- **Frame** — The Data Link-layer PDU (data plus a MAC header and trailer). *(First taught: NA-M05-L04)*
 
 ## G
 
@@ -71,6 +74,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## H
 
 - **Hardware** — The physical parts of a computer that you can touch. *(First taught: NA-M01-L01)*
+- **Header** — A small label a layer adds to the front, holding its control info. *(First taught: NA-M05-L04)*
 - **Hexadecimal (hex)** — A base-16 number system using digits 0–9 and A–F. *(First taught: NA-M03-L04)*
 
 ## I
@@ -129,8 +133,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## P
 
+- **Packet** — The Network-layer PDU (data plus an IP header). *(First taught: NA-M05-L04)*
 - **Packet loss** — The percent of ping messages that got no reply (0% is best). *(First taught: NA-M02-L05)*
 - **PAN (Personal Area Network)** — A tiny network around one person (Bluetooth). *(First taught: NA-M04-L03)*
+- **PDU (Protocol Data Unit)** — The name for the wrapped data unit at a given layer. *(First taught: NA-M05-L04)*
 - **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
 - **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
@@ -160,6 +166,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Scale** — To grow to handle more users or devices without breaking. *(First taught: NA-M04-L05)*
 - **Search box** — The box where you type a tool's name to find it. *(First taught: NA-M02-L02)*
 - **Section** — A group of output lines under a heading, such as one network connection. *(First taught: NA-M02-L05)*
+- **Segment** — The Transport-layer PDU (data plus a port header). *(First taught: NA-M05-L04)*
 - **Server** — A computer or program that provides something when asked. *(First taught: NA-M01-L06)*
 - **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
 - **Session layer** — Layer 5 — starts, keeps, and ends a connection between apps. *(First taught: NA-M05-L02)*
@@ -184,6 +191,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
+- **Trailer** — A small label the Data Link layer adds to the end (for error checking). *(First taught: NA-M05-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 - **Transport layer** — Layer 4 — splits data, checks it arrives, uses ports. *(First taught: NA-M05-L02)*
 
@@ -206,4 +214,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L04)_
