@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Network sizes as nested rings from PAN to WAN</title>
+  <desc id="desc">Four nested rings show network sizes from smallest to largest: a Personal Area Network around a person in the center, a Local Area Network or wireless LAN in one building, a Metropolitan Area Network across a city, and a Wide Area Network spanning the world on the outside. Each ring is labeled with its name, its size, and an example.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Network sizes — smallest (center) to largest (outside)</text>
+
+  <!-- Nested rings, drawn largest first so smaller ones sit on top -->
+  <!-- WAN -->
+  <circle cx="300" cy="270" r="185" fill="#eff6ff" stroke="#1e3a8a" stroke-width="3"/>
+  <!-- MAN -->
+  <circle cx="300" cy="270" r="140" fill="#e0e7ff" stroke="#4338ca" stroke-width="3" stroke-dasharray="2 0"/>
+  <!-- LAN/WLAN -->
+  <circle cx="300" cy="270" r="92" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <!-- PAN -->
+  <circle cx="300" cy="270" r="46" fill="#fef9c3" stroke="#a16207" stroke-width="3"/>
+
+  <!-- Ring labels inside each band (top of each ring) -->
+  <text x="300" y="273" text-anchor="middle" font-size="15" font-weight="bold" fill="#a16207">PAN</text>
+  <text x="300" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">LAN / WLAN</text>
+  <text x="300" y="152" text-anchor="middle" font-size="15" font-weight="bold" fill="#4338ca">MAN</text>
+  <text x="300" y="108" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">WAN</text>
+
+  <!-- Callout legend on the right, size + example for each -->
+  <rect x="560" y="70" width="320" height="330" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+  <text x="580" y="100" font-size="15" font-weight="bold" fill="#111">From small to large:</text>
+
+  <rect x="580" y="118" width="16" height="16" fill="#fef9c3" stroke="#a16207" stroke-width="2"/>
+  <text x="606" y="131" font-size="14" font-weight="bold" fill="#111">PAN — a few feet</text>
+  <text x="606" y="149" font-size="12" fill="#333">around one person · Bluetooth earbuds</text>
+
+  <rect x="580" y="170" width="16" height="16" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="606" y="183" font-size="14" font-weight="bold" fill="#111">LAN / WLAN — one place</text>
+  <text x="606" y="201" font-size="12" fill="#333">home or office · router, laptop, TV</text>
+
+  <rect x="580" y="222" width="16" height="16" fill="#e0e7ff" stroke="#4338ca" stroke-width="2"/>
+  <text x="606" y="235" font-size="14" font-weight="bold" fill="#111">MAN — a city</text>
+  <text x="606" y="253" font-size="12" fill="#333">across town · city libraries + offices</text>
+
+  <rect x="580" y="274" width="16" height="16" fill="#eff6ff" stroke="#1e3a8a" stroke-width="2"/>
+  <text x="606" y="287" font-size="14" font-weight="bold" fill="#111">WAN — long distance</text>
+  <text x="606" y="305" font-size="12" fill="#333">cities to the world · the internet</text>
+
+  <line x1="580" y1="330" x2="860" y2="330" stroke="#94a3b8" stroke-width="1"/>
+  <text x="580" y="356" font-size="13" font-weight="bold" fill="#111">Size order: PAN &lt; LAN &lt; MAN &lt; WAN</text>
+  <text x="580" y="380" font-size="12" fill="#333">WLAN = a LAN that uses Wi-Fi (no cables).</text>
+
+  <!-- growth arrow under the rings -->
+  <line x1="115" y1="475" x2="485" y2="475" stroke="#111" stroke-width="0" />
+  <text x="300" y="465" text-anchor="middle" font-size="12" fill="#475569">center = smallest (PAN) · outer ring = largest (WAN)</text>
+</svg>
