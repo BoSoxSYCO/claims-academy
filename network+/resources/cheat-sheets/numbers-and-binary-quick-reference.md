@@ -70,4 +70,21 @@ Convert 168:   128 fits (168−128=40) → 1
 - Check any answer: Calculator → Programmer (DEC ↔ BIN).
 
 ---
+
+## Hexadecimal (Lesson 03-04)
+
+- **Hex = base 16.** Digits: `0 1 2 3 4 5 6 7 8 9 A B C D E F` (A–F = 10–15).
+- **One hex digit = 4 bits (a nibble). Two hex digits = one byte.**
+- **Byte → hex:** split into two nibbles; convert each with `8 4 2 1`.
+- **Hex → binary:** expand each digit to 4 bits.
+
+```
+11001010  →  1100  1010  →  C  A  →  hex CA
+```
+
+- Examples: `1010`=A · `1100`=C · `11110000`=F0 · `FF`=255.
+- **Seen in:** MAC addresses (`00:1A:2B:3C:4D:5E` = 6 bytes), colors (`#1E40AF`), IPv6.
+- Find your MAC: `ipconfig /all` → **Physical Address**.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 03_

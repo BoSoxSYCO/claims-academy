@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Converting a byte to hexadecimal using nibbles</title>
+  <desc id="desc">A byte 11001010 split into two nibbles, 1100 and 1010; 1100 equals 12 which is hex C, and 1010 equals 10 which is hex A, giving hex CA; with a table showing hex digits 0 through F and their values 0 through 15.</desc>
+
+  <rect x="0" y="0" width="900" height="420" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">One byte → two nibbles → two hex digits</text>
+
+  <!-- byte -->
+  <text x="450" y="72" text-anchor="middle" font-size="14" fill="#555">the byte:</text>
+  <!-- left nibble (blue) 1100 -->
+  <rect x="230" y="85" width="200" height="60" rx="8" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+  <text x="330" y="123" text-anchor="middle" font-size="28" font-weight="bold" font-family="monospace" fill="#1e40af">1 1 0 0</text>
+  <!-- right nibble (green) 1010 -->
+  <rect x="470" y="85" width="200" height="60" rx="8" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <text x="570" y="123" text-anchor="middle" font-size="28" font-weight="bold" font-family="monospace" fill="#166534">1 0 1 0</text>
+
+  <text x="330" y="168" text-anchor="middle" font-size="13" fill="#1e40af">nibble (8 4 2 1)</text>
+  <text x="570" y="168" text-anchor="middle" font-size="13" fill="#166534">nibble (8 4 2 1)</text>
+
+  <!-- sums -->
+  <text x="330" y="198" text-anchor="middle" font-size="16" fill="#111">8 + 4 = 12</text>
+  <text x="570" y="198" text-anchor="middle" font-size="16" fill="#111">8 + 2 = 10</text>
+
+  <!-- arrows down -->
+  <line x1="330" y1="208" x2="330" y2="238" stroke="#333" stroke-width="3"/><polygon points="322,238 330,252 338,238" fill="#333"/>
+  <line x1="570" y1="208" x2="570" y2="238" stroke="#333" stroke-width="3"/><polygon points="562,238 570,252 578,238" fill="#333"/>
+
+  <!-- hex digits -->
+  <rect x="290" y="255" width="80" height="55" rx="8" fill="#1e40af"/>
+  <text x="330" y="294" text-anchor="middle" font-size="30" font-weight="bold" font-family="monospace" fill="#fff">C</text>
+  <rect x="530" y="255" width="80" height="55" rx="8" fill="#166534"/>
+  <text x="570" y="294" text-anchor="middle" font-size="30" font-weight="bold" font-family="monospace" fill="#fff">A</text>
+
+  <text x="450" y="294" text-anchor="middle" font-size="24" font-weight="bold" fill="#111">=</text>
+  <text x="450" y="340" text-anchor="middle" font-size="20" font-weight="bold" fill="#9a3412">hex  CA   (0xCA = 202)</text>
+
+  <!-- hex table -->
+  <rect x="60" y="360" width="780" height="46" rx="8" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="380" text-anchor="middle" font-size="13" font-family="monospace" fill="#111">hex:  0 1 2 3 4 5 6 7 8 9 A  B  C  D  E  F</text>
+  <text x="450" y="398" text-anchor="middle" font-size="13" font-family="monospace" fill="#555">val:  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</text>
+</svg>

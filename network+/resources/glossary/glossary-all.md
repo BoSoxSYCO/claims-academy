@@ -16,6 +16,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## B
 
+- **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
 - **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
@@ -60,6 +61,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## H
 
 - **Hardware** — The physical parts of a computer that you can touch. *(First taught: NA-M01-L01)*
+- **Hexadecimal (hex)** — A base-16 number system using digits 0–9 and A–F. *(First taught: NA-M03-L04)*
 
 ## I
 
@@ -78,8 +80,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## M
 
+- **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
+
+## N
+
+- **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 
 ## O
 
@@ -141,4 +148,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L04)_
