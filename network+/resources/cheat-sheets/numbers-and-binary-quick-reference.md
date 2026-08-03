@@ -46,4 +46,28 @@ Bit:      1   0    1   1   0    0    1   0     ← 8 bits = 1 byte (next lesson)
 - ⭐ These eight values are the key to **subnetting** (Module 08) — learn them cold.
 
 ---
+
+## Converting both ways (Lesson 03-03)
+
+Always write the chart first: `128 64 32 16 8 4 2 1`.
+
+- **Binary → decimal:** add the place values where the bit is **1**.
+- **Decimal → binary (subtraction method):** for each place from 128 down —
+  - **fits?** → write **1**, subtract it. **doesn't fit?** → write **0**.
+  - keep using the **remainder**; pad the answer to **8 bits**.
+
+```
+Convert 168:   128 fits (168−128=40) → 1
+                64 no → 0
+                32 fits (40−32=8)    → 1
+                16 no → 0
+                 8 fits (8−8=0)      → 1
+                 4,2,1 no → 0 0 0
+                            → 168 = 10101000
+```
+
+- Examples: `10101100`=172 · 200=`11001000` · 168=`10101000` · `10000001`=129.
+- Check any answer: Calculator → Programmer (DEC ↔ BIN).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 03_

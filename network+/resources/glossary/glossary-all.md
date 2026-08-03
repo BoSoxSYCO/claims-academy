@@ -29,6 +29,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Command Prompt** — The classic, simple Windows terminal. *(First taught: NA-M02-L03)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
+- **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
 
 ## D
@@ -102,6 +103,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## R
 
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
+- **Remainder** — What's left over after you subtract a place value. *(First taught: NA-M03-L03)*
 - **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
 - **Response** — The server's answer ("here it is"). *(First taught: NA-M01-L06)*
 
@@ -116,6 +118,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
+- **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
 
 ## T
 
@@ -138,4 +141,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L03)_

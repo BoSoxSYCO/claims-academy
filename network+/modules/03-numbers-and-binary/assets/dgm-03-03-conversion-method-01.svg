@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Converting decimal 168 to binary with the subtraction method</title>
+  <desc id="desc">A worked example converting decimal 168 to binary using the subtraction method: for each place value from 128 to 1, a yes/no fit row, the resulting bit, and the running remainder, giving 10101000; beside it, adding 128 plus 32 plus 8 to convert back to 168.</desc>
+
+  <rect x="0" y="0" width="900" height="430" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Decimal 168 → Binary (subtraction method)</text>
+
+  <!-- table: 8 columns from x=60 step 100 -->
+  <!-- header place values -->
+  <g font-size="17" font-weight="bold" text-anchor="middle">
+    <text x="150" y="80" fill="#3730a3">128</text>
+    <text x="250" y="80" fill="#3730a3">64</text>
+    <text x="350" y="80" fill="#3730a3">32</text>
+    <text x="450" y="80" fill="#3730a3">16</text>
+    <text x="550" y="80" fill="#3730a3">8</text>
+    <text x="650" y="80" fill="#3730a3">4</text>
+    <text x="750" y="80" fill="#3730a3">2</text>
+    <text x="820" y="80" fill="#3730a3">1</text>
+  </g>
+  <text x="55" y="80" text-anchor="end" font-size="13" fill="#555">place</text>
+
+  <!-- fit? row: yes no yes no yes no no no -->
+  <g font-size="14" text-anchor="middle">
+    <text x="150" y="118" fill="#166534" font-weight="bold">yes</text>
+    <text x="250" y="118" fill="#9ca3af">no</text>
+    <text x="350" y="118" fill="#166534" font-weight="bold">yes</text>
+    <text x="450" y="118" fill="#9ca3af">no</text>
+    <text x="550" y="118" fill="#166534" font-weight="bold">yes</text>
+    <text x="650" y="118" fill="#9ca3af">no</text>
+    <text x="750" y="118" fill="#9ca3af">no</text>
+    <text x="820" y="118" fill="#9ca3af">no</text>
+  </g>
+  <text x="55" y="118" text-anchor="end" font-size="13" fill="#555">fit?</text>
+
+  <!-- bit row boxes -->
+  <g font-size="22" font-weight="bold" font-family="monospace" text-anchor="middle">
+    <rect x="120" y="132" width="60" height="40" fill="#bbf7d0" stroke="#166534" stroke-width="2"/><text x="150" y="160" fill="#166534">1</text>
+    <rect x="220" y="132" width="60" height="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/><text x="250" y="160" fill="#6b7280">0</text>
+    <rect x="320" y="132" width="60" height="40" fill="#bbf7d0" stroke="#166534" stroke-width="2"/><text x="350" y="160" fill="#166534">1</text>
+    <rect x="420" y="132" width="60" height="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/><text x="450" y="160" fill="#6b7280">0</text>
+    <rect x="520" y="132" width="60" height="40" fill="#bbf7d0" stroke="#166534" stroke-width="2"/><text x="550" y="160" fill="#166534">1</text>
+    <rect x="620" y="132" width="60" height="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/><text x="650" y="160" fill="#6b7280">0</text>
+    <rect x="720" y="132" width="60" height="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/><text x="750" y="160" fill="#6b7280">0</text>
+    <rect x="790" y="132" width="60" height="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/><text x="820" y="160" fill="#6b7280">0</text>
+  </g>
+  <text x="55" y="160" text-anchor="end" font-size="13" fill="#555">bit</text>
+
+  <!-- remainder row -->
+  <g font-size="13" text-anchor="middle" fill="#9a3412">
+    <text x="150" y="200">168−128</text>
+    <text x="250" y="200">=40</text>
+    <text x="350" y="200">40−32</text>
+    <text x="450" y="200">=8</text>
+    <text x="550" y="200">8−8</text>
+    <text x="650" y="200">=0</text>
+    <text x="750" y="200">0</text>
+    <text x="820" y="200">0</text>
+  </g>
+  <text x="55" y="200" text-anchor="end" font-size="13" fill="#555">left</text>
+
+  <!-- result -->
+  <rect x="230" y="230" width="440" height="44" rx="10" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="450" y="258" text-anchor="middle" font-size="18" font-weight="bold" fill="#166534">168 = 10101000</text>
+
+  <!-- reverse -->
+  <rect x="150" y="300" width="600" height="90" rx="10" fill="#eef2ff" stroke="#3730a3" stroke-width="2"/>
+  <text x="450" y="328" text-anchor="middle" font-size="16" font-weight="bold" fill="#3730a3">Binary → Decimal: just add the "on" places</text>
+  <text x="450" y="356" text-anchor="middle" font-size="15" font-family="monospace" fill="#111">10101000 → 128 + 32 + 8 = 168</text>
+  <text x="450" y="380" text-anchor="middle" font-size="13" fill="#444">Add one way · subtract (biggest-first) the other</text>
+</svg>
