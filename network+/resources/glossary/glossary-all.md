@@ -20,13 +20,22 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
 
+## D
+
+- **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
+- **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
+
 ## E
 
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
 ## F
 
+- **File** — One saved item of information (a photo, note, or document). *(First taught: NA-M02-L01)*
+- **File Explorer** — The Windows tool that shows your files and folders. *(First taught: NA-M02-L01)*
+- **File path** — The address that lists each folder to open to reach a file. *(First taught: NA-M02-L01)*
 - **Firmware** — Software built into a device, like a switch, that rarely changes. *(First taught: NA-M01-L05)*
+- **Folder** — A container that holds files and other folders; also called a directory. *(First taught: NA-M02-L01)*
 
 ## G
 
@@ -86,4 +95,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M01-L06)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M02-L01)_
