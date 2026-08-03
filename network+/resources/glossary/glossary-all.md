@@ -28,6 +28,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Command** — A short instruction you type for the computer to run. *(First taught: NA-M02-L03)*
 - **Command line (CLI)** — A place where you type text commands instead of clicking. *(First taught: NA-M02-L03)*
 - **Command Prompt** — The classic, simple Windows terminal. *(First taught: NA-M02-L03)*
+- **Communicate** — To send and receive information between devices or people. *(First taught: NA-M04-L01)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
 - **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
@@ -87,6 +88,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## N
 
+- **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 
 ## O
@@ -114,6 +116,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
 - **Remainder** — What's left over after you subtract a place value. *(First taught: NA-M03-L03)*
 - **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
+- **Resource** — Something a network lets you share: a file, printer, or internet connection. *(First taught: NA-M04-L01)*
 - **Response** — The server's answer ("here it is"). *(First taught: NA-M01-L06)*
 
 ## S
@@ -123,7 +126,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Server** — A computer or program that provides something when asked. *(First taught: NA-M01-L06)*
 - **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
+- **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
+- **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
@@ -150,4 +155,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M03-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L01)_
