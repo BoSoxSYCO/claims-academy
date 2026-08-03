@@ -17,6 +17,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## B
 
 - **Backbone** — The single shared cable that a bus network is built on. *(First taught: NA-M04-L04)*
+- **Bandwidth** — The most data a link can carry (its capacity). *(First taught: NA-M04-L06)*
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
@@ -78,6 +79,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
 - **IPv4 address** — A device's network address: four bytes (0–255) written with dots. *(First taught: NA-M03-L05)*
 
+## J
+
+- **Jitter** — How much the latency (delay) changes from moment to moment. *(First taught: NA-M04-L06)*
+
 ## K
 
 - **Key line** — The one line in command output that has the answer you need. *(First taught: NA-M02-L05)*
@@ -86,14 +91,17 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Label** — The name on the left of an output line (before the colon). *(First taught: NA-M02-L05)*
 - **LAN (Local Area Network)** — A network in one place, like a home or office. *(First taught: NA-M04-L03)*
+- **Latency** — The delay — how long data takes to arrive (measured in ms). *(First taught: NA-M04-L06)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 
 ## M
 
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **MAN (Metropolitan Area Network)** — A network across a city. *(First taught: NA-M04-L03)*
+- **Mbps** — Megabits per second — millions of bits each second. *(First taught: NA-M04-L06)*
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
+- **Millisecond (ms)** — One thousandth of a second; the unit for latency. *(First taught: NA-M04-L06)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
 
 ## N
@@ -157,6 +165,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
+- **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 
@@ -179,4 +188,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M04-L06)_

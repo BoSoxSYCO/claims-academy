@@ -109,4 +109,21 @@ STAR        BUS            RING        MESH
 > **Remember:** client-server has a boss (the server); peer-to-peer is all equals.
 
 ---
+
+## Speed words: bandwidth, throughput, latency (Lesson 04-06)
+
+| Word | Plain meaning | Highway | Unit |
+|------|---------------|---------|------|
+| **Bandwidth** | the **most** a link can carry (capacity) | number of lanes | Mbps / Gbps |
+| **Throughput** | what **actually** gets through (usually less) | real traffic flow | Mbps |
+| **Latency** | the **delay** before data arrives | one car's trip time | **ms** |
+
+- **Two amounts (Mbps), one time (ms).** Latency is a delay, not a speed.
+- **Big bandwidth does NOT fix high latency** — a wider road doesn't shorten the trip.
+- `ping` **time=** is your latency. **Jitter** = how much latency wobbles.
+- Lag on calls → check **latency**. Slow downloads → check **throughput**.
+
+> **Remember:** bandwidth = can carry · throughput = does carry · latency = how long it takes.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 04_

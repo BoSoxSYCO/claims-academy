@@ -1,7 +1,7 @@
 # Module 04 — Networking Fundamentals
 
 **Phase:** Core Networking
-**Status:** In production (Lessons 04-01 → 04-05 Published) — Unit 2
+**Status:** ✅ Complete — all lessons (04-01 → 04-06) Published — Unit 2
 
 > **By the end of this module, you will be able to:** explain what a network is, why it exists, and the main types.
 
@@ -29,7 +29,7 @@ this board is updated:
 | 04-03 | [LAN, WAN, MAN, PAN, and WLAN Explained](lessons/04-03-lan-wan-man-pan-wlan.md) | ✅ Published |
 | 04-04 | [Network Topologies (Star, Bus, Ring, Mesh)](lessons/04-04-network-topologies.md) | ✅ Published |
 | 04-05 | [Client-Server vs. Peer-to-Peer](lessons/04-05-client-server-vs-peer-to-peer.md) | ✅ Published |
-| 04-06 | Bandwidth, throughput, and latency in plain words | Planned |
+| 04-06 | [Bandwidth, Throughput, and Latency in Plain Words](lessons/04-06-bandwidth-throughput-latency.md) | ✅ Published |
 
 Status values: `Planned → Drafting → In Review → Published`
 
