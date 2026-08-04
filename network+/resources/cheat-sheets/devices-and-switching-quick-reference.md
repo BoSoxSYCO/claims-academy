@@ -83,4 +83,31 @@ dest ZZ (unknown)        → flood all other ports → ZZ replies → now learne
 > **Remember:** each device has one job — AP = Wi-Fi, modem = ISP door, firewall = filter.
 
 ---
+
+## Managed switch & the Dell 3424 (Lesson 07-05)
+
+| | **Managed switch** | **Unmanaged switch** |
+|---|--------------------|----------------------|
+| Settings? | **Yes** — log in & configure | **No** — plug and play |
+| Features | VLANs, monitoring, port settings, remote mgmt | just forwards frames |
+| Cost / setup | more · needs setup | less · none |
+| Example | your **Dell 3424** | cheap home switch |
+
+**Dell PowerConnect 3424 front panel:**
+
+| Part | What it's for |
+|------|---------------|
+| **Access ports** (24, 10/100) | where your devices plug in |
+| **Uplink / Gigabit ports** | faster link up to a router or core switch |
+| **SFP slot** | holds a plug-in module (often fiber) |
+| **Console port** | **management only** — the first login (serial) |
+| **LEDs** | power, system, and per-port link/activity |
+
+- **Console port ≠ network port** — it manages the switch; no normal traffic.
+- **SFP** = a slot for a plug-in module (copper or fiber). **Uplink** = faster port to a router/core.
+- Exact Gigabit/SFP counts and LED colors vary by unit — **verify on your hardware**.
+
+> **Remember:** managed = log in & configure (your 3424); unmanaged = no settings. Console port is for the first login only.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 07_

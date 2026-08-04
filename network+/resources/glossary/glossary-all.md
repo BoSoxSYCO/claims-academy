@@ -12,6 +12,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## A
 
 - **Access point (AP)** — A device that lets wireless devices join a wired network. *(First taught: NA-M07-L04)*
+- **Access port** — A regular port on a switch where an end device, such as a PC, plugs in. *(First taught: NA-M07-L05)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Aging time** — How long a switch keeps a MAC entry before removing it. *(First taught: NA-M07-L02)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
@@ -51,6 +52,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
 - **Connector** — The plug on the end of a cable (the male part). *(First taught: NA-M06-L02)*
+- **Console port** — A management-only port on a switch, used for the first login with a console cable. *(First taught: NA-M07-L05)*
 - **Continuity** — Whether a wire has an unbroken path from end to end. *(First taught: NA-M06-L06)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
 - **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
@@ -146,6 +148,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **MAC address table** — The switch's list matching each MAC address to a port. *(First taught: NA-M07-L02)*
 - **MAN (Metropolitan Area Network)** — A network across a city. *(First taught: NA-M04-L03)*
+- **Managed switch** — A switch you can log into and configure (VLANs, monitoring, port settings). *(First taught: NA-M07-L05)*
 - **Map (verb)** — To line up one model's layers against another's. *(First taught: NA-M05-L03)*
 - **Mbps** — Megabits per second — millions of bits each second. *(First taught: NA-M04-L06)*
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
@@ -224,6 +227,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
 - **Session layer** — Layer 5 — starts, keeps, and ends a connection between apps. *(First taught: NA-M05-L02)*
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
+- **SFP (Small Form-factor Pluggable)** — A slot on a switch that holds a plug-in module, often for fiber. *(First taught: NA-M07-L05)*
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Short** — Two wires touching when they shouldn't, scrambling the signal. *(First taught: NA-M06-L06)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
@@ -260,6 +264,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## U
 
+- **Unmanaged switch** — A switch with no settings; it just forwards frames automatically. *(First taught: NA-M07-L05)*
+- **Uplink port** — A (usually faster) port that connects a switch up to a router or core switch. *(First taught: NA-M07-L05)*
 - **USB** — A common port shape used for many devices and adapters. *(First taught: NA-M01-L03)*
 - **User interface** — The part of the operating system you see and click: desktop, icons, menus. *(First taught: NA-M01-L04)*
 - **UTP (Unshielded Twisted Pair)** — Twisted-pair cable with no metal shield; common and cheap. *(First taught: NA-M06-L01)*
@@ -278,4 +284,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L05)_
