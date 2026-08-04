@@ -110,4 +110,24 @@ dest ZZ (unknown)        → flood all other ports → ZZ replies → now learne
 > **Remember:** managed = log in & configure (your 3424); unmanaged = no settings. Console port is for the first login only.
 
 ---
+
+## Console vs. web management (Lesson 07-06)
+
+| | **Console** | **Web** |
+|---|-------------|---------|
+| Path | direct **console cable** | **browser** over the network |
+| Term | **out-of-band** | **in-band** |
+| Needs network? | **No** — always works | **Yes** — needs the switch's IP |
+| Best for | the **first** login; network down | everyday changes on a live network |
+| Tools | terminal emulator (PuTTY) | any web browser |
+
+- **Serial settings:** **9600 8-N-1** (speed 9600 · 8 data · No parity · 1 stop · No flow). `[TO VERIFY ON HARDWARE]`
+- **Blank / garbage screen** → wrong **baud rate** (or wrong COM port).
+- **No serial port?** → **USB-to-serial** adapter → pick the **COM** port in the terminal.
+- **New switch has no IP** → you **must** start with the console.
+- Confirm default **login**, **baud rate**, and any default **IP** on **your** unit — never guess.
+
+> **Remember:** console = the physical key (out-of-band, always works, first login); web = the keypad (in-band, easy, needs an IP).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 07_

@@ -27,6 +27,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Bandwidth** — The most data a link can carry (its capacity). *(First taught: NA-M04-L06)*
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
 - **BASE-T** — Ethernet name format: number = speed, T = twisted-pair copper. *(First taught: NA-M06-L05)*
+- **Baud rate** — The speed of a serial console link (often 9600). *(First taught: NA-M07-L06)*
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
 - **Bluetooth** — A short-range wireless way to link nearby devices (a common PAN). *(First taught: NA-M04-L03)*
@@ -52,6 +53,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
 - **Connector** — The plug on the end of a cable (the male part). *(First taught: NA-M06-L02)*
+- **Console cable** — The cable that plugs your laptop straight into the switch's console port. *(First taught: NA-M07-L06)*
 - **Console port** — A management-only port on a switch, used for the first login with a console cable. *(First taught: NA-M07-L05)*
 - **Continuity** — Whether a wire has an unbroken path from end to end. *(First taught: NA-M06-L06)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
@@ -115,6 +117,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## I
 
 - **IDS/IPS** — Systems that detect (IDS) or block (IPS) attacks. *(First taught: NA-M07-L04)*
+- **In-band management** — Managing a device over the network itself (web, SSH). *(First taught: NA-M07-L06)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
 - **Interference** — Unwanted electrical noise that can harm a signal (also called EMI). *(First taught: NA-M06-L01)*
@@ -174,6 +177,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Open** — A broken or cut wire — no continuity, no signal. *(First taught: NA-M06-L06)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **OSI model** — The 7-layer reference model used to describe networks. *(First taught: NA-M05-L01)*
+- **Out-of-band management** — Managing a device over a path that is not the network (the console). *(First taught: NA-M07-L06)*
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
 - **Output device** — Hardware that sends information out to you (screen, speakers, printer). *(First taught: NA-M01-L03)*
 
@@ -254,6 +258,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **TCP/IP model** — The 4-layer practical model the internet actually uses. *(First taught: NA-M05-L01)*
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
+- **Terminal emulator** — A program (PuTTY, Tera Term) that shows the switch's text screen on your laptop. *(First taught: NA-M07-L06)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
@@ -277,6 +282,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## W
 
 - **WAN (Wide Area Network)** — A network over a long distance; the internet is one. *(First taught: NA-M04-L03)*
+- **Web management (GUI)** — A point-and-click web page for managing a switch in a browser. *(First taught: NA-M07-L06)*
 - **Web server** — A server that stores and sends web pages to browsers. *(First taught: NA-M04-L05)*
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 - **Wired link** — A link that uses a cable to connect two nodes. *(First taught: NA-M04-L02)*
@@ -284,4 +290,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L06)_
