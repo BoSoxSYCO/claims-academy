@@ -107,4 +107,22 @@ crossover:         T568A ──╳╳────── T568B   (like devices)
 > **Remember:** the number is the speed; the link runs at the slowest part.
 
 ---
+
+## Cable testing & common faults (Lesson 06-06)
+
+- **Faults:** **open** (broken wire) · **short** (wires touching) · **miswire** (wrong pinout) · **split pair** (crossed pairs — passes but errors) · **attenuation** (too long, >100 m) · **interference/EMI** (noise) · bad connector / kink.
+- **Continuity** = an unbroken end-to-end path; an **open** has none.
+- **Tools:** **cable tester** → opens/shorts/miswires (pin lights) · **tone generator + probe** → trace one cable in a bundle.
+
+**Check the basics first (troubleshooting order):**
+1. Link light? Plug seated (click)?
+2. Re-seat both ends.
+3. Swap a known-good cable.
+4. Check length (≤100 m) and route (away from power/motors).
+5. Test with a cable tester.
+6. Trace with a toner.
+
+> **Remember:** most "no link" problems are simple physical faults — swap a known-good cable first; a link light alone doesn't prove the wiring.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 06_

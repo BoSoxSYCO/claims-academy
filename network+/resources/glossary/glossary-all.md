@@ -14,6 +14,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
+- **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
 - **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
 - **Auto-negotiation** — Devices agreeing on the fastest speed and duplex they both support. *(First taught: NA-M06-L05)*
 
@@ -32,6 +33,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## C
 
 - **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
+- **Cable tester** — A tool that checks each wire end to end for opens, shorts, and miswires. *(First taught: NA-M06-L06)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
 - **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
@@ -43,6 +45,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
 - **Connector** — The plug on the end of a cable (the male part). *(First taught: NA-M06-L02)*
+- **Continuity** — Whether a wire has an unbroken path from end to end. *(First taught: NA-M06-L06)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
 - **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
 - **Copper cable** — A cable of copper wires that carry electrical signals. *(First taught: NA-M06-L01)*
@@ -150,6 +153,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## O
 
 - **Octet** — One byte (8 bits) of an IPv4 address — one of the four numbers. *(First taught: NA-M03-L05)*
+- **Open** — A broken or cut wire — no continuity, no signal. *(First taught: NA-M06-L06)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **OSI model** — The 7-layer reference model used to describe networks. *(First taught: NA-M05-L01)*
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
@@ -202,6 +206,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Session layer** — Layer 5 — starts, keeps, and ends a connection between apps. *(First taught: NA-M05-L02)*
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
+- **Short** — Two wires touching when they shouldn't, scrambling the signal. *(First taught: NA-M06-L06)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
 - **Single-mode fiber (SMF)** — Thin-core fiber with one light path; laser; longest distances. *(First taught: NA-M06-L03)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
@@ -226,6 +231,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
+- **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
 - **Trailer** — A small label the Data Link layer adds to the end (for error checking). *(First taught: NA-M05-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
@@ -252,4 +258,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L06)_
