@@ -28,6 +28,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## C
 
+- **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
@@ -39,7 +40,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
 - **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
+- **Copper cable** — A cable of copper wires that carry electrical signals. *(First taught: NA-M06-L01)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
+- **Crosstalk** — Noise that leaks from one pair of wires onto another. *(First taught: NA-M06-L01)*
 
 ## D
 
@@ -85,6 +88,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
+- **Interference** — Unwanted electrical noise that can harm a signal (also called EMI). *(First taught: NA-M06-L01)*
 - **Internet layer** — The TCP/IP layer that routes between networks with IP (OSI 3). *(First taught: NA-M05-L03)*
 - **IP (Internet Protocol)** — The rule-set for addressing and routing data between networks. *(First taught: NA-M05-L03)*
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
@@ -186,6 +190,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
+- **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
 
 ## T
@@ -200,11 +205,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Trailer** — A small label the Data Link layer adds to the end (for error checking). *(First taught: NA-M05-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 - **Transport layer** — Layer 4 — splits data, checks it arrives, uses ports. *(First taught: NA-M05-L02)*
+- **Twisted pair** — Two copper wires twisted together to cancel interference. *(First taught: NA-M06-L01)*
 
 ## U
 
 - **USB** — A common port shape used for many devices and adapters. *(First taught: NA-M01-L03)*
 - **User interface** — The part of the operating system you see and click: desktop, icons, menus. *(First taught: NA-M01-L04)*
+- **UTP (Unshielded Twisted Pair)** — Twisted-pair cable with no metal shield; common and cheap. *(First taught: NA-M06-L01)*
 
 ## V
 
@@ -220,4 +227,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L01)_

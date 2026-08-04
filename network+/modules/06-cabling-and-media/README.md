@@ -1,7 +1,7 @@
 # Module 06 — Cabling, Connectors & Physical Media
 
 **Phase:** Core Networking
-**Status:** Planned (content not yet produced)
+**Status:** In production (Lesson 06-01 Published) — Unit 3
 
 > **By the end of this module, you will be able to:** identify, choose, build, and test the physical cables of a network.
 
@@ -22,9 +22,14 @@ The full, exam-mapped lesson list for this module lives in the
 [Curriculum Roadmap](../../docs/CURRICULUM-ROADMAP.md). As lessons are built,
 this board is updated:
 
-| Lesson | Status |
-|--------|--------|
-| _Populated during production_ | Planned |
+| Lesson | Title | Status |
+|--------|-------|--------|
+| 06-01 | [Copper Cables: Twisted Pair (Cat5e–Cat8)](lessons/06-01-copper-twisted-pair.md) | ✅ Published |
+| 06-02 | Connectors and jacks (RJ45, keystones) | Planned |
+| 06-03 | Fiber optic basics (single vs. multimode) | Planned |
+| 06-04 | Straight-through vs. crossover, T568A/B | Planned |
+| 06-05 | Ethernet standards and speeds | Planned |
+| 06-06 | Cable testing and common physical problems | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
 

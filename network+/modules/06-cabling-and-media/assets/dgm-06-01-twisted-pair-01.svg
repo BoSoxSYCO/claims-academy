@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Inside a twisted-pair cable and the category ladder</title>
+  <desc id="desc">A cut-away of a twisted-pair cable showing four numbered twisted pairs of copper inside a jacket, a comparison of unshielded UTP and shielded STP versions, and a ladder of categories from Cat5e at 1 gigabit up to Cat8 at 25 to 40 gigabits.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Inside a twisted-pair copper cable</text>
+
+  <!-- Cable cross-section -->
+  <text x="180" y="66" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">Cross-section: 4 pairs (8 wires)</text>
+  <rect x="60" y="80" width="240" height="120" rx="18" fill="#eff6ff" stroke="#334155" stroke-width="3"/>
+  <text x="180" y="98" text-anchor="middle" font-size="11" fill="#334155">jacket (outer cover)</text>
+  <!-- pair 1 -->
+  <circle cx="120" cy="135" r="15" fill="#fca5a5" stroke="#7f1d1d" stroke-width="2"/>
+  <circle cx="150" cy="135" r="15" fill="#fecaca" stroke="#7f1d1d" stroke-width="2"/>
+  <text x="135" y="139" text-anchor="middle" font-size="11" fill="#7f1d1d">1</text>
+  <!-- pair 2 -->
+  <circle cx="205" cy="135" r="15" fill="#93c5fd" stroke="#1e3a8a" stroke-width="2"/>
+  <circle cx="235" cy="135" r="15" fill="#bfdbfe" stroke="#1e3a8a" stroke-width="2"/>
+  <text x="220" y="139" text-anchor="middle" font-size="11" fill="#1e3a8a">2</text>
+  <!-- pair 3 -->
+  <circle cx="120" cy="172" r="15" fill="#86efac" stroke="#14532d" stroke-width="2"/>
+  <circle cx="150" cy="172" r="15" fill="#bbf7d0" stroke="#14532d" stroke-width="2"/>
+  <text x="135" y="176" text-anchor="middle" font-size="11" fill="#14532d">3</text>
+  <!-- pair 4 -->
+  <circle cx="205" cy="172" r="15" fill="#fcd34d" stroke="#78350f" stroke-width="2"/>
+  <circle cx="235" cy="172" r="15" fill="#fde68a" stroke="#78350f" stroke-width="2"/>
+  <text x="220" y="176" text-anchor="middle" font-size="11" fill="#78350f">4</text>
+
+  <!-- UTP vs STP -->
+  <text x="560" y="66" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">UTP vs STP</text>
+  <rect x="400" y="82" width="150" height="110" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="475" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">UTP (no shield)</text>
+  <circle cx="450" cy="145" r="12" fill="#93c5fd" stroke="#1e3a8a" stroke-width="2"/>
+  <circle cx="478" cy="145" r="12" fill="#86efac" stroke="#14532d" stroke-width="2"/>
+  <circle cx="506" cy="145" r="12" fill="#fca5a5" stroke="#7f1d1d" stroke-width="2"/>
+  <text x="475" y="182" text-anchor="middle" font-size="10" fill="#334155">common · cheap</text>
+
+  <rect x="575" y="82" width="150" height="110" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="650" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">STP (shielded)</text>
+  <rect x="608" y="122" width="86" height="46" rx="10" fill="none" stroke="#6b7280" stroke-width="3" stroke-dasharray="4 3"/>
+  <text x="651" y="118" text-anchor="middle" font-size="9" fill="#6b7280">metal shield</text>
+  <circle cx="628" cy="145" r="11" fill="#93c5fd" stroke="#1e3a8a" stroke-width="2"/>
+  <circle cx="652" cy="145" r="11" fill="#86efac" stroke="#14532d" stroke-width="2"/>
+  <circle cx="676" cy="145" r="11" fill="#fca5a5" stroke="#7f1d1d" stroke-width="2"/>
+  <text x="650" y="182" text-anchor="middle" font-size="10" fill="#334155">blocks extra noise</text>
+
+  <!-- Twist explanation -->
+  <text x="180" y="235" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">The twist cancels noise</text>
+  <text x="180" y="258" text-anchor="middle" font-size="12" fill="#b91c1c">straight wires: noise adds up (bad)</text>
+  <text x="180" y="278" text-anchor="middle" font-size="12" fill="#166534">twisted wires: noise cancels (good)</text>
+
+  <!-- Category ladder -->
+  <text x="450" y="322" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Category ladder — grade sets the top speed</text>
+  <g stroke="#334155" stroke-width="2">
+    <rect x="55"  y="340" width="150" height="70" rx="8" fill="#fee2e2"/>
+    <rect x="225" y="340" width="150" height="70" rx="8" fill="#fed7aa"/>
+    <rect x="395" y="340" width="150" height="70" rx="8" fill="#fef08a"/>
+    <rect x="565" y="340" width="150" height="70" rx="8" fill="#bbf7d0"/>
+    <rect x="735" y="340" width="110" height="70" rx="8" fill="#bfdbfe"/>
+  </g>
+  <g text-anchor="middle" font-weight="bold" font-size="15" fill="#111">
+    <text x="130" y="368">Cat5e</text>
+    <text x="300" y="368">Cat6</text>
+    <text x="470" y="368">Cat6a</text>
+    <text x="640" y="368">Cat7</text>
+    <text x="790" y="368">Cat8</text>
+  </g>
+  <g text-anchor="middle" font-size="11" fill="#333">
+    <text x="130" y="388">1 Gbps</text>
+    <text x="130" y="403">100 m</text>
+    <text x="300" y="388">1 Gbps</text>
+    <text x="300" y="403">(10G ≤55 m)</text>
+    <text x="470" y="388">10 Gbps</text>
+    <text x="470" y="403">100 m</text>
+    <text x="640" y="388">10 Gbps</text>
+    <text x="640" y="403">shielded</text>
+    <text x="790" y="388">25–40 Gbps</text>
+    <text x="790" y="403">≤30 m</text>
+  </g>
+  <text x="450" y="435" text-anchor="middle" font-size="12" fill="#475569">Higher category = higher top speed. Standard twisted-pair run limit = 100 m.</text>
+</svg>
