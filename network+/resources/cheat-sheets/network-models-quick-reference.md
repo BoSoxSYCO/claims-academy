@@ -99,4 +99,22 @@ The internet's own model — **4 layers** (bottom → top): Network Access · In
 > **Remember:** a "packet" is data wrapped with an IP header; a "frame" is data wrapped with a MAC header.
 
 ---
+
+## One packet, end to end (Lesson 05-05)
+
+- **Down** the sender (encapsulate) → **across** the network → **up** the receiver (de-encapsulate).
+- **Switch** = Layer 2, reads **MAC** (local delivery). **Router** = Layer 3, reads **IP** (picks next hop, builds a new frame).
+- **IP = end-to-end** — the destination IP never changes from sender to receiver.
+- **MAC = hop-to-hop** — a fresh MAC pair for every link crossed.
+- One link = a **hop**; request + reply = a **round trip**. See hops with **`tracert <site>`**.
+
+```
+[Laptop] → [Switch L2] → [Router L3] === internet === [Router L3] → [Server]
+   IP:  SERVER-IP ......... same the whole way (end-to-end) .........
+   MAC: changes at every hop (hop-to-hop)
+```
+
+> **Remember:** the destination IP is the house address (never changes); the MAC is the "next truck" label (changes each hop).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 05_

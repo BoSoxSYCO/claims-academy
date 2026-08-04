@@ -47,6 +47,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **De-encapsulation** — Unwrapping the headers at each layer, going up the stack. *(First taught: NA-M05-L04)*
 - **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
+- **Destination address** — The address the data is going to. *(First taught: NA-M05-L05)*
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
@@ -55,6 +56,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## E
 
 - **Encapsulation** — Wrapping data with a header at each layer, going down the stack. *(First taught: NA-M05-L04)*
+- **End-to-end** — Staying the same from the first sender to the final receiver (like the IP). *(First taught: NA-M05-L05)*
 - **Endpoint** — A node that sends or gets information, like a laptop or phone. *(First taught: NA-M04-L02)*
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
@@ -76,6 +78,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Hardware** — The physical parts of a computer that you can touch. *(First taught: NA-M01-L01)*
 - **Header** — A small label a layer adds to the front, holding its control info. *(First taught: NA-M05-L04)*
 - **Hexadecimal (hex)** — A base-16 number system using digits 0–9 and A–F. *(First taught: NA-M03-L04)*
+- **Hop** — One step from one device to the next along the path. *(First taught: NA-M05-L05)*
+- **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
 
 ## I
 
@@ -160,6 +164,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Resource** — Something a network lets you share: a file, printer, or internet connection. *(First taught: NA-M04-L01)*
 - **Response** — The server's answer ("here it is"). *(First taught: NA-M01-L06)*
 - **Ring topology** — A network shape where each node connects to two neighbors, forming a loop. *(First taught: NA-M04-L04)*
+- **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
 
 ## S
 
@@ -174,6 +179,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
+- **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
 - **Star topology** — A network shape where every node connects to one central device. *(First taught: NA-M04-L04)*
@@ -214,4 +220,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M05-L05)_

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">One packet's journey: IP stays the same, MAC changes each hop</title>
+  <desc id="desc">A path from a laptop through a switch and a router, across the internet, to another router and a web server. A destination IP label stays the same value the whole way, while the MAC address label changes at each device. The switch is tagged Layer 2 and the routers are tagged Layer 3, and a return arrow shows the round trip.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">One request, end to end</text>
+
+  <!-- device boxes across the top -->
+  <g font-size="12" text-anchor="middle">
+    <rect x="30"  y="70" width="110" height="54" rx="8" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+    <text x="85" y="94" font-weight="bold" fill="#1e40af">Laptop</text>
+    <text x="85" y="112" fill="#1e40af">L1–L7 down</text>
+
+    <rect x="190" y="70" width="110" height="54" rx="8" fill="#e0e7ff" stroke="#4338ca" stroke-width="2"/>
+    <text x="245" y="94" font-weight="bold" fill="#4338ca">Switch</text>
+    <text x="245" y="112" fill="#4338ca">L2 · reads MAC</text>
+
+    <rect x="350" y="70" width="110" height="54" rx="8" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+    <text x="405" y="94" font-weight="bold" fill="#166534">Router</text>
+    <text x="405" y="112" fill="#166534">L3 · reads IP</text>
+
+    <ellipse cx="565" cy="97" rx="70" ry="34" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+    <text x="565" y="94" font-weight="bold" fill="#334155">Internet</text>
+    <text x="565" y="112" fill="#334155">many hops</text>
+
+    <rect x="660" y="70" width="100" height="54" rx="8" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+    <text x="710" y="94" font-weight="bold" fill="#166534">Router</text>
+    <text x="710" y="112" fill="#166534">L3 · reads IP</text>
+
+    <rect x="780" y="70" width="100" height="54" rx="8" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+    <text x="830" y="94" font-weight="bold" fill="#1e40af">Server</text>
+    <text x="830" y="112" fill="#1e40af">L1–L7 up</text>
+  </g>
+
+  <!-- forward arrows -->
+  <g stroke="#111" stroke-width="2" marker-end="url(#fw)">
+    <line x1="140" y1="97" x2="188" y2="97"/>
+    <line x1="300" y1="97" x2="348" y2="97"/>
+    <line x1="460" y1="97" x2="493" y2="97"/>
+    <line x1="637" y1="97" x2="658" y2="97"/>
+    <line x1="760" y1="97" x2="778" y2="97"/>
+  </g>
+  <defs>
+    <marker id="fw" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#111"/>
+    </marker>
+  </defs>
+
+  <!-- IP track (constant) -->
+  <rect x="30" y="170" width="850" height="70" rx="8" fill="#ecfdf5" stroke="#166534" stroke-width="2"/>
+  <text x="45" y="195" font-size="14" font-weight="bold" fill="#166534">Destination IP  (END-TO-END — never changes)</text>
+  <g font-size="13" fill="#166534" text-anchor="middle">
+    <text x="130" y="224">SERVER-IP</text>
+    <text x="320" y="224">SERVER-IP</text>
+    <text x="565" y="224">SERVER-IP</text>
+    <text x="770" y="224">SERVER-IP</text>
+  </g>
+
+  <!-- MAC track (changes) -->
+  <rect x="30" y="255" width="850" height="80" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="45" y="280" font-size="14" font-weight="bold" fill="#b91c1c">MAC address  (HOP-TO-HOP — changes every link)</text>
+  <g font-size="12" fill="#b91c1c" text-anchor="middle">
+    <text x="130" y="312">laptop → switch</text>
+    <text x="320" y="312">switch → router</text>
+    <text x="500" y="312">router → next</text>
+    <text x="680" y="312">next → router</text>
+    <text x="820" y="312">router → server</text>
+  </g>
+
+  <!-- round trip arrow -->
+  <line x1="820" y1="360" x2="90" y2="360" stroke="#6d28d9" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#rt)"/>
+  <text x="450" y="352" text-anchor="middle" font-size="12" fill="#6d28d9">the page returns the same route = one ROUND TRIP</text>
+  <defs>
+    <marker id="rt" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#6d28d9"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="410" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Switch reads MAC (L2) · Router reads IP (L3) and builds a new frame each hop.</text>
+  <text x="450" y="434" text-anchor="middle" font-size="12" fill="#475569">The packet (IP) rides all the way; the frame (MAC) is rebuilt at every hop.</text>
+</svg>
