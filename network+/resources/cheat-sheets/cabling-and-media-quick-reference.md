@@ -70,4 +70,21 @@ SMF: ══>──────────>  (laser, far)   MMF: ══>╱╲�
 > **Remember:** copper = electricity (EMI, 100 m limit); fiber = light (no EMI, goes far).
 
 ---
+
+## Wiring: straight-through vs crossover (Lesson 06-04)
+
+- **Pinout** = the wire order in the RJ45. Two standards: **T568A** and **T568B** — they **swap orange & green** (blue and brown stay put).
+- **Straight-through** = **same** standard both ends → **unlike** devices (PC ↔ switch, switch ↔ router). *Everyday cable.*
+- **Crossover** = **T568A one end + T568B other** → **like** devices (PC ↔ PC, switch ↔ switch on old gear).
+- **Auto-MDI-X** (modern gear) auto-fixes crossover → **straight-through works almost everywhere** now.
+- **Read a cable:** hold both ends **tab-down**, pins toward you; orange/green swapped between ends = crossover.
+
+```
+straight-through:  T568B ───────── T568B   (unlike devices)
+crossover:         T568A ──╳╳────── T568B   (like devices)
+```
+
+> **Remember:** same both ends = straight-through (PC↔switch); A/B mixed = crossover (PC↔PC). Auto-MDI-X saves the day.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 06_

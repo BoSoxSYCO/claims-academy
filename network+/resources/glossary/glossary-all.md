@@ -14,6 +14,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
+- **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
 
 ## B
 
@@ -45,6 +46,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Copper cable** — A cable of copper wires that carry electrical signals. *(First taught: NA-M06-L01)*
 - **Core** — The thin glass center that the light travels through. *(First taught: NA-M06-L03)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
+- **Crossover cable** — A cable using T568A on one end and T568B on the other (like devices). *(First taught: NA-M06-L04)*
 - **Crosstalk** — Noise that leaks from one pair of wires onto another. *(First taught: NA-M06-L01)*
 
 ## D
@@ -161,6 +163,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Physical layer** — Layer 1 — the wire, fiber, or radio and the raw bits on it. *(First taught: NA-M05-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
+- **Pinout** — The order the 8 wires are placed into the RJ45's pins. *(First taught: NA-M06-L04)*
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
@@ -204,10 +207,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
+- **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
 - **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
 
 ## T
 
+- **T568A** — One standard RJ45 wire order; swaps orange/green vs. T568B. *(First taught: NA-M06-L04)*
+- **T568B** — The most common US wire order for RJ45. *(First taught: NA-M06-L04)*
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
 - **TCP (Transmission Control Protocol)** — A rule-set for splitting data and making sure it arrives in order. *(First taught: NA-M05-L03)*
 - **TCP/IP model** — The 4-layer practical model the internet actually uses. *(First taught: NA-M05-L01)*
@@ -240,4 +246,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L04)_
