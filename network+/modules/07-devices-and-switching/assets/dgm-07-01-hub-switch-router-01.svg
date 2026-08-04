@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Hub, switch, and router compared</title>
+  <desc id="desc">Three panels: a hub at Layer 1 copying one message out to every connected computer; a switch at Layer 2 sending a message to only the one correct computer using its MAC address; and a router at Layer 3 connecting a home network to the internet using IP addresses.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Hub vs. switch vs. router</text>
+
+  <!-- HUB panel -->
+  <rect x="20" y="50" width="280" height="330" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="160" y="74" text-anchor="middle" font-size="16" font-weight="bold" fill="#b91c1c">Hub — Layer 1</text>
+  <text x="160" y="94" text-anchor="middle" font-size="12" fill="#7f1d1d">repeats to ALL ports · no address</text>
+  <rect x="120" y="200" width="80" height="34" rx="5" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+  <text x="160" y="222" text-anchor="middle" font-size="12" fill="#7f1d1d">HUB</text>
+  <g fill="#dbeafe" stroke="#1e40af" stroke-width="1.5">
+    <rect x="60" y="120" width="60" height="28" rx="4"/>
+    <rect x="200" y="120" width="60" height="28" rx="4"/>
+    <rect x="60" y="290" width="60" height="28" rx="4"/>
+    <rect x="200" y="290" width="60" height="28" rx="4"/>
+  </g>
+  <g font-size="10" fill="#1e40af" text-anchor="middle"><text x="90" y="138">PC-A</text><text x="230" y="138">PC</text><text x="90" y="308">PC</text><text x="230" y="308">PC</text></g>
+  <g stroke="#b91c1c" stroke-width="2" marker-end="url(#red)">
+    <line x1="140" y1="200" x2="100" y2="150"/>
+    <line x1="180" y1="200" x2="220" y2="150"/>
+    <line x1="140" y1="234" x2="100" y2="288"/>
+    <line x1="180" y1="234" x2="220" y2="288"/>
+  </g>
+  <text x="160" y="360" text-anchor="middle" font-size="11" fill="#7f1d1d">msg to A reaches everyone (noisy)</text>
+
+  <!-- SWITCH panel -->
+  <rect x="310" y="50" width="280" height="330" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="450" y="74" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Switch — Layer 2</text>
+  <text x="450" y="94" text-anchor="middle" font-size="12" fill="#1e3a8a">reads MAC · to the ONE right port</text>
+  <rect x="410" y="200" width="80" height="34" rx="5" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="450" y="222" text-anchor="middle" font-size="12" fill="#1e3a8a">SWITCH</text>
+  <g fill="#dbeafe" stroke="#1e40af" stroke-width="1.5">
+    <rect x="350" y="120" width="60" height="28" rx="4"/>
+    <rect x="490" y="120" width="60" height="28" rx="4"/>
+    <rect x="350" y="290" width="60" height="28" rx="4"/>
+    <rect x="490" y="290" width="60" height="28" rx="4"/>
+  </g>
+  <g font-size="10" fill="#1e40af" text-anchor="middle"><text x="380" y="138">PC-A</text><text x="520" y="138">PC</text><text x="380" y="308">PC</text><text x="520" y="308">PC</text></g>
+  <g stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="430" y1="200" x2="510" y2="150"/>
+    <line x1="430" y1="234" x2="390" y2="288"/>
+    <line x1="470" y1="234" x2="510" y2="288"/>
+  </g>
+  <line x1="430" y1="200" x2="390" y2="150" stroke="#1d4ed8" stroke-width="3" marker-end="url(#blue)"/>
+  <text x="450" y="360" text-anchor="middle" font-size="11" fill="#1e3a8a">msg to A goes ONLY to A (quiet)</text>
+
+  <!-- ROUTER panel -->
+  <rect x="600" y="50" width="280" height="330" rx="10" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+  <text x="740" y="74" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">Router — Layer 3</text>
+  <text x="740" y="94" text-anchor="middle" font-size="12" fill="#14532d">reads IP · connects networks</text>
+  <rect x="640" y="150" width="200" height="60" rx="8" fill="#dcfce7" stroke="#166534" stroke-width="1.5"/>
+  <text x="740" y="185" text-anchor="middle" font-size="12" fill="#14532d">your home network</text>
+  <rect x="700" y="235" width="80" height="34" rx="5" fill="#86efac" stroke="#166534" stroke-width="2"/>
+  <text x="740" y="257" text-anchor="middle" font-size="12" fill="#14532d">ROUTER</text>
+  <ellipse cx="740" cy="320" rx="90" ry="34" fill="#e2e8f0" stroke="#334155" stroke-width="1.5"/>
+  <text x="740" y="325" text-anchor="middle" font-size="13" fill="#334155">the internet</text>
+  <line x1="740" y1="210" x2="740" y2="234" stroke="#166534" stroke-width="3"/>
+  <line x1="740" y1="269" x2="740" y2="287" stroke="#166534" stroke-width="3" marker-end="url(#green)"/>
+
+  <defs>
+    <marker id="red" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#b91c1c"/></marker>
+    <marker id="blue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#1d4ed8"/></marker>
+    <marker id="green" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#166534"/></marker>
+  </defs>
+
+  <text x="450" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Address → device:  none = hub (L1) · MAC = switch (L2) · IP = router (L3)</text>
+  <text x="450" y="430" text-anchor="middle" font-size="12" fill="#475569">Smarter device = higher layer. Your home box is all three in one.</text>
+</svg>

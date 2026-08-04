@@ -98,6 +98,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Hexadecimal (hex)** — A base-16 number system using digits 0–9 and A–F. *(First taught: NA-M03-L04)*
 - **Hop** — One step from one device to the next along the path. *(First taught: NA-M05-L05)*
 - **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
+- **Hub** — A Layer 1 device that repeats every incoming signal out all ports. *(First taught: NA-M07-L01)*
 
 ## I
 
@@ -187,6 +188,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
 - **Remainder** — What's left over after you subtract a place value. *(First taught: NA-M03-L03)*
+- **Repeater** — A Layer 1 device that boosts a weak signal so it travels farther. *(First taught: NA-M07-L01)*
 - **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
 - **Resource** — Something a network lets you share: a file, printer, or internet connection. *(First taught: NA-M04-L01)*
 - **Response** — The server's answer ("here it is"). *(First taught: NA-M01-L06)*
@@ -194,6 +196,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **RJ11** — A smaller connector used for telephones (fewer pins). *(First taught: NA-M06-L02)*
 - **RJ45** — The 8-pin connector used for twisted-pair Ethernet. *(First taught: NA-M06-L02)*
 - **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
+- **Router** — A Layer 3 device that connects different networks using IP addresses. *(First taught: NA-M07-L01)*
 
 ## S
 
@@ -220,6 +223,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
 - **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
+- **Switch** — A Layer 2 device that learns MAC addresses and forwards to the right port. *(First taught: NA-M07-L01)*
 
 ## T
 
@@ -258,4 +262,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L06)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L01)_
