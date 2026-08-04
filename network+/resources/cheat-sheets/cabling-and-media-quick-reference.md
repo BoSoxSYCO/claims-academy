@@ -87,4 +87,24 @@ crossover:         T568A ──╳╳────── T568B   (like devices)
 > **Remember:** same both ends = straight-through (PC↔switch); A/B mixed = crossover (PC↔PC). Auto-MDI-X saves the day.
 
 ---
+
+## Ethernet standards & speeds (Lesson 06-05)
+
+- **Ethernet** = the rules for wired LANs (IEEE 802.3).
+- **Read the name** (e.g., 1000BASE-T): number = **speed (Mbps)** · **BASE** = normal Ethernet · last letter = **medium** (T = copper; F/S/L = fiber).
+
+| Standard | Speed | Cable | Distance |
+|----------|-------|-------|----------|
+| **10BASE-T** | 10 Mbps | Cat3+ | 100 m |
+| **100BASE-TX** (Fast) | 100 Mbps | Cat5+ | 100 m |
+| **1000BASE-T** (Gigabit) | 1 Gbps | Cat5e+ | 100 m |
+| **10GBASE-T** | 10 Gbps | Cat6a | 100 m |
+
+- **Auto-negotiation** = devices pick the fastest speed/duplex they both support.
+- **Duplex:** full = send+receive at once (modern); half = one at a time (old).
+- **Slowest part wins:** device + port + cable must all support the speed.
+
+> **Remember:** the number is the speed; the link runs at the slowest part.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 06_

@@ -15,12 +15,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
 - **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
+- **Auto-negotiation** — Devices agreeing on the fastest speed and duplex they both support. *(First taught: NA-M06-L05)*
 
 ## B
 
 - **Backbone** — The single shared cable that a bus network is built on. *(First taught: NA-M04-L04)*
 - **Bandwidth** — The most data a link can carry (its capacity). *(First taught: NA-M04-L06)*
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
+- **BASE-T** — Ethernet name format: number = speed, T = twisted-pair copper. *(First taught: NA-M06-L05)*
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
 - **Bluetooth** — A short-range wireless way to link nearby devices (a common PAN). *(First taught: NA-M04-L03)*
@@ -60,16 +62,19 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
+- **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
 
 ## E
 
 - **Encapsulation** — Wrapping data with a header at each layer, going down the stack. *(First taught: NA-M05-L04)*
 - **End-to-end** — Staying the same from the first sender to the final receiver (like the IP). *(First taught: NA-M05-L05)*
 - **Endpoint** — A node that sends or gets information, like a laptop or phone. *(First taught: NA-M04-L02)*
+- **Ethernet** — The family of rules for wired local networks (IEEE 802.3). *(First taught: NA-M06-L05)*
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
 ## F
 
+- **Fast Ethernet** — The 100 Mbps Ethernet standard (100BASE-TX). *(First taught: NA-M06-L05)*
 - **Fiber optic cable** — A cable that carries data as pulses of light through glass. *(First taught: NA-M06-L03)*
 - **File** — One saved item of information (a photo, note, or document). *(First taught: NA-M02-L01)*
 - **File Explorer** — The Windows tool that shows your files and folders. *(First taught: NA-M02-L01)*
@@ -80,6 +85,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## G
 
+- **Gigabit Ethernet** — The 1 Gbps Ethernet standard (1000BASE-T). *(First taught: NA-M06-L05)*
 - **Gigabyte (GB)** — A unit for measuring memory and storage size; more GB means more room. *(First taught: NA-M01-L02)*
 
 ## H
@@ -246,4 +252,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L05)_
