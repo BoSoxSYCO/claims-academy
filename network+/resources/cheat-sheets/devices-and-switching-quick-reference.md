@@ -26,4 +26,22 @@ ROUTER (L3): home network ── router ── internet (IP)
 > **Remember:** hub shouts to the room, switch delivers to the right desk (MAC), router mails between buildings (IP).
 
 ---
+
+## How a switch learns (Lesson 07-02)
+
+- **MAC address table** = the switch's **MAC → port** list, built by itself.
+- **Learn:** read the **source** MAC of each frame → record MAC → port.
+- **Forward:** destination **known** → send out that **one** port (quiet).
+- **Flood:** destination **unknown** or **broadcast** (`FF:FF:FF:FF:FF:FF`) → send out **all** ports except the source.
+- **Aging:** idle entries are removed after the aging time (often ~5 min).
+
+```
+frame from AA on port 1  → table: AA → 1        (LEARN from source)
+dest BB (known, port 3)  → forward out port 3   (one port)
+dest ZZ (unknown)        → flood all other ports → ZZ replies → now learned
+```
+
+> **Remember:** **source to learn, destination to forward.** Flooding unknown/broadcast frames is normal, not a fault.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 07_

@@ -12,6 +12,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## A
 
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
+- **Aging time** — How long a switch keeps a MAC entry before removing it. *(First taught: NA-M07-L02)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
@@ -27,6 +28,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
 - **Bluetooth** — A short-range wireless way to link nearby devices (a common PAN). *(First taught: NA-M04-L03)*
+- **Broadcast** — A frame addressed to every device (`FF:FF:FF:FF:FF:FF`). *(First taught: NA-M07-L02)*
 - **Bus topology** — A network shape where all nodes share one backbone cable. *(First taught: NA-M04-L04)*
 - **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
 
@@ -83,7 +85,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **File Explorer** — The Windows tool that shows your files and folders. *(First taught: NA-M02-L01)*
 - **File path** — The address that lists each folder to open to reach a file. *(First taught: NA-M02-L01)*
 - **Firmware** — Software built into a device, like a switch, that rarely changes. *(First taught: NA-M01-L05)*
+- **Flood** — To send a frame out all ports except the one it came in on. *(First taught: NA-M07-L02)*
 - **Folder** — A container that holds files and other folders; also called a directory. *(First taught: NA-M02-L01)*
+- **Forward** — To send a frame out the one port where the destination lives. *(First taught: NA-M07-L02)*
 - **Frame** — The Data Link-layer PDU (data plus a MAC header and trailer). *(First taught: NA-M05-L04)*
 
 ## G
@@ -132,6 +136,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## M
 
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
+- **MAC address table** — The switch's list matching each MAC address to a port. *(First taught: NA-M07-L02)*
 - **MAN (Metropolitan Area Network)** — A network across a city. *(First taught: NA-M04-L03)*
 - **Map (verb)** — To line up one model's layers against another's. *(First taught: NA-M05-L03)*
 - **Mbps** — Megabits per second — millions of bits each second. *(First taught: NA-M04-L06)*
@@ -262,4 +267,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L02)_
