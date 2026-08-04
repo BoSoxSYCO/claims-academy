@@ -30,6 +30,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
+- **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
 - **Command** — A short instruction you type for the computer to run. *(First taught: NA-M02-L03)*
@@ -42,6 +43,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
 - **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
 - **Copper cable** — A cable of copper wires that carry electrical signals. *(First taught: NA-M06-L01)*
+- **Core** — The thin glass center that the light travels through. *(First taught: NA-M06-L03)*
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
 - **Crosstalk** — Noise that leaks from one pair of wires onto another. *(First taught: NA-M06-L01)*
 
@@ -66,6 +68,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## F
 
+- **Fiber optic cable** — A cable that carries data as pulses of light through glass. *(First taught: NA-M06-L03)*
 - **File** — One saved item of information (a photo, note, or document). *(First taught: NA-M02-L01)*
 - **File Explorer** — The Windows tool that shows your files and folders. *(First taught: NA-M02-L01)*
 - **File path** — The address that lists each folder to open to reach a file. *(First taught: NA-M02-L01)*
@@ -123,7 +126,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
 - **Millisecond (ms)** — One thousandth of a second; the unit for latency. *(First taught: NA-M04-L06)*
+- **Mode** — A path that light can take down the fiber's core. *(First taught: NA-M06-L03)*
 - **Model** — A simplified plan of a complex thing, showing just the needed parts. *(First taught: NA-M05-L01)*
+- **Multimode fiber (MMF)** — Wider-core fiber with many light paths; LED; shorter distances. *(First taught: NA-M06-L03)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
 
 ## N
@@ -189,6 +194,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
+- **Single-mode fiber (SMF)** — Thin-core fiber with one light path; laser; longest distances. *(First taught: NA-M06-L03)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
@@ -234,4 +240,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L03)_

@@ -48,4 +48,26 @@ building:  wall keystone jack —patch cable— PATCH PANEL —patch cable— sw
 > **Remember:** RJ45 (8 pins, wide) = Ethernet; RJ11 (small) = phone. The tab holds it — press to release.
 
 ---
+
+## Fiber optic (Lesson 06-03)
+
+- **Fiber** carries data as **light** in a glass **core**; the **cladding** reflects stray light back in.
+- A **mode** = a path light takes down the core.
+
+| Type | Core | Light source | Distance | Jacket |
+|------|------|--------------|----------|--------|
+| **Single-mode (SMF)** | thin (~9 µm), one path | **laser** | longest (km) | often yellow |
+| **Multimode (MMF)** | wide (~50–62.5 µm), many paths | **LED** | shorter (hundreds of m) | often aqua/orange |
+
+- **Fiber vs. copper:** farther · faster · **immune to EMI/crosstalk** (it's light) · more secure — but pricier and fragile (no sharp bends).
+- Memory hook: **single** = one path (far); **multi** = many paths (short).
+
+```
+core (light) —bounces→ kept in by cladding —→ out the far end
+SMF: ══>──────────>  (laser, far)   MMF: ══>╱╲╱╲╱╲──>  (LED, short)
+```
+
+> **Remember:** copper = electricity (EMI, 100 m limit); fiber = light (no EMI, goes far).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 06_
