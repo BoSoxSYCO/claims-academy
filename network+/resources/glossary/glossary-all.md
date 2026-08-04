@@ -38,6 +38,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Communicate** — To send and receive information between devices or people. *(First taught: NA-M04-L01)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
+- **Connector** — The plug on the end of a cable (the male part). *(First taught: NA-M06-L02)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
 - **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
 - **Copper cable** — A cable of copper wires that carry electrical signals. *(First taught: NA-M06-L01)*
@@ -97,11 +98,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## J
 
+- **Jack** — The socket that a connector plugs into (the female part). *(First taught: NA-M06-L02)*
 - **Jitter** — How much the latency (delay) changes from moment to moment. *(First taught: NA-M04-L06)*
 
 ## K
 
 - **Key line** — The one line in command output that has the answer you need. *(First taught: NA-M02-L05)*
+- **Keystone jack** — A snap-in jack module that fits a wall plate or panel. *(First taught: NA-M06-L02)*
 
 ## L
 
@@ -144,6 +147,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Packet** — The Network-layer PDU (data plus an IP header). *(First taught: NA-M05-L04)*
 - **Packet loss** — The percent of ping messages that got no reply (0% is best). *(First taught: NA-M02-L05)*
 - **PAN (Personal Area Network)** — A tiny network around one person (Bluetooth). *(First taught: NA-M04-L03)*
+- **Patch cable** — A short cable with an RJ45 on each end. *(First taught: NA-M06-L02)*
+- **Patch panel** — A panel of jacks where in-wall cables end; links to the switch. *(First taught: NA-M06-L02)*
 - **PDU (Protocol Data Unit)** — The name for the wrapped data unit at a given layer. *(First taught: NA-M05-L04)*
 - **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
 - **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
@@ -168,6 +173,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Resource** — Something a network lets you share: a file, printer, or internet connection. *(First taught: NA-M04-L01)*
 - **Response** — The server's answer ("here it is"). *(First taught: NA-M01-L06)*
 - **Ring topology** — A network shape where each node connects to two neighbors, forming a loop. *(First taught: NA-M04-L04)*
+- **RJ11** — A smaller connector used for telephones (fewer pins). *(First taught: NA-M06-L02)*
+- **RJ45** — The 8-pin connector used for twisted-pair Ethernet. *(First taught: NA-M06-L02)*
 - **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
 
 ## S
@@ -227,4 +234,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M06-L02)_

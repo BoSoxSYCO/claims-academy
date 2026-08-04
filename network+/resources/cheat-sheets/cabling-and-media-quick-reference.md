@@ -30,4 +30,22 @@ Cat5e(1G) → Cat6(1–10G) → Cat6a(10G) → Cat8(25–40G, short)
 > **Remember:** the cable is 4 twisted pairs of copper; the "Cat" number tells you how fast and how far.
 
 ---
+
+## Connectors & jacks (Lesson 06-02)
+
+- **Connector** = plug (male). **Jack** = socket (female). Connector → jack; listen for the **click**.
+- **RJ45** = the Ethernet connector — **8 pins** (one per wire), a **locking tab**. (Also "8P8C.")
+- **RJ11** = phone connector — **smaller**, fewer pins. Don't confuse it with RJ45.
+- **Keystone jack** = snap-in jack for a wall plate/panel. **Patch panel** = many jacks where in-wall cables end.
+- **Patch cable** = short cable, **RJ45 on both ends** (device ↔ jack, or panel ↔ switch).
+- **Broken locking tab → loose plug → on/off (blinking) link.** Press the tab to release.
+
+```
+[RJ45 plug] → clicks into → [jack / Ethernet port]
+building:  wall keystone jack —patch cable— PATCH PANEL —patch cable— switch
+```
+
+> **Remember:** RJ45 (8 pins, wide) = Ethernet; RJ11 (small) = phone. The tab holds it — press to release.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 06_
