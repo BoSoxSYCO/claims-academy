@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Collision and broadcast domains for hub, switch, and router</title>
+  <desc id="desc">Three device examples. A hub with all ports inside one collision domain. A switch where each port is its own collision domain, but all ports share one broadcast domain. A router separating two broadcast domains. A caption reads: switches break up collision domains; routers break up broadcast domains.</desc>
+
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Collision domains vs. broadcast domains</text>
+
+  <!-- HUB -->
+  <text x="150" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#b91c1c">Hub</text>
+  <ellipse cx="150" cy="170" rx="130" ry="95" fill="none" stroke="#b91c1c" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <text x="150" y="88" text-anchor="middle" font-size="11" fill="#b91c1c">1 collision domain (ALL ports)</text>
+  <rect x="115" y="150" width="70" height="34" rx="5" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/><text x="150" y="172" text-anchor="middle" font-size="11" fill="#7f1d1d">HUB</text>
+  <g fill="#dbeafe" stroke="#1e40af" stroke-width="1.5">
+    <rect x="60" y="110" width="50" height="24" rx="3"/><rect x="190" y="110" width="50" height="24" rx="3"/>
+    <rect x="60" y="205" width="50" height="24" rx="3"/><rect x="190" y="205" width="50" height="24" rx="3"/>
+  </g>
+  <text x="150" y="255" text-anchor="middle" font-size="10" fill="#7f1d1d">everyone can collide (slow)</text>
+
+  <!-- SWITCH -->
+  <text x="450" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d4ed8">Switch</text>
+  <rect x="325" y="78" width="250" height="185" rx="10" fill="none" stroke="#166534" stroke-width="2.5"/>
+  <text x="450" y="95" text-anchor="middle" font-size="11" fill="#166534">1 broadcast domain (all ports)</text>
+  <rect x="415" y="150" width="70" height="34" rx="5" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/><text x="450" y="172" text-anchor="middle" font-size="11" fill="#1e3a8a">SWITCH</text>
+  <g fill="#dbeafe" stroke="#1e40af" stroke-width="1.5">
+    <rect x="345" y="112" width="46" height="22" rx="3"/><rect x="510" y="112" width="46" height="22" rx="3"/>
+    <rect x="345" y="205" width="46" height="22" rx="3"/><rect x="510" y="205" width="46" height="22" rx="3"/>
+  </g>
+  <g stroke="#166534" stroke-width="1.5" stroke-dasharray="4 3" fill="none">
+    <ellipse cx="368" cy="123" rx="34" ry="20"/><ellipse cx="533" cy="123" rx="34" ry="20"/>
+    <ellipse cx="368" cy="216" rx="34" ry="20"/><ellipse cx="533" cy="216" rx="34" ry="20"/>
+  </g>
+  <text x="450" y="250" text-anchor="middle" font-size="10" fill="#166534">each port = its own collision domain (dashed)</text>
+
+  <!-- ROUTER -->
+  <text x="770" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">Router</text>
+  <rect x="628" y="78" width="120" height="90" rx="10" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+  <rect x="628" y="180" width="120" height="80" rx="10" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+  <text x="688" y="94" text-anchor="middle" font-size="10" fill="#7c3aed">broadcast domain A</text>
+  <text x="688" y="196" text-anchor="middle" font-size="10" fill="#7c3aed">broadcast domain B</text>
+  <rect x="762" y="150" width="70" height="34" rx="5" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/><text x="797" y="172" text-anchor="middle" font-size="11" fill="#5b21b6">ROUTER</text>
+  <line x1="748" y1="120" x2="785" y2="150" stroke="#7c3aed" stroke-width="2"/>
+  <line x1="748" y1="215" x2="785" y2="184" stroke="#7c3aed" stroke-width="2"/>
+  <text x="688" y="130" text-anchor="middle" font-size="10" fill="#5b21b6">net 1</text>
+  <text x="688" y="232" text-anchor="middle" font-size="10" fill="#5b21b6">net 2</text>
+  <text x="730" y="278" text-anchor="middle" font-size="10" fill="#5b21b6">router blocks broadcasts</text>
+
+  <!-- rule banner -->
+  <rect x="80" y="310" width="740" height="70" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="338" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">Switches break up COLLISION domains · Routers break up BROADCAST domains</text>
+  <text x="450" y="363" text-anchor="middle" font-size="12" fill="#475569">Each switch port = a collision domain. Each router side = a broadcast domain.</text>
+
+  <!-- counting table -->
+  <text x="450" y="410" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Counting: Hub = 1 collision / 1 broadcast · Switch(N) = N collision / 1 broadcast · Router = 1 broadcast per side</text>
+  <text x="450" y="440" text-anchor="middle" font-size="11" fill="#64748b">A switch does NOT stop broadcasts — only a router does.</text>
+</svg>

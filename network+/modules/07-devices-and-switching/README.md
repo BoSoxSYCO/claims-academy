@@ -1,7 +1,7 @@
 # Module 07 — Network Devices & Ethernet Switching
 
 **Phase:** Core Networking
-**Status:** In production (Lessons 07-01, 07-02 Published) — Unit 4
+**Status:** In production (Lessons 07-01 → 07-03 Published) — Unit 4
 
 > **By the end of this module, you will be able to:** explain what each network device does and log into your managed switch.
 
@@ -26,7 +26,7 @@ this board is updated:
 |--------|-------|--------|
 | 07-01 | [Hubs, Switches, Routers — What's the Difference?](lessons/07-01-hubs-switches-routers.md) | ✅ Published |
 | 07-02 | [MAC Addresses and How a Switch Learns Them](lessons/07-02-how-a-switch-learns.md) | ✅ Published |
-| 07-03 | Broadcast vs. collision domains | Planned |
+| 07-03 | [Broadcast vs. Collision Domains](lessons/07-03-broadcast-collision-domains.md) | ✅ Published |
 | 07-04 | Access points, firewalls, and other gear | Planned |
 | 07-05 | Meet the Dell PowerConnect 3424 (managed switch) | Planned |
 | 07-06 | First login: console vs. web management | Planned |

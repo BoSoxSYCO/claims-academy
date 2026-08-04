@@ -29,6 +29,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
 - **Bluetooth** — A short-range wireless way to link nearby devices (a common PAN). *(First taught: NA-M04-L03)*
 - **Broadcast** — A frame addressed to every device (`FF:FF:FF:FF:FF:FF`). *(First taught: NA-M07-L02)*
+- **Broadcast domain** — The group of devices that all receive each other's broadcasts. *(First taught: NA-M07-L03)*
 - **Bus topology** — A network shape where all nodes share one backbone cable. *(First taught: NA-M04-L04)*
 - **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
 
@@ -40,6 +41,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
+- **Collision** — Two devices sending at once on a shared wire, clashing their signals. *(First taught: NA-M07-L03)*
+- **Collision domain** — A zone of the network where a collision can happen. *(First taught: NA-M07-L03)*
 - **Command** — A short instruction you type for the computer to run. *(First taught: NA-M02-L03)*
 - **Command line (CLI)** — A place where you type text commands instead of clicking. *(First taught: NA-M02-L03)*
 - **Command Prompt** — The classic, simple Windows terminal. *(First taught: NA-M02-L03)*
@@ -55,6 +58,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **CPU (Central Processing Unit)** — The part that follows instructions and does a computer's work; the "brain." *(First taught: NA-M01-L02)*
 - **Crossover cable** — A cable using T568A on one end and T568B on the other (like devices). *(First taught: NA-M06-L04)*
 - **Crosstalk** — Noise that leaks from one pair of wires onto another. *(First taught: NA-M06-L01)*
+- **CSMA/CD** — The old method for handling collisions (listen, send, back off, resend). *(First taught: NA-M07-L03)*
 
 ## D
 
@@ -267,4 +271,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L03)_

@@ -44,4 +44,23 @@ dest ZZ (unknown)        → flood all other ports → ZZ replies → now learne
 > **Remember:** **source to learn, destination to forward.** Flooding unknown/broadcast frames is normal, not a fault.
 
 ---
+
+## Collision & broadcast domains (Lesson 07-03)
+
+- **Collision** = two devices send at once on a shared wire → signals clash (old hubs/half-duplex; `CSMA/CD` handled it).
+- **Collision domain** = where a collision can happen. **Broadcast domain** = who hears broadcasts.
+
+| Device | Collision domains | Broadcast domains |
+|--------|-------------------|-------------------|
+| **Hub** (N ports) | **1** (all share) | 1 |
+| **Switch** (N ports) | **N** (one per port) | **1** |
+| **Router** (N interfaces) | one per interface | **one per interface** |
+
+- **Mantra:** **switches break up collision domains; routers break up broadcast domains.**
+- A switch does **not** stop broadcasts — only a router does.
+- Count: every **switch port** = a collision domain; every **router side** = a broadcast domain.
+
+> **Remember:** switch → booths (no collisions); router → walls (no broadcasts across).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 07_
