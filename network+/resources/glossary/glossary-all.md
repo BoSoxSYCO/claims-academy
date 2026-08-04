@@ -11,6 +11,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## A
 
+- **Access point (AP)** — A device that lets wireless devices join a wired network. *(First taught: NA-M07-L04)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Aging time** — How long a switch keeps a MAC entry before removing it. *(First taught: NA-M07-L02)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
@@ -88,6 +89,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **File** — One saved item of information (a photo, note, or document). *(First taught: NA-M02-L01)*
 - **File Explorer** — The Windows tool that shows your files and folders. *(First taught: NA-M02-L01)*
 - **File path** — The address that lists each folder to open to reach a file. *(First taught: NA-M02-L01)*
+- **Firewall** — A device or software that allows or blocks traffic by rules. *(First taught: NA-M07-L04)*
 - **Firmware** — Software built into a device, like a switch, that rarely changes. *(First taught: NA-M01-L05)*
 - **Flood** — To send a frame out all ports except the one it came in on. *(First taught: NA-M07-L02)*
 - **Folder** — A container that holds files and other folders; also called a directory. *(First taught: NA-M02-L01)*
@@ -110,6 +112,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## I
 
+- **IDS/IPS** — Systems that detect (IDS) or block (IPS) attacks. *(First taught: NA-M07-L04)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
 - **Interference** — Unwanted electrical noise that can harm a signal (also called EMI). *(First taught: NA-M06-L01)*
@@ -136,6 +139,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Latency** — The delay — how long data takes to arrive (measured in ms). *(First taught: NA-M04-L06)*
 - **Layer** — One job in a model, stacked on the others; it hands data up or down. *(First taught: NA-M05-L01)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
+- **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
 
 ## M
 
@@ -149,6 +153,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Millisecond (ms)** — One thousandth of a second; the unit for latency. *(First taught: NA-M04-L06)*
 - **Mode** — A path that light can take down the fiber's core. *(First taught: NA-M06-L03)*
 - **Model** — A simplified plan of a complex thing, showing just the needed parts. *(First taught: NA-M05-L01)*
+- **Modem** — A device that connects your home to your internet provider. *(First taught: NA-M07-L04)*
 - **Multimode fiber (MMF)** — Wider-core fiber with many light paths; LED; shorter distances. *(First taught: NA-M06-L03)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
 
@@ -186,12 +191,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Pinout** — The order the 8 wires are placed into the RJ45's pins. *(First taught: NA-M06-L04)*
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
+- **Power over Ethernet (PoE)** — Sending power over the Ethernet cable that carries data. *(First taught: NA-M07-L04)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
 - **Presentation layer** — Layer 6 — formats, encrypts, and translates the data. *(First taught: NA-M05-L02)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
 - **Program** — A set of instructions that tells a computer what to do. *(First taught: NA-M01-L01)*
 - **Prompt** — The text ending in `>` that shows where you are and waits for input. *(First taught: NA-M02-L03)*
 - **Protocol** — An agreed set of rules a layer follows so devices understand each other. *(First taught: NA-M05-L01)*
+- **Proxy server** — A middleman that forwards and can filter users' requests. *(First taught: NA-M07-L04)*
 
 ## R
 
@@ -271,4 +278,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L04)_

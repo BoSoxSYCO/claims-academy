@@ -63,4 +63,24 @@ dest ZZ (unknown)        → flood all other ports → ZZ replies → now learne
 > **Remember:** switch → booths (no collisions); router → walls (no broadcasts across).
 
 ---
+
+## Other network gear (Lesson 07-04)
+
+| Device | One-word job | What it does |
+|--------|--------------|--------------|
+| **Access point (AP)** | Wi-Fi | Lets wireless devices join a wired network |
+| **Modem** | ISP door | Connects your home to your internet provider |
+| **Firewall** | filter | Allows or blocks traffic by rules (security) |
+| **Load balancer** | spread | Spreads traffic across several servers |
+| **Proxy server** | middleman | Forwards/filters users' requests |
+| **IDS / IPS** | watch | Detect (IDS alerts) / prevent (IPS blocks) attacks |
+| **PoE** | power | Power + data over one Ethernet cable |
+
+- **Modem ≠ router:** modem talks to the ISP; router connects networks (often combined in a "gateway").
+- **IDS alerts; IPS blocks.**
+- Your home box hides an **AP** and a basic **firewall** already.
+
+> **Remember:** each device has one job — AP = Wi-Fi, modem = ISP door, firewall = filter.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 07_
