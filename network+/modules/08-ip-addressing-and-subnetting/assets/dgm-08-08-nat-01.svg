@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">How NAT lets private devices reach the internet</title>
+  <desc id="desc">A home network showing NAT. On the left, three private devices — a laptop 192.168.1.24, a phone 192.168.1.25, and a TV 192.168.1.26 — connect to a router in the middle. The router does Network Address Translation: on the way out it rewrites each device's private source address to its one public address, 203.0.113.7, given by the ISP, and sends the request to the internet on the right. On the way back, the reply arrives at 203.0.113.7 and the router swaps it back to the correct private device. A note says PAT uses port numbers so many devices share the one public address.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">How private devices reach the internet: NAT</text>
+
+  <!-- zone labels -->
+  <text x="150" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">INSIDE (private)</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">ROUTER (NAT)</text>
+  <text x="770" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#1d4ed8">OUTSIDE (public)</text>
+
+  <!-- inside devices -->
+  <g font-family="monospace" font-size="12">
+    <rect x="40" y="80" width="220" height="40" rx="6" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+    <text x="55" y="105" fill="#5b21b6">Laptop  192.168.1.24</text>
+    <rect x="40" y="130" width="220" height="40" rx="6" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+    <text x="55" y="155" fill="#5b21b6">Phone   192.168.1.25</text>
+    <rect x="40" y="180" width="220" height="40" rx="6" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+    <text x="55" y="205" fill="#5b21b6">TV      192.168.1.26</text>
+  </g>
+
+  <!-- router -->
+  <rect x="370" y="110" width="160" height="90" rx="10" fill="#dcfce7" stroke="#166534" stroke-width="2.5"/>
+  <text x="450" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#14532d">ROUTER</text>
+  <text x="450" y="160" text-anchor="middle" font-size="11" fill="#166534">does NAT</text>
+  <text x="450" y="180" text-anchor="middle" font-size="10" font-family="monospace" fill="#14532d">public: 203.0.113.7</text>
+
+  <!-- internet -->
+  <ellipse cx="790" cy="150" rx="70" ry="42" fill="#e2e8f0" stroke="#334155" stroke-width="2"/>
+  <text x="790" y="155" text-anchor="middle" font-size="13" fill="#334155">internet</text>
+
+  <!-- arrows in -->
+  <g stroke="#6d28d9" stroke-width="2" marker-end="url(#pv)">
+    <line x1="260" y1="100" x2="368" y2="135"/>
+    <line x1="260" y1="150" x2="368" y2="152"/>
+    <line x1="260" y1="200" x2="368" y2="170"/>
+  </g>
+  <!-- arrow out -->
+  <line x1="530" y1="150" x2="716" y2="150" stroke="#166534" stroke-width="3" marker-end="url(#gr)"/>
+
+  <!-- translation explanation -->
+  <rect x="40" y="255" width="820" height="120" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="280" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">The swap</text>
+  <text x="70" y="308" font-size="13" fill="#111"><tspan font-weight="bold" fill="#166534">OUT:</tspan>  source <tspan font-family="monospace">192.168.1.24</tspan>  →  router rewrites source to <tspan font-family="monospace" font-weight="bold">203.0.113.7</tspan>  →  internet</text>
+  <text x="70" y="336" font-size="13" fill="#111"><tspan font-weight="bold" fill="#1d4ed8">BACK:</tspan> reply to <tspan font-family="monospace">203.0.113.7</tspan>  →  router swaps back to <tspan font-family="monospace" font-weight="bold">192.168.1.24</tspan>  →  laptop</text>
+  <text x="70" y="362" font-size="12" fill="#475569"><tspan font-weight="bold">PAT</tspan> uses port numbers so all three devices share the ONE public IP (ports: Module 10).</text>
+
+  <!-- caption -->
+  <text x="450" y="405" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Many private addresses inside · one public address outside · NAT translates between them.</text>
+  <text x="450" y="432" text-anchor="middle" font-size="12" fill="#475569">Like an office: many desk extensions, one public phone number.</text>
+  <text x="450" y="452" text-anchor="middle" font-size="10" fill="#94a3b8">(203.0.113.0/24 is a documentation-only address block.)</text>
+
+  <defs>
+    <marker id="pv" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#6d28d9"/></marker>
+    <marker id="gr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#166534"/></marker>
+  </defs>
+</svg>

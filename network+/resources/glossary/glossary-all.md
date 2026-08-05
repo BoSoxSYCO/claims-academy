@@ -184,6 +184,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## N
 
+- **NAT (Network Address Translation)** — When a router swaps a device's private address for its public one so it can reach the internet. *(First taught: NA-M08-L08)*
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
 - **Network address** — The first address of a subnet (host bits all 0); it names the subnet. *(First taught: NA-M08-L05)*
@@ -207,6 +208,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Packet** — The Network-layer PDU (data plus an IP header). *(First taught: NA-M05-L04)*
 - **Packet loss** — The percent of ping messages that got no reply (0% is best). *(First taught: NA-M02-L05)*
 - **PAN (Personal Area Network)** — A tiny network around one person (Bluetooth). *(First taught: NA-M04-L03)*
+- **PAT (Port Address Translation)** — A form of NAT that lets many devices share one public address, using port numbers. *(First taught: NA-M08-L08)*
 - **Patch cable** — A short cable with an RJ45 on each end. *(First taught: NA-M06-L02)*
 - **Patch panel** — A panel of jacks where in-wall cables end; links to the switch. *(First taught: NA-M06-L02)*
 - **PDU (Protocol Data Unit)** — The name for the wrapped data unit at a given layer. *(First taught: NA-M05-L04)*
@@ -320,4 +322,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L07)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L08)_

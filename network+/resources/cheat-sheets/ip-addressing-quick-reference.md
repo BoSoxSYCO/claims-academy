@@ -175,4 +175,22 @@ internet ─▶ router ─▶ router ─▶ your LAN ─▶ your laptop
 > **Remember:** drop leading zeros, `::` once. `::1` = self, `fe80::` = link-local.
 
 ---
+
+## Public/private & NAT (Lesson 08-08)
+
+- **Private** IP: inside only, not routable (10.x · 172.16–31.x · 192.168.x).
+- **Public** IP: unique on the internet; the ISP gives your router **one**.
+- **NAT** = router swaps **private → public** going out, **public → private** coming back.
+- **PAT** = uses **port numbers** so **many** devices share the one public IP (what home routers do).
+- NAT hides inside devices but is **not** a full firewall.
+- `ipconfig` shows your **private** IP; the router's WAN page shows your **public** IP.
+
+```
+inside (private) ─▶ [ router: NAT ] ─▶ internet (one public IP)
+192.168.1.x           swap ⇄            203.0.113.7
+```
+
+> **Remember:** many private inside · one public outside · NAT translates · PAT shares.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 08_
