@@ -32,8 +32,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Baud rate** — The speed of a serial console link (often 9600). *(First taught: NA-M07-L06)*
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
+- **Block size** — How far apart subnets start: 256 − the mask's interesting octet. *(First taught: NA-M08-L05)*
 - **Bluetooth** — A short-range wireless way to link nearby devices (a common PAN). *(First taught: NA-M04-L03)*
+- **Borrowing bits** — Taking bits from the host part to make more subnets. *(First taught: NA-M08-L05)*
 - **Broadcast** — A frame addressed to every device (`FF:FF:FF:FF:FF:FF`). *(First taught: NA-M07-L02)*
+- **Broadcast address** — The last address of a subnet (host bits all 1); it reaches every host in the subnet. *(First taught: NA-M08-L05)*
 - **Broadcast domain** — The group of devices that all receive each other's broadcasts. *(First taught: NA-M07-L03)*
 - **Bus topology** — A network shape where all nodes share one backbone cable. *(First taught: NA-M04-L04)*
 - **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
@@ -177,6 +180,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
+- **Network address** — The first address of a subnet (host bits all 0); it names the subnet. *(First taught: NA-M08-L05)*
 - **Network layer** — Layer 3 — addressing and routing between networks, using IP (routers). *(First taught: NA-M05-L02)*
 - **Network portion** — The part of an IP address that says which network. *(First taught: NA-M08-L02)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
@@ -263,6 +267,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
 - **Subnet** — A smaller network made by dividing a bigger one. *(First taught: NA-M08-L03)*
 - **Subnet mask** — Four octets (255s then 0s) that mark which part of an IP is network vs. host. *(First taught: NA-M08-L03)*
+- **Subnetting** — Splitting one network into several smaller subnets. *(First taught: NA-M08-L05)*
 - **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
 - **Switch** — A Layer 2 device that learns MAC addresses and forwards to the right port. *(First taught: NA-M07-L01)*
 
@@ -288,6 +293,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Unmanaged switch** — A switch with no settings; it just forwards frames automatically. *(First taught: NA-M07-L05)*
 - **Uplink port** — A (usually faster) port that connects a switch up to a router or core switch. *(First taught: NA-M07-L05)*
+- **Usable host** — An address a device can use — not the network or broadcast address. *(First taught: NA-M08-L05)*
 - **USB** — A common port shape used for many devices and adapters. *(First taught: NA-M01-L03)*
 - **User interface** — The part of the operating system you see and click: desktop, icons, menus. *(First taught: NA-M01-L04)*
 - **UTP (Unshielded Twisted Pair)** — Twisted-pair cable with no metal shield; common and cheap. *(First taught: NA-M06-L01)*
@@ -307,4 +313,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L05)_

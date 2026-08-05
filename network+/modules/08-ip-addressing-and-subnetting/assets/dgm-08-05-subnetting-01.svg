@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Splitting 192.168.1.0/24 into four /26 subnets</title>
+  <desc id="desc">A number line from 0 to 255 split into four blocks of 64, showing the subnets of 192.168.1.0 slashed to /26. Block one starts at network address 192.168.1.0 with usable hosts .1 to .62 and broadcast 192.168.1.63. Block two starts at 192.168.1.64 with hosts .65 to .126 and broadcast .127. Block three starts at 192.168.1.128 with hosts .129 to .190 and broadcast .191. Block four starts at 192.168.1.192 with hosts .193 to .254 and broadcast .255. The block size is 256 minus 192 equals 64, and each subnet has 2 to the 6th minus 2 equals 62 usable hosts.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Split 192.168.1.0/24 into /26 subnets</text>
+
+  <!-- method line -->
+  <text x="450" y="58" text-anchor="middle" font-size="13" fill="#111">/26 = 255.255.255.192 · interesting octet = 4th · <tspan font-weight="bold" fill="#166534">block size = 256 − 192 = 64</tspan> · subnets = 2² = 4</text>
+
+  <!-- number line blocks -->
+  <g>
+    <rect x="40" y="80" width="205" height="120" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+    <rect x="250" y="80" width="205" height="120" rx="8" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+    <rect x="460" y="80" width="205" height="120" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+    <rect x="670" y="80" width="190" height="120" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  </g>
+
+  <!-- block 1 -->
+  <text x="142" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">Subnet 1 (.0 block)</text>
+  <text x="55" y="130" font-size="12" fill="#111"><tspan font-weight="bold">Network:</tspan> .0</text>
+  <text x="55" y="152" font-size="12" fill="#111"><tspan font-weight="bold">Hosts:</tspan> .1 – .62</text>
+  <text x="55" y="174" font-size="12" fill="#111"><tspan font-weight="bold">Broadcast:</tspan> .63</text>
+  <text x="142" y="193" text-anchor="middle" font-size="10" fill="#475569">192.168.1.x</text>
+
+  <!-- block 2 -->
+  <text x="352" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#14532d">Subnet 2 (.64 block)</text>
+  <text x="265" y="130" font-size="12" fill="#111"><tspan font-weight="bold">Network:</tspan> .64</text>
+  <text x="265" y="152" font-size="12" fill="#111"><tspan font-weight="bold">Hosts:</tspan> .65 – .126</text>
+  <text x="265" y="174" font-size="12" fill="#111"><tspan font-weight="bold">Broadcast:</tspan> .127</text>
+
+  <!-- block 3 -->
+  <text x="562" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#7f1d1d">Subnet 3 (.128 block)</text>
+  <text x="475" y="130" font-size="12" fill="#111"><tspan font-weight="bold">Network:</tspan> .128</text>
+  <text x="475" y="152" font-size="12" fill="#111"><tspan font-weight="bold">Hosts:</tspan> .129 – .190</text>
+  <text x="475" y="174" font-size="12" fill="#111"><tspan font-weight="bold">Broadcast:</tspan> .191</text>
+
+  <!-- block 4 -->
+  <text x="765" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#78350f">Subnet 4 (.192 block)</text>
+  <text x="685" y="130" font-size="12" fill="#111"><tspan font-weight="bold">Network:</tspan> .192</text>
+  <text x="685" y="152" font-size="12" fill="#111"><tspan font-weight="bold">Hosts:</tspan> .193 – .254</text>
+  <text x="685" y="174" font-size="12" fill="#111"><tspan font-weight="bold">Broadcast:</tspan> .255</text>
+
+  <!-- number line ruler -->
+  <line x1="40" y1="230" x2="860" y2="230" stroke="#334155" stroke-width="2"/>
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <line x1="40" y1="224" x2="40" y2="236" stroke="#334155" stroke-width="2"/><text x="40" y="252">0</text>
+    <line x1="245" y1="224" x2="245" y2="236" stroke="#334155" stroke-width="2"/><text x="245" y="252">64</text>
+    <line x1="455" y1="224" x2="455" y2="236" stroke="#334155" stroke-width="2"/><text x="455" y="252">128</text>
+    <line x1="665" y1="224" x2="665" y2="236" stroke="#334155" stroke-width="2"/><text x="665" y="252">192</text>
+    <line x1="860" y1="224" x2="860" y2="236" stroke="#334155" stroke-width="2"/><text x="860" y="252">255</text>
+  </g>
+  <text x="450" y="280" text-anchor="middle" font-size="12" fill="#475569">Each broadcast is one below the next subnet's network (63→64, 127→128, 191→192).</text>
+
+  <!-- formula box -->
+  <rect x="150" y="305" width="600" height="120" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="332" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">The 5-step method</text>
+  <text x="175" y="358" font-size="12" fill="#111">1. New mask → interesting octet (192).　　2. Block size = 256 − 192 = 64.</text>
+  <text x="175" y="380" font-size="12" fill="#111">3. List subnets by block: 0, 64, 128, 192.　4. Network = first · Broadcast = last.</text>
+  <text x="175" y="402" font-size="12" fill="#111">5. Usable hosts = 2^(32−26) − 2 = 2⁶ − 2 = <tspan font-weight="bold" fill="#166534">62</tspan> (drop network + broadcast).</text>
+
+  <text x="450" y="452" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">4 subnets × 64 = 256 = the whole /24. Nothing missing, nothing overlapping.</text>
+</svg>

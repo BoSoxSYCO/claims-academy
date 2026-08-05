@@ -106,4 +106,30 @@ internet ─▶ router ─▶ router ─▶ your LAN ─▶ your laptop
 > **Remember:** count the 1s → that's the slash. Shorthand like "a dozen" = 12.
 
 ---
+
+## Subnetting — the beginner method (Lesson 08-05)
+
+1. **New mask** → find the **interesting octet** (the one that isn't 255 or 0).
+2. **Block size = 256 − that octet's mask value.** Subnets start every block, from 0.
+3. **Network** = first address (host bits 0). **Broadcast** = last (host bits 1) = one below the next subnet.
+4. **Usable hosts** = the range between = **2^(host bits) − 2**.
+5. **Number of subnets = 2^(bits borrowed).**
+
+**Block-size / host quick table:**
+
+| Slash | Mask (last octet) | Block | Usable hosts |
+|:-----:|:-----------------:|:-----:|:------------:|
+| /25 | 128 | 128 | 126 |
+| /26 | 192 | 64 | 62 |
+| /27 | 224 | 32 | 30 |
+| /28 | 240 | 16 | 14 |
+| /29 | 248 | 8 | 6 |
+| /30 | 252 | 4 | 2 |
+
+- **Always −2** for usable hosts (drop network + broadcast).
+- Check: subnets × block = 256 (the whole octet) — no gaps, no overlaps.
+
+> **Remember:** block size is your friend — get it, then count. Network first, broadcast last, hosts between.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 08_
