@@ -29,4 +29,34 @@ internet ─▶ router ─▶ router ─▶ your LAN ─▶ your laptop
 > **Remember:** IP to the network, MAC to the device. IP can change; MAC does not.
 
 ---
+
+## IPv4 structure, classes & private ranges (Lesson 08-02)
+
+- **32 bits = 4 octets**; splits into **network portion** + **host portion**.
+
+**Class by first octet:**
+
+| Class | First octet | Note |
+|:-----:|:-----------:|------|
+| **A** | 1–126 | huge networks (127 = loopback) |
+| **B** | 128–191 | medium |
+| **C** | 192–223 | small |
+| **D** | 224–239 | multicast |
+| **E** | 240–255 | reserved |
+
+**Private ranges (stay inside a network):**
+
+| Range | From – To |
+|-------|-----------|
+| **10.0.0.0/8** | 10.0.0.0 – 10.255.255.255 |
+| **172.16.0.0/12** | 172.16.0.0 – 172.31.255.255 (only 16–31) |
+| **192.168.0.0/16** | 192.168.0.0 – 192.168.255.255 |
+
+- **127.0.0.1** = **loopback** (a device reaching itself; tests its own network software).
+- **169.254.x.x** = **APIPA** (a device gave itself an address → **DHCP didn't answer**).
+- Memory hook: "**10, 172-dot-16, 192-dot-168.**"
+
+> **Remember:** first octet → class. Three private blocks stay inside. 127 = self; 169.254 = DHCP failed.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 08_

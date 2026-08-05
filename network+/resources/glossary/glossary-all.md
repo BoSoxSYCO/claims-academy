@@ -14,7 +14,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Access point (AP)** — A device that lets wireless devices join a wired network. *(First taught: NA-M07-L04)*
 - **Access port** — A regular port on a switch where an end device, such as a PC, plugs in. *(First taught: NA-M07-L05)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
+- **Address class** — The A–E grouping of IPv4 addresses, decided by the first octet. *(First taught: NA-M08-L02)*
 - **Aging time** — How long a switch keeps a MAC entry before removing it. *(First taught: NA-M07-L02)*
+- **APIPA** — Automatic Private IP Addressing: a 169.254.x.x address a device gives itself when no DHCP answers. *(First taught: NA-M08-L02)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
@@ -114,6 +116,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Hop** — One step from one device to the next along the path. *(First taught: NA-M05-L05)*
 - **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
 - **Host** — Any device that has an IP address and communicates on a network. *(First taught: NA-M08-L01)*
+- **Host portion** — The part of an IP address that says which device on a network. *(First taught: NA-M08-L02)*
 - **Hub** — A Layer 1 device that repeats every incoming signal out all ports. *(First taught: NA-M07-L01)*
 
 ## I
@@ -148,6 +151,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
 - **Logical address** — An address set by software (like an IP); it can change when a device moves networks. *(First taught: NA-M08-L01)*
+- **Loopback address** — 127.0.0.1 — the address a device uses to reach itself. *(First taught: NA-M08-L02)*
 
 ## M
 
@@ -171,6 +175,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
 - **Network layer** — Layer 3 — addressing and routing between networks, using IP (routers). *(First taught: NA-M05-L02)*
+- **Network portion** — The part of an IP address that says which network. *(First taught: NA-M08-L02)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 - **Node** — Any device that connects to a network. *(First taught: NA-M04-L02)*
 
@@ -205,11 +210,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Power over Ethernet (PoE)** — Sending power over the Ethernet cable that carries data. *(First taught: NA-M07-L04)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
 - **Presentation layer** — Layer 6 — formats, encrypts, and translates the data. *(First taught: NA-M05-L02)*
+- **Private IP address** — An address from a reserved private range; used inside a network, not on the internet. *(First taught: NA-M08-L02)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
 - **Program** — A set of instructions that tells a computer what to do. *(First taught: NA-M01-L01)*
 - **Prompt** — The text ending in `>` that shows where you are and waits for input. *(First taught: NA-M02-L03)*
 - **Protocol** — An agreed set of rules a layer follows so devices understand each other. *(First taught: NA-M05-L01)*
 - **Proxy server** — A middleman that forwards and can filter users' requests. *(First taught: NA-M07-L04)*
+- **Public IP address** — An address that is unique on the internet and routable there. *(First taught: NA-M08-L02)*
 
 ## R
 
@@ -294,4 +301,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L02)_
