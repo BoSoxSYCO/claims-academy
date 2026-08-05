@@ -59,4 +59,26 @@ internet ─▶ router ─▶ router ─▶ your LAN ─▶ your laptop
 > **Remember:** first octet → class. Three private blocks stay inside. 127 = self; 169.254 = DHCP failed.
 
 ---
+
+## Subnet masks (Lesson 08-03)
+
+- A **subnet mask** = four octets. **255 = network**, **0 = host**.
+- **Split:** cover the 255 octets → that's the network; the rest is the host.
+  - `192.168.1.10` + `255.255.255.0` → network **192.168.1**, host **10**.
+
+**Default masks:**
+
+| Class | Default mask | Network octets |
+|:-----:|:------------:|:--------------:|
+| **A** | 255.0.0.0 | 1 |
+| **B** | 255.255.0.0 | 2 |
+| **C** | 255.255.255.0 | 3 |
+
+- **Same network?** network portions match → **deliver directly**; differ → **send to the router (gateway)**.
+- Shortcut with `255.255.255.0`: same **first three octets** = same network.
+- The **mask** (not the class) decides the real split — always read it.
+
+> **Remember:** the mask is a highlighter — 255 highlights the network, 0 leaves the host plain.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 08_

@@ -73,6 +73,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **De-encapsulation** — Unwrapping the headers at each layer, going up the stack. *(First taught: NA-M05-L04)*
 - **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
+- **Default subnet mask** — The standard mask for an address class: 255.0.0.0, 255.255.0.0, or 255.255.255.0. *(First taught: NA-M08-L03)*
 - **Destination address** — The address the data is going to. *(First taught: NA-M05-L05)*
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
@@ -257,6 +258,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
+- **Subnet** — A smaller network made by dividing a bigger one. *(First taught: NA-M08-L03)*
+- **Subnet mask** — Four octets (255s then 0s) that mark which part of an IP is network vs. host. *(First taught: NA-M08-L03)*
 - **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
 - **Switch** — A Layer 2 device that learns MAC addresses and forwards to the right port. *(First taught: NA-M07-L01)*
 
@@ -301,4 +304,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L03)_
