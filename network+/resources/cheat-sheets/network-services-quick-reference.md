@@ -30,4 +30,28 @@ device ◀── Acknowledge ─ server     "it's yours" (lease starts)
 > **Remember:** DHCP is the front desk — DORA hands you IP + mask + gateway + DNS on a lease.
 
 ---
+
+## DNS (Lesson 09-02)
+
+- **DNS** = turns a **domain name** → an **IP address** (the internet's phone book).
+- **Flow:** cache → resolver → root → .com (TLD) → the site's (authoritative) server → IP.
+
+**Record types:**
+
+| Record | Maps |
+|:------:|------|
+| **A** | name → IPv4 |
+| **AAAA** | name → IPv6 |
+| **CNAME** | name → another name (alias) |
+| **MX** | domain → mail server |
+| **PTR** | IP → name (reverse) |
+| **TXT** | name → text (verification) |
+
+- Answers are **cached** for a **TTL**.
+- Name fails but the **IP works** → suspect **DNS**. Test: **`nslookup <name>`**.
+- **DHCP** tells your device which DNS server to use.
+
+> **Remember:** names for people, numbers for machines — DNS connects the two. A = the main name→IPv4 record.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 09_

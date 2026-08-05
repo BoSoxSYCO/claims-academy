@@ -11,6 +11,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## A
 
+- **A record** — A DNS record mapping a name to an IPv4 address. *(First taught: NA-M09-L02)*
 - **Access point (AP)** — A device that lets wireless devices join a wired network. *(First taught: NA-M07-L04)*
 - **Access port** — A regular port on a switch where an end device, such as a PC, plugs in. *(First taught: NA-M07-L05)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
@@ -51,6 +52,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Classless** — Not tied to the old A/B/C classes; the network/host split can fall anywhere. *(First taught: NA-M08-L04)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
+- **CNAME record** — A DNS record that points one name to another (an alias). *(First taught: NA-M09-L02)*
 - **Collision** — Two devices sending at once on a shared wire, clashing their signals. *(First taught: NA-M07-L03)*
 - **Collision domain** — A zone of the network where a collision can happen. *(First taught: NA-M07-L03)*
 - **Command** — A short instruction you type for the computer to run. *(First taught: NA-M02-L03)*
@@ -86,6 +88,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
+- **DNS** — The service that turns names into IP addresses. *(First taught: NA-M09-L02)*
+- **DNS cache** — A short local store of recent name → IP answers. *(First taught: NA-M09-L02)*
+- **DNS resolver** — A server that looks up a name and returns its IP. *(First taught: NA-M09-L02)*
+- **Domain name** — A human-friendly name for a site, like google.com. *(First taught: NA-M09-L02)*
 - **DORA** — The four DHCP steps: Discover, Offer, Request, Acknowledge. *(First taught: NA-M09-L01)*
 - **Dotted-decimal notation** — Writing an IPv4 address as four numbers (0–255) separated by dots. *(First taught: NA-M08-L01)*
 - **Double colon (::)** — A shorthand that replaces one run of all-zero hextets in an IPv6 address — used only once. *(First taught: NA-M08-L07)*
@@ -187,6 +193,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Modem** — A device that connects your home to your internet provider. *(First taught: NA-M07-L04)*
 - **Multimode fiber (MMF)** — Wider-core fiber with many light paths; LED; shorter distances. *(First taught: NA-M06-L03)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
+- **MX record** — A DNS record that names a domain's mail server. *(First taught: NA-M09-L02)*
 
 ## N
 
@@ -329,4 +336,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L02)_
