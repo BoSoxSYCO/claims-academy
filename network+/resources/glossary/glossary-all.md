@@ -80,13 +80,18 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
 - **Default subnet mask** — The standard mask for an address class: 255.0.0.0, 255.255.0.0, or 255.255.255.0. *(First taught: NA-M08-L03)*
 - **Destination address** — The address the data is going to. *(First taught: NA-M05-L05)*
+- **DHCP** — A service that automatically gives devices their IP settings. *(First taught: NA-M09-L01)*
+- **DHCP reservation** — A fixed address always given to one device (by its MAC). *(First taught: NA-M09-L01)*
+- **DHCP scope** — The range (pool) of addresses a DHCP server can hand out. *(First taught: NA-M09-L01)*
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
+- **DORA** — The four DHCP steps: Discover, Offer, Request, Acknowledge. *(First taught: NA-M09-L01)*
 - **Dotted-decimal notation** — Writing an IPv4 address as four numbers (0–255) separated by dots. *(First taught: NA-M08-L01)*
 - **Double colon (::)** — A shorthand that replaces one run of all-zero hextets in an IPv6 address — used only once. *(First taught: NA-M08-L07)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
 - **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
+- **Dynamic IP address** — An address given automatically by DHCP; it can change. *(First taught: NA-M09-L01)*
 
 ## E
 
@@ -158,6 +163,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **LAN (Local Area Network)** — A network in one place, like a home or office. *(First taught: NA-M04-L03)*
 - **Latency** — The delay — how long data takes to arrive (measured in ms). *(First taught: NA-M04-L06)*
 - **Layer** — One job in a model, stacked on the others; it hands data up or down. *(First taught: NA-M05-L01)*
+- **Lease** — How long a device may keep a DHCP-assigned address. *(First taught: NA-M09-L01)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
@@ -271,6 +277,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Star topology** — A network shape where every node connects to one central device. *(First taught: NA-M04-L04)*
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
+- **Static IP address** — An address set by hand that does not change. *(First taught: NA-M09-L01)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
@@ -322,4 +329,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L08)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L01)_
