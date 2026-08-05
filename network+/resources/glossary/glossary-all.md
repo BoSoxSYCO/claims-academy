@@ -75,6 +75,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
+- **Dotted-decimal notation** — Writing an IPv4 address as four numbers (0–255) separated by dots. *(First taught: NA-M08-L01)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
 - **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
 
@@ -112,6 +113,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Hexadecimal (hex)** — A base-16 number system using digits 0–9 and A–F. *(First taught: NA-M03-L04)*
 - **Hop** — One step from one device to the next along the path. *(First taught: NA-M05-L05)*
 - **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
+- **Host** — Any device that has an IP address and communicates on a network. *(First taught: NA-M08-L01)*
 - **Hub** — A Layer 1 device that repeats every incoming signal out all ports. *(First taught: NA-M07-L01)*
 
 ## I
@@ -145,6 +147,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Layer** — One job in a model, stacked on the others; it hands data up or down. *(First taught: NA-M05-L01)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
+- **Logical address** — An address set by software (like an IP); it can change when a device moves networks. *(First taught: NA-M08-L01)*
 
 ## M
 
@@ -192,6 +195,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
 - **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
+- **Physical address** — The hardware address (MAC) burned into a device; it does not change. *(First taught: NA-M08-L01)*
 - **Physical layer** — Layer 1 — the wire, fiber, or radio and the raw bits on it. *(First taught: NA-M05-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
@@ -290,4 +294,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M07-L06)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L01)_

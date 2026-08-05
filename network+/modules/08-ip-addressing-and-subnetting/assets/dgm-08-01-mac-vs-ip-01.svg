@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">MAC address versus IP address — two addresses, two jobs</title>
+  <desc id="desc">A laptop shown with two addresses. Its MAC address is labeled physical, burned in, Layer 2, used for local delivery on one network — like a person's name. Its IP address is labeled logical, assigned, Layer 3, used to route data between networks — like a mailing address. Below, a delivery path shows data leaving the internet and crossing two routers using the IP address to reach the right network, then reaching the laptop on the last local hop using the MAC address. The caption reads: IP gets data to the right network; MAC gets it to the right device.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Two addresses, two jobs</text>
+
+  <!-- MAC card -->
+  <rect x="40" y="55" width="390" height="150" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="235" y="82" text-anchor="middle" font-size="16" font-weight="bold" fill="#7f1d1d">MAC address  —  the NAME</text>
+  <rect x="70" y="95" width="330" height="34" rx="5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="235" y="118" text-anchor="middle" font-size="15" font-family="monospace" fill="#111">AA:BB:CC:11:22:33</text>
+  <text x="70" y="152" font-size="12" fill="#7f1d1d">• Physical (burned in at the factory)</text>
+  <text x="70" y="172" font-size="12" fill="#7f1d1d">• Does not change · Layer 2</text>
+  <text x="70" y="192" font-size="12" fill="#7f1d1d">• LOCAL delivery on one LAN</text>
+
+  <!-- IP card -->
+  <rect x="470" y="55" width="390" height="150" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="665" y="82" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e3a8a">IP address  —  the MAILING ADDRESS</text>
+  <rect x="500" y="95" width="330" height="34" rx="5" fill="#ffffff" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="665" y="118" text-anchor="middle" font-size="15" font-family="monospace" fill="#111">192.168.1.10</text>
+  <text x="500" y="152" font-size="12" fill="#1e3a8a">• Logical (assigned, by hand or auto)</text>
+  <text x="500" y="172" font-size="12" fill="#1e3a8a">• Can change on a new network · Layer 3</text>
+  <text x="500" y="192" font-size="12" fill="#1e3a8a">• ROUTES between networks</text>
+
+  <!-- which network / which host callout under IP -->
+  <text x="665" y="228" text-anchor="middle" font-size="11" fill="#475569">structure = which NETWORK  +  which HOST</text>
+
+  <!-- delivery path -->
+  <rect x="40" y="255" width="820" height="180" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="282" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">How data reaches your laptop</text>
+
+  <!-- internet cloud -->
+  <ellipse cx="110" cy="345" rx="55" ry="32" fill="#e2e8f0" stroke="#334155" stroke-width="2"/>
+  <text x="110" y="350" text-anchor="middle" font-size="12" fill="#334155">internet</text>
+
+  <!-- routers -->
+  <rect x="230" y="322" width="90" height="46" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="275" y="343" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532d">router</text>
+  <text x="275" y="359" text-anchor="middle" font-size="9" fill="#14532d">uses IP</text>
+
+  <rect x="390" y="322" width="90" height="46" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="435" y="343" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532d">router</text>
+  <text x="435" y="359" text-anchor="middle" font-size="9" fill="#14532d">uses IP</text>
+
+  <!-- LAN -->
+  <rect x="550" y="322" width="90" height="46" rx="6" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="595" y="343" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">your LAN</text>
+  <text x="595" y="359" text-anchor="middle" font-size="9" fill="#5b21b6">switch</text>
+
+  <!-- laptop -->
+  <rect x="710" y="318" width="110" height="54" rx="6" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="765" y="342" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e3a8a">your laptop</text>
+  <text x="765" y="360" text-anchor="middle" font-size="9" fill="#1e3a8a">(the host)</text>
+
+  <!-- arrows -->
+  <g stroke="#111" stroke-width="2.5" marker-end="url(#ar)">
+    <line x1="165" y1="345" x2="228" y2="345"/>
+    <line x1="320" y1="345" x2="388" y2="345"/>
+    <line x1="480" y1="345" x2="548" y2="345"/>
+    <line x1="640" y1="345" x2="708" y2="345"/>
+  </g>
+
+  <text x="355" y="400" text-anchor="middle" font-size="11" fill="#166534">◀── crosses networks using the IP address ──▶</text>
+  <text x="700" y="400" text-anchor="middle" font-size="11" fill="#5b21b6">last hop: MAC</text>
+  <text x="450" y="424" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">IP gets data to the right NETWORK.   MAC gets it to the right DEVICE.</text>
+
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#111"/></marker>
+  </defs>
+</svg>
