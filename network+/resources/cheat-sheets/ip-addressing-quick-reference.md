@@ -152,4 +152,27 @@ internet ─▶ router ─▶ router ─▶ your LAN ─▶ your laptop
 > **Remember:** like times tables — recall the pattern, don't count. Round down to find the subnet.
 
 ---
+
+## IPv6 (Lesson 08-07)
+
+- **Why:** IPv4 (32-bit, ~4.3 billion) ran out → **IPv6 = 128-bit** (vastly more).
+- **Format:** eight **hextets** of 4 hex digits, colon-separated.
+- **Rule 1:** drop **leading** zeros per group (`0db8`→`db8`, `0000`→`0`).
+- **Rule 2:** one run of zero groups → **`::`** (once only; compress the longest run).
+  - `2001:0db8:0000:0000:0000:ff00:0042:8329` → `2001:db8::ff00:42:8329`.
+
+**Recognize:**
+
+| Address | Type |
+|---------|------|
+| `::1` | loopback (yourself) |
+| `::` | unspecified (no address) |
+| `fe80::…` | link-local (own link, not routable) |
+| `2000–3fff…` | global unicast (public) |
+
+- **No broadcast** in IPv6 — it uses **multicast**.
+
+> **Remember:** drop leading zeros, `::` once. `::1` = self, `fe80::` = link-local.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 08_

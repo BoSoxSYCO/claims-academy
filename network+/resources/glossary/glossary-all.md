@@ -84,6 +84,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
 - **Dotted-decimal notation** — Writing an IPv4 address as four numbers (0–255) separated by dots. *(First taught: NA-M08-L01)*
+- **Double colon (::)** — A shorthand that replaces one run of all-zero hextets in an IPv6 address — used only once. *(First taught: NA-M08-L07)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
 - **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
 
@@ -113,12 +114,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Gigabit Ethernet** — The 1 Gbps Ethernet standard (1000BASE-T). *(First taught: NA-M06-L05)*
 - **Gigabyte (GB)** — A unit for measuring memory and storage size; more GB means more room. *(First taught: NA-M01-L02)*
+- **Global unicast address** — A public, internet-routable IPv6 address (starts 2000–3fff). *(First taught: NA-M08-L07)*
 
 ## H
 
 - **Hardware** — The physical parts of a computer that you can touch. *(First taught: NA-M01-L01)*
 - **Header** — A small label a layer adds to the front, holding its control info. *(First taught: NA-M05-L04)*
 - **Hexadecimal (hex)** — A base-16 number system using digits 0–9 and A–F. *(First taught: NA-M03-L04)*
+- **Hextet** — One of the eight 4-hex-digit groups in an IPv6 address (16 bits). *(First taught: NA-M08-L07)*
 - **Hop** — One step from one device to the next along the path. *(First taught: NA-M05-L05)*
 - **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
 - **Host** — Any device that has an IP address and communicates on a network. *(First taught: NA-M08-L01)*
@@ -137,6 +140,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
 - **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
 - **IPv4 address** — A device's network address: four bytes (0–255) written with dots. *(First taught: NA-M03-L05)*
+- **IPv6** — The 128-bit address system, made to replace the limited IPv4. *(First taught: NA-M08-L07)*
 
 ## J
 
@@ -155,6 +159,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Latency** — The delay — how long data takes to arrive (measured in ms). *(First taught: NA-M04-L06)*
 - **Layer** — One job in a model, stacked on the others; it hands data up or down. *(First taught: NA-M05-L01)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
+- **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
 - **Logical address** — An address set by software (like an IP); it can change when a device moves networks. *(First taught: NA-M08-L01)*
 - **Loopback address** — 127.0.0.1 — the address a device uses to reach itself. *(First taught: NA-M08-L02)*
@@ -315,4 +320,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L06)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L07)_
