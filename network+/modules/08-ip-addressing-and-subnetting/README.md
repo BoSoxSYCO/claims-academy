@@ -1,7 +1,7 @@
 # Module 08 — IP Addressing & Subnetting
 
 **Phase:** Core Networking
-**Status:** In production (Lessons 08-01 → 08-05 Published) — Unit 5
+**Status:** In production (Lessons 08-01 → 08-06 Published) — Unit 5
 
 > **By the end of this module, you will be able to:** read, plan, and subnet IPv4 and IPv6 addresses with confidence.
 
@@ -29,7 +29,7 @@ this board is updated:
 | 08-03 | [Subnet Masks Explained Without Fear](lessons/08-03-subnet-masks-explained.md) | ✅ Published |
 | 08-04 | [CIDR Notation and Slash Values](lessons/08-04-cidr-notation-and-slash-values.md) | ✅ Published |
 | 08-05 | [Subnetting Step by Step (the Beginner Method)](lessons/08-05-subnetting-step-by-step.md) | ✅ Published |
-| 08-06 | Subnetting practice and shortcuts | Planned |
+| 08-06 | [Subnetting Practice and Shortcuts](lessons/08-06-subnetting-practice-and-shortcuts.md) | ✅ Published |
 | 08-07 | IPv6: why it exists and how to read it | Planned |
 | 08-08 | Public vs. private, and the role of NAT (preview) | Planned |
 

@@ -132,4 +132,24 @@ internet ─▶ router ─▶ router ─▶ your LAN ─▶ your laptop
 > **Remember:** block size is your friend — get it, then count. Network first, broadcast last, hosts between.
 
 ---
+
+## Subnetting shortcuts (Lesson 08-06)
+
+- **Powers of 2:** 1, 2, 4, 8, 16, 32, 64, 128, 256.
+- **Round down (magic number):** round the interesting octet **down** to the nearest **block size** → that's the subnet. Broadcast = next block − 1.
+- **Size a mask:**
+  - hosts → smallest bits with **2^bits − 2 ≥ hosts needed**.
+  - subnets → **2^borrowed ≥ subnets needed**.
+
+**Usable hosts by slash:**
+
+| /24 | /25 | /26 | /27 | /28 | /29 | /30 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 254 | 126 | 62 | 30 | 14 | 6 | 2 |
+
+- Example: `192.168.1.100/26` → block 64 → 100 rounds to **64** → subnet .64, broadcast .127.
+
+> **Remember:** like times tables — recall the pattern, don't count. Round down to find the subnet.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 08_

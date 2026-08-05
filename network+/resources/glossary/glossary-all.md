@@ -163,6 +163,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **MAC address table** — The switch's list matching each MAC address to a port. *(First taught: NA-M07-L02)*
+- **Magic number** — A nickname for the block size, used to quickly find which subnet an address is in. *(First taught: NA-M08-L06)*
 - **MAN (Metropolitan Area Network)** — A network across a city. *(First taught: NA-M04-L03)*
 - **Managed switch** — A switch you can log into and configure (VLANs, monitoring, port settings). *(First taught: NA-M07-L05)*
 - **Map (verb)** — To line up one model's layers against another's. *(First taught: NA-M05-L03)*
@@ -215,6 +216,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **Power over Ethernet (PoE)** — Sending power over the Ethernet cable that carries data. *(First taught: NA-M07-L04)*
+- **Powers of 2** — The doubling sequence 1, 2, 4, 8, 16, 32, 64, 128, 256 — used to count subnets and hosts. *(First taught: NA-M08-L06)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
 - **Prefix length** — The /n number: how many bits of an address are network. *(First taught: NA-M08-L04)*
 - **Presentation layer** — Layer 6 — formats, encrypts, and translates the data. *(First taught: NA-M05-L02)*
@@ -313,4 +315,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L06)_
