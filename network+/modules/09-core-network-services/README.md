@@ -1,7 +1,7 @@
 # Module 09 — Core Network Services
 
 **Phase:** Core Networking
-**Status:** In production (Lessons 09-01 → 09-02 Published) — Unit 6
+**Status:** In production (Lessons 09-01 → 09-03 Published) — Unit 6
 
 > **By the end of this module, you will be able to:** explain and configure DHCP, DNS, and NAT — the services that make networks usable.
 
@@ -26,7 +26,7 @@ this board is updated:
 |--------|-------|--------|
 | 09-01 | [DHCP: How Devices Get an Address Automatically](lessons/09-01-dhcp-automatic-addresses.md) | ✅ Published |
 | 09-02 | [DNS: Turning Names into Numbers](lessons/09-02-dns-names-into-numbers.md) | ✅ Published |
-| 09-03 | NAT and PAT: sharing one public address | Planned |
+| 09-03 | [NAT and PAT: Sharing One Public Address](lessons/09-03-nat-and-pat.md) | ✅ Published |
 | 09-04 | Gateways and how traffic leaves your network | Planned |
 | 09-05 | Time (NTP) and other supporting services | Planned |
 

@@ -54,4 +54,28 @@ device ◀── Acknowledge ─ server     "it's yours" (lease starts)
 > **Remember:** names for people, numbers for machines — DNS connects the two. A = the main name→IPv4 record.
 
 ---
+
+## NAT & PAT (Lesson 09-03)
+
+| Kind | Mapping | Public IPs |
+|------|---------|:----------:|
+| **Static NAT** | one private ↔ one public (fixed) | one per device |
+| **Dynamic NAT** | private → any free public (pool) | a pool |
+| **PAT / overload** | **many** private → **one** public (by port) | **one** |
+
+- **PAT** is what home routers do: one public IP, many devices, told apart by **ports**.
+- **Port number** = apartment number for a conversation (full detail: Module 10).
+- **NAT translation table:** inside IP:port ⇄ public IP:port → routes replies back.
+- **Port forwarding:** public port → one inside device (game/camera/lab). Use sparingly + firewall.
+- See ports: **`netstat -n`** (Local / Foreign address:port).
+
+```
+inside 192.168.1.24:51000  ⇄  public 203.0.113.7:40001  → internet
+inside 192.168.1.25:49500  ⇄  public 203.0.113.7:40002  → internet
+reply to :40002 → table → 192.168.1.25   (right device!)
+```
+
+> **Remember:** apartment building — one street address (public IP), many apartments (ports).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 09_

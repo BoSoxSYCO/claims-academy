@@ -98,6 +98,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
 - **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
 - **Dynamic IP address** — An address given automatically by DHCP; it can change. *(First taught: NA-M09-L01)*
+- **Dynamic NAT** — Mapping private addresses to a pool of public addresses, as needed. *(First taught: NA-M09-L03)*
 
 ## E
 
@@ -198,6 +199,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## N
 
 - **NAT (Network Address Translation)** — When a router swaps a device's private address for its public one so it can reach the internet. *(First taught: NA-M08-L08)*
+- **NAT overload** — Another name for PAT — many devices share one public IP using ports. *(First taught: NA-M09-L03)*
+- **NAT translation table** — The router's list matching inside address:port to public address:port. *(First taught: NA-M09-L03)*
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
 - **Network address** — The first address of a subnet (host bits all 0); it names the subnet. *(First taught: NA-M08-L05)*
@@ -235,6 +238,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Pinout** — The order the 8 wires are placed into the RJ45's pins. *(First taught: NA-M06-L04)*
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
+- **Port forwarding** — A rule that sends traffic arriving on a public port to a chosen inside device. *(First taught: NA-M09-L03)*
+- **Port number** — A number that labels one specific conversation or program on a device. *(First taught: NA-M09-L03)*
 - **Power over Ethernet (PoE)** — Sending power over the Ethernet cable that carries data. *(First taught: NA-M07-L04)*
 - **Powers of 2** — The doubling sequence 1, 2, 4, 8, 16, 32, 64, 128, 256 — used to count subnets and hosts. *(First taught: NA-M08-L06)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
@@ -285,6 +290,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Static IP address** — An address set by hand that does not change. *(First taught: NA-M09-L01)*
+- **Static NAT** — A fixed one-to-one map of one private address to one public address. *(First taught: NA-M09-L03)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
@@ -336,4 +342,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L03)_
