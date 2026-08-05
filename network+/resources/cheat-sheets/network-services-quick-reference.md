@@ -97,4 +97,29 @@ same network?  YES → direct (by MAC)
 > **Remember:** gated neighborhood — walk to a neighbor; drop faraway mail at the gate.
 
 ---
+
+## NTP & supporting services (Lesson 09-05)
+
+- **NTP** = keeps device clocks **synchronized** to a reliable time source.
+- **Stratum** = distance from the true clock. **Lower = closer = more accurate.**
+  - Stratum 0 = reference (atomic/GPS, not networked) · 1 = directly attached · 2 = syncs from 1 · …
+- **Why time matters:** logs line up · certificates valid · logins work.
+- **SNMP** = monitor/manage devices. **Syslog** = central logging.
+- Check it: **`w32tm /query /status`** (Source + Stratum).
+
+> **Remember:** everyone sets the same clock tower. Lower stratum = closer to the true time.
+
+---
+
+## Module 09 at a glance
+
+| Service | Job | Key words |
+|---------|-----|-----------|
+| **DHCP** | auto IP settings | DORA · lease · scope · reservation |
+| **DNS** | name → IP | A/AAAA/CNAME/MX/PTR · resolver · cache |
+| **NAT/PAT** | private ↔ public | static · dynamic · overload (ports) |
+| **Gateway** | door out | ARP · routing table · next hop · tracert |
+| **NTP** | sync clocks | stratum (lower = better) |
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 09_

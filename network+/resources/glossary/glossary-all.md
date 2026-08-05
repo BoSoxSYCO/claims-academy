@@ -211,6 +211,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Next hop** — The next router a packet is handed to on its way. *(First taught: NA-M09-L04)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 - **Node** — Any device that connects to a network. *(First taught: NA-M04-L02)*
+- **NTP** — Keeps device clocks synchronized to a reliable time source. *(First taught: NA-M09-L05)*
 
 ## O
 
@@ -287,6 +288,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Short** — Two wires touching when they shouldn't, scrambling the signal. *(First taught: NA-M06-L06)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
 - **Single-mode fiber (SMF)** — Thin-core fiber with one light path; laser; longest distances. *(First taught: NA-M06-L03)*
+- **SNMP** — Lets a central manager monitor and manage network devices. *(First taught: NA-M09-L05)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
@@ -299,11 +301,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
+- **Stratum** — An NTP level showing how far a clock is from the true source (lower = closer). *(First taught: NA-M09-L05)*
 - **Subnet** — A smaller network made by dividing a bigger one. *(First taught: NA-M08-L03)*
 - **Subnet mask** — Four octets (255s then 0s) that mark which part of an IP is network vs. host. *(First taught: NA-M08-L03)*
 - **Subnetting** — Splitting one network into several smaller subnets. *(First taught: NA-M08-L05)*
 - **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
 - **Switch** — A Layer 2 device that learns MAC addresses and forwards to the right port. *(First taught: NA-M07-L01)*
+- **Syslog** — A standard for sending device log messages to a central server. *(First taught: NA-M09-L05)*
 
 ## T
 
@@ -348,4 +352,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L05)_
