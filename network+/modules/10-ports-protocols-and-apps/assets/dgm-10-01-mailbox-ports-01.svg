@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Ports as mailboxes at one IP address</title>
+  <desc id="desc">A device shown as a building whose street address is its IP address, 192.168.1.24. The building has several mailboxes, each a port for a different program: port 443 for secure web, port 25 for email, and port 53 for DNS. A socket is the IP plus a port together, like 192.168.1.24 colon 443. A table lists three port ranges: well-known ports 0 to 1023 for common services, registered ports 1024 to 49151 for specific apps, and ephemeral ports 49152 to 65535 that a client uses temporarily. Below, a laptop using ephemeral port 51000 connects to a web server on well-known port 443.</desc>
+
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">One IP, many programs — ports are the mailboxes</text>
+
+  <!-- building -->
+  <rect x="50" y="55" width="330" height="220" rx="8" fill="#f1f5f9" stroke="#334155" stroke-width="2.5"/>
+  <text x="215" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Device = the building</text>
+  <text x="215" y="98" text-anchor="middle" font-size="12" font-family="monospace" fill="#1e3a8a">street address (IP): 192.168.1.24</text>
+
+  <!-- mailboxes -->
+  <g>
+    <rect x="80" y="115" width="270" height="42" rx="5" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="100" y="141" font-size="13" font-family="monospace" font-weight="bold" fill="#1e3a8a">:443</text>
+    <text x="180" y="141" font-size="12" fill="#111">secure web program</text>
+    <rect x="80" y="165" width="270" height="42" rx="5" fill="#dcfce7" stroke="#166534" stroke-width="1.5"/>
+    <text x="100" y="191" font-size="13" font-family="monospace" font-weight="bold" fill="#14532d">:25</text>
+    <text x="180" y="191" font-size="12" fill="#111">email program</text>
+    <rect x="80" y="215" width="270" height="42" rx="5" fill="#fef9c3" stroke="#a16207" stroke-width="1.5"/>
+    <text x="100" y="241" font-size="13" font-family="monospace" font-weight="bold" fill="#78350f">:53</text>
+    <text x="180" y="241" font-size="12" fill="#111">DNS lookup program</text>
+  </g>
+  <text x="215" y="270" text-anchor="middle" font-size="10" fill="#475569">each mailbox = a port = one program</text>
+
+  <!-- socket callout -->
+  <rect x="410" y="55" width="440" height="70" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="630" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b21b6">Socket = IP + port</text>
+  <text x="630" y="106" text-anchor="middle" font-size="16" font-family="monospace" fill="#111">192.168.1.24 : 443</text>
+
+  <!-- ranges table -->
+  <rect x="410" y="140" width="440" height="135" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="630" y="164" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">Three port ranges</text>
+  <g font-size="13">
+    <text x="430" y="192" font-weight="bold" fill="#1d4ed8">Well-known</text><text x="580" y="192" font-family="monospace" fill="#111">0 – 1023</text><text x="720" y="192" font-size="10" fill="#475569">common services</text>
+    <text x="430" y="222" font-weight="bold" fill="#166534">Registered</text><text x="580" y="222" font-family="monospace" fill="#111">1024 – 49151</text><text x="720" y="222" font-size="10" fill="#475569">specific apps</text>
+    <text x="430" y="252" font-weight="bold" fill="#a16207">Ephemeral</text><text x="580" y="252" font-family="monospace" fill="#111">49152 – 65535</text><text x="720" y="252" font-size="10" fill="#475569">client, temporary</text>
+  </g>
+
+  <!-- client-server connection -->
+  <rect x="50" y="300" width="800" height="120" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="450" y="324" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e3a8a">A client reaches a server: ephemeral port → well-known port</text>
+
+  <rect x="110" y="340" width="200" height="54" rx="6" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="210" y="363" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">your laptop</text>
+  <text x="210" y="382" text-anchor="middle" font-size="12" font-family="monospace" fill="#1e3a8a">192.168.1.24:51000</text>
+  <text x="210" y="410" text-anchor="middle" font-size="10" fill="#475569">ephemeral (temporary)</text>
+
+  <line x1="310" y1="367" x2="590" y2="367" stroke="#111" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="590" y1="378" x2="310" y2="378" stroke="#111" stroke-width="2.5" marker-end="url(#ar2)"/>
+
+  <rect x="590" y="340" width="200" height="54" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="690" y="363" text-anchor="middle" font-size="13" font-weight="bold" fill="#14532d">web server</text>
+  <text x="690" y="382" text-anchor="middle" font-size="12" font-family="monospace" fill="#14532d">server:443</text>
+  <text x="690" y="410" text-anchor="middle" font-size="10" fill="#475569">well-known (fixed)</text>
+
+  <text x="450" y="452" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">IP → the device.  Port → the program.  Protocol → the language they speak.</text>
+
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#111"/></marker>
+    <marker id="ar2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#111"/></marker>
+  </defs>
+</svg>

@@ -1,7 +1,7 @@
 # Module 10 — Ports, Protocols & Applications
 
 **Phase:** Core Networking
-**Status:** Planned (content not yet produced)
+**Status:** In production (Lesson 10-01 Published) — Unit 7
 
 > **By the end of this module, you will be able to:** name the key ports and protocols the exam expects you to know cold.
 
@@ -22,9 +22,13 @@ The full, exam-mapped lesson list for this module lives in the
 [Curriculum Roadmap](../../docs/CURRICULUM-ROADMAP.md). As lessons are built,
 this board is updated:
 
-| Lesson | Status |
-|--------|--------|
-| _Populated during production_ | Planned |
+| Lesson | Title | Status |
+|--------|-------|--------|
+| 10-01 | [What Ports and Protocols Are (the Mailbox Idea)](lessons/10-01-what-ports-and-protocols-are.md) | ✅ Published |
+| 10-02 | TCP vs. UDP — reliable vs. fast | Planned |
+| 10-03 | The must-know ports (web, mail, remote, files) | Planned |
+| 10-04 | Secure vs. insecure protocol pairs | Planned |
+| 10-05 | A memory system for the port table | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
 

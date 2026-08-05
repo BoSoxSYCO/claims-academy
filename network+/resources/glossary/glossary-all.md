@@ -107,6 +107,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Encapsulation** — Wrapping data with a header at each layer, going down the stack. *(First taught: NA-M05-L04)*
 - **End-to-end** — Staying the same from the first sender to the final receiver (like the IP). *(First taught: NA-M05-L05)*
 - **Endpoint** — A node that sends or gets information, like a laptop or phone. *(First taught: NA-M04-L02)*
+- **Ephemeral port** — A temporary high port (49152–65535) a client uses for one conversation. *(First taught: NA-M10-L01)*
 - **Ethernet** — The family of rules for wired local networks (IEEE 802.3). *(First taught: NA-M06-L05)*
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
@@ -260,6 +261,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## R
 
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
+- **Registered ports** — Ports 1024–49151, assigned to particular apps and vendors. *(First taught: NA-M10-L01)*
 - **Remainder** — What's left over after you subtract a place value. *(First taught: NA-M03-L03)*
 - **Repeater** — A Layer 1 device that boosts a weak signal so it travels farther. *(First taught: NA-M07-L01)*
 - **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
@@ -289,6 +291,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
 - **Single-mode fiber (SMF)** — Thin-core fiber with one light path; laser; longest distances. *(First taught: NA-M06-L03)*
 - **SNMP** — Lets a central manager monitor and manage network devices. *(First taught: NA-M09-L05)*
+- **Socket** — An IP address plus a port number together, naming one exact endpoint. *(First taught: NA-M10-L01)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
@@ -346,10 +349,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WAN (Wide Area Network)** — A network over a long distance; the internet is one. *(First taught: NA-M04-L03)*
 - **Web management (GUI)** — A point-and-click web page for managing a switch in a browser. *(First taught: NA-M07-L06)*
 - **Web server** — A server that stores and sends web pages to browsers. *(First taught: NA-M04-L05)*
+- **Well-known ports** — Ports 0–1023, reserved for common services (like web on 80 and 443). *(First taught: NA-M10-L01)*
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 - **Wired link** — A link that uses a cable to connect two nodes. *(First taught: NA-M04-L02)*
 - **Wireless link** — A link that uses radio waves (Wi-Fi) to connect two nodes. *(First taught: NA-M04-L02)*
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L01)_
