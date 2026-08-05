@@ -81,4 +81,29 @@ internet ─▶ router ─▶ router ─▶ your LAN ─▶ your laptop
 > **Remember:** the mask is a highlighter — 255 highlights the network, 0 leaves the host plain.
 
 ---
+
+## CIDR / slash values (Lesson 08-04)
+
+- **CIDR** = a slash + the count of **network (1) bits** (the **prefix length**). A slash counts **bits, not octets**.
+- Each **255** octet = **8** bits. `255.255.255.0` = **/24**.
+
+| Mask | Slash |
+|------|:-----:|
+| 255.0.0.0 | /8 |
+| 255.255.0.0 | /16 |
+| 255.255.255.0 | /24 |
+
+**Octet → bits (partial octets):**
+
+| Octet | 0 | 128 | 192 | 224 | 240 | 248 | 252 | 254 | 255 |
+|-------|:-:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Bits | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+
+- Example: `255.255.255.128` = /25 · `255.255.255.192` = /26.
+- CIDR is **classless** — the split can fall anywhere (not just A/B/C edges).
+- Max slash = **/32** (an IPv4 address is only 32 bits).
+
+> **Remember:** count the 1s → that's the slash. Shorthand like "a dozen" = 12.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 08_

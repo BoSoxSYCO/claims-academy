@@ -43,7 +43,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
 - **Cable tester** — A tool that checks each wire end to end for opens, shorts, and miswires. *(First taught: NA-M06-L06)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
+- **CIDR (Classless Inter-Domain Routing)** — Writing a subnet mask as a slash plus the number of network bits (like /24). *(First taught: NA-M08-L04)*
 - **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
+- **Classless** — Not tied to the old A/B/C classes; the network/host split can fall anywhere. *(First taught: NA-M08-L04)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
 - **Collision** — Two devices sending at once on a shared wire, clashing their signals. *(First taught: NA-M07-L03)*
@@ -210,6 +212,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **Power over Ethernet (PoE)** — Sending power over the Ethernet cable that carries data. *(First taught: NA-M07-L04)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
+- **Prefix length** — The /n number: how many bits of an address are network. *(First taught: NA-M08-L04)*
 - **Presentation layer** — Layer 6 — formats, encrypts, and translates the data. *(First taught: NA-M05-L02)*
 - **Private IP address** — An address from a reserved private range; used inside a network, not on the internet. *(First taught: NA-M08-L02)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
@@ -304,4 +307,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M08-L04)_
