@@ -20,6 +20,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **APIPA** — Automatic Private IP Addressing: a 169.254.x.x address a device gives itself when no DHCP answers. *(First taught: NA-M08-L02)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
+- **ARP** — How a device finds the MAC address that goes with an IP on the local network. *(First taught: NA-M09-L04)*
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
 - **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
 - **Auto-negotiation** — Devices agreeing on the fastest speed and duplex they both support. *(First taught: NA-M06-L05)*
@@ -80,6 +81,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **De-encapsulation** — Unwrapping the headers at each layer, going up the stack. *(First taught: NA-M05-L04)*
 - **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
+- **Default route** — The "everything else" route: send unknown destinations to the gateway. *(First taught: NA-M09-L04)*
 - **Default subnet mask** — The standard mask for an address class: 255.0.0.0, 255.255.0.0, or 255.255.255.0. *(First taught: NA-M08-L03)*
 - **Destination address** — The address the data is going to. *(First taught: NA-M05-L05)*
 - **DHCP** — A service that automatically gives devices their IP settings. *(First taught: NA-M09-L01)*
@@ -206,6 +208,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Network address** — The first address of a subnet (host bits all 0); it names the subnet. *(First taught: NA-M08-L05)*
 - **Network layer** — Layer 3 — addressing and routing between networks, using IP (routers). *(First taught: NA-M05-L02)*
 - **Network portion** — The part of an IP address that says which network. *(First taught: NA-M08-L02)*
+- **Next hop** — The next router a packet is handed to on its way. *(First taught: NA-M09-L04)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 - **Node** — Any device that connects to a network. *(First taught: NA-M04-L02)*
 
@@ -266,6 +269,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **RJ45** — The 8-pin connector used for twisted-pair Ethernet. *(First taught: NA-M06-L02)*
 - **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
 - **Router** — A Layer 3 device that connects different networks using IP addresses. *(First taught: NA-M07-L01)*
+- **Routing** — How a router decides where to send a packet next, toward its destination. *(First taught: NA-M09-L04)*
+- **Routing table** — A router's list of networks and where to forward traffic for each. *(First taught: NA-M09-L04)*
 
 ## S
 
@@ -313,6 +318,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
+- **traceroute (tracert)** — A command that shows the routers (hops) along a packet's path. *(First taught: NA-M09-L04)*
 - **Trailer** — A small label the Data Link layer adds to the end (for error checking). *(First taught: NA-M05-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 - **Transport layer** — Layer 4 — splits data, checks it arrives, uses ports. *(First taught: NA-M05-L02)*
@@ -342,4 +348,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M09-L04)_

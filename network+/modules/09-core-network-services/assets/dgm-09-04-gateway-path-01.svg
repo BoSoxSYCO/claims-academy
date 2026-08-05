@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">How traffic leaves your network through the default gateway</title>
+  <desc id="desc">A laptop leaving its network. First it decides: if the destination is on the same network, it sends directly using the device's MAC; if not, it sends to the default gateway, the router at 192.168.1.1. To reach the gateway on the local link, the laptop uses ARP, asking who has 192.168.1.1, and the gateway replies with its MAC. The packet then leaves hop by hop: the laptop to the gateway, which is the first traceroute hop, then to the ISP router, then through more routers, each chosen by a routing table, until it reaches the destination network.</desc>
+
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">How traffic leaves your network</text>
+
+  <!-- decision box -->
+  <rect x="40" y="55" width="820" height="90" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">First the device asks: is the destination on my network? (the subnet mask decides)</text>
+  <text x="120" y="112" font-size="13" fill="#166534" font-weight="bold">SAME network →</text>
+  <text x="300" y="112" font-size="13" fill="#111">send DIRECTLY to that device (by MAC)</text>
+  <text x="120" y="134" font-size="13" fill="#b91c1c" font-weight="bold">DIFFERENT network →</text>
+  <text x="340" y="134" font-size="13" fill="#111">send to the DEFAULT GATEWAY (the router)</text>
+
+  <!-- ARP callout -->
+  <rect x="40" y="160" width="340" height="90" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="210" y="184" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">To reach the gateway locally: ARP</text>
+  <text x="60" y="208" font-size="12" fill="#5b21b6">"Who has 192.168.1.1? Tell me your MAC."</text>
+  <text x="60" y="228" font-size="12" fill="#5b21b6">→ gateway replies with its MAC</text>
+  <text x="60" y="244" font-size="10" fill="#6d28d9">(ARP connects IP (L3) and MAC (L2) on the local link)</text>
+
+  <!-- routing note -->
+  <rect x="400" y="160" width="460" height="90" rx="10" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  <text x="630" y="184" text-anchor="middle" font-size="13" font-weight="bold" fill="#78350f">Then the router forwards it</text>
+  <text x="420" y="208" font-size="12" fill="#78350f">The router checks its <tspan font-weight="bold">routing table</tspan> and picks the best <tspan font-weight="bold">next hop</tspan>.</text>
+  <text x="420" y="228" font-size="12" fill="#78350f">Unknown destination? Use the <tspan font-weight="bold">default route</tspan> ("everything else").</text>
+  <text x="420" y="244" font-size="10" fill="#b45309">The packet moves hop by hop toward its destination.</text>
+
+  <!-- hop path -->
+  <text x="450" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">Leaving hop by hop</text>
+  <g>
+    <rect x="40" y="305" width="110" height="50" rx="6" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/><text x="95" y="330" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e3a8a">your laptop</text><text x="95" y="346" text-anchor="middle" font-size="9" fill="#1e3a8a">192.168.1.24</text>
+    <rect x="215" y="305" width="120" height="50" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/><text x="275" y="328" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532d">gateway</text><text x="275" y="345" text-anchor="middle" font-size="9" fill="#14532d">192.168.1.1 · hop 1</text>
+    <rect x="400" y="305" width="120" height="50" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/><text x="460" y="328" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532d">ISP router</text><text x="460" y="345" text-anchor="middle" font-size="9" fill="#14532d">hop 2</text>
+    <rect x="585" y="305" width="120" height="50" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/><text x="645" y="328" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532d">more routers</text><text x="645" y="345" text-anchor="middle" font-size="9" fill="#14532d">hop 3…</text>
+    <ellipse cx="810" cy="330" rx="55" ry="30" fill="#e2e8f0" stroke="#334155" stroke-width="2"/><text x="810" y="334" text-anchor="middle" font-size="11" fill="#334155">destination</text>
+  </g>
+  <g stroke="#111" stroke-width="2.5" marker-end="url(#ar)">
+    <line x1="150" y1="330" x2="213" y2="330"/>
+    <line x1="335" y1="330" x2="398" y2="330"/>
+    <line x1="520" y1="330" x2="583" y2="330"/>
+    <line x1="705" y1="330" x2="752" y2="330"/>
+  </g>
+
+  <!-- caption -->
+  <text x="450" y="400" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Local → direct. Off-network → the gateway → hop by hop to the destination.</text>
+  <text x="450" y="428" text-anchor="middle" font-size="12" fill="#475569">Like a gated neighborhood: walk to a neighbor; drop faraway mail at the gate.</text>
+  <text x="450" y="452" text-anchor="middle" font-size="11" fill="#94a3b8">Tip: hop 1 in tracert is almost always your default gateway.</text>
+
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#111"/></marker>
+  </defs>
+</svg>

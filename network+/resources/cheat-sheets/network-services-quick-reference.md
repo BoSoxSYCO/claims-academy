@@ -78,4 +78,23 @@ reply to :40002 → table → 192.168.1.25   (right device!)
 > **Remember:** apartment building — one street address (public IP), many apartments (ports).
 
 ---
+
+## Gateways & leaving the network (Lesson 09-04)
+
+- **Default gateway** = your router — the **door out** for off-network traffic (`ipconfig`).
+- **Decision:** same network → **direct**; different → **gateway** (the subnet mask decides).
+- **ARP** = find the **MAC** for a local IP ("who has 192.168.1.1?"). Connects IP (L3) ↔ MAC (L2).
+- **Routing table** picks the **next hop**; **default route** = "everything else → the gateway."
+- The packet leaves **hop by hop**: you → gateway → ISP → … → destination.
+- **`tracert <name>`** shows the hops; **hop 1 = your gateway**. **`arp -a`** shows local IP↔MAC.
+- Local works but internet doesn't → suspect the **gateway**.
+
+```
+same network?  YES → direct (by MAC)
+               NO  → default gateway → hop by hop → destination
+```
+
+> **Remember:** gated neighborhood — walk to a neighbor; drop faraway mail at the gate.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 09_
