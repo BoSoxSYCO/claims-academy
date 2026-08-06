@@ -81,4 +81,28 @@ Learn them **by job** — the groups make them stick.
 > **Remember:** group by job, then note TCP vs. UDP for each.
 
 ---
+
+## Secure vs. insecure pairs (Lesson 10-04)
+
+Every clear-text protocol has a **secure twin** that does the same job with encryption.
+
+| Insecure | Port | Secure twin | Port | Lock |
+|----------|:----:|-------------|:----:|------|
+| HTTP | 80 | **HTTPS** | 443 | TLS |
+| FTP | 20/21 | **SFTP** | 22 | SSH |
+| FTP | 20/21 | **FTPS** | 989/990 | TLS |
+| Telnet | 23 | **SSH** | 22 | SSH |
+| POP3 | 110 | **POP3S** | 995 | TLS |
+| IMAP | 143 | **IMAPS** | 993 | TLS |
+| SMTP | 25 | **SMTP (submission)** | 587 | TLS |
+| LDAP | 389 | **LDAPS** | 636 | TLS |
+| DNS | 53 | **DoT** | 853 | TLS |
+
+- ⚠️ **SFTP (22, over SSH) ≠ FTPS (989/990, TLS).** **SNMPv3** stays on **161/162** but adds encryption.
+- **TLS (Transport Layer Security)** is the modern lock (older name: SSL).
+- Mail secure ports sit together: **IMAPS 993, POP3S 995.**
+
+> **Remember:** secure ≠ "same port + S." Learn each pair as a fact, and always pick the twin.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 10_

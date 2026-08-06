@@ -52,6 +52,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **CIDR (Classless Inter-Domain Routing)** — Writing a subnet mask as a slash plus the number of network bits (like /24). *(First taught: NA-M08-L04)*
 - **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
 - **Classless** — Not tied to the old A/B/C classes; the network/host split can fall anywhere. *(First taught: NA-M08-L04)*
+- **Clear text** — Data sent unscrambled, which anyone in the path can read. *(First taught: NA-M10-L04)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
 - **CNAME record** — A DNS record that points one name to another (an alias). *(First taught: NA-M09-L02)*
@@ -108,6 +109,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## E
 
 - **Encapsulation** — Wrapping data with a header at each layer, going down the stack. *(First taught: NA-M05-L04)*
+- **Encryption** — Scrambling data so only the right receiver can read it. *(First taught: NA-M10-L04)*
 - **End-to-end** — Staying the same from the first sender to the final receiver (like the IP). *(First taught: NA-M05-L05)*
 - **Endpoint** — A node that sends or gets information, like a laptop or phone. *(First taught: NA-M04-L02)*
 - **Ephemeral port** — A temporary high port (49152–65535) a client uses for one conversation. *(First taught: NA-M10-L01)*
@@ -128,6 +130,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Forward** — To send a frame out the one port where the destination lives. *(First taught: NA-M07-L02)*
 - **Frame** — The Data Link-layer PDU (data plus a MAC header and trailer). *(First taught: NA-M05-L04)*
 - **FTP (File Transfer Protocol)** — Transfers files between computers (ports 20/21, TCP). *(First taught: NA-M10-L03)*
+- **FTPS (FTP Secure)** — FTP wrapped in TLS encryption (ports 989/990). *(First taught: NA-M10-L04)*
 
 ## G
 
@@ -153,6 +156,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **IDS/IPS** — Systems that detect (IDS) or block (IPS) attacks. *(First taught: NA-M07-L04)*
 - **IMAP (Internet Message Access Protocol)** — Reads email kept on the server, syncing across devices (port 143, TCP). *(First taught: NA-M10-L03)*
+- **IMAPS (IMAP Secure)** — IMAP email access over TLS (port 993). *(First taught: NA-M10-L04)*
 - **In-band management** — Managing a device over the network itself (web, SSH). *(First taught: NA-M07-L06)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
@@ -180,6 +184,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **LAN (Local Area Network)** — A network in one place, like a home or office. *(First taught: NA-M04-L03)*
 - **Latency** — The delay — how long data takes to arrive (measured in ms). *(First taught: NA-M04-L06)*
 - **Layer** — One job in a model, stacked on the others; it hands data up or down. *(First taught: NA-M05-L01)*
+- **LDAP (Lightweight Directory Access Protocol)** — Looks up users and devices in a network directory (port 389). *(First taught: NA-M10-L04)*
+- **LDAPS (LDAP Secure)** — LDAP directory lookup over TLS (port 636). *(First taught: NA-M10-L04)*
 - **Lease** — How long a device may keep a DHCP-assigned address. *(First taught: NA-M09-L01)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
@@ -250,6 +256,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Pinout** — The order the 8 wires are placed into the RJ45's pins. *(First taught: NA-M06-L04)*
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
 - **POP3 (Post Office Protocol 3)** — Downloads email to one device (port 110, TCP). *(First taught: NA-M10-L03)*
+- **POP3S (POP3 Secure)** — POP3 email download over TLS (port 995). *(First taught: NA-M10-L04)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **Port forwarding** — A rule that sends traffic arriving on a public port to a chosen inside device. *(First taught: NA-M09-L03)*
 - **Port number** — A number that labels one specific conversation or program on a device. *(First taught: NA-M09-L03)*
@@ -295,6 +302,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Session layer** — Layer 5 — starts, keeps, and ends a connection between apps. *(First taught: NA-M05-L02)*
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
 - **SFP (Small Form-factor Pluggable)** — A slot on a switch that holds a plug-in module, often for fiber. *(First taught: NA-M07-L05)*
+- **SFTP (SSH File Transfer Protocol)** — Secure file transfer that runs over SSH (port 22). *(First taught: NA-M10-L04)*
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Short** — Two wires touching when they shouldn't, scrambling the signal. *(First taught: NA-M06-L06)*
 - **Single-mode fiber (SMF)** — Thin-core fiber with one light path; laser; longest distances. *(First taught: NA-M06-L03)*
@@ -338,6 +346,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **TFTP (Trivial File Transfer Protocol)** — A simple, no-frills file transfer (port 69, UDP). *(First taught: NA-M10-L03)*
 - **Three-way handshake** — TCP's SYN, SYN-ACK, ACK setup that starts a connection. *(First taught: NA-M10-L02)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
+- **TLS (Transport Layer Security)** — The modern encryption that locks web and email traffic (older name: SSL). *(First taught: NA-M10-L04)*
 - **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
 - **traceroute (tracert)** — A command that shows the routers (hops) along a packet's path. *(First taught: NA-M09-L04)*
@@ -372,4 +381,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L04)_
