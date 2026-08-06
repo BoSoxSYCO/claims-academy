@@ -14,6 +14,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **A record** — A DNS record mapping a name to an IPv4 address. *(First taught: NA-M09-L02)*
 - **Access point (AP)** — A device that lets wireless devices join a wired network. *(First taught: NA-M07-L04)*
 - **Access port** — A regular port on a switch where an end device, such as a PC, plugs in. *(First taught: NA-M07-L05)*
+- **Acknowledgment (ACK)** — A message confirming that data was received (used by TCP). *(First taught: NA-M10-L02)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Address class** — The A–E grouping of IPv4 addresses, decided by the first octet. *(First taught: NA-M08-L02)*
 - **Aging time** — How long a switch keeps a MAC entry before removing it. *(First taught: NA-M07-L02)*
@@ -62,6 +63,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Communicate** — To send and receive information between devices or people. *(First taught: NA-M04-L01)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
+- **Connection-oriented** — Sets up a connection and confirms delivery (TCP). *(First taught: NA-M10-L02)*
+- **Connectionless** — Just sends data, with no setup or delivery checks (UDP). *(First taught: NA-M10-L02)*
 - **Connector** — The plug on the end of a cable (the male part). *(First taught: NA-M06-L02)*
 - **Console cable** — The cable that plugs your laptop straight into the switch's console port. *(First taught: NA-M07-L06)*
 - **Console port** — A management-only port on a switch, used for the first login with a console cable. *(First taught: NA-M07-L05)*
@@ -322,6 +325,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
 - **Terminal emulator** — A program (PuTTY, Tera Term) that shows the switch's text screen on your laptop. *(First taught: NA-M07-L06)*
+- **Three-way handshake** — TCP's SYN, SYN-ACK, ACK setup that starts a connection. *(First taught: NA-M10-L02)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
@@ -333,6 +337,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## U
 
+- **UDP (User Datagram Protocol)** — A fast, connectionless way to send data with no delivery checks. *(First taught: NA-M10-L02)*
 - **Unmanaged switch** — A switch with no settings; it just forwards frames automatically. *(First taught: NA-M07-L05)*
 - **Uplink port** — A (usually faster) port that connects a switch up to a router or core switch. *(First taught: NA-M07-L05)*
 - **Usable host** — An address a device can use — not the network or broadcast address. *(First taught: NA-M08-L05)*
@@ -356,4 +361,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L02)_

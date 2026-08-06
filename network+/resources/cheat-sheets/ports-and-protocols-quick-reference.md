@@ -31,4 +31,23 @@ laptop:51000  (ephemeral)  ⇄  server:443  (well-known)
 > **Remember:** IP = the building, port = the mailbox, protocol = the language of the letter.
 
 ---
+
+## TCP vs. UDP (Lesson 10-02)
+
+| | **TCP** | **UDP** |
+|---|---------|---------|
+| Setup | three-way **handshake** | none (connectionless) |
+| Reliable | **yes** — ACK, resend, in order | no — best-effort |
+| Speed | slower (more overhead) | **faster** |
+| Like | a phone call | a live broadcast |
+| Use | web, email, files | voice/video, games, DNS |
+
+- **Three-way handshake:** SYN → SYN-ACK → ACK, then data flows.
+- **ACK** = a message confirming data was received.
+- Memory hook: **TCP = Trusty/Checked · UDP = Ultra-fast/Don't-care.**
+- See it: `netstat -an` — TCP rows show a **State**; UDP rows don't.
+
+> **Remember:** TCP when data must be perfect; UDP when speed matters more than a lost piece.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 10_
