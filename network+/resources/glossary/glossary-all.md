@@ -15,6 +15,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Access point (AP)** — A device that lets wireless devices join a wired network. *(First taught: NA-M07-L04)*
 - **Access port** — A regular port on a switch where an end device, such as a PC, plugs in. *(First taught: NA-M07-L05)*
 - **Acknowledgment (ACK)** — A message confirming that data was received (used by TCP). *(First taught: NA-M10-L02)*
+- **Active recall** — Pulling an answer from memory instead of looking at it; it builds strong, lasting memory. *(First taught: NA-M10-L05)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Address class** — The A–E grouping of IPv4 addresses, decided by the first octet. *(First taught: NA-M08-L02)*
 - **Aging time** — How long a switch keeps a MAC entry before removing it. *(First taught: NA-M07-L02)*
@@ -49,6 +50,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
 - **Cable tester** — A tool that checks each wire end to end for opens, shorts, and miswires. *(First taught: NA-M06-L06)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
+- **Chunking** — Grouping small facts into a few bigger buckets so they are easier to remember. *(First taught: NA-M10-L05)*
 - **CIDR (Classless Inter-Domain Routing)** — Writing a subnet mask as a slash plus the number of network bits (like /24). *(First taught: NA-M08-L04)*
 - **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
 - **Classless** — Not tied to the old A/B/C classes; the network/host split can fall anywhere. *(First taught: NA-M08-L04)*
@@ -125,6 +127,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **File path** — The address that lists each folder to open to reach a file. *(First taught: NA-M02-L01)*
 - **Firewall** — A device or software that allows or blocks traffic by rules. *(First taught: NA-M07-L04)*
 - **Firmware** — Software built into a device, like a switch, that rarely changes. *(First taught: NA-M01-L05)*
+- **Flashcard** — A card with a question on one side and its answer on the other, used for self-quizzing. *(First taught: NA-M10-L05)*
 - **Flood** — To send a frame out all ports except the one it came in on. *(First taught: NA-M07-L02)*
 - **Folder** — A container that holds files and other folders; also called a directory. *(First taught: NA-M02-L01)*
 - **Forward** — To send a frame out the one port where the destination lives. *(First taught: NA-M07-L02)*
@@ -205,6 +208,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
 - **Millisecond (ms)** — One thousandth of a second; the unit for latency. *(First taught: NA-M04-L06)*
+- **Mnemonic** — A short trick that ties a hard fact to something easy to remember. *(First taught: NA-M10-L05)*
 - **Mode** — A path that light can take down the fiber's core. *(First taught: NA-M06-L03)*
 - **Model** — A simplified plan of a complex thing, showing just the needed parts. *(First taught: NA-M05-L01)*
 - **Modem** — A device that connects your home to your internet provider. *(First taught: NA-M07-L04)*
@@ -313,6 +317,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Socket** — An IP address plus a port number together, naming one exact endpoint. *(First taught: NA-M10-L01)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
+- **Spaced repetition** — Reviewing material at growing gaps over days instead of all at once. *(First taught: NA-M10-L05)*
 - **SSH (Secure Shell)** — Secure, encrypted remote command access (port 22, TCP). *(First taught: NA-M10-L03)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
@@ -381,4 +386,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L05)_

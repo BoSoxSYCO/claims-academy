@@ -105,4 +105,20 @@ Every clear-text protocol has a **secure twin** that does the same job with encr
 > **Remember:** secure ≠ "same port + S." Learn each pair as a fact, and always pick the twin.
 
 ---
+
+## The port memory system (Lesson 10-05)
+
+Four habits to lock the whole port table in:
+
+1. **Chunk** — web · mail · remote · files · services. Learn one group at a time.
+2. **Active recall** — cover the answer, say it, check. Quiz **both** directions (number ↔ protocol).
+3. **Space it** — review today → tomorrow → +2 days → +4 days → +1 week.
+4. **Mnemonic** — only for the ports you keep missing.
+
+- **Recall beats rereading.** Two minutes quizzing > twenty minutes reading.
+- Hooks: **SSH 22** "too secure" · **SMB 445** "Share My Business" · mail climbs **25 → 110 → 143**.
+
+> **Remember:** pull the fact OUT of your head — don't just read it in.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 10_

@@ -1,7 +1,7 @@
 # Module 10 — Ports, Protocols & Applications
 
 **Phase:** Core Networking
-**Status:** In production (Lessons 10-01 → 10-04 Published) — Unit 7
+**Status:** ✅ Complete (Lessons 10-01 → 10-05 Published) — Unit 7
 
 > **By the end of this module, you will be able to:** name the key ports and protocols the exam expects you to know cold.
 
@@ -28,7 +28,7 @@ this board is updated:
 | 10-02 | [TCP vs. UDP — Reliable vs. Fast](lessons/10-02-tcp-vs-udp.md) | ✅ Published |
 | 10-03 | [The Must-Know Ports (Web, Mail, Remote, Files)](lessons/10-03-the-must-know-ports.md) | ✅ Published |
 | 10-04 | [Secure vs. Insecure Protocol Pairs](lessons/10-04-secure-vs-insecure-protocol-pairs.md) | ✅ Published |
-| 10-05 | A memory system for the port table | Planned |
+| 10-05 | [A Memory System for the Port Table](lessons/10-05-a-memory-system-for-the-port-table.md) | ✅ Published |
 
 Status values: `Planned → Drafting → In Review → Published`
 
