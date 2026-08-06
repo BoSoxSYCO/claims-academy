@@ -89,6 +89,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
 - **Default route** — The "everything else" route: send unknown destinations to the gateway. *(First taught: NA-M09-L04)*
 - **Default subnet mask** — The standard mask for an address class: 255.0.0.0, 255.255.0.0, or 255.255.255.0. *(First taught: NA-M08-L03)*
+- **Default VLAN** — VLAN 1, where every switch port starts until it is changed. *(First taught: NA-M11-L01)*
 - **Destination address** — The address the data is going to. *(First taught: NA-M05-L05)*
 - **DHCP** — A service that automatically gives devices their IP settings. *(First taught: NA-M09-L01)*
 - **DHCP reservation** — A fixed address always given to one device (by its MAC). *(First taught: NA-M09-L01)*
@@ -301,6 +302,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Search box** — The box where you type a tool's name to find it. *(First taught: NA-M02-L02)*
 - **Section** — A group of output lines under a heading, such as one network connection. *(First taught: NA-M02-L05)*
 - **Segment** — The Transport-layer PDU (data plus a port header). *(First taught: NA-M05-L04)*
+- **Segmentation** — Dividing a network into separate, protected zones (VLANs do this). *(First taught: NA-M11-L01)*
 - **Server** — A computer or program that provides something when asked. *(First taught: NA-M01-L06)*
 - **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
 - **Session layer** — Layer 5 — starts, keeps, and ends a connection between apps. *(First taught: NA-M05-L02)*
@@ -373,6 +375,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## V
 
 - **Value** — The answer on the right of an output line (after the colon). *(First taught: NA-M02-L05)*
+- **VLAN (Virtual Local Area Network)** — A group of switch ports that act as their own separate network and broadcast domain. *(First taught: NA-M11-L01)*
+- **VLAN ID** — The number (1–4094) that names a VLAN; VLAN 1 is the default. *(First taught: NA-M11-L01)*
 
 ## W
 
@@ -386,4 +390,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L01)_

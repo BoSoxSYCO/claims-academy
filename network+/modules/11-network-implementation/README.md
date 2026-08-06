@@ -1,7 +1,7 @@
 # Module 11 — Network Implementation
 
 **Phase:** Exam Deep-Dive
-**Status:** Planned (content not yet produced)
+**Status:** In production (Lesson 11-01 Published) — Unit 8
 
 > **By the end of this module, you will be able to:** build VLANs, understand routing, and set up wireless — on real gear.
 
@@ -22,9 +22,16 @@ The full, exam-mapped lesson list for this module lives in the
 [Curriculum Roadmap](../../docs/CURRICULUM-ROADMAP.md). As lessons are built,
 this board is updated:
 
-| Lesson | Status |
-|--------|--------|
-| _Populated during production_ | Planned |
+| Lesson | Title | Status |
+|--------|-------|--------|
+| 11-01 | [VLANs: Why We Split One Switch Into Many](lessons/11-01-vlans-why-we-split-one-switch.md) | ✅ Published |
+| 11-02 | Configuring VLANs on the Dell 3424 | Planned |
+| 11-03 | Trunks, tagging (802.1Q), and access ports | Planned |
+| 11-04 | Spanning Tree Protocol (loop prevention) | Planned |
+| 11-05 | Routing basics: static vs. dynamic | Planned |
+| 11-06 | Inter-VLAN routing (getting VLANs to talk) | Planned |
+| 11-07 | Wireless standards, channels, and security | Planned |
+| 11-08 | Designing a small network end to end | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
 
