@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Spanning Tree blocks one link to break a loop</title>
+  <desc id="desc">Three switches in a triangle. The top switch is labeled the root bridge. The two links from the root down to the other two switches are labeled forwarding and drawn solid. The link between the two lower switches is labeled blocked and drawn dashed with an X, showing Spanning Tree Protocol has turned it off to break the loop. A caption notes the blocked link is a backup that turns on automatically if one of the forwarding links fails.</desc>
+
+  <rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a2a3a">Spanning Tree keeps one path — the loop is broken</text>
+
+  <!-- Root bridge (top) -->
+  <rect x="285" y="70" width="150" height="64" rx="8" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="3"/>
+  <text x="360" y="98" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Switch A</text>
+  <text x="360" y="118" text-anchor="middle" font-size="13" fill="#1a2a3a">ROOT BRIDGE ★</text>
+
+  <!-- Switch B (bottom left) -->
+  <rect x="90" y="300" width="150" height="60" rx="8" fill="#e8e8ef" stroke="#4a5568" stroke-width="2"/>
+  <text x="165" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a2a3a">Switch B</text>
+
+  <!-- Switch C (bottom right) -->
+  <rect x="480" y="300" width="150" height="60" rx="8" fill="#e8e8ef" stroke="#4a5568" stroke-width="2"/>
+  <text x="555" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a2a3a">Switch C</text>
+
+  <!-- Forwarding links (solid) -->
+  <line x1="315" y1="134" x2="180" y2="300" stroke="#2f855a" stroke-width="4"/>
+  <line x1="405" y1="134" x2="540" y2="300" stroke="#2f855a" stroke-width="4"/>
+  <text x="205" y="220" font-size="13" font-weight="bold" fill="#2f855a">Forwarding</text>
+  <text x="470" y="220" font-size="13" font-weight="bold" fill="#2f855a">Forwarding</text>
+
+  <!-- Blocked link (dashed with X) -->
+  <line x1="240" y1="330" x2="480" y2="330" stroke="#9b2c2c" stroke-width="3" stroke-dasharray="8,6"/>
+  <text x="360" y="322" text-anchor="middle" font-size="14" font-weight="bold" fill="#9b2c2c">✗ BLOCKED</text>
+  <text x="360" y="352" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555">backup — turns on if a forwarding link fails</text>
+
+  <rect x="80" y="410" width="560" height="70" rx="8" fill="#f2f2f2" stroke="#4a5568" stroke-width="2"/>
+  <text x="360" y="437" text-anchor="middle" font-size="13.5" fill="#1a2a3a">Solid = forwarding (active).  Dashed with ✗ = blocked (standby).</text>
+  <text x="360" y="460" text-anchor="middle" font-size="13.5" fill="#1a2a3a">One loop-free path stays on; STP unblocks the backup automatically if needed.</text>
+</svg>

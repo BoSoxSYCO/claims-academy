@@ -85,4 +85,19 @@ switchport trunk allowed vlan add 10,20
 > **Remember:** access = one VLAN untagged; trunk = many VLANs tagged, one native untagged.
 
 ---
+
+## Spanning Tree Protocol / STP (Lesson 11-04)
+
+- **Problem:** two paths between switches = a **loop** → a **broadcast storm** crashes the network.
+- **Fix:** STP keeps **one** active path and **blocks** the extras (no circle for frames to loop).
+- **Root bridge** = the center switch; best paths are measured from it.
+- **Port states:** Forwarding (active) · Blocking (standby) · Disabled.
+- If the active path fails → STP **unblocks** a backup automatically.
+- **Standards:** 802.1D (STP) · 802.1w (Rapid STP, faster).
+- View it: `show spanning-tree`  · **[TO VERIFY ON HARDWARE]**
+- ⚠️ **Never disable STP** to "speed up" — one loop storms everything.
+
+> **Remember:** a blocked port isn't broken — it's a standby that turns on if the main path fails.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 11_

@@ -41,11 +41,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
 - **Block size** — How far apart subnets start: 256 − the mask's interesting octet. *(First taught: NA-M08-L05)*
+- **Blocking (STP)** — A port state where Spanning Tree stops a port from forwarding, to break a loop. *(First taught: NA-M11-L04)*
 - **Bluetooth** — A short-range wireless way to link nearby devices (a common PAN). *(First taught: NA-M04-L03)*
 - **Borrowing bits** — Taking bits from the host part to make more subnets. *(First taught: NA-M08-L05)*
 - **Broadcast** — A frame addressed to every device (`FF:FF:FF:FF:FF:FF`). *(First taught: NA-M07-L02)*
 - **Broadcast address** — The last address of a subnet (host bits all 1); it reaches every host in the subnet. *(First taught: NA-M08-L05)*
 - **Broadcast domain** — The group of devices that all receive each other's broadcasts. *(First taught: NA-M07-L03)*
+- **Broadcast storm** — A flood of endlessly multiplying frames (from a loop) that crashes the network. *(First taught: NA-M11-L04)*
 - **Bus topology** — A network shape where all nodes share one backbone cable. *(First taught: NA-M04-L04)*
 - **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
 
@@ -298,6 +300,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Ring topology** — A network shape where each node connects to two neighbors, forming a loop. *(First taught: NA-M04-L04)*
 - **RJ11** — A smaller connector used for telephones (fewer pins). *(First taught: NA-M06-L02)*
 - **RJ45** — The 8-pin connector used for twisted-pair Ethernet. *(First taught: NA-M06-L02)*
+- **Root bridge** — The one switch Spanning Tree picks as the center; all paths are measured from it. *(First taught: NA-M11-L04)*
 - **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
 - **Router** — A Layer 3 device that connects different networks using IP addresses. *(First taught: NA-M07-L01)*
 - **Routing** — How a router decides where to send a packet next, toward its destination. *(First taught: NA-M09-L04)*
@@ -328,6 +331,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
 - **Spaced repetition** — Reviewing material at growing gaps over days instead of all at once. *(First taught: NA-M10-L05)*
+- **Spanning Tree Protocol (STP)** — A protocol that prevents switching loops by keeping one active path and blocking the rest. *(First taught: NA-M11-L04)*
 - **SSH (Secure Shell)** — Secure, encrypted remote command access (port 22, TCP). *(First taught: NA-M10-L03)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
@@ -346,6 +350,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Subnetting** — Splitting one network into several smaller subnets. *(First taught: NA-M08-L05)*
 - **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
 - **Switch** — A Layer 2 device that learns MAC addresses and forwards to the right port. *(First taught: NA-M07-L01)*
+- **Switching loop** — Two or more paths between switches that form a circle frames can loop around. *(First taught: NA-M11-L04)*
 - **Syslog** — A standard for sending device log messages to a central server. *(First taught: NA-M09-L05)*
 
 ## T
@@ -401,4 +406,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L04)_
