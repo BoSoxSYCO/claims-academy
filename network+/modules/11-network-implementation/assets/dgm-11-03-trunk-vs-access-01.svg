@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Access ports versus a trunk between two switches</title>
+  <desc id="desc">Two switches connected by a trunk link in the middle. Each switch has PCs on access ports, where each access port carries a single VLAN — VLAN 10 or VLAN 20 — with no tag. The trunk link between the switches carries both VLAN 10 and VLAN 20 at once, and each frame on the trunk is tagged with its VLAN ID using 802.1Q. A note states the native VLAN, VLAN 1 by default, crosses the trunk untagged. Access ports face end devices; the trunk faces the other switch.</desc>
+
+  <rect x="0" y="0" width="780" height="520" fill="#ffffff"/>
+  <text x="390" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a2a3a">Access ports face devices · a trunk joins switches</text>
+
+  <!-- Switch A -->
+  <rect x="60" y="180" width="180" height="60" rx="8" fill="#e8e8ef" stroke="#4a5568" stroke-width="2"/>
+  <text x="150" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a2a3a">Switch A</text>
+
+  <!-- Switch B -->
+  <rect x="540" y="180" width="180" height="60" rx="8" fill="#e8e8ef" stroke="#4a5568" stroke-width="2"/>
+  <text x="630" y="215" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a2a3a">Switch B</text>
+
+  <!-- Trunk link -->
+  <line x1="240" y1="210" x2="540" y2="210" stroke="#6b46c1" stroke-width="5"/>
+  <rect x="300" y="150" width="180" height="40" rx="6" fill="#f3eafb" stroke="#6b46c1" stroke-width="2"/>
+  <text x="390" y="175" text-anchor="middle" font-size="13" font-weight="bold" fill="#6b46c1">TRUNK — g24</text>
+  <text x="390" y="238" text-anchor="middle" font-size="12.5" fill="#1a2a3a">802.1Q tags: [VLAN 10] [VLAN 20] [VLAN 10]</text>
+  <text x="390" y="256" text-anchor="middle" font-size="12" font-style="italic" fill="#555">native VLAN 1 = untagged</text>
+
+  <!-- Access PCs on Switch A -->
+  <rect x="40" y="320" width="90" height="46" rx="6" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="85" y="340" text-anchor="middle" font-size="12" fill="#1a2a3a">PC · VLAN 10</text>
+  <text x="85" y="357" text-anchor="middle" font-size="11" font-style="italic" fill="#555">access, no tag</text>
+  <rect x="150" y="320" width="90" height="46" rx="6" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="195" y="340" text-anchor="middle" font-size="12" fill="#1a2a3a">PC · VLAN 20</text>
+  <text x="195" y="357" text-anchor="middle" font-size="11" font-style="italic" fill="#555">access, no tag</text>
+  <line x1="85" y1="320" x2="120" y2="240" stroke="#2b6cb0" stroke-width="2"/>
+  <line x1="195" y1="320" x2="180" y2="240" stroke="#2f855a" stroke-width="2"/>
+
+  <!-- Access PCs on Switch B -->
+  <rect x="540" y="320" width="90" height="46" rx="6" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="585" y="340" text-anchor="middle" font-size="12" fill="#1a2a3a">PC · VLAN 10</text>
+  <text x="585" y="357" text-anchor="middle" font-size="11" font-style="italic" fill="#555">access, no tag</text>
+  <rect x="650" y="320" width="90" height="46" rx="6" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="695" y="340" text-anchor="middle" font-size="12" fill="#1a2a3a">PC · VLAN 20</text>
+  <text x="695" y="357" text-anchor="middle" font-size="11" font-style="italic" fill="#555">access, no tag</text>
+  <line x1="585" y1="320" x2="600" y2="240" stroke="#2b6cb0" stroke-width="2"/>
+  <line x1="695" y1="320" x2="660" y2="240" stroke="#2f855a" stroke-width="2"/>
+
+  <rect x="60" y="410" width="660" height="70" rx="8" fill="#f2f2f2" stroke="#4a5568" stroke-width="2"/>
+  <text x="390" y="437" text-anchor="middle" font-size="14" fill="#1a2a3a"><tspan font-weight="bold">Access port</tspan> = one VLAN, no tag (faces a PC).  <tspan font-weight="bold">Trunk port</tspan> = many VLANs, 802.1Q tags (joins switches).</text>
+  <text x="390" y="461" text-anchor="middle" font-size="13" fill="#1a2a3a">Color plus a text label marks each VLAN and port type — color never stands alone.</text>
+</svg>

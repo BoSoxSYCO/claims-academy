@@ -59,4 +59,30 @@
 > **Remember:** naming a VLAN isn't enough — you must assign each port, then save.
 
 ---
+
+## Access vs. trunk & 802.1Q (Lesson 11-03)
+
+| | **Access port** | **Trunk port** |
+|---|-----------------|----------------|
+| VLANs carried | **one** | **many** |
+| Tagging | none | **802.1Q** tag per frame |
+| Faces | a PC / printer | another switch or a router |
+| Native VLAN | n/a | one VLAN **untagged** (default 1) |
+
+- **802.1Q** adds a tag (the VLAN ID) to each frame on a trunk. The tag is stripped before it reaches a PC.
+- The **native VLAN** rides the trunk **untagged** and must **match** on both ends (a mismatch leaks traffic).
+
+**Dell 3424 basic trunk:**
+```
+interface ethernet g24
+switchport mode trunk
+switchport trunk allowed vlan add 10,20
+```
+
+- ⚠️ PCs use access ports; switch-to-switch/router links use trunks.
+- **[TO VERIFY ON HARDWARE]** — exact trunk wording varies by firmware.
+
+> **Remember:** access = one VLAN untagged; trunk = many VLANs tagged, one native untagged.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 11_

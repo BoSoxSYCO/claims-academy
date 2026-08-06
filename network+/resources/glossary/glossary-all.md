@@ -9,6 +9,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ---
 
+## 0-9
+
+- **802.1Q (dot1q)** — The IEEE standard that tags each frame with its VLAN ID so one trunk can carry many VLANs. *(First taught: NA-M11-L03)*
+
 ## A
 
 - **A record** — A DNS record mapping a name to an IPv4 address. *(First taught: NA-M09-L02)*
@@ -224,6 +228,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **NAT (Network Address Translation)** — When a router swaps a device's private address for its public one so it can reach the internet. *(First taught: NA-M08-L08)*
 - **NAT overload** — Another name for PAT — many devices share one public IP using ports. *(First taught: NA-M09-L03)*
 - **NAT translation table** — The router's list matching inside address:port to public address:port. *(First taught: NA-M09-L03)*
+- **Native VLAN** — The one VLAN whose frames cross a trunk untagged (default VLAN 1). *(First taught: NA-M11-L03)*
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
 - **Network address** — The first address of a subnet (host bits all 0); it names the subnet. *(First taught: NA-M08-L05)*
@@ -364,6 +369,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Trailer** — A small label the Data Link layer adds to the end (for error checking). *(First taught: NA-M05-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 - **Transport layer** — Layer 4 — splits data, checks it arrives, uses ports. *(First taught: NA-M05-L02)*
+- **Trunk port** — A switch port that carries traffic for many VLANs on one link. *(First taught: NA-M11-L03)*
 - **Twisted pair** — Two copper wires twisted together to cancel interference. *(First taught: NA-M06-L01)*
 
 ## U
@@ -381,6 +387,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Value** — The answer on the right of an output line (after the colon). *(First taught: NA-M02-L05)*
 - **VLAN (Virtual Local Area Network)** — A group of switch ports that act as their own separate network and broadcast domain. *(First taught: NA-M11-L01)*
 - **VLAN ID** — The number (1–4094) that names a VLAN; VLAN 1 is the default. *(First taught: NA-M11-L01)*
+- **VLAN tag** — The small label inside a frame that names which VLAN it belongs to. *(First taught: NA-M11-L03)*
 
 ## W
 
@@ -394,4 +401,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L03)_
