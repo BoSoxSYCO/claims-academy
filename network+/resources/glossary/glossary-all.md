@@ -140,6 +140,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Gigabit Ethernet** — The 1 Gbps Ethernet standard (1000BASE-T). *(First taught: NA-M06-L05)*
 - **Gigabyte (GB)** — A unit for measuring memory and storage size; more GB means more room. *(First taught: NA-M01-L02)*
+- **Global configuration mode** — The switch CLI mode (`(config)#`) where you change switch-wide settings. *(First taught: NA-M11-L02)*
 - **Global unicast address** — A public, internet-routable IPv6 address (starts 2000–3fff). *(First taught: NA-M08-L07)*
 
 ## H
@@ -164,6 +165,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **In-band management** — Managing a device over the network itself (web, SSH). *(First taught: NA-M07-L06)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
+- **Interface mode** — The switch CLI mode (`(config-if)#`) where you change one port. *(First taught: NA-M11-L02)*
 - **Interference** — Unwanted electrical noise that can harm a signal (also called EMI). *(First taught: NA-M06-L01)*
 - **Internet layer** — The TCP/IP layer that routes between networks with IP (OSI 3). *(First taught: NA-M05-L03)*
 - **IP (Internet Protocol)** — The rule-set for addressing and routing data between networks. *(First taught: NA-M05-L03)*
@@ -295,6 +297,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Router** — A Layer 3 device that connects different networks using IP addresses. *(First taught: NA-M07-L01)*
 - **Routing** — How a router decides where to send a packet next, toward its destination. *(First taught: NA-M09-L04)*
 - **Routing table** — A router's list of networks and where to forward traffic for each. *(First taught: NA-M09-L04)*
+- **running-config** — A switch's live settings, held in memory right now. *(First taught: NA-M11-L02)*
 
 ## S
 
@@ -325,6 +328,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
 - **Star topology** — A network shape where every node connects to one central device. *(First taught: NA-M04-L04)*
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
+- **startup-config** — The saved settings a switch loads when it boots. *(First taught: NA-M11-L02)*
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Static IP address** — An address set by hand that does not change. *(First taught: NA-M09-L01)*
 - **Static NAT** — A fixed one-to-one map of one private address to one public address. *(First taught: NA-M09-L03)*
@@ -390,4 +394,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L02)_

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Three steps to build a VLAN on the Dell 3424</title>
+  <desc id="desc">Three numbered steps to build a VLAN on the Dell 3424. Step 1, Create: enter configuration mode, then vlan 10 and name Home. Step 2, Assign a port: interface ethernet g1, switchport mode access, switchport access vlan 10. Step 3, Verify and save: show vlan to confirm, then copy running-config startup-config to save. An arrow flows top to bottom showing the order create, assign, verify, save.</desc>
+
+  <rect x="0" y="0" width="720" height="560" fill="#ffffff"/>
+  <text x="360" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a2a3a">Build a VLAN — three steps</text>
+
+  <!-- Step 1 -->
+  <rect x="90" y="56" width="540" height="120" rx="10" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="110" y="84" font-size="16" font-weight="bold" fill="#2b6cb0">1 · CREATE</text>
+  <text x="110" y="110" font-size="14" font-family="Consolas, monospace" fill="#1a2a3a">enable  →  configure</text>
+  <text x="110" y="134" font-size="14" font-family="Consolas, monospace" fill="#1a2a3a">vlan 10</text>
+  <text x="110" y="158" font-size="14" font-family="Consolas, monospace" fill="#1a2a3a">name Home</text>
+
+  <text x="360" y="196" text-anchor="middle" font-size="20" fill="#4a5568">↓</text>
+
+  <!-- Step 2 -->
+  <rect x="90" y="208" width="540" height="140" rx="10" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="110" y="236" font-size="16" font-weight="bold" fill="#2f855a">2 · ASSIGN A PORT</text>
+  <text x="110" y="262" font-size="14" font-family="Consolas, monospace" fill="#1a2a3a">interface ethernet g1</text>
+  <text x="110" y="286" font-size="14" font-family="Consolas, monospace" fill="#1a2a3a">switchport mode access</text>
+  <text x="110" y="310" font-size="14" font-family="Consolas, monospace" fill="#1a2a3a">switchport access vlan 10</text>
+  <text x="110" y="334" font-size="12.5" font-style="italic" fill="#555">an access port carries one VLAN</text>
+
+  <text x="360" y="368" text-anchor="middle" font-size="20" fill="#4a5568">↓</text>
+
+  <!-- Step 3 -->
+  <rect x="90" y="380" width="540" height="120" rx="10" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="110" y="408" font-size="16" font-weight="bold" fill="#c05621">3 · VERIFY + SAVE</text>
+  <text x="110" y="434" font-size="14" font-family="Consolas, monospace" fill="#1a2a3a">show vlan</text>
+  <text x="110" y="458" font-size="14" font-family="Consolas, monospace" fill="#1a2a3a">copy running-config startup-config</text>
+  <text x="110" y="482" font-size="12.5" font-style="italic" fill="#9b2c2c">no save = VLANs vanish on reboot</text>
+
+  <text x="360" y="528" text-anchor="middle" font-size="13" font-style="italic" fill="#555">Order matters: create → assign → verify → save. (Exact wording varies by firmware.)</text>
+</svg>

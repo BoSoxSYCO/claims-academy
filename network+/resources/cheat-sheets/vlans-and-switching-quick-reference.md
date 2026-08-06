@@ -37,4 +37,26 @@
 > **Remember:** a VLAN is "a switch inside your switch" — one box, many separate networks.
 
 ---
+
+## Configuring a VLAN on the Dell 3424 (Lesson 11-02)
+
+| Job | Command |
+|-----|---------|
+| Enter config | `enable` → `configure` |
+| Create VLAN | `vlan database` → `vlan 10` |
+| Name VLAN | `interface vlan 10` → `name Home` |
+| Pick a port | `interface ethernet g1` |
+| Access mode | `switchport mode access` |
+| Assign VLAN | `switchport access vlan 10` |
+| Verify | `show vlan` |
+| **Save** | `copy running-config startup-config` |
+
+- **Order:** create → assign → verify → **save**. No save = VLANs vanish on reboot.
+- ⚠️ Never move the port you manage **through** (use the console cable). Avoid a lockout.
+- **running-config** = live/in memory · **startup-config** = saved, loaded at boot.
+- **[TO VERIFY ON HARDWARE]** — exact prompts/output vary by firmware; confirm on your unit.
+
+> **Remember:** naming a VLAN isn't enough — you must assign each port, then save.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 11_
