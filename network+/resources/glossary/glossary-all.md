@@ -127,6 +127,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Folder** — A container that holds files and other folders; also called a directory. *(First taught: NA-M02-L01)*
 - **Forward** — To send a frame out the one port where the destination lives. *(First taught: NA-M07-L02)*
 - **Frame** — The Data Link-layer PDU (data plus a MAC header and trailer). *(First taught: NA-M05-L04)*
+- **FTP (File Transfer Protocol)** — Transfers files between computers (ports 20/21, TCP). *(First taught: NA-M10-L03)*
 
 ## G
 
@@ -144,11 +145,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
 - **Host** — Any device that has an IP address and communicates on a network. *(First taught: NA-M08-L01)*
 - **Host portion** — The part of an IP address that says which device on a network. *(First taught: NA-M08-L02)*
+- **HTTP (HyperText Transfer Protocol)** — The web protocol for plain web pages (port 80, TCP). *(First taught: NA-M10-L03)*
+- **HTTPS (HTTP Secure)** — The secure, encrypted web protocol (port 443, TCP). *(First taught: NA-M10-L03)*
 - **Hub** — A Layer 1 device that repeats every incoming signal out all ports. *(First taught: NA-M07-L01)*
 
 ## I
 
 - **IDS/IPS** — Systems that detect (IDS) or block (IPS) attacks. *(First taught: NA-M07-L04)*
+- **IMAP (Internet Message Access Protocol)** — Reads email kept on the server, syncing across devices (port 143, TCP). *(First taught: NA-M10-L03)*
 - **In-band management** — Managing a device over the network itself (web, SSH). *(First taught: NA-M07-L06)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
@@ -245,6 +249,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
 - **Pinout** — The order the 8 wires are placed into the RJ45's pins. *(First taught: NA-M06-L04)*
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
+- **POP3 (Post Office Protocol 3)** — Downloads email to one device (port 110, TCP). *(First taught: NA-M10-L03)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **Port forwarding** — A rule that sends traffic arriving on a public port to a chosen inside device. *(First taught: NA-M09-L03)*
 - **Port number** — A number that labels one specific conversation or program on a device. *(First taught: NA-M09-L03)*
@@ -264,6 +269,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## R
 
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
+- **RDP (Remote Desktop Protocol)** — Remote control of a Windows desktop (port 3389, TCP). *(First taught: NA-M10-L03)*
 - **Registered ports** — Ports 1024–49151, assigned to particular apps and vendors. *(First taught: NA-M10-L01)*
 - **Remainder** — What's left over after you subtract a place value. *(First taught: NA-M03-L03)*
 - **Repeater** — A Layer 1 device that boosts a weak signal so it travels farther. *(First taught: NA-M07-L01)*
@@ -291,12 +297,15 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **SFP (Small Form-factor Pluggable)** — A slot on a switch that holds a plug-in module, often for fiber. *(First taught: NA-M07-L05)*
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
 - **Short** — Two wires touching when they shouldn't, scrambling the signal. *(First taught: NA-M06-L06)*
-- **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
 - **Single-mode fiber (SMF)** — Thin-core fiber with one light path; laser; longest distances. *(First taught: NA-M06-L03)*
+- **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
+- **SMB (Server Message Block)** — Windows file and printer sharing (port 445, TCP). *(First taught: NA-M10-L03)*
+- **SMTP (Simple Mail Transfer Protocol)** — Sends email (port 25, TCP). *(First taught: NA-M10-L03)*
 - **SNMP** — Lets a central manager monitor and manage network devices. *(First taught: NA-M09-L05)*
 - **Socket** — An IP address plus a port number together, naming one exact endpoint. *(First taught: NA-M10-L01)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
+- **SSH (Secure Shell)** — Secure, encrypted remote command access (port 22, TCP). *(First taught: NA-M10-L03)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
 - **Star topology** — A network shape where every node connects to one central device. *(First taught: NA-M04-L04)*
@@ -322,9 +331,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
 - **TCP (Transmission Control Protocol)** — A rule-set for splitting data and making sure it arrives in order. *(First taught: NA-M05-L03)*
 - **TCP/IP model** — The 4-layer practical model the internet actually uses. *(First taught: NA-M05-L01)*
+- **Telnet** — Old, unencrypted remote command access (port 23, TCP); avoid it, use SSH. *(First taught: NA-M10-L03)*
 - **Temporary** — Lasts only for a while; RAM is temporary. *(First taught: NA-M01-L02)*
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
 - **Terminal emulator** — A program (PuTTY, Tera Term) that shows the switch's text screen on your laptop. *(First taught: NA-M07-L06)*
+- **TFTP (Trivial File Transfer Protocol)** — A simple, no-frills file transfer (port 69, UDP). *(First taught: NA-M10-L03)*
 - **Three-way handshake** — TCP's SYN, SYN-ACK, ACK setup that starts a connection. *(First taught: NA-M10-L02)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
@@ -361,4 +372,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M10-L03)_

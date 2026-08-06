@@ -50,4 +50,35 @@ laptop:51000  (ephemeral)  ⇄  server:443  (well-known)
 > **Remember:** TCP when data must be perfect; UDP when speed matters more than a lost piece.
 
 ---
+
+## The must-know ports (Lesson 10-03)
+
+Learn them **by job** — the groups make them stick.
+
+| Port | Protocol | Job | TCP/UDP |
+|:----:|----------|-----|:-------:|
+| 20/21 | FTP | file transfer | TCP |
+| 22 | SSH | secure remote | TCP |
+| 23 | Telnet | remote (insecure) | TCP |
+| 25 | SMTP | send email | TCP |
+| 53 | DNS | name → IP | TCP/UDP |
+| 67/68 | DHCP | auto addressing | UDP |
+| 69 | TFTP | simple file transfer | UDP |
+| 80 | HTTP | web | TCP |
+| 110 | POP3 | download email | TCP |
+| 123 | NTP | time | UDP |
+| 143 | IMAP | email (server-kept) | TCP |
+| 161/162 | SNMP | monitoring | UDP |
+| 443 | HTTPS | secure web | TCP |
+| 445 | SMB | file/printer sharing | TCP |
+| 514 | Syslog | logging | UDP |
+| 3389 | RDP | remote desktop | TCP |
+
+- **Web:** HTTP 80 · HTTPS 443. **Mail:** SMTP 25 (send) · POP3 110 · IMAP 143 (receive).
+- **Remote:** SSH 22 (secure) · Telnet 23 (insecure) · RDP 3389. **Files:** FTP 20/21 · TFTP 69 · SMB 445.
+- ⚠️ **SSH 22 (secure) vs Telnet 23 (insecure).** **S**MTP **S**ends; POP3/IMAP receive.
+
+> **Remember:** group by job, then note TCP vs. UDP for each.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 10_
