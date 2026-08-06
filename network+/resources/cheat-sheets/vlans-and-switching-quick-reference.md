@@ -100,4 +100,24 @@ switchport trunk allowed vlan add 10,20
 > **Remember:** a blocked port isn't broken — it's a standby that turns on if the main path fails.
 
 ---
+
+## Static vs. dynamic routing (Lesson 11-05)
+
+| | **Static** | **Dynamic** |
+|---|-----------|-------------|
+| Filled by | you, by hand | routers, automatically |
+| Auto-reroute on failure | **no** | **yes** |
+| Extra traffic | none | some |
+| Setup effort | low | higher |
+| Best for | small / fixed | large / changing |
+
+- **Routing table** = networks + the way to reach each (**next hop**).
+- **Default route** (`0.0.0.0/0`) = "everything else → the gateway."
+- **Routing protocols:** OSPF, EIGRP (inside an org) · **BGP** (the internet).
+- ⚠️ A static route does **not** self-heal — traffic fails if its path breaks.
+- See your own table: **`route print`** (Windows) — find the `0.0.0.0` default route.
+
+> **Remember:** static = written directions (fixed); dynamic = live GPS (reroutes itself).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 11_

@@ -38,6 +38,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
 - **BASE-T** — Ethernet name format: number = speed, T = twisted-pair copper. *(First taught: NA-M06-L05)*
 - **Baud rate** — The speed of a serial console link (often 9600). *(First taught: NA-M07-L06)*
+- **BGP (Border Gateway Protocol)** — The routing protocol that connects providers across the whole internet. *(First taught: NA-M11-L05)*
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
 - **Bit** — A single 1 or 0; the smallest piece of information. *(First taught: NA-M03-L01)*
 - **Block size** — How far apart subnets start: 256 − the mask's interesting octet. *(First taught: NA-M08-L05)*
@@ -114,6 +115,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
 - **Dynamic IP address** — An address given automatically by DHCP; it can change. *(First taught: NA-M09-L01)*
 - **Dynamic NAT** — Mapping private addresses to a pool of public addresses, as needed. *(First taught: NA-M09-L03)*
+- **Dynamic routing** — Routers learning routes from each other and updating automatically. *(First taught: NA-M11-L05)*
 
 ## E
 
@@ -247,6 +249,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Open** — A broken or cut wire — no continuity, no signal. *(First taught: NA-M06-L06)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **OSI model** — The 7-layer reference model used to describe networks. *(First taught: NA-M05-L01)*
+- **OSPF (Open Shortest Path First)** — A common dynamic routing protocol used inside one organization. *(First taught: NA-M11-L05)*
 - **Out-of-band management** — Managing a device over a path that is not the network (the console). *(First taught: NA-M07-L06)*
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
 - **Output device** — Hardware that sends information out to you (screen, speakers, printer). *(First taught: NA-M01-L03)*
@@ -304,6 +307,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
 - **Router** — A Layer 3 device that connects different networks using IP addresses. *(First taught: NA-M07-L01)*
 - **Routing** — How a router decides where to send a packet next, toward its destination. *(First taught: NA-M09-L04)*
+- **Routing protocol** — The language routers use to share route information (OSPF, EIGRP, BGP). *(First taught: NA-M11-L05)*
 - **Routing table** — A router's list of networks and where to forward traffic for each. *(First taught: NA-M09-L04)*
 - **running-config** — A switch's live settings, held in memory right now. *(First taught: NA-M11-L02)*
 
@@ -341,6 +345,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
 - **Static IP address** — An address set by hand that does not change. *(First taught: NA-M09-L01)*
 - **Static NAT** — A fixed one-to-one map of one private address to one public address. *(First taught: NA-M09-L03)*
+- **Static route** — A route typed into a router by hand that stays until you change it. *(First taught: NA-M11-L05)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
@@ -406,4 +411,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L05)_
