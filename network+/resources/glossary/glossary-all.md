@@ -52,6 +52,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Backup** — A saved copy of data you can restore later. *(First taught: NA-M12-L04)*
 - **Band** — A range of radio frequencies Wi-Fi uses, mainly 2.4 GHz or 5 GHz. *(First taught: NA-M11-L07)*
 - **Bandwidth** — The most data a link can carry (its capacity). *(First taught: NA-M04-L06)*
+- **Bandwidth saturation** — When a link is so full of traffic that there is no room left for more. *(First taught: NA-M14-L06)*
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
 - **BASE-T** — Ethernet name format: number = speed, T = twisted-pair copper. *(First taught: NA-M06-L05)*
 - **Baseline** — A record of a network's normal behavior, used to spot changes later. *(First taught: NA-M12-L01)*
@@ -416,6 +417,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Routing protocol** — The language routers use to share route information (OSPF, EIGRP, BGP). *(First taught: NA-M11-L05)*
 - **Routing table** — A router's list of networks and where to forward traffic for each. *(First taught: NA-M09-L04)*
 - **RPO (Recovery Point Objective)** — How much data you can afford to lose (how old the last backup can be). *(First taught: NA-M12-L03)*
+- **RSSI (Received Signal Strength Indicator)** — A measure of how strong a received Wi-Fi signal is. *(First taught: NA-M14-L06)*
 - **RTO (Recovery Time Objective)** — How fast a service must be back up after a failure. *(First taught: NA-M12-L03)*
 - **running-config** — A switch's live settings, held in memory right now. *(First taught: NA-M11-L02)*
 
@@ -551,4 +553,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L06)_

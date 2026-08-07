@@ -106,4 +106,23 @@ For "no connection," climb the OSI layers from the bottom.
 > **Remember:** plug (L1) → link (L2) → address (L3). Check the plug before the fuse box.
 
 ---
+
+## Names, speed & wireless (Lesson 14-06)
+
+Sort the complaint into a family first.
+
+| Complaint | Family | Fix / tool |
+|-----------|--------|-----------|
+| Name fails, IP works | **DNS** | check DNS server · `nslookup` · `ipconfig /flushdns` |
+| Slow / laggy | **Speed** | duplex mismatch · bandwidth saturation · latency/jitter |
+| Weak / dropping Wi-Fi | **Wireless** | low **RSSI** · channel overlap · wrong **band** · interference |
+
+- **Bandwidth** = pipe size · **throughput** = what gets through · **latency** = delay · **jitter** = delay wobble.
+- More bandwidth does **not** fix latency.
+- Weak signal = low **RSSI** (distance/walls = attenuation); check with a Wi-Fi analyzer.
+- Check your Wi-Fi signal (Windows): `netsh wlan show interfaces` → **Signal** %.
+
+> **Remember:** wrong phone book (DNS) · backed-up kitchen (speed) · can't hear across the room (wireless).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 14_
