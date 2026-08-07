@@ -46,4 +46,23 @@ Security has **three goals**. Together they are the **CIA triad**.
 > **Remember:** trick people (phishing, social engineering) · bad software (malware, ransomware) · hit the network (spoofing, on-path, DoS). Each breaks a CIA goal.
 
 ---
+
+## AAA — access control (Lesson 13-03)
+
+**Order is fixed: authenticate → authorize → account.**
+
+| A | Question | Key ideas |
+|---|----------|-----------|
+| **Authentication** | Who are you? | factors: know / have / are; **MFA** = 2+ |
+| **Authorization** | What may you do? | **least privilege**, **RBAC** |
+| **Accounting** | What did you do? | logs (Syslog, 12-02) |
+
+- **Three factors:** something you **know** (password), **have** (phone/token), **are** (fingerprint).
+- **MFA** needs two **different** factor types — two passwords is NOT MFA.
+- **Least privilege** = only the access you need · **RBAC** = access by job role.
+- **RADIUS** and **TACACS+** = central AAA servers for many devices.
+
+> **Remember:** prove who you are, get the right access, leave a trail — like a workplace badge.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 13_

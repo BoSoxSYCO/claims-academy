@@ -11,6 +11,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## 0-9
 
+- **2FA (Two-Factor Authentication)** — Logging in with exactly two different factors. *(First taught: NA-M13-L03)*
 - **3-2-1 rule** — A backup rule: keep 3 copies of data, on 2 media types, with 1 copy off-site. *(First taught: NA-M12-L04)*
 - **802.11** — The IEEE family of Wi-Fi standards (a/b/g/n/ac/ax). *(First taught: NA-M11-L07)*
 - **802.1Q (dot1q)** — The IEEE standard that tags each frame with its VLAN ID so one trunk can carry many VLANs. *(First taught: NA-M11-L03)*
@@ -18,8 +19,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## A
 
 - **A record** — A DNS record mapping a name to an IPv4 address. *(First taught: NA-M09-L02)*
+- **AAA** — Authentication, authorization, and accounting: the framework for controlling access. *(First taught: NA-M13-L03)*
 - **Access point (AP)** — A device that lets wireless devices join a wired network. *(First taught: NA-M07-L04)*
 - **Access port** — A regular port on a switch where an end device, such as a PC, plugs in. *(First taught: NA-M07-L05)*
+- **Accounting** — Keeping a record of what a user did on a system or network. *(First taught: NA-M13-L03)*
 - **Acknowledgment (ACK)** — A message confirming that data was received (used by TCP). *(First taught: NA-M10-L02)*
 - **Active recall** — Pulling an answer from memory instead of looking at it; it builds strong, lasting memory. *(First taught: NA-M10-L05)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
@@ -34,6 +37,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Attack** — A harmful act against a system or network. *(First taught: NA-M13-L02)*
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
 - **AUP (Acceptable Use Policy)** — A policy stating what people may and may not do with the network. *(First taught: NA-M12-L05)*
+- **Authentication** — Proving who you are. *(First taught: NA-M13-L03)*
+- **Authorization** — Deciding what an authenticated user is allowed to do. *(First taught: NA-M13-L03)*
 - **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
 - **Auto-negotiation** — Devices agreeing on the fastest speed and duplex they both support. *(First taught: NA-M06-L05)*
 - **Availability** — The share of time a service is up and usable, often written in the "nines." *(First taught: NA-M12-L03)*
@@ -152,6 +157,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## F
 
+- **Factor** — A way to prove who you are: something you know, have, or are. *(First taught: NA-M13-L03)*
 - **Failover** — The automatic switch from a failed part to its backup. *(First taught: NA-M12-L03)*
 - **Fast Ethernet** — The 100 Mbps Ethernet standard (100BASE-TX). *(First taught: NA-M06-L05)*
 - **Fault tolerance** — The ability to keep working even when a part fails. *(First taught: NA-M12-L03)*
@@ -237,6 +243,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **LDAP (Lightweight Directory Access Protocol)** — Looks up users and devices in a network directory (port 389). *(First taught: NA-M10-L04)*
 - **LDAPS (LDAP Secure)** — LDAP directory lookup over TLS (port 636). *(First taught: NA-M10-L04)*
 - **Lease** — How long a device may keep a DHCP-assigned address. *(First taught: NA-M09-L01)*
+- **Least privilege** — Giving each person only the access they need, and nothing more. *(First taught: NA-M13-L03)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
@@ -257,6 +264,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Mbps** — Megabits per second — millions of bits each second. *(First taught: NA-M04-L06)*
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
+- **MFA (Multi-Factor Authentication)** — Logging in with two or more different factors. *(First taught: NA-M13-L03)*
 - **MIB (Management Information Base)** — The catalog of items SNMP can ask a device about. *(First taught: NA-M12-L02)*
 - **Millisecond (ms)** — One thousandth of a second; the unit for latency. *(First taught: NA-M04-L06)*
 - **Mnemonic** — A short trick that ties a hard fact to something easy to remember. *(First taught: NA-M10-L05)*
@@ -350,8 +358,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## R
 
 - **Rack diagram** — A physical diagram showing where each device sits in an equipment rack. *(First taught: NA-M12-L01)*
+- **RADIUS** — A server that checks logins (AAA) for many devices at once. *(First taught: NA-M13-L03)*
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
 - **Ransomware** — Malware that locks your files and demands money to unlock them. *(First taught: NA-M13-L02)*
+- **RBAC (Role-Based Access Control)** — Granting access by job role instead of per person. *(First taught: NA-M13-L03)*
 - **RDP (Remote Desktop Protocol)** — Remote control of a Windows desktop (port 3389, TCP). *(First taught: NA-M10-L03)*
 - **Redundancy** — Having a spare part or path so one failure won't take everything down. *(First taught: NA-M12-L03)*
 - **Registered ports** — Ports 1024–49151, assigned to particular apps and vendors. *(First taught: NA-M10-L01)*
@@ -436,6 +446,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **T568A** — One standard RJ45 wire order; swaps orange/green vs. T568B. *(First taught: NA-M06-L04)*
 - **T568B** — The most common US wire order for RJ45. *(First taught: NA-M06-L04)*
+- **TACACS+** — A server that provides AAA for network devices, separating the three A's. *(First taught: NA-M13-L03)*
 - **Taskbar** — The strip along the bottom of the screen that holds pinned tools. *(First taught: NA-M02-L02)*
 - **TCP (Transmission Control Protocol)** — A rule-set for splitting data and making sure it arrives in order. *(First taught: NA-M05-L03)*
 - **TCP/IP model** — The 4-layer practical model the internet actually uses. *(First taught: NA-M05-L01)*
@@ -492,4 +503,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L03)_
