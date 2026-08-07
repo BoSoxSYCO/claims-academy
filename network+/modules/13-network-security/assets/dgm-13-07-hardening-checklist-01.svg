@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">A seven-layer hardening checklist: defense in depth</title>
+  <desc id="desc">A stack of seven security layers under the heading Defense in depth. Layer 1, Accounts: change default passwords, turn on MFA, apply least privilege. Layer 2, Switch: enable port security, disable unused ports, move the native VLAN off VLAN 1. Layer 3, Segment: use VLANs and a guest network. Layer 4, Wireless: use WPA3, a strong PSK, and turn WPS off. Layer 5, Edge: keep the firewall on with ACL rules. Layer 6, Data: use encryption or a VPN, and keep backups and documentation. Layer 7, Updates: practice patch management by keeping firmware and software current. A note says that if one layer is broken, the next still protects the network.</desc>
+
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a2b4a">Defense in depth — the hardening checklist</text>
+  <text x="380" y="52" text-anchor="middle" font-size="13" fill="#54606e">Harden every layer. If one fails, the others hold.</text>
+
+  <!-- Layer rows -->
+  <!-- 1 Accounts -->
+  <rect x="40" y="66" width="680" height="58" rx="8" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <circle cx="70" cy="95" r="15" fill="#2f6db0"/><text x="70" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">1</text>
+  <text x="98" y="90" font-size="14" font-weight="bold" fill="#1a2b4a">Accounts</text>
+  <text x="98" y="110" font-size="12" fill="#54606e">change default passwords · MFA · least privilege</text>
+
+  <!-- 2 Switch -->
+  <rect x="40" y="130" width="680" height="58" rx="8" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <circle cx="70" cy="159" r="15" fill="#2e8b57"/><text x="70" y="164" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">2</text>
+  <text x="98" y="154" font-size="14" font-weight="bold" fill="#1a2b4a">Switch</text>
+  <text x="98" y="174" font-size="12" fill="#54606e">port security · disable unused ports · native VLAN off 1</text>
+
+  <!-- 3 Segment -->
+  <rect x="40" y="194" width="680" height="58" rx="8" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <circle cx="70" cy="223" r="15" fill="#c07f2f"/><text x="70" y="228" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">3</text>
+  <text x="98" y="218" font-size="14" font-weight="bold" fill="#1a2b4a">Segment</text>
+  <text x="98" y="238" font-size="12" fill="#54606e">VLANs · guest network</text>
+
+  <!-- 4 Wireless -->
+  <rect x="40" y="258" width="680" height="58" rx="8" fill="#f3eefb" stroke="#7a4fbf" stroke-width="2"/>
+  <circle cx="70" cy="287" r="15" fill="#7a4fbf"/><text x="70" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">4</text>
+  <text x="98" y="282" font-size="14" font-weight="bold" fill="#1a2b4a">Wireless</text>
+  <text x="98" y="302" font-size="12" fill="#54606e">WPA3 · strong PSK · WPS off</text>
+
+  <!-- 5 Edge -->
+  <rect x="40" y="322" width="680" height="58" rx="8" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <circle cx="70" cy="351" r="15" fill="#2f6db0"/><text x="70" y="356" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">5</text>
+  <text x="98" y="346" font-size="14" font-weight="bold" fill="#1a2b4a">Edge</text>
+  <text x="98" y="366" font-size="12" fill="#54606e">firewall on · sensible ACL rules</text>
+
+  <!-- 6 Data -->
+  <rect x="40" y="386" width="680" height="58" rx="8" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <circle cx="70" cy="415" r="15" fill="#2e8b57"/><text x="70" y="420" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">6</text>
+  <text x="98" y="410" font-size="14" font-weight="bold" fill="#1a2b4a">Data</text>
+  <text x="98" y="430" font-size="12" fill="#54606e">encryption / VPN · backups · documentation</text>
+
+  <!-- 7 Updates -->
+  <rect x="40" y="450" width="680" height="58" rx="8" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <circle cx="70" cy="479" r="15" fill="#c07f2f"/><text x="70" y="484" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">7</text>
+  <text x="98" y="474" font-size="14" font-weight="bold" fill="#1a2b4a">Updates</text>
+  <text x="98" y="494" font-size="12" fill="#54606e">patch management — keep firmware + software current</text>
+
+  <text x="380" y="536" text-anchor="middle" font-size="13" font-weight="bold" fill="#9b2d2d">Break one layer → the next still protects you.</text>
+</svg>

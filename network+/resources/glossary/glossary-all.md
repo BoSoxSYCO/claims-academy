@@ -121,9 +121,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **De-encapsulation** — Unwrapping the headers at each layer, going up the stack. *(First taught: NA-M05-L04)*
 - **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
+- **Default password** — The factory-set password on a device that must be changed. *(First taught: NA-M13-L07)*
 - **Default route** — The "everything else" route: send unknown destinations to the gateway. *(First taught: NA-M09-L04)*
 - **Default subnet mask** — The standard mask for an address class: 255.0.0.0, 255.255.0.0, or 255.255.255.0. *(First taught: NA-M08-L03)*
 - **Default VLAN** — VLAN 1, where every switch port starts until it is changed. *(First taught: NA-M11-L01)*
+- **Defense in depth** — Using many layers of security so that one failure does not expose everything. *(First taught: NA-M13-L07)*
 - **Destination address** — The address the data is going to. *(First taught: NA-M05-L05)*
 - **DHCP** — A service that automatically gives devices their IP settings. *(First taught: NA-M09-L01)*
 - **DHCP reservation** — A fixed address always given to one device (by its MAC). *(First taught: NA-M09-L01)*
@@ -137,6 +139,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **DNS** — The service that turns names into IP addresses. *(First taught: NA-M09-L02)*
 - **DNS cache** — A short local store of recent name → IP answers. *(First taught: NA-M09-L02)*
 - **DNS resolver** — A server that looks up a name and returns its IP. *(First taught: NA-M09-L02)*
+- **Documentation** — The written record of a network: diagrams, IP lists, and settings kept for reference. *(First taught: NA-M12-L01)*
 - **Domain name** — A human-friendly name for a site, like google.com. *(First taught: NA-M09-L02)*
 - **DORA** — The four DHCP steps: Discover, Offer, Request, Acknowledge. *(First taught: NA-M09-L01)*
 - **DoS (Denial of Service)** — An attack that floods a service so real users cannot reach it. *(First taught: NA-M13-L02)*
@@ -190,6 +193,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## H
 
+- **Hardening** — Making a device or network harder to attack by removing weak spots. *(First taught: NA-M13-L07)*
 - **Hardware** — The physical parts of a computer that you can touch. *(First taught: NA-M01-L01)*
 - **Hashing** — Turning data into a one-way, fixed-length fingerprint used to detect changes. *(First taught: NA-M13-L06)*
 - **Header** — A small label a layer adds to the front, holding its control info. *(First taught: NA-M05-L04)*
@@ -333,6 +337,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Password policy** — Rules for passwords, such as length, complexity, and how often to change them. *(First taught: NA-M12-L05)*
 - **PAT (Port Address Translation)** — A form of NAT that lets many devices share one public address, using port numbers. *(First taught: NA-M08-L08)*
 - **Patch cable** — A short cable with an RJ45 on each end. *(First taught: NA-M06-L02)*
+- **Patch management** — Keeping software and firmware updated to fix known security holes. *(First taught: NA-M13-L07)*
 - **Patch panel** — A panel of jacks where in-wall cables end; links to the switch. *(First taught: NA-M06-L02)*
 - **PDU (Protocol Data Unit)** — The name for the wrapped data unit at a given layer. *(First taught: NA-M05-L04)*
 - **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
@@ -526,4 +531,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L06)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L07)_

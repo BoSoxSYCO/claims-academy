@@ -132,4 +132,25 @@ Security has **three goals**. Together they are the **CIA triad**.
 > **Remember:** lock the message (encryption), seal it so tampering shows (hashing), tunnel it (VPN).
 
 ---
+
+## Hardening checklist — defense in depth (Lesson 13-07)
+
+**Hardening** = remove weak spots. **Defense in depth** = stack layers so one failure isn't fatal.
+
+| Layer | Do this |
+|-------|---------|
+| **Accounts** | change default passwords · MFA · least privilege |
+| **Switch** | port security/sticky MAC · disable unused ports · native VLAN off 1 |
+| **Segment** | VLANs · guest network |
+| **Wireless** | WPA3 · strong PSK · WPS off |
+| **Edge** | firewall on · sensible ACLs |
+| **Data** | encryption/VPN · backups (12-04) · documentation (12-01) |
+| **Updates** | patch management (firmware + software) |
+
+- Biggest first wins: **default passwords** and **MFA**.
+- Change one setting at a time; keep a note so you can roll back.
+
+> **Remember:** harden every layer — if one fails, the next still protects you.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 13_

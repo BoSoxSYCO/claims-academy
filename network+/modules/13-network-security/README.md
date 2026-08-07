@@ -1,7 +1,7 @@
 # Module 13 — Network Security
 
 **Phase:** Exam Deep-Dive
-**Status:** In production (Lessons 13-01 → 13-06 Published) — Unit 10
+**Status:** ✅ Complete (Lessons 13-01 → 13-07 Published) — Unit 10
 
 > **By the end of this module, you will be able to:** explain core threats and harden a network against them.
 
@@ -30,7 +30,7 @@ this board is updated:
 | 13-04 | [Firewalls, ACLs, and Network Segmentation](lessons/13-04-firewalls-acls-segmentation.md) | ✅ Published |
 | 13-05 | [Securing Switch Ports and Wireless](lessons/13-05-securing-switch-ports-and-wireless.md) | ✅ Published |
 | 13-06 | [VPNs and Encryption in Plain Language](lessons/13-06-vpns-and-encryption.md) | ✅ Published |
-| 13-07 | Hardening checklist for your home lab | Planned |
+| 13-07 | [A Hardening Checklist for Your Home Lab](lessons/13-07-hardening-checklist-home-lab.md) | ✅ Published |
 
 Status values: `Planned → Drafting → In Review → Published`
 
