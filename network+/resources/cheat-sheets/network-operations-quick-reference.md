@@ -86,4 +86,34 @@ Documentation is the network's **written memory** — for fixing, learning, and 
 > **Remember:** copy your data (backups), plan your comeback (DR), change safely (change control).
 
 ---
+
+## Common network policies (Lesson 12-05)
+
+A **policy** is a written rule for doing something safely and fairly.
+
+| Policy / term | Covers |
+|---------------|--------|
+| **AUP** | what people may / may not do on the network |
+| **Password policy** | length, complexity, change rules |
+| **BYOD** | personal devices on the network |
+| **Remote-access policy** | connecting from outside (often a VPN) |
+| **Onboarding** | set up a new person's access |
+| **Offboarding** | remove a leaver's access + collect gear |
+| **NDA** | promise to keep info private |
+| **Data-handling / retention** | store, protect, delete; how long to keep |
+
+**Three agreements (don't mix them up):**
+
+| Agreement | What it is |
+|-----------|-----------|
+| **SLA** | a service-quality promise (e.g., 99.9% uptime) |
+| **MOU** | an informal "we'll work together" |
+| **SOW** | a detailed list of the work to be done |
+
+- Mnemonic: **MOU** = handshake · **SOW** = job list · **SLA** = quality promise.
+- ⚠️ Never skip **offboarding** — remove access the day someone leaves.
+
+> **Remember:** clear written rules (policies) prevent most problems — like clear house rules in a shared home.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 12_

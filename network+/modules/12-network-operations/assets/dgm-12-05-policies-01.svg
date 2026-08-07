@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Common network policies, grouped into four cards</title>
+  <desc id="desc">Four policy cards in a two-by-two grid. Card one, Users and devices: an Acceptable Use Policy sets what people may and may not do, a password policy sets password rules, a BYOD policy covers personal devices, and a remote-access policy covers connecting from outside. Card two, People: onboarding sets up a new person's access, an arrow leads to offboarding which removes a leaver's access and collects their gear, and an NDA is a promise not to share private information. Card three, Data: a data-handling or retention policy covers storing, protecting, and deleting data. Card four, Agreements: an SLA is a service-quality promise, an MOU is an informal agreement to work together, and an SOW is a detailed list of the work to be done.</desc>
+
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">Common network policies</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#54606e">Written rules for users, people, data, and agreements</text>
+
+  <!-- Card 1: Users/Devices -->
+  <rect x="24" y="76" width="344" height="196" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="24" y="76" width="344" height="30" rx="10" fill="#2f6db0"/>
+  <text x="40" y="97" font-size="15" font-weight="bold" fill="#ffffff">1 · Users and devices</text>
+  <text x="40" y="132" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">AUP</tspan> — what people may / may not do</text>
+  <text x="40" y="160" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">Password policy</tspan> — length + complexity</text>
+  <text x="40" y="188" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">BYOD policy</tspan> — personal devices</text>
+  <text x="40" y="216" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">Remote-access policy</tspan> — connect from</text>
+  <text x="40" y="234" font-size="13" fill="#1a2b4a">outside (often needs a VPN)</text>
+
+  <!-- Card 2: People -->
+  <rect x="392" y="76" width="344" height="196" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="392" y="76" width="344" height="30" rx="10" fill="#2e8b57"/>
+  <text x="408" y="97" font-size="15" font-weight="bold" fill="#ffffff">2 · People joining and leaving</text>
+  <rect x="408" y="120" width="130" height="46" rx="8" fill="#ffffff" stroke="#2e8b57" stroke-width="1.5"/>
+  <text x="473" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Onboarding</text>
+  <text x="473" y="158" text-anchor="middle" font-size="11" fill="#54606e">set up access</text>
+  <line x1="544" y1="143" x2="586" y2="143" stroke="#1a2b4a" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="592" y="120" width="130" height="46" rx="8" fill="#ffffff" stroke="#2e8b57" stroke-width="1.5"/>
+  <text x="657" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Offboarding</text>
+  <text x="657" y="158" text-anchor="middle" font-size="11" fill="#54606e">remove access</text>
+  <text x="408" y="200" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">NDA</tspan> — promise to keep private info secret</text>
+  <text x="408" y="228" font-size="12" fill="#54606e">Most-forgotten step: offboarding on day one out.</text>
+
+  <!-- Card 3: Data -->
+  <rect x="24" y="296" width="344" height="196" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <rect x="24" y="296" width="344" height="30" rx="10" fill="#c07f2f"/>
+  <text x="40" y="317" font-size="15" font-weight="bold" fill="#ffffff">3 · Data</text>
+  <text x="40" y="356" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">Data-handling / retention policy</tspan></text>
+  <text x="40" y="382" font-size="13" fill="#1a2b4a">How to <tspan font-weight="bold">store</tspan>, <tspan font-weight="bold">protect</tspan>, and</text>
+  <text x="40" y="400" font-size="13" fill="#1a2b4a">eventually <tspan font-weight="bold">delete</tspan> data.</text>
+  <text x="40" y="428" font-size="13" fill="#1a2b4a">Sets <tspan font-weight="bold">how long</tspan> to keep records.</text>
+  <text x="40" y="460" font-size="12" fill="#54606e">Example: keep logs 1 year, then delete.</text>
+
+  <!-- Card 4: Agreements -->
+  <rect x="392" y="296" width="344" height="196" rx="10" fill="#f3eefb" stroke="#7a4fbf" stroke-width="2"/>
+  <rect x="392" y="296" width="344" height="30" rx="10" fill="#7a4fbf"/>
+  <text x="408" y="317" font-size="15" font-weight="bold" fill="#ffffff">4 · Agreements between parties</text>
+  <text x="408" y="352" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">SLA</tspan> — a service-quality promise (uptime)</text>
+  <text x="408" y="380" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">MOU</tspan> — an informal "we'll work together"</text>
+  <text x="408" y="408" font-size="13" fill="#1a2b4a"><tspan font-weight="bold">SOW</tspan> — a detailed list of the work</text>
+  <text x="408" y="440" font-size="12" fill="#54606e">Handshake (MOU) · job list (SOW) ·</text>
+  <text x="408" y="458" font-size="12" fill="#54606e">quality promise (SLA)</text>
+
+  <text x="380" y="524" text-anchor="middle" font-size="12" fill="#54606e">Clear written policies prevent most network problems — just like clear house rules.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a2b4a"/>
+    </marker>
+  </defs>
+</svg>

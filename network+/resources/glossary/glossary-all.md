@@ -32,6 +32,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **ARP** — How a device finds the MAC address that goes with an IP on the local network. *(First taught: NA-M09-L04)*
 - **Asset inventory** — A list of all devices you own, with model, serial, location, and owner. *(First taught: NA-M12-L01)*
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
+- **AUP (Acceptable Use Policy)** — A policy stating what people may and may not do with the network. *(First taught: NA-M12-L05)*
 - **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
 - **Auto-negotiation** — Devices agreeing on the fastest speed and duplex they both support. *(First taught: NA-M06-L05)*
 - **Availability** — The share of time a service is up and usable, often written in the "nines." *(First taught: NA-M12-L03)*
@@ -58,6 +59,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Broadcast domain** — The group of devices that all receive each other's broadcasts. *(First taught: NA-M07-L03)*
 - **Broadcast storm** — A flood of endlessly multiplying frames (from a loop) that crashes the network. *(First taught: NA-M11-L04)*
 - **Bus topology** — A network shape where all nodes share one backbone cable. *(First taught: NA-M04-L04)*
+- **BYOD (Bring Your Own Device)** — A policy covering personal devices (phones, laptops) used on the network. *(First taught: NA-M12-L05)*
 - **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
 
 ## C
@@ -101,6 +103,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## D
 
+- **Data-handling policy** — Rules for storing, protecting, and deleting data, including how long to keep it (retention). *(First taught: NA-M12-L05)*
 - **Data Link layer** — Layer 2 — local delivery on one network, using MAC addresses (switches). *(First taught: NA-M05-L02)*
 - **De-encapsulation** — Unwrapping the headers at each layer, going up the stack. *(First taught: NA-M05-L04)*
 - **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
@@ -253,6 +256,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Model** — A simplified plan of a complex thing, showing just the needed parts. *(First taught: NA-M05-L01)*
 - **Modem** — A device that connects your home to your internet provider. *(First taught: NA-M07-L04)*
 - **Monitoring** — Watching a network's health all the time, with tools. *(First taught: NA-M12-L02)*
+- **MOU (Memorandum of Understanding)** — An informal agreement between parties to work together. *(First taught: NA-M12-L05)*
 - **MTBF (Mean Time Between Failures)** — The average time a part runs before it fails. *(First taught: NA-M12-L03)*
 - **MTTR (Mean Time To Repair)** — The average time to fix a failed part. *(First taught: NA-M12-L03)*
 - **Multimode fiber (MMF)** — Wider-core fiber with many light paths; LED; shorter distances. *(First taught: NA-M06-L03)*
@@ -265,6 +269,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **NAT overload** — Another name for PAT — many devices share one public IP using ports. *(First taught: NA-M09-L03)*
 - **NAT translation table** — The router's list matching inside address:port to public address:port. *(First taught: NA-M09-L03)*
 - **Native VLAN** — The one VLAN whose frames cross a trunk untagged (default VLAN 1). *(First taught: NA-M11-L03)*
+- **NDA (Non-Disclosure Agreement)** — A promise not to share private or confidential information. *(First taught: NA-M12-L05)*
 - **NetFlow** — A tool that records network flows: who talked to whom, and how much. *(First taught: NA-M12-L02)*
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
@@ -282,7 +287,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Octet** — One byte (8 bits) of an IPv4 address — one of the four numbers. *(First taught: NA-M03-L05)*
 - **Off-site backup** — A backup copy kept in a different location, so a local disaster can't destroy it. *(First taught: NA-M12-L04)*
+- **Offboarding** — Removing a departing person's access and collecting their equipment. *(First taught: NA-M12-L05)*
 - **OID (Object Identifier)** — The address of one single item in the MIB. *(First taught: NA-M12-L02)*
+- **Onboarding** — Setting up a new person's accounts, access, and training. *(First taught: NA-M12-L05)*
 - **Open** — A broken or cut wire — no continuity, no signal. *(First taught: NA-M06-L06)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **OSI model** — The 7-layer reference model used to describe networks. *(First taught: NA-M05-L01)*
@@ -296,6 +303,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Packet** — The Network-layer PDU (data plus an IP header). *(First taught: NA-M05-L04)*
 - **Packet loss** — The percent of ping messages that got no reply (0% is best). *(First taught: NA-M02-L05)*
 - **PAN (Personal Area Network)** — A tiny network around one person (Bluetooth). *(First taught: NA-M04-L03)*
+- **Password policy** — Rules for passwords, such as length, complexity, and how often to change them. *(First taught: NA-M12-L05)*
 - **PAT (Port Address Translation)** — A form of NAT that lets many devices share one public address, using port numbers. *(First taught: NA-M08-L08)*
 - **Patch cable** — A short cable with an RJ45 on each end. *(First taught: NA-M06-L02)*
 - **Patch panel** — A panel of jacks where in-wall cables end; links to the switch. *(First taught: NA-M06-L02)*
@@ -310,6 +318,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
 - **Pinout** — The order the 8 wires are placed into the RJ45's pins. *(First taught: NA-M06-L04)*
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
+- **Policy** — A written rule for how to do something safely and fairly. *(First taught: NA-M12-L05)*
 - **POP3 (Post Office Protocol 3)** — Downloads email to one device (port 110, TCP). *(First taught: NA-M10-L03)*
 - **POP3S (POP3 Secure)** — POP3 email download over TLS (port 995). *(First taught: NA-M10-L04)*
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
@@ -336,6 +345,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Redundancy** — Having a spare part or path so one failure won't take everything down. *(First taught: NA-M12-L03)*
 - **Registered ports** — Ports 1024–49151, assigned to particular apps and vendors. *(First taught: NA-M10-L01)*
 - **Remainder** — What's left over after you subtract a place value. *(First taught: NA-M03-L03)*
+- **Remote-access policy** — Rules for connecting to the network from outside, often requiring a VPN. *(First taught: NA-M12-L05)*
 - **Repeater** — A Layer 1 device that boosts a weak signal so it travels farther. *(First taught: NA-M07-L01)*
 - **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
 - **Resource** — Something a network lets you share: a file, printer, or internet connection. *(First taught: NA-M04-L01)*
@@ -382,6 +392,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Socket** — An IP address plus a port number together, naming one exact endpoint. *(First taught: NA-M10-L01)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
+- **SOW (Statement of Work)** — A detailed description of exactly what work will be done. *(First taught: NA-M12-L05)*
 - **Spaced repetition** — Reviewing material at growing gaps over days instead of all at once. *(First taught: NA-M10-L05)*
 - **Spanning Tree Protocol (STP)** — A protocol that prevents switching loops by keeping one active path and blocking the rest. *(First taught: NA-M11-L04)*
 - **SSH (Secure Shell)** — Secure, encrypted remote command access (port 22, TCP). *(First taught: NA-M10-L03)*
@@ -466,4 +477,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L05)_
