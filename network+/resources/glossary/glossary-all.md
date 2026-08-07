@@ -11,6 +11,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## 0-9
 
+- **802.11** — The IEEE family of Wi-Fi standards (a/b/g/n/ac/ax). *(First taught: NA-M11-L07)*
 - **802.1Q (dot1q)** — The IEEE standard that tags each frame with its VLAN ID so one trunk can carry many VLANs. *(First taught: NA-M11-L03)*
 
 ## A
@@ -34,6 +35,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## B
 
 - **Backbone** — The single shared cable that a bus network is built on. *(First taught: NA-M04-L04)*
+- **Band** — A range of radio frequencies Wi-Fi uses, mainly 2.4 GHz or 5 GHz. *(First taught: NA-M11-L07)*
 - **Bandwidth** — The most data a link can carry (its capacity). *(First taught: NA-M04-L06)*
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
 - **BASE-T** — Ethernet name format: number = speed, T = twisted-pair copper. *(First taught: NA-M06-L05)*
@@ -57,6 +59,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
 - **Cable tester** — A tool that checks each wire end to end for opens, shorts, and miswires. *(First taught: NA-M06-L06)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
+- **Channel** — One "lane" within a band; nearby access points should use different, non-overlapping ones. *(First taught: NA-M11-L07)*
 - **Chunking** — Grouping small facts into a few bigger buckets so they are easier to remember. *(First taught: NA-M10-L05)*
 - **CIDR (Classless Inter-Domain Routing)** — Writing a subnet mask as a slash plus the number of network bits (like /24). *(First taught: NA-M08-L04)*
 - **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
@@ -340,6 +343,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Spaced repetition** — Reviewing material at growing gaps over days instead of all at once. *(First taught: NA-M10-L05)*
 - **Spanning Tree Protocol (STP)** — A protocol that prevents switching loops by keeping one active path and blocking the rest. *(First taught: NA-M11-L04)*
 - **SSH (Secure Shell)** — Secure, encrypted remote command access (port 22, TCP). *(First taught: NA-M10-L03)*
+- **SSID (Service Set Identifier)** — The name of a wireless network. *(First taught: NA-M11-L07)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
 - **Standalone** — A computer that is not connected to any network. *(First taught: NA-M04-L01)*
 - **Star topology** — A network shape where every node connects to one central device. *(First taught: NA-M04-L04)*
@@ -409,10 +413,12 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Web management (GUI)** — A point-and-click web page for managing a switch in a browser. *(First taught: NA-M07-L06)*
 - **Web server** — A server that stores and sends web pages to browsers. *(First taught: NA-M04-L05)*
 - **Well-known ports** — Ports 0–1023, reserved for common services (like web on 80 and 443). *(First taught: NA-M10-L01)*
+- **WEP (Wired Equivalent Privacy)** — An old, broken Wi-Fi security type; never use it. *(First taught: NA-M11-L07)*
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 - **Wired link** — A link that uses a cable to connect two nodes. *(First taught: NA-M04-L02)*
 - **Wireless link** — A link that uses radio waves (Wi-Fi) to connect two nodes. *(First taught: NA-M04-L02)*
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
+- **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L06)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L07)_

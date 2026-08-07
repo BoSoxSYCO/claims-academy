@@ -144,4 +144,22 @@ ip routing
 > **Remember:** locked rooms (VLANs) + a guarded door (router) = pass only where you choose.
 
 ---
+
+## Wireless: 802.11, bands, channels, security (Lesson 11-07)
+
+| Standard | Wi-Fi | Band | Rough speed |
+|----------|-------|------|-------------|
+| 802.11n | Wi-Fi 4 | 2.4 + 5 GHz | up to 600 Mbps |
+| 802.11ac | Wi-Fi 5 | 5 GHz | ~1.3+ Gbps |
+| 802.11ax | Wi-Fi 6 | 2.4 + 5 GHz | several Gbps |
+
+- **2.4 GHz** = farther, slower, crowded · **5 GHz** = faster, shorter reach.
+- 2.4 GHz non-overlapping channels: **1, 6, 11.**
+- Security worst → best: **WEP ✗ < WPA < WPA2 < WPA3 ✓.** Never WEP.
+- **SSID** = the network name. A strong passphrase beats hiding the name.
+- See your Wi-Fi: `netsh wlan show interfaces` (Windows). **[TO VERIFY ON HARDWARE]**
+
+> **Remember:** standard for speed, band + channel for space, WPA2/WPA3 for safety.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 11_
