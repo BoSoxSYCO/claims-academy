@@ -1,7 +1,7 @@
 # Module 14 — Network Troubleshooting
 
 **Phase:** Exam Deep-Dive
-**Status:** In production (Lessons 14-01 → 14-06 Published) — Unit 11
+**Status:** ✅ Complete (Lessons 14-01 → 14-07 Published) — Unit 11
 
 > **By the end of this module, you will be able to:** diagnose and fix network problems using a repeatable method and the right tools.
 
@@ -30,7 +30,7 @@ this board is updated:
 | 14-04 | [Hardware Tools: Cable Testers and Loopbacks](lessons/14-04-hardware-tools.md) | ✅ Published |
 | 14-05 | [Troubleshooting Connectivity (Layers 1–3)](lessons/14-05-troubleshooting-connectivity-layers-1-3.md) | ✅ Published |
 | 14-06 | [Troubleshooting Names, Speed, and Wireless](lessons/14-06-names-speed-wireless.md) | ✅ Published |
-| 14-07 | Worked scenarios: "the internet is down" | Planned |
+| 14-07 | [Worked Scenarios: "The Internet Is Down"](lessons/14-07-worked-scenarios.md) | ✅ Published |
 
 Status values: `Planned → Drafting → In Review → Published`
 

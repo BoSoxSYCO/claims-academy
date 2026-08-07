@@ -125,4 +125,23 @@ Sort the complaint into a family first.
 > **Remember:** wrong phone book (DNS) · backed-up kitchen (speed) · can't hear across the room (wireless).
 
 ---
+
+## Worked scenarios (Lesson 14-07)
+
+Same 7-step method, different patient. Match the **tool to your theory** — a mismatched tool proves nothing.
+
+| Complaint | Theory | Test with | Likely fix |
+|-----------|--------|-----------|------------|
+| One PC, no internet | no DHCP (**APIPA**, 169.254) | `ipconfig` | renew / reseat cable / fix DHCP |
+| One name won't load | **DNS** | `nslookup` | check DNS server · `ipconfig /flushdns` |
+| Whole office slow | saturation or **duplex mismatch** | port stats · `pathping` | reduce load · match duplex |
+| Wi-Fi drops far away | low **RSSI** / channel overlap | `netsh wlan show interfaces` | add an AP · change channel |
+
+- **Every scenario ends the same two ways:** verify the fix worked, then document it.
+- **169.254 = APIPA = no DHCP.** A real IP but no name = DNS. Everyone slow = shared cause.
+- **The rule:** the tool at "test the theory" must match the theory you formed.
+
+> **Remember:** one method, four patients — identify → theory → test → fix → verify → document.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 14_

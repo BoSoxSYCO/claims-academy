@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Four worked troubleshooting scenarios, each solved with the seven-step method</title>
+  <desc id="desc">A banner lists the seven troubleshooting steps: identify, theory, test, plan, implement, verify, document. Below are four scenario cards, each solved with the same steps. Card A, the internet is down on one PC: ipconfig shows a 169.254 APIPA address meaning no DHCP answered, so reseat the cable and renew the address. Card B, one website name won't load while others do: nslookup shows the name doesn't resolve, a DNS problem, so check the DNS server and run ipconfig flushdns. Card C, the whole office is slow: the cause is bandwidth saturation or a duplex mismatch on the uplink, so reduce the load or match the duplex. Card D, Wi-Fi drops in the back room: netsh or a Wi-Fi analyzer shows low RSSI from distance and a crowded channel, so add an access point or change the channel. A footer notes that every problem ends with the document step.</desc>
+
+  <rect x="0" y="0" width="760" height="470" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a2b4a">Four complaints — one seven-step method</text>
+
+  <!-- banner -->
+  <rect x="40" y="42" width="680" height="34" rx="8" fill="#1a2b4a"/>
+  <text x="380" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">identify → theory → test → plan → implement → verify → document</text>
+
+  <!-- Card A -->
+  <rect x="24" y="90" width="352" height="150" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="24" y="90" width="352" height="28" rx="10" fill="#2f6db0"/>
+  <text x="40" y="110" font-size="13" font-weight="bold" fill="#ffffff">A · One PC: no internet</text>
+  <text x="40" y="136" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Theory:</tspan> Layer 1 / APIPA</text>
+  <text x="40" y="158" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Test:</tspan> ipconfig shows 169.254 → no DHCP</text>
+  <text x="40" y="180" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Fix:</tspan> reseat cable · renew address</text>
+  <text x="40" y="210" font-size="12" fill="#2e6b3e"><tspan font-weight="bold">Verify:</tspan> ping gateway · a site loads</text>
+
+  <!-- Card B -->
+  <rect x="384" y="90" width="352" height="150" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="384" y="90" width="352" height="28" rx="10" fill="#2e8b57"/>
+  <text x="400" y="110" font-size="13" font-weight="bold" fill="#ffffff">B · One name won't load</text>
+  <text x="400" y="136" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Theory:</tspan> DNS (IPs work, name fails)</text>
+  <text x="400" y="158" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Test:</tspan> nslookup — name won't resolve</text>
+  <text x="400" y="180" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Fix:</tspan> check DNS · ipconfig /flushdns</text>
+  <text x="400" y="210" font-size="12" fill="#2e6b3e"><tspan font-weight="bold">Verify:</tspan> the name resolves</text>
+
+  <!-- Card C -->
+  <rect x="24" y="252" width="352" height="150" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <rect x="24" y="252" width="352" height="28" rx="10" fill="#c07f2f"/>
+  <text x="40" y="272" font-size="13" font-weight="bold" fill="#ffffff">C · The whole office is slow</text>
+  <text x="40" y="298" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Theory:</tspan> saturation / duplex mismatch</text>
+  <text x="40" y="320" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Test:</tspan> port stats · pathping</text>
+  <text x="40" y="342" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Fix:</tspan> reduce load · match duplex</text>
+  <text x="40" y="372" font-size="12" fill="#2e6b3e"><tspan font-weight="bold">Verify:</tspan> speeds normal · errors drop</text>
+
+  <!-- Card D -->
+  <rect x="384" y="252" width="352" height="150" rx="10" fill="#f3eefb" stroke="#7a4fbf" stroke-width="2"/>
+  <rect x="384" y="252" width="352" height="28" rx="10" fill="#7a4fbf"/>
+  <text x="400" y="272" font-size="13" font-weight="bold" fill="#ffffff">D · Wi-Fi drops in the back room</text>
+  <text x="400" y="298" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Theory:</tspan> low RSSI / channel overlap</text>
+  <text x="400" y="320" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Test:</tspan> netsh signal · Wi-Fi analyzer</text>
+  <text x="400" y="342" font-size="12" fill="#54606e"><tspan font-weight="bold" fill="#1a2b4a">Fix:</tspan> add an AP · change channel</text>
+  <text x="400" y="372" font-size="12" fill="#2e6b3e"><tspan font-weight="bold">Verify:</tspan> strong signal · no drops</text>
+
+  <text x="380" y="432" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">The tool matches the theory — and every fix ends with: document.</text>
+  <text x="380" y="454" text-anchor="middle" font-size="11" fill="#54606e">All shown values (addresses, signal %, replies) vary by network.</text>
+</svg>
