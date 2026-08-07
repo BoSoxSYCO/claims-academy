@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Four kinds of network documentation</title>
+  <desc id="desc">Four documentation cards. Card one, Physical diagram, answers how it is wired and shows ports, cables, and a rack layout. Card two, Logical diagram, answers how traffic flows and shows IP addresses, subnets, and VLANs. Card three, IPAM, answers which addresses are used and shows a table mapping IP addresses to devices. Card four, Inventory and Baseline, answers what we have and whether behavior is normal, showing a device list and a record of normal traffic. A footer reads: label both ends of every cable and port, and update the documents on every change.</desc>
+
+  <rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+  <text x="360" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2a3a">Four questions, four documents</text>
+
+  <!-- Card 1: Physical -->
+  <rect x="30" y="56" width="320" height="150" rx="10" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="48" y="82" font-size="15" font-weight="bold" fill="#2b6cb0">PHYSICAL diagram</text>
+  <text x="48" y="104" font-size="12.5" font-style="italic" fill="#555">"How is it wired?"</text>
+  <text x="48" y="128" font-size="13" fill="#1a2a3a">Devices, ports, and cables.</text>
+  <text x="48" y="150" font-size="13" fill="#1a2a3a">Includes a rack diagram</text>
+  <text x="48" y="168" font-size="13" fill="#1a2a3a">(where gear sits, top to bottom).</text>
+  <text x="48" y="192" font-size="12" fill="#1a2a3a">e.g. Router P1 ↔ Switch P24</text>
+
+  <!-- Card 2: Logical -->
+  <rect x="370" y="56" width="320" height="150" rx="10" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="388" y="82" font-size="15" font-weight="bold" fill="#2f855a">LOGICAL diagram</text>
+  <text x="388" y="104" font-size="12.5" font-style="italic" fill="#555">"How does traffic flow?"</text>
+  <text x="388" y="128" font-size="13" fill="#1a2a3a">IP addresses, subnets, VLANs.</text>
+  <text x="388" y="152" font-size="12" fill="#1a2a3a">e.g. VLAN 10 = 192.168.10.0/24</text>
+  <text x="388" y="174" font-size="12" fill="#1a2a3a">gateway 192.168.10.1</text>
+
+  <!-- Card 3: IPAM -->
+  <rect x="30" y="222" width="320" height="150" rx="10" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="48" y="248" font-size="15" font-weight="bold" fill="#c05621">IPAM</text>
+  <text x="48" y="270" font-size="12.5" font-style="italic" fill="#555">"Which addresses are used?"</text>
+  <text x="48" y="294" font-size="12" font-family="Consolas, monospace" fill="#1a2a3a">192.168.10.1  → Router (gw)</text>
+  <text x="48" y="314" font-size="12" font-family="Consolas, monospace" fill="#1a2a3a">192.168.10.20 → Printer</text>
+  <text x="48" y="334" font-size="12" font-family="Consolas, monospace" fill="#1a2a3a">192.168.10.50 → Server</text>
+  <text x="48" y="358" font-size="12" fill="#9b2c2c">No IPAM → IP conflicts.</text>
+
+  <!-- Card 4: Inventory + Baseline -->
+  <rect x="370" y="222" width="320" height="150" rx="10" fill="#f3eafb" stroke="#6b46c1" stroke-width="2"/>
+  <text x="388" y="248" font-size="15" font-weight="bold" fill="#6b46c1">INVENTORY + BASELINE</text>
+  <text x="388" y="270" font-size="12.5" font-style="italic" fill="#555">"What do we have / is it normal?"</text>
+  <text x="388" y="294" font-size="13" fill="#1a2a3a">Inventory: device list</text>
+  <text x="388" y="314" font-size="13" fill="#1a2a3a">(model, serial, location).</text>
+  <text x="388" y="338" font-size="13" fill="#1a2a3a">Baseline: a record of normal</text>
+  <text x="388" y="356" font-size="13" fill="#1a2a3a">traffic and speeds.</text>
+
+  <rect x="30" y="392" width="660" height="66" rx="8" fill="#f2f2f2" stroke="#4a5568" stroke-width="2"/>
+  <text x="360" y="418" text-anchor="middle" font-size="13.5" fill="#1a2a3a"><tspan font-weight="bold">Label both ends</tspan> of every cable and port.  <tspan font-weight="bold">Update on every change</tspan> — stale docs mislead.</text>
+  <text x="360" y="440" text-anchor="middle" font-size="12" font-style="italic" fill="#555">Each card is titled with its question in words — the labels, not color, carry the meaning.</text>
+</svg>

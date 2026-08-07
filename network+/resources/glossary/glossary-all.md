@@ -28,6 +28,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
 - **ARP** — How a device finds the MAC address that goes with an IP on the local network. *(First taught: NA-M09-L04)*
+- **Asset inventory** — A list of all devices you own, with model, serial, location, and owner. *(First taught: NA-M12-L01)*
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
 - **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
 - **Auto-negotiation** — Devices agreeing on the fastest speed and duplex they both support. *(First taught: NA-M06-L05)*
@@ -39,6 +40,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Bandwidth** — The most data a link can carry (its capacity). *(First taught: NA-M04-L06)*
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
 - **BASE-T** — Ethernet name format: number = speed, T = twisted-pair copper. *(First taught: NA-M06-L05)*
+- **Baseline** — A record of a network's normal behavior, used to spot changes later. *(First taught: NA-M12-L01)*
 - **Baud rate** — The speed of a serial console link (often 9600). *(First taught: NA-M07-L06)*
 - **BGP (Border Gateway Protocol)** — The routing protocol that connects providers across the whole internet. *(First taught: NA-M11-L05)*
 - **Binary** — A number system that uses only two digits: 1 and 0. *(First taught: NA-M03-L01)*
@@ -183,6 +185,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Internet layer** — The TCP/IP layer that routes between networks with IP (OSI 3). *(First taught: NA-M05-L03)*
 - **IP (Internet Protocol)** — The rule-set for addressing and routing data between networks. *(First taught: NA-M05-L03)*
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
+- **IPAM (IP Address Management)** — Tracking every IP address in use, free, and assigned. *(First taught: NA-M12-L01)*
 - **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
 - **IPv4 address** — A device's network address: four bytes (0–255) written with dots. *(First taught: NA-M03-L05)*
 - **IPv6** — The 128-bit address system, made to replace the limited IPv4. *(First taught: NA-M08-L07)*
@@ -201,6 +204,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## L
 
 - **Label** — The name on the left of an output line (before the colon). *(First taught: NA-M02-L05)*
+- **Labeling** — Putting clear names on cables, ports, and devices (both ends of a cable). *(First taught: NA-M12-L01)*
 - **LAN (Local Area Network)** — A network in one place, like a home or office. *(First taught: NA-M04-L03)*
 - **Latency** — The delay — how long data takes to arrive (measured in ms). *(First taught: NA-M04-L06)*
 - **Layer** — One job in a model, stacked on the others; it hands data up or down. *(First taught: NA-M05-L01)*
@@ -212,6 +216,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
 - **Logical address** — An address set by software (like an IP); it can change when a device moves networks. *(First taught: NA-M08-L01)*
+- **Logical diagram** — A drawing of a network's IP addresses, subnets, and VLANs. *(First taught: NA-M12-L01)*
 - **Loopback address** — 127.0.0.1 — the address a device uses to reach itself. *(First taught: NA-M08-L02)*
 
 ## M
@@ -276,6 +281,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
 - **Physical address** — The hardware address (MAC) burned into a device; it does not change. *(First taught: NA-M08-L01)*
+- **Physical diagram** — A drawing of the real devices, ports, and cables in a network. *(First taught: NA-M12-L01)*
 - **Physical layer** — Layer 1 — the wire, fiber, or radio and the raw bits on it. *(First taught: NA-M05-L02)*
 - **Pin** — To lock a tool onto the taskbar or Start for quick access. *(First taught: NA-M02-L02)*
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
@@ -301,6 +307,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## R
 
+- **Rack diagram** — A physical diagram showing where each device sits in an equipment rack. *(First taught: NA-M12-L01)*
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
 - **RDP (Remote Desktop Protocol)** — Remote control of a Windows desktop (port 3389, TCP). *(First taught: NA-M10-L03)*
 - **Registered ports** — Ports 1024–49151, assigned to particular apps and vendors. *(First taught: NA-M10-L01)*
@@ -425,4 +432,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L08)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L01)_
