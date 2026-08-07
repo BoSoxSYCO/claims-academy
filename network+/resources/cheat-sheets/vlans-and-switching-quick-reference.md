@@ -120,4 +120,28 @@ switchport trunk allowed vlan add 10,20
 > **Remember:** static = written directions (fixed); dynamic = live GPS (reroutes itself).
 
 ---
+
+## Inter-VLAN routing (Lesson 11-06)
+
+VLANs are separate networks → they need a **Layer 3 device** to talk.
+
+| Method | How | Trade-off |
+|--------|-----|-----------|
+| **Router-on-a-stick** | one router on a **trunk**; a **sub-interface** (gateway) per VLAN | cheap; one shared link |
+| **Layer 3 switch** | routes inside the switch (a VLAN interface per VLAN) | fast; costs more |
+
+- Each VLAN needs its **own subnet** and its **own gateway** address.
+- Each PC points at its VLAN's **default gateway**.
+
+**Dell 3424 (if Layer 3 capable):**
+```
+interface vlan 10
+ip address 192.168.10.1 255.255.255.0
+ip routing
+```
+- **[TO VERIFY ON HARDWARE]** — Layer 3 support and wording vary by model/firmware; if Layer 2 only, use router-on-a-stick.
+
+> **Remember:** locked rooms (VLANs) + a guarded door (router) = pass only where you choose.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 11_

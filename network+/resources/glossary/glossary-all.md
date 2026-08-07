@@ -173,6 +173,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **In-band management** — Managing a device over the network itself (web, SSH). *(First taught: NA-M07-L06)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
+- **Inter-VLAN routing** — Using a Layer 3 device to move traffic between VLANs. *(First taught: NA-M11-L06)*
 - **Interface mode** — The switch CLI mode (`(config-if)#`) where you change one port. *(First taught: NA-M11-L02)*
 - **Interference** — Unwanted electrical noise that can harm a signal (also called EMI). *(First taught: NA-M06-L01)*
 - **Internet layer** — The TCP/IP layer that routes between networks with IP (OSI 3). *(First taught: NA-M05-L03)*
@@ -198,6 +199,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **LAN (Local Area Network)** — A network in one place, like a home or office. *(First taught: NA-M04-L03)*
 - **Latency** — The delay — how long data takes to arrive (measured in ms). *(First taught: NA-M04-L06)*
 - **Layer** — One job in a model, stacked on the others; it hands data up or down. *(First taught: NA-M05-L01)*
+- **Layer 3 switch** — A switch that can also route between VLANs, doing both jobs in one box. *(First taught: NA-M11-L06)*
 - **LDAP (Lightweight Directory Access Protocol)** — Looks up users and devices in a network directory (port 389). *(First taught: NA-M10-L04)*
 - **LDAPS (LDAP Secure)** — LDAP directory lookup over TLS (port 636). *(First taught: NA-M10-L04)*
 - **Lease** — How long a device may keep a DHCP-assigned address. *(First taught: NA-M09-L01)*
@@ -306,6 +308,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Root bridge** — The one switch Spanning Tree picks as the center; all paths are measured from it. *(First taught: NA-M11-L04)*
 - **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
 - **Router** — A Layer 3 device that connects different networks using IP addresses. *(First taught: NA-M07-L01)*
+- **Router-on-a-stick** — One router on a trunk that routes for many VLANs, using a sub-interface per VLAN. *(First taught: NA-M11-L06)*
 - **Routing** — How a router decides where to send a packet next, toward its destination. *(First taught: NA-M09-L04)*
 - **Routing protocol** — The language routers use to share route information (OSPF, EIGRP, BGP). *(First taught: NA-M11-L05)*
 - **Routing table** — A router's list of networks and where to forward traffic for each. *(First taught: NA-M09-L04)*
@@ -350,6 +353,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
 - **Stratum** — An NTP level showing how far a clock is from the true source (lower = closer). *(First taught: NA-M09-L05)*
+- **Sub-interface** — A small virtual interface on a router, one per VLAN, that holds that VLAN's gateway address. *(First taught: NA-M11-L06)*
 - **Subnet** — A smaller network made by dividing a bigger one. *(First taught: NA-M08-L03)*
 - **Subnet mask** — Four octets (255s then 0s) that mark which part of an IP is network vs. host. *(First taught: NA-M08-L03)*
 - **Subnetting** — Splitting one network into several smaller subnets. *(First taught: NA-M08-L05)*
@@ -411,4 +415,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L06)_

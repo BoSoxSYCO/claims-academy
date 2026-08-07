@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Two ways to route between VLANs</title>
+  <desc id="desc">Two side-by-side methods for routing between VLANs. Left, router-on-a-stick: a router connects to a switch by a single trunk carrying VLAN 10 and VLAN 20 with 802.1Q tags; the router holds a gateway address 192.168.10.1 for VLAN 10 and 192.168.20.1 for VLAN 20, so traffic between the VLANs goes up to the router and back. Right, a Layer 3 switch does both the switching and the routing inside one box, holding the same two gateway addresses itself, with no separate router. A caption notes router-on-a-stick is cheap but shares one link, while a Layer 3 switch is faster but costs more; either way each VLAN gets its own gateway.</desc>
+
+  <rect x="0" y="0" width="780" height="520" fill="#ffffff"/>
+  <text x="390" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a2a3a">Two ways to route between VLANs</text>
+
+  <!-- LEFT: router-on-a-stick -->
+  <rect x="25" y="56" width="345" height="360" rx="10" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="197" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#2b6cb0">Router-on-a-stick</text>
+
+  <rect x="120" y="100" width="150" height="46" rx="6" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="195" y="128" text-anchor="middle" font-size="13" font-weight="bold" fill="#c05621">ROUTER</text>
+  <text x="150" y="170" font-size="11" fill="#1a2a3a">gw 192.168.10.1 (VLAN 10)</text>
+  <text x="150" y="186" font-size="11" fill="#1a2a3a">gw 192.168.20.1 (VLAN 20)</text>
+
+  <line x1="195" y1="146" x2="195" y2="210" stroke="#6b46c1" stroke-width="4"/>
+  <text x="205" y="205" font-size="10.5" fill="#6b46c1">trunk: 802.1Q VLAN 10+20</text>
+
+  <rect x="120" y="210" width="150" height="42" rx="6" fill="#e8e8ef" stroke="#4a5568" stroke-width="2"/>
+  <text x="195" y="236" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2a3a">SWITCH</text>
+
+  <rect x="55" y="290" width="120" height="40" rx="5" fill="#cfe3f7" stroke="#2b6cb0"/>
+  <text x="115" y="315" text-anchor="middle" font-size="12" fill="#1a2a3a">VLAN 10 PCs</text>
+  <rect x="220" y="290" width="120" height="40" rx="5" fill="#d5f0df" stroke="#2f855a"/>
+  <text x="280" y="315" text-anchor="middle" font-size="12" fill="#1a2a3a">VLAN 20 PCs</text>
+  <line x1="115" y1="290" x2="160" y2="252" stroke="#2b6cb0" stroke-width="2"/>
+  <line x1="280" y1="290" x2="230" y2="252" stroke="#2f855a" stroke-width="2"/>
+
+  <text x="197" y="360" text-anchor="middle" font-size="12" fill="#1a2a3a">Traffic between VLANs</text>
+  <text x="197" y="378" text-anchor="middle" font-size="12" fill="#1a2a3a">goes up to the router and back.</text>
+  <text x="197" y="400" text-anchor="middle" font-size="12" font-style="italic" fill="#555">Cheap · one shared link</text>
+
+  <!-- RIGHT: Layer 3 switch -->
+  <rect x="410" y="56" width="345" height="360" rx="10" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="582" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#2f855a">Layer 3 switch</text>
+
+  <rect x="490" y="120" width="185" height="70" rx="6" fill="#e8e8ef" stroke="#2f855a" stroke-width="2"/>
+  <text x="582" y="145" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2a3a">L3 SWITCH</text>
+  <text x="582" y="164" text-anchor="middle" font-size="11" fill="#1a2a3a">switches AND routes</text>
+  <text x="582" y="180" text-anchor="middle" font-size="10.5" fill="#1a2a3a">gw 192.168.10.1 · 192.168.20.1</text>
+
+  <rect x="450" y="290" width="120" height="40" rx="5" fill="#cfe3f7" stroke="#2b6cb0"/>
+  <text x="510" y="315" text-anchor="middle" font-size="12" fill="#1a2a3a">VLAN 10 PCs</text>
+  <rect x="595" y="290" width="120" height="40" rx="5" fill="#d5f0df" stroke="#2f855a"/>
+  <text x="655" y="315" text-anchor="middle" font-size="12" fill="#1a2a3a">VLAN 20 PCs</text>
+  <line x1="510" y1="290" x2="545" y2="190" stroke="#2b6cb0" stroke-width="2"/>
+  <line x1="655" y1="290" x2="620" y2="190" stroke="#2f855a" stroke-width="2"/>
+
+  <text x="582" y="360" text-anchor="middle" font-size="12" fill="#1a2a3a">Both gateways live inside</text>
+  <text x="582" y="378" text-anchor="middle" font-size="12" fill="#1a2a3a">the switch — no separate router.</text>
+  <text x="582" y="400" text-anchor="middle" font-size="12" font-style="italic" fill="#555">Fast · costs more</text>
+
+  <rect x="25" y="430" width="730" height="60" rx="8" fill="#f2f2f2" stroke="#4a5568" stroke-width="2"/>
+  <text x="390" y="456" text-anchor="middle" font-size="13.5" fill="#1a2a3a">Both give each VLAN its own subnet and its own gateway, then route traffic between VLANs.</text>
+  <text x="390" y="478" text-anchor="middle" font-size="12.5" font-style="italic" fill="#555">Each method is titled in words; VLAN color is paired with its number and gateway — never color alone.</text>
+</svg>

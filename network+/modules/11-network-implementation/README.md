@@ -1,7 +1,7 @@
 # Module 11 — Network Implementation
 
 **Phase:** Exam Deep-Dive
-**Status:** In production (Lessons 11-01 → 11-05 Published) — Unit 8
+**Status:** In production (Lessons 11-01 → 11-06 Published) — Unit 8
 
 > **By the end of this module, you will be able to:** build VLANs, understand routing, and set up wireless — on real gear.
 
@@ -29,7 +29,7 @@ this board is updated:
 | 11-03 | [Trunks, Tagging (802.1Q), and Access Ports](lessons/11-03-trunks-tagging-and-access-ports.md) | ✅ Published |
 | 11-04 | [Spanning Tree Protocol (Loop Prevention)](lessons/11-04-spanning-tree-protocol.md) | ✅ Published |
 | 11-05 | [Routing Basics: Static vs. Dynamic](lessons/11-05-routing-basics-static-vs-dynamic.md) | ✅ Published |
-| 11-06 | Inter-VLAN routing (getting VLANs to talk) | Planned |
+| 11-06 | [Inter-VLAN Routing (Getting VLANs to Talk)](lessons/11-06-inter-vlan-routing.md) | ✅ Published |
 | 11-07 | Wireless standards, channels, and security | Planned |
 | 11-08 | Designing a small network end to end | Planned |
 
