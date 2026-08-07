@@ -74,6 +74,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## C
 
 - **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
+- **Cable certifier** — A tester that also checks a cable meets a full speed standard (crosstalk, attenuation, rating). *(First taught: NA-M14-L04)*
 - **Cable tester** — A tool that checks each wire end to end for opens, shorts, and miswires. *(First taught: NA-M06-L06)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
 - **Change control** — A safe process to plan, approve, and make changes (also called change management). *(First taught: NA-M12-L04)*
@@ -259,6 +260,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **LDAPS (LDAP Secure)** — LDAP directory lookup over TLS (port 636). *(First taught: NA-M10-L04)*
 - **Lease** — How long a device may keep a DHCP-assigned address. *(First taught: NA-M09-L01)*
 - **Least privilege** — Giving each person only the access they need, and nothing more. *(First taught: NA-M13-L03)*
+- **Light meter** — A tool that measures how much light arrives on a fiber link. *(First taught: NA-M14-L04)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
 - **Listening port** — A port waiting to accept incoming connections. *(First taught: NA-M14-L03)*
@@ -267,6 +269,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Logical address** — An address set by software (like an IP); it can change when a device moves networks. *(First taught: NA-M08-L01)*
 - **Logical diagram** — A drawing of a network's IP addresses, subnets, and VLANs. *(First taught: NA-M12-L01)*
 - **Loopback address** — 127.0.0.1 — the address a device uses to reach itself. *(First taught: NA-M08-L02)*
+- **Loopback plug** — A physical adapter that loops a port's transmit back to its receive to test the port or NIC. *(First taught: NA-M14-L04)*
 
 ## M
 
@@ -330,6 +333,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **OSI model** — The 7-layer reference model used to describe networks. *(First taught: NA-M05-L01)*
 - **OSPF (Open Shortest Path First)** — A common dynamic routing protocol used inside one organization. *(First taught: NA-M11-L05)*
+- **OTDR (Optical Time-Domain Reflectometer)** — A fiber tool that reports the distance to a break or fault. *(First taught: NA-M14-L04)*
 - **Out-of-band management** — Managing a device over a path that is not the network (the console). *(First taught: NA-M07-L06)*
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
 - **Output device** — Hardware that sends information out to you (screen, speakers, printer). *(First taught: NA-M01-L03)*
@@ -494,6 +498,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **TLS (Transport Layer Security)** — The modern encryption that locks web and email traffic (older name: SSL). *(First taught: NA-M10-L04)*
 - **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
+- **Toner probe** — The wand that beeps to find the cable a tone generator is sending a tone on. *(First taught: NA-M14-L04)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
 - **traceroute (tracert)** — A command that shows the routers (hops) along a packet's path. *(First taught: NA-M09-L04)*
 - **Trailer** — A small label the Data Link layer adds to the end (for error checking). *(First taught: NA-M05-L04)*
@@ -533,6 +538,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Web server** — A server that stores and sends web pages to browsers. *(First taught: NA-M04-L05)*
 - **Well-known ports** — Ports 0–1023, reserved for common services (like web on 80 and 443). *(First taught: NA-M10-L01)*
 - **WEP (Wired Equivalent Privacy)** — An old, broken Wi-Fi security type; never use it. *(First taught: NA-M11-L07)*
+- **Wi-Fi analyzer** — A tool that shows wireless signal strength and which channels are busy. *(First taught: NA-M14-L04)*
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 - **Wired link** — A link that uses a cable to connect two nodes. *(First taught: NA-M04-L02)*
 - **Wireless link** — A link that uses radio waves (Wi-Fi) to connect two nodes. *(First taught: NA-M04-L02)*
@@ -541,4 +547,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L04)_

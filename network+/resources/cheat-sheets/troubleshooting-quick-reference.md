@@ -65,4 +65,26 @@ Four built-in Windows commands. Open with **Start → cmd → Enter**.
 > **Remember:** arp = local who's-who · netstat = my connections · pathping = where loss happens.
 
 ---
+
+## Hardware tools (Lesson 14-04)
+
+For **physical** faults — when software says "no connection" but settings are fine.
+
+| Physical question | Tool |
+|-------------------|------|
+| Bad wire? (opens/shorts/miswires) | **cable tester** |
+| Meets a speed standard? | **cable certifier** |
+| Which cable is this? | **tone generator + toner probe** |
+| Is this port/NIC good? | **loopback plug** |
+| Where's the fiber break? | **OTDR** |
+| Enough light on the fiber? | **light meter** |
+| Wi-Fi signal / channels? | **Wi-Fi analyzer** |
+
+- **Loopback plug** (hardware, tests a port) ≠ **loopback address** 127.0.0.1 (software).
+- **Tester** = wired right? · **certifier** = good enough for the speed rating?
+- ⚠️ Never test a **live** in-use port — use a spare/unused one.
+
+> **Remember:** tester/certifier = cables · toner = find a cable · loopback plug = ports · OTDR/light meter = fiber · analyzer = Wi-Fi.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 14_
