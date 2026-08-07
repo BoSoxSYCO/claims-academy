@@ -65,4 +65,24 @@ Security has **three goals**. Together they are the **CIA triad**.
 > **Remember:** prove who you are, get the right access, leave a trail — like a workplace badge.
 
 ---
+
+## Firewalls, ACLs & segmentation (Lesson 13-04)
+
+| Tool | What it does |
+|------|--------------|
+| **Firewall** | allows / blocks traffic by rules (the guard) |
+| **Stateful** | remembers connections (smarter, common) |
+| **Stateless** | checks each packet alone |
+| **ACL** | ordered allow/deny list, top-down, first match wins |
+| **Implicit deny** | not allowed = blocked by default |
+| **Segmentation** | split into zones → smaller blast radius (VLANs) |
+| **DMZ / screened subnet** | zone for public servers, away from private |
+
+- ACL order: **specific rules first, broad rules last.**
+- Implicit deny is **always there**, even if you don't write it.
+- Segmentation = least privilege for the whole network.
+
+> **Remember:** guard at the edge (firewall + ACL), public servers in the DMZ, inside split into zones.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 13_

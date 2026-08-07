@@ -24,6 +24,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Access port** — A regular port on a switch where an end device, such as a PC, plugs in. *(First taught: NA-M07-L05)*
 - **Accounting** — Keeping a record of what a user did on a system or network. *(First taught: NA-M13-L03)*
 - **Acknowledgment (ACK)** — A message confirming that data was received (used by TCP). *(First taught: NA-M10-L02)*
+- **ACL (Access Control List)** — An ordered list of allow and deny rules, read top to bottom. *(First taught: NA-M13-L04)*
 - **Active recall** — Pulling an answer from memory instead of looking at it; it builds strong, lasting memory. *(First taught: NA-M10-L05)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Address class** — The A–E grouping of IPv4 addresses, decided by the first octet. *(First taught: NA-M08-L02)*
@@ -130,6 +131,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
 - **Disaster recovery (DR)** — The plan to bring a network back after a big failure. *(First taught: NA-M12-L04)*
+- **DMZ (Demilitarized Zone)** — A separate zone for public-facing servers, kept away from the private network; now often called a screened subnet. *(First taught: NA-M13-L04)*
 - **DNS** — The service that turns names into IP addresses. *(First taught: NA-M09-L02)*
 - **DNS cache** — A short local store of recent name → IP answers. *(First taught: NA-M09-L02)*
 - **DNS resolver** — A server that looks up a name and returns its IP. *(First taught: NA-M09-L02)*
@@ -204,6 +206,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **IDS/IPS** — Systems that detect (IDS) or block (IPS) attacks. *(First taught: NA-M07-L04)*
 - **IMAP (Internet Message Access Protocol)** — Reads email kept on the server, syncing across devices (port 143, TCP). *(First taught: NA-M10-L03)*
 - **IMAPS (IMAP Secure)** — IMAP email access over TLS (port 993). *(First taught: NA-M10-L04)*
+- **Implicit deny** — The default rule that blocks anything an ACL does not expressly allow. *(First taught: NA-M13-L04)*
 - **In-band management** — Managing a device over the network itself (web, SSH). *(First taught: NA-M07-L06)*
 - **Incremental backup** — A backup that copies only what changed since the last backup of any kind. *(First taught: NA-M12-L04)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
@@ -389,6 +392,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## S
 
 - **Scale** — To grow to handle more users or devices without breaking. *(First taught: NA-M04-L05)*
+- **Screened subnet** — The current name for a DMZ: an isolated zone for public-facing servers. *(First taught: NA-M13-L04)*
 - **Search box** — The box where you type a tool's name to find it. *(First taught: NA-M02-L02)*
 - **Section** — A group of output lines under a heading, such as one network connection. *(First taught: NA-M02-L05)*
 - **Segment** — The Transport-layer PDU (data plus a port header). *(First taught: NA-M05-L04)*
@@ -426,6 +430,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Start menu** — The menu that opens when you click Start; shows apps and search. *(First taught: NA-M02-L02)*
 - **startup-config** — The saved settings a switch loads when it boots. *(First taught: NA-M11-L02)*
 - **State** — The condition a switch is in (on or off). *(First taught: NA-M03-L01)*
+- **Stateful firewall** — A firewall that remembers active connections and allows their replies. *(First taught: NA-M13-L04)*
+- **Stateless firewall** — A firewall that checks each packet on its own, with no memory of past traffic. *(First taught: NA-M13-L04)*
 - **Static IP address** — An address set by hand that does not change. *(First taught: NA-M09-L01)*
 - **Static NAT** — A fixed one-to-one map of one private address to one public address. *(First taught: NA-M09-L03)*
 - **Static route** — A route typed into a router by hand that stays until you change it. *(First taught: NA-M11-L05)*
@@ -503,4 +509,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L04)_

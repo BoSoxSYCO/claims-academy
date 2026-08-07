@@ -1,7 +1,7 @@
 # Module 13 — Network Security
 
 **Phase:** Exam Deep-Dive
-**Status:** In production (Lessons 13-01 → 13-03 Published) — Unit 10
+**Status:** In production (Lessons 13-01 → 13-04 Published) — Unit 10
 
 > **By the end of this module, you will be able to:** explain core threats and harden a network against them.
 
@@ -27,7 +27,7 @@ this board is updated:
 | 13-01 | [Security Goals: Confidentiality, Integrity, Availability](lessons/13-01-security-goals-cia-triad.md) | ✅ Published |
 | 13-02 | [Common Attacks: How the Bad Guys Break In](lessons/13-02-common-attacks.md) | ✅ Published |
 | 13-03 | [AAA: Authentication, Authorization, and Accounting](lessons/13-03-aaa-authentication-authorization-accounting.md) | ✅ Published |
-| 13-04 | Firewalls, ACLs, and network segmentation | Planned |
+| 13-04 | [Firewalls, ACLs, and Network Segmentation](lessons/13-04-firewalls-acls-segmentation.md) | ✅ Published |
 | 13-05 | Securing switch ports and wireless | Planned |
 | 13-06 | VPNs and encryption in plain language | Planned |
 | 13-07 | Hardening checklist for your home lab | Planned |
