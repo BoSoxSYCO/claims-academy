@@ -312,6 +312,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Next hop** — The next router a packet is handed to on its way. *(First taught: NA-M09-L04)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 - **Node** — Any device that connects to a network. *(First taught: NA-M04-L02)*
+- **nslookup** — A command that asks DNS for the IP address behind a name. *(First taught: NA-M14-L02)*
 - **NTP** — Keeps device clocks synchronized to a reliable time source. *(First taught: NA-M09-L05)*
 
 ## O
@@ -397,6 +398,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Rollback** — Undoing a change to return to the last good state. *(First taught: NA-M12-L04)*
 - **Root bridge** — The one switch Spanning Tree picks as the center; all paths are measured from it. *(First taught: NA-M11-L04)*
 - **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
+- **Round-trip time (RTT)** — How long a ping takes to go to a target and come back, in milliseconds. *(First taught: NA-M14-L02)*
 - **Router** — A Layer 3 device that connects different networks using IP addresses. *(First taught: NA-M07-L01)*
 - **Router-on-a-stick** — One router on a trunk that routes for many VLANs, using a sub-interface per VLAN. *(First taught: NA-M11-L06)*
 - **Routing** — How a router decides where to send a packet next, toward its destination. *(First taught: NA-M09-L04)*
@@ -495,6 +497,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Transport layer** — Layer 4 — splits data, checks it arrives, uses ports. *(First taught: NA-M05-L02)*
 - **Troubleshooting methodology** — A fixed set of steps for finding and fixing problems in order. *(First taught: NA-M14-L01)*
 - **Trunk port** — A switch port that carries traffic for many VLANs on one link. *(First taught: NA-M11-L03)*
+- **TTL (Time to Live)** — A number that limits how many hops a packet may take before it is dropped. *(First taught: NA-M14-L02)*
 - **Tunnel** — A protected path that carries encrypted traffic across a public network. *(First taught: NA-M13-L06)*
 - **Twisted pair** — Two copper wires twisted together to cancel interference. *(First taught: NA-M06-L01)*
 
@@ -534,4 +537,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L02)_

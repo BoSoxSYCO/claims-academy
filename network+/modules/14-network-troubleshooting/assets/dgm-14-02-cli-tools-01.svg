@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Four command-line troubleshooting tools and the question each answers</title>
+  <desc id="desc">Four tool cards. Card one, ipconfig: answers 'what are my settings?' and shows your IP address, default gateway, DNS servers, and MAC address; example command ipconfig slash all. Card two, ping: answers 'can I reach it?' by sending a message and waiting for a reply, showing the round-trip time and TTL; example command ping 8.8.8.8. Card three, tracert: answers 'where does the path go, or stop?' by listing each hop or router along the way; example command tracert 8.8.8.8. Card four, nslookup: answers 'what IP has this name?' by asking DNS; example command nslookup a website name. A footer notes these tools power step 3, test the theory, and step 6, verify, of the troubleshooting method.</desc>
+
+  <rect x="0" y="0" width="760" height="520" fill="#ffffff"/>
+  <text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Four command-line tools — one question each</text>
+
+  <!-- ipconfig -->
+  <rect x="24" y="56" width="344" height="180" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="24" y="56" width="344" height="30" rx="10" fill="#2f6db0"/>
+  <text x="40" y="77" font-size="15" font-weight="bold" fill="#ffffff">ipconfig</text>
+  <text x="40" y="110" font-size="13" font-style="italic" fill="#1a2b4a">"What are my settings?"</text>
+  <text x="40" y="136" font-size="12" fill="#54606e">Shows your IP address, default</text>
+  <text x="40" y="154" font-size="12" fill="#54606e">gateway, DNS servers, and MAC.</text>
+  <rect x="40" y="176" width="300" height="30" rx="6" fill="#1a2b4a"/>
+  <text x="52" y="196" font-size="13" fill="#e8eef6" font-family="Consolas, monospace">ipconfig /all</text>
+
+  <!-- ping -->
+  <rect x="392" y="56" width="344" height="180" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="392" y="56" width="344" height="30" rx="10" fill="#2e8b57"/>
+  <text x="408" y="77" font-size="15" font-weight="bold" fill="#ffffff">ping</text>
+  <text x="408" y="110" font-size="13" font-style="italic" fill="#1a2b4a">"Can I reach it?"</text>
+  <text x="408" y="136" font-size="12" fill="#54606e">Sends a message, waits for a reply.</text>
+  <text x="408" y="154" font-size="12" fill="#54606e">Shows round-trip time and TTL.</text>
+  <rect x="408" y="176" width="300" height="30" rx="6" fill="#1a2b4a"/>
+  <text x="420" y="196" font-size="13" fill="#e8eef6" font-family="Consolas, monospace">ping 8.8.8.8</text>
+
+  <!-- tracert -->
+  <rect x="24" y="256" width="344" height="180" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <rect x="24" y="256" width="344" height="30" rx="10" fill="#c07f2f"/>
+  <text x="40" y="277" font-size="15" font-weight="bold" fill="#ffffff">tracert</text>
+  <text x="40" y="310" font-size="13" font-style="italic" fill="#1a2b4a">"Where does the path go, or stop?"</text>
+  <text x="40" y="336" font-size="12" fill="#54606e">Lists each hop (router) along the</text>
+  <text x="40" y="354" font-size="12" fill="#54606e">way, in order, with a time.</text>
+  <rect x="40" y="376" width="300" height="30" rx="6" fill="#1a2b4a"/>
+  <text x="52" y="396" font-size="13" fill="#e8eef6" font-family="Consolas, monospace">tracert 8.8.8.8</text>
+
+  <!-- nslookup -->
+  <rect x="392" y="256" width="344" height="180" rx="10" fill="#f3eefb" stroke="#7a4fbf" stroke-width="2"/>
+  <rect x="392" y="256" width="344" height="30" rx="10" fill="#7a4fbf"/>
+  <text x="408" y="277" font-size="15" font-weight="bold" fill="#ffffff">nslookup</text>
+  <text x="408" y="310" font-size="13" font-style="italic" fill="#1a2b4a">"What IP has this name?"</text>
+  <text x="408" y="336" font-size="12" fill="#54606e">Asks DNS for the IP address</text>
+  <text x="408" y="354" font-size="12" fill="#54606e">behind a name.</text>
+  <rect x="408" y="376" width="300" height="30" rx="6" fill="#1a2b4a"/>
+  <text x="420" y="396" font-size="13" fill="#e8eef6" font-family="Consolas, monospace">nslookup a-name</text>
+
+  <text x="380" y="466" text-anchor="middle" font-size="12" fill="#54606e">Every IP, time, hop, and TTL you see varies by network — read your own output.</text>
+  <text x="380" y="492" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a2b4a">These power step 3 (test the theory) and step 6 (verify) of the method.</text>
+</svg>

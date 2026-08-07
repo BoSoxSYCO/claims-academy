@@ -27,4 +27,24 @@ A repeatable method beats random guessing. Follow the steps in order.
 > **Remember:** find it, guess it, test it, plan it, fix it, check it, write it down.
 
 ---
+
+## Command-line tools (Lesson 14-02)
+
+Four built-in Windows commands. Open with **Start → cmd → Enter**.
+
+| Question | Command | Shows |
+|----------|---------|-------|
+| My settings? | `ipconfig /all` | IP, gateway, DNS, MAC |
+| Can I reach it? | `ping 8.8.8.8` | replies + time (RTT) + TTL |
+| Where's the path? | `tracert 8.8.8.8` | each hop, in order |
+| Name → IP? | `nslookup a-name` | the IP behind a name |
+
+- Test your own stack: `ping 127.0.0.1` (loopback).
+- **ping the IP works but the name fails → DNS problem.**
+- `ping` a name to check DNS and reachability at once.
+- ⚠️ Every IP, time, TTL, and hop **varies** — read your own output.
+
+> **Remember:** ipconfig = my address · ping = reachable? · tracert = the path · nslookup = names.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 14_

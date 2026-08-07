@@ -1,7 +1,7 @@
 # Module 14 — Network Troubleshooting
 
 **Phase:** Exam Deep-Dive
-**Status:** In production (Lesson 14-01 Published) — Unit 11
+**Status:** In production (Lessons 14-01 → 14-02 Published) — Unit 11
 
 > **By the end of this module, you will be able to:** diagnose and fix network problems using a repeatable method and the right tools.
 
@@ -25,7 +25,7 @@ this board is updated:
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 14-01 | [The CompTIA Troubleshooting Methodology](lessons/14-01-troubleshooting-methodology.md) | ✅ Published |
-| 14-02 | Command-line tools: ping, tracert, ipconfig, nslookup | Planned |
+| 14-02 | [Command-Line Tools: ping, tracert, ipconfig, nslookup](lessons/14-02-command-line-tools.md) | ✅ Published |
 | 14-03 | More tools: arp, netstat, pathping | Planned |
 | 14-04 | Hardware tools: cable testers, loopbacks | Planned |
 | 14-05 | Troubleshooting connectivity (Layers 1–3) | Planned |
