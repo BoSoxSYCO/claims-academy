@@ -69,7 +69,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
 - **Change control** — A safe process to plan, approve, and make changes (also called change management). *(First taught: NA-M12-L04)*
 - **Channel** — One "lane" within a band; nearby access points should use different, non-overlapping ones. *(First taught: NA-M11-L07)*
+- **Checksum** — A short number made from a file, used to spot whether the file changed. *(First taught: NA-M13-L01)*
 - **Chunking** — Grouping small facts into a few bigger buckets so they are easier to remember. *(First taught: NA-M10-L05)*
+- **CIA triad** — The three goals of security: confidentiality, integrity, and availability. *(First taught: NA-M13-L01)*
 - **CIDR (Classless Inter-Domain Routing)** — Writing a subnet mask as a slash plus the number of network bits (like /24). *(First taught: NA-M08-L04)*
 - **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
 - **Classless** — Not tied to the old A/B/C classes; the network/host split can fall anywhere. *(First taught: NA-M08-L04)*
@@ -85,6 +87,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Command Prompt** — The classic, simple Windows terminal. *(First taught: NA-M02-L03)*
 - **Communicate** — To send and receive information between devices or people. *(First taught: NA-M04-L01)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
+- **Confidentiality** — Keeping data secret so only the right people can see it. *(First taught: NA-M13-L01)*
 - **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
 - **Connection-oriented** — Sets up a connection and confirms delivery (TCP). *(First taught: NA-M10-L02)*
 - **Connectionless** — Just sends data, with no setup or delivery checks (UDP). *(First taught: NA-M10-L02)*
@@ -196,6 +199,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Incremental backup** — A backup that copies only what changed since the last backup of any kind. *(First taught: NA-M12-L04)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
+- **Integrity** — Keeping data correct and unchanged. *(First taught: NA-M13-L01)*
 - **Inter-VLAN routing** — Using a Layer 3 device to move traffic between VLANs. *(First taught: NA-M11-L06)*
 - **Interface mode** — The switch CLI mode (`(config-if)#`) where you change one port. *(First taught: NA-M11-L02)*
 - **Interference** — Unwanted electrical noise that can harm a signal (also called EMI). *(First taught: NA-M06-L01)*
@@ -477,4 +481,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L01)_

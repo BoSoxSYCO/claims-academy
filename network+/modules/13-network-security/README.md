@@ -1,7 +1,7 @@
 # Module 13 — Network Security
 
 **Phase:** Exam Deep-Dive
-**Status:** Planned (content not yet produced)
+**Status:** In production (Lesson 13-01 Published) — Unit 10
 
 > **By the end of this module, you will be able to:** explain core threats and harden a network against them.
 
@@ -22,9 +22,15 @@ The full, exam-mapped lesson list for this module lives in the
 [Curriculum Roadmap](../../docs/CURRICULUM-ROADMAP.md). As lessons are built,
 this board is updated:
 
-| Lesson | Status |
-|--------|--------|
-| _Populated during production_ | Planned |
+| Lesson | Title | Status |
+|--------|-------|--------|
+| 13-01 | [Security Goals: Confidentiality, Integrity, Availability](lessons/13-01-security-goals-cia-triad.md) | ✅ Published |
+| 13-02 | Common attacks (spoofing, MITM, DoS, social) | Planned |
+| 13-03 | Authentication, authorization, and accounting | Planned |
+| 13-04 | Firewalls, ACLs, and network segmentation | Planned |
+| 13-05 | Securing switch ports and wireless | Planned |
+| 13-06 | VPNs and encryption in plain language | Planned |
+| 13-07 | Hardening checklist for your home lab | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
 
