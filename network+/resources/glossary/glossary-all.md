@@ -159,6 +159,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **End-to-end** — Staying the same from the first sender to the final receiver (like the IP). *(First taught: NA-M05-L05)*
 - **Endpoint** — A node that sends or gets information, like a laptop or phone. *(First taught: NA-M04-L02)*
 - **Ephemeral port** — A temporary high port (49152–65535) a client uses for one conversation. *(First taught: NA-M10-L01)*
+- **Escalate** — To pass a problem to someone with more access, skill, or authority. *(First taught: NA-M14-L01)*
 - **Ethernet** — The family of rules for wired local networks (IEEE 802.3). *(First taught: NA-M06-L05)*
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
 
@@ -480,6 +481,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
 - **Terminal emulator** — A program (PuTTY, Tera Term) that shows the switch's text screen on your laptop. *(First taught: NA-M07-L06)*
 - **TFTP (Trivial File Transfer Protocol)** — A simple, no-frills file transfer (port 69, UDP). *(First taught: NA-M10-L03)*
+- **Theory of probable cause** — Your best guess at what is causing a problem, tested before any change. *(First taught: NA-M14-L01)*
 - **Threat** — Anything that could cause harm to a system or network. *(First taught: NA-M13-L02)*
 - **Three-way handshake** — TCP's SYN, SYN-ACK, ACK setup that starts a connection. *(First taught: NA-M10-L02)*
 - **Threshold** — A limit that, when a value crosses it, triggers an alert. *(First taught: NA-M12-L02)*
@@ -491,6 +493,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Trailer** — A small label the Data Link layer adds to the end (for error checking). *(First taught: NA-M05-L04)*
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 - **Transport layer** — Layer 4 — splits data, checks it arrives, uses ports. *(First taught: NA-M05-L02)*
+- **Troubleshooting methodology** — A fixed set of steps for finding and fixing problems in order. *(First taught: NA-M14-L01)*
 - **Trunk port** — A switch port that carries traffic for many VLANs on one link. *(First taught: NA-M11-L03)*
 - **Tunnel** — A protected path that carries encrypted traffic across a public network. *(First taught: NA-M13-L06)*
 - **Twisted pair** — Two copper wires twisted together to cancel interference. *(First taught: NA-M06-L01)*
@@ -531,4 +534,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L07)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L01)_

@@ -1,7 +1,7 @@
 # Module 14 — Network Troubleshooting
 
 **Phase:** Exam Deep-Dive
-**Status:** Planned (content not yet produced)
+**Status:** In production (Lesson 14-01 Published) — Unit 11
 
 > **By the end of this module, you will be able to:** diagnose and fix network problems using a repeatable method and the right tools.
 
@@ -22,9 +22,15 @@ The full, exam-mapped lesson list for this module lives in the
 [Curriculum Roadmap](../../docs/CURRICULUM-ROADMAP.md). As lessons are built,
 this board is updated:
 
-| Lesson | Status |
-|--------|--------|
-| _Populated during production_ | Planned |
+| Lesson | Title | Status |
+|--------|-------|--------|
+| 14-01 | [The CompTIA Troubleshooting Methodology](lessons/14-01-troubleshooting-methodology.md) | ✅ Published |
+| 14-02 | Command-line tools: ping, tracert, ipconfig, nslookup | Planned |
+| 14-03 | More tools: arp, netstat, pathping | Planned |
+| 14-04 | Hardware tools: cable testers, loopbacks | Planned |
+| 14-05 | Troubleshooting connectivity (Layers 1–3) | Planned |
+| 14-06 | Troubleshooting names, speed, and wireless | Planned |
+| 14-07 | Worked scenarios: "the internet is down" | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
 
