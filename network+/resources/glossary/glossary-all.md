@@ -11,6 +11,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## 0-9
 
+- **3-2-1 rule** — A backup rule: keep 3 copies of data, on 2 media types, with 1 copy off-site. *(First taught: NA-M12-L04)*
 - **802.11** — The IEEE family of Wi-Fi standards (a/b/g/n/ac/ax). *(First taught: NA-M11-L07)*
 - **802.1Q (dot1q)** — The IEEE standard that tags each frame with its VLAN ID so one trunk can carry many VLANs. *(First taught: NA-M11-L03)*
 
@@ -38,6 +39,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## B
 
 - **Backbone** — The single shared cable that a bus network is built on. *(First taught: NA-M04-L04)*
+- **Backup** — A saved copy of data you can restore later. *(First taught: NA-M12-L04)*
 - **Band** — A range of radio frequencies Wi-Fi uses, mainly 2.4 GHz or 5 GHz. *(First taught: NA-M11-L07)*
 - **Bandwidth** — The most data a link can carry (its capacity). *(First taught: NA-M04-L06)*
 - **Base 16** — A counting system with 16 symbols (hexadecimal). *(First taught: NA-M03-L04)*
@@ -63,6 +65,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
 - **Cable tester** — A tool that checks each wire end to end for opens, shorts, and miswires. *(First taught: NA-M06-L06)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
+- **Change control** — A safe process to plan, approve, and make changes (also called change management). *(First taught: NA-M12-L04)*
 - **Channel** — One "lane" within a band; nearby access points should use different, non-overlapping ones. *(First taught: NA-M11-L07)*
 - **Chunking** — Grouping small facts into a few bigger buckets so they are easier to remember. *(First taught: NA-M10-L05)*
 - **CIDR (Classless Inter-Domain Routing)** — Writing a subnet mask as a slash plus the number of network bits (like /24). *(First taught: NA-M08-L04)*
@@ -72,6 +75,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
 - **CNAME record** — A DNS record that points one name to another (an alias). *(First taught: NA-M09-L02)*
+- **Cold site** — A DR site with empty space, power, and cooling only; cheap but slow to bring up. *(First taught: NA-M12-L04)*
 - **Collision** — Two devices sending at once on a shared wire, clashing their signals. *(First taught: NA-M07-L03)*
 - **Collision domain** — A zone of the network where a collision can happen. *(First taught: NA-M07-L03)*
 - **Command** — A short instruction you type for the computer to run. *(First taught: NA-M02-L03)*
@@ -108,9 +112,11 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **DHCP** — A service that automatically gives devices their IP settings. *(First taught: NA-M09-L01)*
 - **DHCP reservation** — A fixed address always given to one device (by its MAC). *(First taught: NA-M09-L01)*
 - **DHCP scope** — The range (pool) of addresses a DHCP server can hand out. *(First taught: NA-M09-L01)*
+- **Differential backup** — A backup that copies everything changed since the last full backup. *(First taught: NA-M12-L04)*
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
+- **Disaster recovery (DR)** — The plan to bring a network back after a big failure. *(First taught: NA-M12-L04)*
 - **DNS** — The service that turns names into IP addresses. *(First taught: NA-M09-L02)*
 - **DNS cache** — A short local store of recent name → IP answers. *(First taught: NA-M09-L02)*
 - **DNS resolver** — A server that looks up a name and returns its IP. *(First taught: NA-M09-L02)*
@@ -118,6 +124,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **DORA** — The four DHCP steps: Discover, Offer, Request, Acknowledge. *(First taught: NA-M09-L01)*
 - **Dotted-decimal notation** — Writing an IPv4 address as four numbers (0–255) separated by dots. *(First taught: NA-M08-L01)*
 - **Double colon (::)** — A shorthand that replaces one run of all-zero hextets in an IPv6 address — used only once. *(First taught: NA-M08-L07)*
+- **DR site** — A second location you can run from after a disaster (cold, warm, or hot). *(First taught: NA-M12-L04)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
 - **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
 - **Dynamic IP address** — An address given automatically by DHCP; it can change. *(First taught: NA-M09-L01)*
@@ -152,6 +159,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Frame** — The Data Link-layer PDU (data plus a MAC header and trailer). *(First taught: NA-M05-L04)*
 - **FTP (File Transfer Protocol)** — Transfers files between computers (ports 20/21, TCP). *(First taught: NA-M10-L03)*
 - **FTPS (FTP Secure)** — FTP wrapped in TLS encryption (ports 989/990). *(First taught: NA-M10-L04)*
+- **Full backup** — A backup that copies everything, every time. *(First taught: NA-M12-L04)*
 
 ## G
 
@@ -171,6 +179,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
 - **Host** — Any device that has an IP address and communicates on a network. *(First taught: NA-M08-L01)*
 - **Host portion** — The part of an IP address that says which device on a network. *(First taught: NA-M08-L02)*
+- **Hot site** — A DR site that is a full running copy, ready to take over fast (but costly). *(First taught: NA-M12-L04)*
 - **HTTP (HyperText Transfer Protocol)** — The web protocol for plain web pages (port 80, TCP). *(First taught: NA-M10-L03)*
 - **HTTPS (HTTP Secure)** — The secure, encrypted web protocol (port 443, TCP). *(First taught: NA-M10-L03)*
 - **Hub** — A Layer 1 device that repeats every incoming signal out all ports. *(First taught: NA-M07-L01)*
@@ -181,6 +190,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **IMAP (Internet Message Access Protocol)** — Reads email kept on the server, syncing across devices (port 143, TCP). *(First taught: NA-M10-L03)*
 - **IMAPS (IMAP Secure)** — IMAP email access over TLS (port 993). *(First taught: NA-M10-L04)*
 - **In-band management** — Managing a device over the network itself (web, SSH). *(First taught: NA-M07-L06)*
+- **Incremental backup** — A backup that copies only what changed since the last backup of any kind. *(First taught: NA-M12-L04)*
 - **Input** — Information you put into a computer, such as typing, tapping, or clicking. *(First taught: NA-M01-L01)*
 - **Input device** — Hardware that sends information into the computer (keyboard, mouse, microphone). *(First taught: NA-M01-L03)*
 - **Inter-VLAN routing** — Using a Layer 3 device to move traffic between VLANs. *(First taught: NA-M11-L06)*
@@ -271,6 +281,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## O
 
 - **Octet** — One byte (8 bits) of an IPv4 address — one of the four numbers. *(First taught: NA-M03-L05)*
+- **Off-site backup** — A backup copy kept in a different location, so a local disaster can't destroy it. *(First taught: NA-M12-L04)*
 - **OID (Object Identifier)** — The address of one single item in the MIB. *(First taught: NA-M12-L02)*
 - **Open** — A broken or cut wire — no continuity, no signal. *(First taught: NA-M06-L06)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
@@ -332,6 +343,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Ring topology** — A network shape where each node connects to two neighbors, forming a loop. *(First taught: NA-M04-L04)*
 - **RJ11** — A smaller connector used for telephones (fewer pins). *(First taught: NA-M06-L02)*
 - **RJ45** — The 8-pin connector used for twisted-pair Ethernet. *(First taught: NA-M06-L02)*
+- **Rollback** — Undoing a change to return to the last good state. *(First taught: NA-M12-L04)*
 - **Root bridge** — The one switch Spanning Tree picks as the center; all paths are measured from it. *(First taught: NA-M11-L04)*
 - **Round trip** — The full out-and-back journey of a request and its reply. *(First taught: NA-M05-L05)*
 - **Router** — A Layer 3 device that connects different networks using IP addresses. *(First taught: NA-M07-L01)*
@@ -364,6 +376,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **SLA (Service Level Agreement)** — A written promise about a service, such as an uptime target. *(First taught: NA-M12-L03)*
 - **SMB (Server Message Block)** — Windows file and printer sharing (port 445, TCP). *(First taught: NA-M10-L03)*
 - **SMTP (Simple Mail Transfer Protocol)** — Sends email (port 25, TCP). *(First taught: NA-M10-L03)*
+- **Snapshot** — A saved point-in-time image of a system you can roll back to. *(First taught: NA-M12-L04)*
 - **SNMP** — Lets a central manager monitor and manage network devices. *(First taught: NA-M09-L05)*
 - **SNMP trap** — An alert a device pushes to the manager on its own when something is wrong. *(First taught: NA-M12-L02)*
 - **Socket** — An IP address plus a port number together, naming one exact endpoint. *(First taught: NA-M10-L01)*
@@ -441,6 +454,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## W
 
 - **WAN (Wide Area Network)** — A network over a long distance; the internet is one. *(First taught: NA-M04-L03)*
+- **Warm site** — A DR site with some gear ready to set up; medium speed and cost. *(First taught: NA-M12-L04)*
 - **Web management (GUI)** — A point-and-click web page for managing a switch in a browser. *(First taught: NA-M07-L06)*
 - **Web server** — A server that stores and sends web pages to browsers. *(First taught: NA-M04-L05)*
 - **Well-known ports** — Ports 0–1023, reserved for common services (like web on 80 and 443). *(First taught: NA-M10-L01)*
@@ -452,4 +466,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L03)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L04)_

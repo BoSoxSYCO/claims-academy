@@ -66,4 +66,24 @@ Documentation is the network's **written memory** — for fixing, learning, and 
 > **Remember:** carry a spare (redundancy), swap to it automatically (failover), and promise a level (SLA).
 
 ---
+
+## Backups, DR & change control (Lesson 12-04)
+
+**Backup types:** **full** (all) · **incremental** (since last backup) · **differential** (since last full) · **snapshot** (point-in-time).
+**3-2-1 rule:** **3** copies · **2** media · **1** off-site.
+
+| DR site | Ready in | Cost |
+|---------|----------|------|
+| Cold | days | low |
+| Warm | hours | medium |
+| Hot | minutes | high |
+
+- **RPO/RTO** pick the DR site (from 12-03).
+- **Change control:** plan → approve → schedule → change → **rollback** if it breaks.
+- Switch rollback = a saved **startup-config** (`copy running-config startup-config`).
+- ⚠️ All copies in one building is **not** 3-2-1 — keep 1 off-site.
+
+> **Remember:** copy your data (backups), plan your comeback (DR), change safely (change control).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 12_

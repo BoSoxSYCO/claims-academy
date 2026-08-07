@@ -1,7 +1,7 @@
 # Module 12 — Network Operations
 
 **Phase:** Exam Deep-Dive
-**Status:** In production (Lessons 12-01 → 12-03 Published) — Unit 9
+**Status:** In production (Lessons 12-01 → 12-04 Published) — Unit 9
 
 > **By the end of this module, you will be able to:** document, monitor, and keep a network healthy and available.
 
@@ -27,7 +27,7 @@ this board is updated:
 | 12-01 | [Documentation: Diagrams, Labels, and IPAM](lessons/12-01-documentation-diagrams-labels-ipam.md) | ✅ Published |
 | 12-02 | [Monitoring, Logs, SNMP, and Alerts](lessons/12-02-monitoring-logs-snmp-alerts.md) | ✅ Published |
 | 12-03 | [Availability: Redundancy, Uptime, and SLAs](lessons/12-03-availability-redundancy-uptime-slas.md) | ✅ Published |
-| 12-04 | Backups, disaster recovery, and change control | Planned |
+| 12-04 | [Backups, Disaster Recovery, and Change Control](lessons/12-04-backups-disaster-recovery-change-control.md) | ✅ Published |
 | 12-05 | Common network policies and best practices | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
