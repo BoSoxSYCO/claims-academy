@@ -113,4 +113,23 @@ Security has **three goals**. Together they are the **CIA triad**.
 > **Remember:** lock the wired doors (ports) and the wireless doors (Wi-Fi).
 
 ---
+
+## VPNs & encryption (Lesson 13-06)
+
+| Idea | Plain meaning | Protects |
+|------|---------------|----------|
+| **Encryption** | scramble with a key (two-way) | confidentiality |
+| **Plaintext → ciphertext** | readable → scrambled | — |
+| **Symmetric** | one shared key (fast) | — |
+| **Asymmetric** | public + private key pair | — |
+| **Hashing** | one-way fingerprint | integrity |
+| **VPN** | encrypted tunnel over the internet | confidentiality |
+
+- Encryption is **two-way** (lock/unlock); hashing is **one-way** (fingerprint only).
+- VPN types: **site-to-site** (two networks) · **remote-access** (one person).
+- **IPsec** and **TLS** build the tunnel; the browser padlock + **https** = TLS in action.
+
+> **Remember:** lock the message (encryption), seal it so tampering shows (hashing), tunnel it (VPN).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 13_

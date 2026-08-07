@@ -35,6 +35,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
 - **ARP** — How a device finds the MAC address that goes with an IP on the local network. *(First taught: NA-M09-L04)*
 - **Asset inventory** — A list of all devices you own, with model, serial, location, and owner. *(First taught: NA-M12-L01)*
+- **Asymmetric encryption** — Encryption that uses a pair of keys: a public key and a private key. *(First taught: NA-M13-L06)*
 - **Attack** — A harmful act against a system or network. *(First taught: NA-M13-L02)*
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
 - **AUP (Acceptable Use Policy)** — A policy stating what people may and may not do with the network. *(First taught: NA-M12-L05)*
@@ -80,6 +81,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Chunking** — Grouping small facts into a few bigger buckets so they are easier to remember. *(First taught: NA-M10-L05)*
 - **CIA triad** — The three goals of security: confidentiality, integrity, and availability. *(First taught: NA-M13-L01)*
 - **CIDR (Classless Inter-Domain Routing)** — Writing a subnet mask as a slash plus the number of network bits (like /24). *(First taught: NA-M08-L04)*
+- **Ciphertext** — Scrambled data produced by encryption. *(First taught: NA-M13-L06)*
 - **Cladding** — The glass layer around the core that reflects light back in. *(First taught: NA-M06-L03)*
 - **Classless** — Not tied to the old A/B/C classes; the network/host split can fall anywhere. *(First taught: NA-M08-L04)*
 - **Clear text** — Data sent unscrambled, which anyone in the path can read. *(First taught: NA-M10-L04)*
@@ -189,6 +191,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## H
 
 - **Hardware** — The physical parts of a computer that you can touch. *(First taught: NA-M01-L01)*
+- **Hashing** — Turning data into a one-way, fixed-length fingerprint used to detect changes. *(First taught: NA-M13-L06)*
 - **Header** — A small label a layer adds to the front, holding its control info. *(First taught: NA-M05-L04)*
 - **Hexadecimal (hex)** — A base-16 number system using digits 0–9 and A–F. *(First taught: NA-M03-L04)*
 - **Hextet** — One of the eight 4-hex-digit groups in an IPv6 address (16 bits). *(First taught: NA-M08-L07)*
@@ -222,6 +225,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
 - **IPAM (IP Address Management)** — Tracking every IP address in use, free, and assigned. *(First taught: NA-M12-L01)*
 - **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
+- **IPsec** — A common set of protocols used to build encrypted VPN tunnels. *(First taught: NA-M13-L06)*
 - **IPv4 address** — A device's network address: four bytes (0–255) written with dots. *(First taught: NA-M03-L05)*
 - **IPv6** — The 128-bit address system, made to replace the limited IPv4. *(First taught: NA-M08-L07)*
 - **ISP (Internet Service Provider)** — The company that brings internet to your home or office. *(First taught: NA-M11-L08)*
@@ -233,6 +237,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## K
 
+- **Key (encryption)** — The secret value used to lock and unlock encrypted data. *(First taught: NA-M13-L06)*
 - **Key line** — The one line in command output that has the answer you need. *(First taught: NA-M02-L05)*
 - **Keystone jack** — A snap-in jack module that fits a wall plate or panel. *(First taught: NA-M06-L02)*
 
@@ -341,6 +346,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **ping** — A command that tests whether you can reach another device. *(First taught: NA-M02-L04)*
 - **Pinout** — The order the 8 wires are placed into the RJ45's pins. *(First taught: NA-M06-L04)*
 - **Place value** — What each bit position is worth (1, 2, 4, 8, 16, 32, 64, 128). *(First taught: NA-M03-L02)*
+- **Plaintext** — Readable data before it is encrypted. *(First taught: NA-M13-L06)*
 - **Policy** — A written rule for how to do something safely and fairly. *(First taught: NA-M12-L05)*
 - **POP3 (Post Office Protocol 3)** — Downloads email to one device (port 110, TCP). *(First taught: NA-M10-L03)*
 - **POP3S (POP3 Secure)** — POP3 email download over TLS (port 995). *(First taught: NA-M10-L04)*
@@ -374,6 +380,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Registered ports** — Ports 1024–49151, assigned to particular apps and vendors. *(First taught: NA-M10-L01)*
 - **Remainder** — What's left over after you subtract a place value. *(First taught: NA-M03-L03)*
 - **Remote-access policy** — Rules for connecting to the network from outside, often requiring a VPN. *(First taught: NA-M12-L05)*
+- **Remote-access VPN** — A VPN that connects one remote person (a client) to a network. *(First taught: NA-M13-L06)*
 - **Repeater** — A Layer 1 device that boosts a weak signal so it travels farther. *(First taught: NA-M07-L01)*
 - **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
 - **Resource** — Something a network lets you share: a file, printer, or internet connection. *(First taught: NA-M04-L01)*
@@ -412,6 +419,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Short** — Two wires touching when they shouldn't, scrambling the signal. *(First taught: NA-M06-L06)*
 - **Single-mode fiber (SMF)** — Thin-core fiber with one light path; laser; longest distances. *(First taught: NA-M06-L03)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
+- **Site-to-site VPN** — A VPN that connects two whole networks, such as two offices. *(First taught: NA-M13-L06)*
 - **SLA (Service Level Agreement)** — A written promise about a service, such as an uptime target. *(First taught: NA-M12-L03)*
 - **SMB (Server Message Block)** — Windows file and printer sharing (port 445, TCP). *(First taught: NA-M10-L03)*
 - **SMTP (Simple Mail Transfer Protocol)** — Sends email (port 25, TCP). *(First taught: NA-M10-L03)*
@@ -451,6 +459,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Subtraction method** — The routine for decimal → binary: for each place from 128 down, write 1 and subtract if it fits, else 0. *(First taught: NA-M03-L03)*
 - **Switch** — A Layer 2 device that learns MAC addresses and forwards to the right port. *(First taught: NA-M07-L01)*
 - **Switching loop** — Two or more paths between switches that form a circle frames can loop around. *(First taught: NA-M11-L04)*
+- **Symmetric encryption** — Encryption that uses one shared key for both locking and unlocking. *(First taught: NA-M13-L06)*
 - **Syslog** — A standard for sending device log messages to a central server. *(First taught: NA-M09-L05)*
 
 ## T
@@ -478,6 +487,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Transistor** — A tiny electronic switch inside a computer (billions of them). *(First taught: NA-M03-L01)*
 - **Transport layer** — Layer 4 — splits data, checks it arrives, uses ports. *(First taught: NA-M05-L02)*
 - **Trunk port** — A switch port that carries traffic for many VLANs on one link. *(First taught: NA-M11-L03)*
+- **Tunnel** — A protected path that carries encrypted traffic across a public network. *(First taught: NA-M13-L06)*
 - **Twisted pair** — Two copper wires twisted together to cancel interference. *(First taught: NA-M06-L01)*
 
 ## U
@@ -497,6 +507,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **VLAN (Virtual Local Area Network)** — A group of switch ports that act as their own separate network and broadcast domain. *(First taught: NA-M11-L01)*
 - **VLAN ID** — The number (1–4094) that names a VLAN; VLAN 1 is the default. *(First taught: NA-M11-L01)*
 - **VLAN tag** — The small label inside a frame that names which VLAN it belongs to. *(First taught: NA-M11-L03)*
+- **VPN (Virtual Private Network)** — A private, encrypted tunnel across a public network. *(First taught: NA-M13-L06)*
 - **Vulnerability** — A weak spot that lets harm happen. *(First taught: NA-M13-L02)*
 
 ## W
@@ -515,4 +526,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L05)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L06)_
