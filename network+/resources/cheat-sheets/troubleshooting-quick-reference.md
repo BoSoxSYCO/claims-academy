@@ -87,4 +87,23 @@ For **physical** faults — when software says "no connection" but settings are 
 > **Remember:** tester/certifier = cables · toner = find a cable · loopback plug = ports · OTDR/light meter = fiber · analyzer = Wi-Fi.
 
 ---
+
+## Connectivity by layer — bottom-up (Lesson 14-05)
+
+For "no connection," climb the OSI layers from the bottom.
+
+| Layer | Check | Tools |
+|-------|-------|-------|
+| **L1 Physical** (start) | plugged in? link light? cable good? | eyes, cable tester |
+| **L2 Data Link** | right VLAN/port? duplex mismatch? errors? | switch, port stats |
+| **L3 Network** | real IP (not 169.254)? subnet? gateway? | `ipconfig`, `ping` |
+
+- Go **bottom-up** — most faults are physical (Layer 1). Fix the lowest broken layer first.
+- **169.254.x.x = APIPA = no DHCP** answered (a Layer 3 clue).
+- **Duplex mismatch** = slow + errors, not a full outage.
+- Don't check IP settings while the cable is unplugged.
+
+> **Remember:** plug (L1) → link (L2) → address (L3). Check the plug before the fuse box.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 14_

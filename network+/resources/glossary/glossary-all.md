@@ -63,6 +63,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Blocking (STP)** — A port state where Spanning Tree stops a port from forwarding, to break a loop. *(First taught: NA-M11-L04)*
 - **Bluetooth** — A short-range wireless way to link nearby devices (a common PAN). *(First taught: NA-M04-L03)*
 - **Borrowing bits** — Taking bits from the host part to make more subnets. *(First taught: NA-M08-L05)*
+- **Bottom-up troubleshooting** — Starting at OSI Layer 1 (physical) and climbing up the layers. *(First taught: NA-M14-L05)*
 - **Broadcast** — A frame addressed to every device (`FF:FF:FF:FF:FF:FF`). *(First taught: NA-M07-L02)*
 - **Broadcast address** — The last address of a subnet (host bits all 1); it reaches every host in the subnet. *(First taught: NA-M08-L05)*
 - **Broadcast domain** — The group of devices that all receive each other's broadcasts. *(First taught: NA-M07-L03)*
@@ -150,6 +151,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **DR site** — A second location you can run from after a disaster (cold, warm, or hot). *(First taught: NA-M12-L04)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
 - **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
+- **Duplex mismatch** — When one side of a link is set to full duplex and the other to half, causing errors and slow speed. *(First taught: NA-M14-L05)*
 - **Dynamic IP address** — An address given automatically by DHCP; it can change. *(First taught: NA-M09-L01)*
 - **Dynamic NAT** — Mapping private addresses to a pool of public addresses, as needed. *(First taught: NA-M09-L03)*
 - **Dynamic routing** — Routers learning routes from each other and updating automatically. *(First taught: NA-M11-L05)*
@@ -262,6 +264,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Least privilege** — Giving each person only the access they need, and nothing more. *(First taught: NA-M13-L03)*
 - **Light meter** — A tool that measures how much light arrives on a fiber link. *(First taught: NA-M14-L04)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
+- **Link light** — The LED on a port that glows when a live link is present. *(First taught: NA-M14-L05)*
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
 - **Listening port** — A port waiting to accept incoming connections. *(First taught: NA-M14-L03)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
@@ -499,6 +502,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **TLS (Transport Layer Security)** — The modern encryption that locks web and email traffic (older name: SSL). *(First taught: NA-M10-L04)*
 - **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
 - **Toner probe** — The wand that beeps to find the cable a tone generator is sending a tone on. *(First taught: NA-M14-L04)*
+- **Top-down troubleshooting** — Starting at OSI Layer 7 (the application) and working down. *(First taught: NA-M14-L05)*
 - **Topology** — The shape of a network — how nodes and links are arranged. *(First taught: NA-M04-L04)*
 - **traceroute (tracert)** — A command that shows the routers (hops) along a packet's path. *(First taught: NA-M09-L04)*
 - **Trailer** — A small label the Data Link layer adds to the end (for error checking). *(First taught: NA-M05-L04)*
@@ -547,4 +551,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L05)_
