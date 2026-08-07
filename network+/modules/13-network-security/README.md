@@ -1,7 +1,7 @@
 # Module 13 — Network Security
 
 **Phase:** Exam Deep-Dive
-**Status:** In production (Lesson 13-01 Published) — Unit 10
+**Status:** In production (Lessons 13-01 → 13-02 Published) — Unit 10
 
 > **By the end of this module, you will be able to:** explain core threats and harden a network against them.
 
@@ -25,7 +25,7 @@ this board is updated:
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 13-01 | [Security Goals: Confidentiality, Integrity, Availability](lessons/13-01-security-goals-cia-triad.md) | ✅ Published |
-| 13-02 | Common attacks (spoofing, MITM, DoS, social) | Planned |
+| 13-02 | [Common Attacks: How the Bad Guys Break In](lessons/13-02-common-attacks.md) | ✅ Published |
 | 13-03 | Authentication, authorization, and accounting | Planned |
 | 13-04 | Firewalls, ACLs, and network segmentation | Planned |
 | 13-05 | Securing switch ports and wireless | Planned |

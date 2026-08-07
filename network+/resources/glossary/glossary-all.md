@@ -31,6 +31,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
 - **ARP** — How a device finds the MAC address that goes with an IP on the local network. *(First taught: NA-M09-L04)*
 - **Asset inventory** — A list of all devices you own, with model, serial, location, and owner. *(First taught: NA-M12-L01)*
+- **Attack** — A harmful act against a system or network. *(First taught: NA-M13-L02)*
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
 - **AUP (Acceptable Use Policy)** — A policy stating what people may and may not do with the network. *(First taught: NA-M12-L05)*
 - **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
@@ -108,6 +109,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Data-handling policy** — Rules for storing, protecting, and deleting data, including how long to keep it (retention). *(First taught: NA-M12-L05)*
 - **Data Link layer** — Layer 2 — local delivery on one network, using MAC addresses (switches). *(First taught: NA-M05-L02)*
+- **DDoS (Distributed Denial of Service)** — A DoS attack launched from many machines at once. *(First taught: NA-M13-L02)*
 - **De-encapsulation** — Unwrapping the headers at each layer, going up the stack. *(First taught: NA-M05-L04)*
 - **Decimal** — Our everyday number system, using digits 0–9. *(First taught: NA-M03-L02)*
 - **Default gateway** — The address of your router; the door to the rest of the network. *(First taught: NA-M02-L04)*
@@ -128,6 +130,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **DNS resolver** — A server that looks up a name and returns its IP. *(First taught: NA-M09-L02)*
 - **Domain name** — A human-friendly name for a site, like google.com. *(First taught: NA-M09-L02)*
 - **DORA** — The four DHCP steps: Discover, Offer, Request, Acknowledge. *(First taught: NA-M09-L01)*
+- **DoS (Denial of Service)** — An attack that floods a service so real users cannot reach it. *(First taught: NA-M13-L02)*
 - **Dotted-decimal notation** — Writing an IPv4 address as four numbers (0–255) separated by dots. *(First taught: NA-M08-L01)*
 - **Double colon (::)** — A shorthand that replaces one run of all-zero hextets in an IPv6 address — used only once. *(First taught: NA-M08-L07)*
 - **DR site** — A second location you can run from after a disaster (cold, warm, or hot). *(First taught: NA-M12-L04)*
@@ -247,6 +250,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **MAC address table** — The switch's list matching each MAC address to a port. *(First taught: NA-M07-L02)*
 - **Magic number** — A nickname for the block size, used to quickly find which subnet an address is in. *(First taught: NA-M08-L06)*
+- **Malware** — Any harmful software, such as viruses and worms. *(First taught: NA-M13-L02)*
 - **MAN (Metropolitan Area Network)** — A network across a city. *(First taught: NA-M04-L03)*
 - **Managed switch** — A switch you can log into and configure (VLANs, monitoring, port settings). *(First taught: NA-M07-L05)*
 - **Map (verb)** — To line up one model's layers against another's. *(First taught: NA-M05-L03)*
@@ -293,6 +297,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Off-site backup** — A backup copy kept in a different location, so a local disaster can't destroy it. *(First taught: NA-M12-L04)*
 - **Offboarding** — Removing a departing person's access and collecting their equipment. *(First taught: NA-M12-L05)*
 - **OID (Object Identifier)** — The address of one single item in the MIB. *(First taught: NA-M12-L02)*
+- **On-path attack** — An attack where someone secretly sits between two parties to read or change their traffic (formerly "man-in-the-middle"). *(First taught: NA-M13-L02)*
 - **Onboarding** — Setting up a new person's accounts, access, and training. *(First taught: NA-M12-L05)*
 - **Open** — A broken or cut wire — no continuity, no signal. *(First taught: NA-M06-L06)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
@@ -315,6 +320,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
 - **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
+- **Phishing** — A fake message that tricks you into giving up secrets. *(First taught: NA-M13-L02)*
 - **Physical address** — The hardware address (MAC) burned into a device; it does not change. *(First taught: NA-M08-L01)*
 - **Physical diagram** — A drawing of the real devices, ports, and cables in a network. *(First taught: NA-M12-L01)*
 - **Physical layer** — Layer 1 — the wire, fiber, or radio and the raw bits on it. *(First taught: NA-M05-L02)*
@@ -345,6 +351,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **Rack diagram** — A physical diagram showing where each device sits in an equipment rack. *(First taught: NA-M12-L01)*
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
+- **Ransomware** — Malware that locks your files and demands money to unlock them. *(First taught: NA-M13-L02)*
 - **RDP (Remote Desktop Protocol)** — Remote control of a Windows desktop (port 3389, TCP). *(First taught: NA-M10-L03)*
 - **Redundancy** — Having a spare part or path so one failure won't take everything down. *(First taught: NA-M12-L03)*
 - **Registered ports** — Ports 1024–49151, assigned to particular apps and vendors. *(First taught: NA-M10-L01)*
@@ -393,12 +400,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Snapshot** — A saved point-in-time image of a system you can roll back to. *(First taught: NA-M12-L04)*
 - **SNMP** — Lets a central manager monitor and manage network devices. *(First taught: NA-M09-L05)*
 - **SNMP trap** — An alert a device pushes to the manager on its own when something is wrong. *(First taught: NA-M12-L02)*
+- **Social engineering** — Tricking a person into breaking security. *(First taught: NA-M13-L02)*
 - **Socket** — An IP address plus a port number together, naming one exact endpoint. *(First taught: NA-M10-L01)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
 - **SOW (Statement of Work)** — A detailed description of exactly what work will be done. *(First taught: NA-M12-L05)*
 - **Spaced repetition** — Reviewing material at growing gaps over days instead of all at once. *(First taught: NA-M10-L05)*
 - **Spanning Tree Protocol (STP)** — A protocol that prevents switching loops by keeping one active path and blocking the rest. *(First taught: NA-M11-L04)*
+- **Spoofing** — Faking an identity to appear trusted. *(First taught: NA-M13-L02)*
 - **SSH (Secure Shell)** — Secure, encrypted remote command access (port 22, TCP). *(First taught: NA-M10-L03)*
 - **SSID (Service Set Identifier)** — The name of a wireless network. *(First taught: NA-M11-L07)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
@@ -435,6 +444,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Terminal** — A window that lets you type commands (Command Prompt is one). *(First taught: NA-M02-L03)*
 - **Terminal emulator** — A program (PuTTY, Tera Term) that shows the switch's text screen on your laptop. *(First taught: NA-M07-L06)*
 - **TFTP (Trivial File Transfer Protocol)** — A simple, no-frills file transfer (port 69, UDP). *(First taught: NA-M10-L03)*
+- **Threat** — Anything that could cause harm to a system or network. *(First taught: NA-M13-L02)*
 - **Three-way handshake** — TCP's SYN, SYN-ACK, ACK setup that starts a connection. *(First taught: NA-M10-L02)*
 - **Threshold** — A limit that, when a value crosses it, triggers an alert. *(First taught: NA-M12-L02)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
@@ -465,6 +475,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **VLAN (Virtual Local Area Network)** — A group of switch ports that act as their own separate network and broadcast domain. *(First taught: NA-M11-L01)*
 - **VLAN ID** — The number (1–4094) that names a VLAN; VLAN 1 is the default. *(First taught: NA-M11-L01)*
 - **VLAN tag** — The small label inside a frame that names which VLAN it belongs to. *(First taught: NA-M11-L03)*
+- **Vulnerability** — A weak spot that lets harm happen. *(First taught: NA-M13-L02)*
 
 ## W
 
@@ -481,4 +492,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L02)_
