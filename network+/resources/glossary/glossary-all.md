@@ -179,12 +179,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Inter-VLAN routing** — Using a Layer 3 device to move traffic between VLANs. *(First taught: NA-M11-L06)*
 - **Interface mode** — The switch CLI mode (`(config-if)#`) where you change one port. *(First taught: NA-M11-L02)*
 - **Interference** — Unwanted electrical noise that can harm a signal (also called EMI). *(First taught: NA-M06-L01)*
+- **Internet edge** — Where your network meets the ISP (the modem and router). *(First taught: NA-M11-L08)*
 - **Internet layer** — The TCP/IP layer that routes between networks with IP (OSI 3). *(First taught: NA-M05-L03)*
 - **IP (Internet Protocol)** — The rule-set for addressing and routing data between networks. *(First taught: NA-M05-L03)*
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
 - **ipconfig** — A command that shows your computer's network settings. *(First taught: NA-M02-L04)*
 - **IPv4 address** — A device's network address: four bytes (0–255) written with dots. *(First taught: NA-M03-L05)*
 - **IPv6** — The 128-bit address system, made to replace the limited IPv4. *(First taught: NA-M08-L07)*
+- **ISP (Internet Service Provider)** — The company that brings internet to your home or office. *(First taught: NA-M11-L08)*
 
 ## J
 
@@ -241,6 +243,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
 - **Network address** — The first address of a subnet (host bits all 0); it names the subnet. *(First taught: NA-M08-L05)*
+- **Network design** — Planning a network's parts and addresses before building it. *(First taught: NA-M11-L08)*
+- **Network diagram** — A labeled drawing of devices, links, VLANs, and addresses. *(First taught: NA-M11-L08)*
 - **Network layer** — Layer 3 — addressing and routing between networks, using IP (routers). *(First taught: NA-M05-L02)*
 - **Network portion** — The part of an IP address that says which network. *(First taught: NA-M08-L02)*
 - **Next hop** — The next router a packet is handed to on its way. *(First taught: NA-M09-L04)*
@@ -421,4 +425,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L07)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M11-L08)_

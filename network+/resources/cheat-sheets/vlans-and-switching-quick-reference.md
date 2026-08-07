@@ -162,4 +162,20 @@ ip routing
 > **Remember:** standard for speed, band + channel for space, WPA2/WPA3 for safety.
 
 ---
+
+## Designing a small network — 6 steps (Lesson 11-08)
+
+1. **Edge:** internet → modem → router.
+2. **VLANs:** one per group (Staff / Guests / Voice…).
+3. **Addresses:** each VLAN = own **subnet + gateway** (DHCP inside).
+4. **Switches:** access ports to devices · trunks between switches · **STP** guards loops.
+5. **Routing:** router / L3 switch = inter-VLAN + internet.
+6. **Wireless:** AP · **WPA3** · channels **1/6/11** · SSID → VLAN.
+
+- ⚠️ Never share one subnet across two VLANs; never skip a gateway.
+- Plan on **paper**, label every address, then build.
+
+> **Remember:** a network design is a blueprint — plan the rooms, doors, addresses, and locks first.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 11_

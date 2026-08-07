@@ -1,7 +1,7 @@
 # Module 11 — Network Implementation
 
 **Phase:** Exam Deep-Dive
-**Status:** In production (Lessons 11-01 → 11-07 Published) — Unit 8
+**Status:** ✅ Complete (Lessons 11-01 → 11-08 Published) — Unit 8
 
 > **By the end of this module, you will be able to:** build VLANs, understand routing, and set up wireless — on real gear.
 
@@ -31,7 +31,7 @@ this board is updated:
 | 11-05 | [Routing Basics: Static vs. Dynamic](lessons/11-05-routing-basics-static-vs-dynamic.md) | ✅ Published |
 | 11-06 | [Inter-VLAN Routing (Getting VLANs to Talk)](lessons/11-06-inter-vlan-routing.md) | ✅ Published |
 | 11-07 | [Wireless Standards, Channels, and Security](lessons/11-07-wireless-standards-channels-security.md) | ✅ Published |
-| 11-08 | Designing a small network end to end | Planned |
+| 11-08 | [Designing a Small Network End to End](lessons/11-08-designing-a-small-network.md) | ✅ Published |
 
 Status values: `Planned → Drafting → In Review → Published`
 

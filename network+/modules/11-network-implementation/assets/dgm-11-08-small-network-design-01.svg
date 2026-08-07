@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">A full small-network design from internet to devices</title>
+  <desc id="desc">A full small-network design from top to bottom. At the top, the internet connects to a modem, which connects to a router or Layer 3 switch that holds a gateway for each VLAN and provides internet access. A trunk link labeled 802.1Q carries VLAN 10, 20, and 30 down to a switch. The switch has access ports grouped into three VLANs: VLAN 10 Staff on subnet 192.168.10.0/24, VLAN 20 Guests on 192.168.20.0/24, and VLAN 30 Voice and printers on 192.168.30.0/24, each with its own gateway ending in .1. A note shows Spanning Tree guards any backup link between switches. An access point connects to a switch port and broadcasts SSIDs mapped to the VLANs, secured with WPA3 on non-overlapping channels 1, 6, or 11. Each VLAN is labeled by color and by its number and subnet.</desc>
+
+  <rect x="0" y="0" width="720" height="600" fill="#ffffff"/>
+  <text x="360" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2a3a">Small-network design — internet to devices</text>
+
+  <!-- Internet -->
+  <ellipse cx="360" cy="66" rx="70" ry="24" fill="#eef2f7" stroke="#4a5568" stroke-width="2"/>
+  <text x="360" y="71" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2a3a">Internet</text>
+  <line x1="360" y1="90" x2="360" y2="112" stroke="#4a5568" stroke-width="2"/>
+
+  <!-- Modem -->
+  <rect x="300" y="112" width="120" height="34" rx="5" fill="#e8e8ef" stroke="#4a5568" stroke-width="2"/>
+  <text x="360" y="134" text-anchor="middle" font-size="12.5" fill="#1a2a3a">Modem (ISP)</text>
+  <line x1="360" y1="146" x2="360" y2="166" stroke="#4a5568" stroke-width="2"/>
+
+  <!-- Router / L3 -->
+  <rect x="255" y="166" width="210" height="52" rx="6" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="360" y="187" text-anchor="middle" font-size="13" font-weight="bold" fill="#c05621">Router / Layer 3 switch</text>
+  <text x="360" y="206" text-anchor="middle" font-size="11" fill="#1a2a3a">gateways .10.1 · .20.1 · .30.1 · internet</text>
+
+  <!-- trunk -->
+  <line x1="360" y1="218" x2="360" y2="250" stroke="#6b46c1" stroke-width="4"/>
+  <text x="368" y="240" font-size="11" fill="#6b46c1">trunk: 802.1Q VLAN 10/20/30</text>
+
+  <!-- Switch -->
+  <rect x="250" y="250" width="220" height="44" rx="6" fill="#e8e8ef" stroke="#4a5568" stroke-width="2"/>
+  <text x="360" y="277" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2a3a">Switch (access + trunk ports)</text>
+  <text x="486" y="272" font-size="10.5" font-style="italic" fill="#9b2c2c">STP guards any backup link</text>
+
+  <!-- Three VLAN groups -->
+  <rect x="30" y="330" width="200" height="120" rx="8" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="130" y="354" text-anchor="middle" font-size="13" font-weight="bold" fill="#2b6cb0">VLAN 10 — Staff</text>
+  <text x="130" y="374" text-anchor="middle" font-size="11.5" fill="#1a2a3a">192.168.10.0/24</text>
+  <text x="130" y="392" text-anchor="middle" font-size="11.5" fill="#1a2a3a">gw 192.168.10.1</text>
+  <text x="130" y="422" text-anchor="middle" font-size="22">💻 💻</text>
+
+  <rect x="260" y="330" width="200" height="120" rx="8" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="360" y="354" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f855a">VLAN 20 — Guests</text>
+  <text x="360" y="374" text-anchor="middle" font-size="11.5" fill="#1a2a3a">192.168.20.0/24</text>
+  <text x="360" y="392" text-anchor="middle" font-size="11.5" fill="#1a2a3a">gw 192.168.20.1</text>
+  <text x="360" y="422" text-anchor="middle" font-size="22">📱 📱</text>
+
+  <rect x="490" y="330" width="200" height="120" rx="8" fill="#f3eafb" stroke="#6b46c1" stroke-width="2"/>
+  <text x="590" y="354" text-anchor="middle" font-size="13" font-weight="bold" fill="#6b46c1">VLAN 30 — Voice</text>
+  <text x="590" y="374" text-anchor="middle" font-size="11.5" fill="#1a2a3a">192.168.30.0/24</text>
+  <text x="590" y="392" text-anchor="middle" font-size="11.5" fill="#1a2a3a">gw 192.168.30.1</text>
+  <text x="590" y="422" text-anchor="middle" font-size="22">☎ 🖨</text>
+
+  <line x1="300" y1="294" x2="130" y2="330" stroke="#2b6cb0" stroke-width="2"/>
+  <line x1="360" y1="294" x2="360" y2="330" stroke="#2f855a" stroke-width="2"/>
+  <line x1="420" y1="294" x2="590" y2="330" stroke="#6b46c1" stroke-width="2"/>
+
+  <!-- Access point -->
+  <rect x="250" y="486" width="220" height="60" rx="8" fill="#fffbe8" stroke="#b7791f" stroke-width="2"/>
+  <text x="360" y="510" text-anchor="middle" font-size="13" font-weight="bold" fill="#b7791f">Access Point (Wi-Fi)</text>
+  <text x="360" y="529" text-anchor="middle" font-size="11" fill="#1a2a3a">WPA3 · channels 1/6/11 · SSID → VLAN</text>
+  <line x1="360" y1="450" x2="360" y2="486" stroke="#b7791f" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <text x="360" y="575" text-anchor="middle" font-size="12" font-style="italic" fill="#555">Each VLAN is labeled by color and by its number and subnet — color never stands alone.</text>
+</svg>
