@@ -1,7 +1,7 @@
 # Module 15 — Capstone & Exam Readiness
 
 **Phase:** Readiness
-**Status:** Planned (content not yet produced)
+**Status:** In production (Lesson 15-01 Published) — Unit 12
 
 > **By the end of this module, you will be able to:** prove your skills in a full build and walk into the exam prepared.
 
@@ -22,9 +22,15 @@ The full, exam-mapped lesson list for this module lives in the
 [Curriculum Roadmap](../../docs/CURRICULUM-ROADMAP.md). As lessons are built,
 this board is updated:
 
-| Lesson | Status |
-|--------|--------|
-| _Populated during production_ | Planned |
+| Lesson | Title | Status |
+|--------|-------|--------|
+| 15-01 | [Capstone Project: Build the Whole Home Lab](lessons/15-01-capstone-build.md) | ✅ Published |
+| 15-02 | Exam-Day Logistics and What to Expect | Planned |
+| 15-03 | Performance-Based Question (PBQ) Practice | Planned |
+| 15-04 | Full-Length Practice Exam #1 + Review | Planned |
+| 15-05 | Full-Length Practice Exam #2 + Review | Planned |
+| 15-06 | Weak-Spot Review and Final Flashcard Sprint | Planned |
+| 15-07 | Your 7-Day Pre-Exam Plan | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
 

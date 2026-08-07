@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img" aria-labelledby="cap-title cap-desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="cap-title">Home-lab build stack and the nine-stage build-and-test ladder</title>
+  <desc id="cap-desc">On the left, a wired stack: the internet connects down to a router, the router connects by an uplink cable to a switch, and the switch connects by a patch cable to a laptop. On the right, a numbered nine-stage build ladder from gather to document, plus a test-order row reading link light, DHCP address, ping gateway, ping internet, resolve a name.</desc>
+
+  <rect x="0" y="0" width="860" height="560" fill="#ffffff"/>
+  <text x="430" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#12263a">Capstone: build the whole home lab</text>
+  <text x="430" y="56" text-anchor="middle" font-size="14" fill="#3a4a5a">Build from the bottom. Test from the bottom.</text>
+
+  <!-- Left: the stack -->
+  <text x="200" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">Your wired stack</text>
+
+  <!-- Internet -->
+  <ellipse cx="200" cy="128" rx="72" ry="26" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+  <text x="200" y="133" text-anchor="middle" font-size="14" fill="#12263a">Internet</text>
+  <line x1="200" y1="154" x2="200" y2="186" stroke="#333" stroke-width="3"/>
+
+  <!-- Router -->
+  <rect x="128" y="186" width="144" height="52" rx="8" fill="#dbeadd" stroke="#2e7d5b" stroke-width="2"/>
+  <text x="200" y="210" text-anchor="middle" font-size="14" font-weight="bold" fill="#12263a">Router</text>
+  <text x="200" y="228" text-anchor="middle" font-size="11" fill="#3a4a5a">DHCP · gateway</text>
+  <line x1="200" y1="238" x2="200" y2="278" stroke="#333" stroke-width="3"/>
+  <text x="212" y="262" font-size="11" fill="#3a4a5a">uplink cable</text>
+
+  <!-- Switch -->
+  <rect x="128" y="278" width="144" height="52" rx="8" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="2"/>
+  <text x="200" y="302" text-anchor="middle" font-size="14" font-weight="bold" fill="#12263a">Switch</text>
+  <text x="200" y="320" text-anchor="middle" font-size="11" fill="#3a4a5a">connects wired devices</text>
+  <line x1="200" y1="330" x2="200" y2="370" stroke="#333" stroke-width="3"/>
+  <text x="212" y="354" font-size="11" fill="#3a4a5a">patch cable</text>
+
+  <!-- Laptop -->
+  <rect x="128" y="370" width="144" height="52" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="200" y="394" text-anchor="middle" font-size="14" font-weight="bold" fill="#12263a">Laptop</text>
+  <text x="200" y="412" text-anchor="middle" font-size="11" fill="#3a4a5a">ipconfig · ping · nslookup</text>
+
+  <!-- divider -->
+  <line x1="400" y1="80" x2="400" y2="470" stroke="#cbd5df" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- Right: nine stages -->
+  <text x="630" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">Nine-stage build ladder</text>
+
+  <g font-size="13" fill="#12263a">
+    <text x="452" y="122">1. Gather the gear</text>
+    <text x="452" y="150">2. Plan the layout (draw the map)</text>
+    <text x="452" y="178">3. Wire router→switch, switch→laptop</text>
+    <text x="452" y="206">4. Power up · check link lights (L1)</text>
+    <text x="452" y="234">5. Get an address: ipconfig · DHCP (L3)</text>
+    <text x="452" y="262">6. Test by layer (gateway→internet→name)</text>
+    <text x="452" y="290">7. Check the switch is alive</text>
+    <text x="452" y="318">8. Troubleshoot: seven-step method</text>
+    <text x="452" y="346">9. Document the build</text>
+  </g>
+
+  <!-- Test order banner -->
+  <rect x="40" y="486" width="780" height="54" rx="8" fill="#12263a"/>
+  <text x="430" y="508" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Test order (bottom up)</text>
+  <text x="430" y="528" text-anchor="middle" font-size="13" fill="#e8eef5">link light → DHCP address → ping gateway → ping 8.8.8.8 → resolve a name (DNS)</text>
+</svg>
