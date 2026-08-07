@@ -26,4 +26,24 @@ Documentation is the network's **written memory** — for fixing, learning, and 
 > **Remember:** documentation is a building's blueprints, room signs, and directory — anyone can navigate it.
 
 ---
+
+## Monitoring, logs, SNMP & alerts (Lesson 12-02)
+
+**Three ways to watch a network:**
+
+| Way | Tool | Answers |
+|-----|------|---------|
+| **Metrics** | SNMP | how is it doing? |
+| **Logs** | Syslog | what happened? |
+| **Flow data** | NetFlow | who talked to whom? |
+
+- **SNMP:** manager **polls** (pull) agents · a device sends a **trap** (push) on trouble.
+  - **MIB** = catalog of items · **OID** = one item's address.
+- **Syslog severity 0–7** — **lower = more urgent:** 0 Emergency, 3 Error, 4 Warning, 7 Debug.
+- **Threshold** crossed → **alert** sent. Tune thresholds to avoid "alert fatigue."
+- See real logs: Windows **Event Viewer** (Levels: Information / Warning / Error).
+
+> **Remember:** poll pulls on a schedule; a trap pushes the moment something breaks. Severity 0 is worst.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 12_

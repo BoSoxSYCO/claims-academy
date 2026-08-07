@@ -24,6 +24,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Address class** — The A–E grouping of IPv4 addresses, decided by the first octet. *(First taught: NA-M08-L02)*
 - **Aging time** — How long a switch keeps a MAC entry before removing it. *(First taught: NA-M07-L02)*
+- **Alert** — A message that warns you when something needs attention (often from a threshold). *(First taught: NA-M12-L02)*
 - **APIPA** — Automatic Private IP Addressing: a 169.254.x.x address a device gives itself when no DHCP answers. *(First taught: NA-M08-L02)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
@@ -215,6 +216,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
+- **Log** — A saved record of events on a device. *(First taught: NA-M12-L02)*
 - **Logical address** — An address set by software (like an IP); it can change when a device moves networks. *(First taught: NA-M08-L01)*
 - **Logical diagram** — A drawing of a network's IP addresses, subnets, and VLANs. *(First taught: NA-M12-L01)*
 - **Loopback address** — 127.0.0.1 — the address a device uses to reach itself. *(First taught: NA-M08-L02)*
@@ -230,11 +232,13 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Mbps** — Megabits per second — millions of bits each second. *(First taught: NA-M04-L06)*
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
+- **MIB (Management Information Base)** — The catalog of items SNMP can ask a device about. *(First taught: NA-M12-L02)*
 - **Millisecond (ms)** — One thousandth of a second; the unit for latency. *(First taught: NA-M04-L06)*
 - **Mnemonic** — A short trick that ties a hard fact to something easy to remember. *(First taught: NA-M10-L05)*
 - **Mode** — A path that light can take down the fiber's core. *(First taught: NA-M06-L03)*
 - **Model** — A simplified plan of a complex thing, showing just the needed parts. *(First taught: NA-M05-L01)*
 - **Modem** — A device that connects your home to your internet provider. *(First taught: NA-M07-L04)*
+- **Monitoring** — Watching a network's health all the time, with tools. *(First taught: NA-M12-L02)*
 - **Multimode fiber (MMF)** — Wider-core fiber with many light paths; LED; shorter distances. *(First taught: NA-M06-L03)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
 - **MX record** — A DNS record that names a domain's mail server. *(First taught: NA-M09-L02)*
@@ -245,6 +249,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **NAT overload** — Another name for PAT — many devices share one public IP using ports. *(First taught: NA-M09-L03)*
 - **NAT translation table** — The router's list matching inside address:port to public address:port. *(First taught: NA-M09-L03)*
 - **Native VLAN** — The one VLAN whose frames cross a trunk untagged (default VLAN 1). *(First taught: NA-M11-L03)*
+- **NetFlow** — A tool that records network flows: who talked to whom, and how much. *(First taught: NA-M12-L02)*
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
 - **Network address** — The first address of a subnet (host bits all 0); it names the subnet. *(First taught: NA-M08-L05)*
@@ -260,6 +265,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## O
 
 - **Octet** — One byte (8 bits) of an IPv4 address — one of the four numbers. *(First taught: NA-M03-L05)*
+- **OID (Object Identifier)** — The address of one single item in the MIB. *(First taught: NA-M12-L02)*
 - **Open** — A broken or cut wire — no continuity, no signal. *(First taught: NA-M06-L06)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **OSI model** — The 7-layer reference model used to describe networks. *(First taught: NA-M05-L01)*
@@ -339,6 +345,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Service** — A specific job a server provides, like web pages or files. *(First taught: NA-M01-L06)*
 - **Session layer** — Layer 5 — starts, keeps, and ends a connection between apps. *(First taught: NA-M05-L02)*
 - **Settings** — The main place to change how Windows works. *(First taught: NA-M02-L02)*
+- **Severity level** — How urgent a log message is (Syslog 0–7; lower number is more urgent). *(First taught: NA-M12-L02)*
 - **SFP (Small Form-factor Pluggable)** — A slot on a switch that holds a plug-in module, often for fiber. *(First taught: NA-M07-L05)*
 - **SFTP (SSH File Transfer Protocol)** — Secure file transfer that runs over SSH (port 22). *(First taught: NA-M10-L04)*
 - **Share** — To make a resource available to other devices on the network. *(First taught: NA-M04-L01)*
@@ -348,6 +355,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **SMB (Server Message Block)** — Windows file and printer sharing (port 445, TCP). *(First taught: NA-M10-L03)*
 - **SMTP (Simple Mail Transfer Protocol)** — Sends email (port 25, TCP). *(First taught: NA-M10-L03)*
 - **SNMP** — Lets a central manager monitor and manage network devices. *(First taught: NA-M09-L05)*
+- **SNMP trap** — An alert a device pushes to the manager on its own when something is wrong. *(First taught: NA-M12-L02)*
 - **Socket** — An IP address plus a port number together, naming one exact endpoint. *(First taught: NA-M10-L01)*
 - **Software** — Instructions and programs a computer runs; the opposite of hardware. *(First taught: NA-M01-L04)*
 - **Source address** — The address the data is coming from. *(First taught: NA-M05-L05)*
@@ -390,6 +398,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Terminal emulator** — A program (PuTTY, Tera Term) that shows the switch's text screen on your laptop. *(First taught: NA-M07-L06)*
 - **TFTP (Trivial File Transfer Protocol)** — A simple, no-frills file transfer (port 69, UDP). *(First taught: NA-M10-L03)*
 - **Three-way handshake** — TCP's SYN, SYN-ACK, ACK setup that starts a connection. *(First taught: NA-M10-L02)*
+- **Threshold** — A limit that, when a value crosses it, triggers an alert. *(First taught: NA-M12-L02)*
 - **Throughput** — The data that actually gets through in real use. *(First taught: NA-M04-L06)*
 - **TLS (Transport Layer Security)** — The modern encryption that locks web and email traffic (older name: SSL). *(First taught: NA-M10-L04)*
 - **Tone generator** — A tool that sends a tone so a probe can trace/find a cable. *(First taught: NA-M06-L06)*
@@ -432,4 +441,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L02)_
