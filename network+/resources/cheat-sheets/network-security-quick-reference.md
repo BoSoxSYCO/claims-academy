@@ -85,4 +85,32 @@ Security has **three goals**. Together they are the **CIA triad**.
 > **Remember:** guard at the edge (firewall + ACL), public servers in the DMZ, inside split into zones.
 
 ---
+
+## Securing ports & wireless (Lesson 13-05)
+
+**Switch ports (wired):**
+
+| Control | What it does |
+|---------|--------------|
+| **Port security** | allow only known MAC addresses on a port |
+| **Sticky MAC** | port locks to the first device's MAC |
+| **Disable unused ports** | an open port is an open door |
+| **Native VLAN off 1** | move it off the default VLAN 1 |
+
+**Wireless (Wi-Fi):**
+
+| Do this | Why |
+|---------|-----|
+| **WPA3** (or **WPA2** AES) | strong encryption — never **WEP** |
+| Strong **PSK** | a long, unique Wi-Fi password |
+| Change default **SSID** + admin pw | defaults are published |
+| Turn **WPS** off | its easy-join is easy to attack |
+| Add a **guest network** | keep visitors off your main devices |
+
+- Wi-Fi ranking: **WPA3 > WPA2 (AES) > (never) WEP / Open.**
+- Check your Wi-Fi type (Windows): `netsh wlan show interfaces` → read **Authentication**.
+
+> **Remember:** lock the wired doors (ports) and the wireless doors (Wi-Fi).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 13_

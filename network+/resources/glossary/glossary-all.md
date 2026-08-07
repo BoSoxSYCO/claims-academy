@@ -184,6 +184,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Gigabyte (GB)** — A unit for measuring memory and storage size; more GB means more room. *(First taught: NA-M01-L02)*
 - **Global configuration mode** — The switch CLI mode (`(config)#`) where you change switch-wide settings. *(First taught: NA-M11-L02)*
 - **Global unicast address** — A public, internet-routable IPv6 address (starts 2000–3fff). *(First taught: NA-M08-L07)*
+- **Guest network** — A separate Wi-Fi for visitors, kept away from the main network. *(First taught: NA-M13-L05)*
 
 ## H
 
@@ -259,6 +260,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **MAC address table** — The switch's list matching each MAC address to a port. *(First taught: NA-M07-L02)*
+- **MAC filtering** — Allowing only known MAC addresses onto a port or network. *(First taught: NA-M13-L05)*
 - **Magic number** — A nickname for the block size, used to quickly find which subnet an address is in. *(First taught: NA-M08-L06)*
 - **Malware** — Any harmful software, such as viruses and worms. *(First taught: NA-M13-L02)*
 - **MAN (Metropolitan Area Network)** — A network across a city. *(First taught: NA-M04-L03)*
@@ -345,6 +347,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Port** — A slot or plug on a computer where you connect a device or cable. *(First taught: NA-M01-L03)*
 - **Port forwarding** — A rule that sends traffic arriving on a public port to a chosen inside device. *(First taught: NA-M09-L03)*
 - **Port number** — A number that labels one specific conversation or program on a device. *(First taught: NA-M09-L03)*
+- **Port security** — Limiting which devices (by MAC address) may use a switch port. *(First taught: NA-M13-L05)*
 - **Power over Ethernet (PoE)** — Sending power over the Ethernet cable that carries data. *(First taught: NA-M07-L04)*
 - **Powers of 2** — The doubling sequence 1, 2, 4, 8, 16, 32, 64, 128, 256 — used to count subnets and hosts. *(First taught: NA-M08-L06)*
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
@@ -356,6 +359,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Prompt** — The text ending in `>` that shows where you are and waits for input. *(First taught: NA-M02-L03)*
 - **Protocol** — An agreed set of rules a layer follows so devices understand each other. *(First taught: NA-M05-L01)*
 - **Proxy server** — A middleman that forwards and can filter users' requests. *(First taught: NA-M07-L04)*
+- **PSK (Pre-Shared Key)** — The shared password used to join a Wi-Fi network. *(First taught: NA-M13-L05)*
 - **Public IP address** — An address that is unique on the internet and routable there. *(First taught: NA-M08-L02)*
 
 ## R
@@ -435,6 +439,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Static IP address** — An address set by hand that does not change. *(First taught: NA-M09-L01)*
 - **Static NAT** — A fixed one-to-one map of one private address to one public address. *(First taught: NA-M09-L03)*
 - **Static route** — A route typed into a router by hand that stays until you change it. *(First taught: NA-M11-L05)*
+- **Sticky MAC** — A port-security setting where a port learns and locks to the first device's MAC address. *(First taught: NA-M13-L05)*
 - **Storage** — Where a computer keeps files and programs for the long term, even when the power is off. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **STP (Shielded Twisted Pair)** — Twisted-pair cable with a metal shield to block extra interference. *(First taught: NA-M06-L01)*
 - **Straight-through cable** — A cable using the same standard on both ends (unlike devices). *(First taught: NA-M06-L04)*
@@ -507,6 +512,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Wireless link** — A link that uses radio waves (Wi-Fi) to connect two nodes. *(First taught: NA-M04-L02)*
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
+- **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L04)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M13-L05)_
