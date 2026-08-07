@@ -47,4 +47,22 @@ Four built-in Windows commands. Open with **Start → cmd → Enter**.
 > **Remember:** ipconfig = my address · ping = reachable? · tracert = the path · nslookup = names.
 
 ---
+
+## Deeper CLI tools (Lesson 14-03)
+
+| Clue | Command | Shows |
+|------|---------|-------|
+| Local IP → MAC? | `arp -a` | the ARP table (IP-to-MAC pairs) |
+| My connections/ports? | `netstat -an` | connections + listening ports |
+| Where does a path lose? | `pathping 8.8.8.8` | path + packet loss per hop |
+
+- netstat states: **LISTENING** (waiting) · **ESTABLISHED** (connected).
+- netstat switches: `-a` all · `-n` numbers/fast · `-an` both.
+- **arp is local only** — for the path, use tracert/pathping.
+- **pathping is slow on purpose** — it measures loss over time; let it finish.
+- ⚠️ Every row/percentage **varies** — read your own output.
+
+> **Remember:** arp = local who's-who · netstat = my connections · pathping = where loss happens.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 14_

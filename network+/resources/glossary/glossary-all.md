@@ -34,6 +34,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
 - **ARP** — How a device finds the MAC address that goes with an IP on the local network. *(First taught: NA-M09-L04)*
+- **ARP table** — The list of local IP-to-MAC pairs a device has learned (also called the ARP cache). *(First taught: NA-M14-L03)*
 - **Asset inventory** — A list of all devices you own, with model, serial, location, and owner. *(First taught: NA-M12-L01)*
 - **Asymmetric encryption** — Encryption that uses a pair of keys: a public key and a private key. *(First taught: NA-M13-L06)*
 - **Attack** — A harmful act against a system or network. *(First taught: NA-M13-L02)*
@@ -260,6 +261,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Least privilege** — Giving each person only the access they need, and nothing more. *(First taught: NA-M13-L03)*
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
+- **Listening port** — A port waiting to accept incoming connections. *(First taught: NA-M14-L03)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
 - **Log** — A saved record of events on a device. *(First taught: NA-M12-L02)*
 - **Logical address** — An address set by software (like an IP); it can change when a device moves networks. *(First taught: NA-M08-L01)*
@@ -302,6 +304,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Native VLAN** — The one VLAN whose frames cross a trunk untagged (default VLAN 1). *(First taught: NA-M11-L03)*
 - **NDA (Non-Disclosure Agreement)** — A promise not to share private or confidential information. *(First taught: NA-M12-L05)*
 - **NetFlow** — A tool that records network flows: who talked to whom, and how much. *(First taught: NA-M12-L02)*
+- **netstat** — A command that shows a computer's active connections and listening ports. *(First taught: NA-M14-L03)*
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
 - **Network Access layer** — The bottom TCP/IP layer — the physical link plus local delivery (OSI 1+2). *(First taught: NA-M05-L03)*
 - **Network address** — The first address of a subnet (host bits all 0); it names the subnet. *(First taught: NA-M08-L05)*
@@ -341,6 +344,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Patch cable** — A short cable with an RJ45 on each end. *(First taught: NA-M06-L02)*
 - **Patch management** — Keeping software and firmware updated to fix known security holes. *(First taught: NA-M13-L07)*
 - **Patch panel** — A panel of jacks where in-wall cables end; links to the switch. *(First taught: NA-M06-L02)*
+- **pathping** — A command that combines ping and tracert to show a path and the packet loss at each hop. *(First taught: NA-M14-L03)*
 - **PDU (Protocol Data Unit)** — The name for the wrapped data unit at a given layer. *(First taught: NA-M05-L04)*
 - **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
 - **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
@@ -537,4 +541,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L03)_
