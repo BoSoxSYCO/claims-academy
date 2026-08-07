@@ -33,6 +33,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Attenuation** — Signal loss — the signal weakening over distance. *(First taught: NA-M06-L06)*
 - **Auto-MDI-X** — A feature that auto-fixes crossover, so a straight-through cable works. *(First taught: NA-M06-L04)*
 - **Auto-negotiation** — Devices agreeing on the fastest speed and duplex they both support. *(First taught: NA-M06-L05)*
+- **Availability** — The share of time a service is up and usable, often written in the "nines." *(First taught: NA-M12-L03)*
 
 ## B
 
@@ -135,7 +136,9 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## F
 
+- **Failover** — The automatic switch from a failed part to its backup. *(First taught: NA-M12-L03)*
 - **Fast Ethernet** — The 100 Mbps Ethernet standard (100BASE-TX). *(First taught: NA-M06-L05)*
+- **Fault tolerance** — The ability to keep working even when a part fails. *(First taught: NA-M12-L03)*
 - **Fiber optic cable** — A cable that carries data as pulses of light through glass. *(First taught: NA-M06-L03)*
 - **File** — One saved item of information (a photo, note, or document). *(First taught: NA-M02-L01)*
 - **File Explorer** — The Windows tool that shows your files and folders. *(First taught: NA-M02-L01)*
@@ -163,6 +166,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Header** — A small label a layer adds to the front, holding its control info. *(First taught: NA-M05-L04)*
 - **Hexadecimal (hex)** — A base-16 number system using digits 0–9 and A–F. *(First taught: NA-M03-L04)*
 - **Hextet** — One of the eight 4-hex-digit groups in an IPv6 address (16 bits). *(First taught: NA-M08-L07)*
+- **High availability (HA)** — A design that stays up through failures, using redundancy. *(First taught: NA-M12-L03)*
 - **Hop** — One step from one device to the next along the path. *(First taught: NA-M05-L05)*
 - **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
 - **Host** — Any device that has an IP address and communicates on a network. *(First taught: NA-M08-L01)*
@@ -239,6 +243,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Model** — A simplified plan of a complex thing, showing just the needed parts. *(First taught: NA-M05-L01)*
 - **Modem** — A device that connects your home to your internet provider. *(First taught: NA-M07-L04)*
 - **Monitoring** — Watching a network's health all the time, with tools. *(First taught: NA-M12-L02)*
+- **MTBF (Mean Time Between Failures)** — The average time a part runs before it fails. *(First taught: NA-M12-L03)*
+- **MTTR (Mean Time To Repair)** — The average time to fix a failed part. *(First taught: NA-M12-L03)*
 - **Multimode fiber (MMF)** — Wider-core fiber with many light paths; LED; shorter distances. *(First taught: NA-M06-L03)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
 - **MX record** — A DNS record that names a domain's mail server. *(First taught: NA-M09-L02)*
@@ -316,6 +322,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Rack diagram** — A physical diagram showing where each device sits in an equipment rack. *(First taught: NA-M12-L01)*
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
 - **RDP (Remote Desktop Protocol)** — Remote control of a Windows desktop (port 3389, TCP). *(First taught: NA-M10-L03)*
+- **Redundancy** — Having a spare part or path so one failure won't take everything down. *(First taught: NA-M12-L03)*
 - **Registered ports** — Ports 1024–49151, assigned to particular apps and vendors. *(First taught: NA-M10-L01)*
 - **Remainder** — What's left over after you subtract a place value. *(First taught: NA-M03-L03)*
 - **Repeater** — A Layer 1 device that boosts a weak signal so it travels farther. *(First taught: NA-M07-L01)*
@@ -332,6 +339,8 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Routing** — How a router decides where to send a packet next, toward its destination. *(First taught: NA-M09-L04)*
 - **Routing protocol** — The language routers use to share route information (OSPF, EIGRP, BGP). *(First taught: NA-M11-L05)*
 - **Routing table** — A router's list of networks and where to forward traffic for each. *(First taught: NA-M09-L04)*
+- **RPO (Recovery Point Objective)** — How much data you can afford to lose (how old the last backup can be). *(First taught: NA-M12-L03)*
+- **RTO (Recovery Time Objective)** — How fast a service must be back up after a failure. *(First taught: NA-M12-L03)*
 - **running-config** — A switch's live settings, held in memory right now. *(First taught: NA-M11-L02)*
 
 ## S
@@ -352,6 +361,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Short** — Two wires touching when they shouldn't, scrambling the signal. *(First taught: NA-M06-L06)*
 - **Single-mode fiber (SMF)** — Thin-core fiber with one light path; laser; longest distances. *(First taught: NA-M06-L03)*
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
+- **SLA (Service Level Agreement)** — A written promise about a service, such as an uptime target. *(First taught: NA-M12-L03)*
 - **SMB (Server Message Block)** — Windows file and printer sharing (port 445, TCP). *(First taught: NA-M10-L03)*
 - **SMTP (Simple Mail Transfer Protocol)** — Sends email (port 25, TCP). *(First taught: NA-M10-L03)*
 - **SNMP** — Lets a central manager monitor and manage network devices. *(First taught: NA-M09-L05)*
@@ -415,6 +425,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **UDP (User Datagram Protocol)** — A fast, connectionless way to send data with no delivery checks. *(First taught: NA-M10-L02)*
 - **Unmanaged switch** — A switch with no settings; it just forwards frames automatically. *(First taught: NA-M07-L05)*
 - **Uplink port** — A (usually faster) port that connects a switch up to a router or core switch. *(First taught: NA-M07-L05)*
+- **Uptime** — The time a service is running (the opposite of downtime). *(First taught: NA-M12-L03)*
 - **Usable host** — An address a device can use — not the network or broadcast address. *(First taught: NA-M08-L05)*
 - **USB** — A common port shape used for many devices and adapters. *(First taught: NA-M01-L03)*
 - **User interface** — The part of the operating system you see and click: desktop, icons, menus. *(First taught: NA-M01-L04)*
@@ -441,4 +452,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M12-L03)_

@@ -46,4 +46,24 @@ Documentation is the network's **written memory** — for fixing, learning, and 
 > **Remember:** poll pulls on a schedule; a trap pushes the moment something breaks. Severity 0 is worst.
 
 ---
+
+## Availability (Lesson 12-03)
+
+| Availability | Nickname | Down/year |
+|--------------|----------|-----------|
+| 99% | two nines | ~3.65 days |
+| 99.9% | three nines | ~8.8 hours |
+| 99.99% | four nines | ~53 min |
+| 99.999% | five nines | ~5 min |
+
+- **Availability** = share of time up (**uptime** vs. downtime). More nines = less downtime, **much more cost**.
+- **Redundancy** = spare part/path (must be **truly separate**) → **high availability**.
+- **Failover** = automatic switch to the backup. **Load balancing** spreads work + adds resilience.
+- **SLA** = a written uptime promise (e.g., 99.9%).
+- **Metrics:** **MTBF** (between failures, higher better) · **MTTR** (to repair, lower better) · **RPO** (data you can lose) · **RTO** (time to recover).
+- Nines math: a year ≈ **8,760 hours**; downtime = 8,760 × (1 − uptime%).
+
+> **Remember:** carry a spare (redundancy), swap to it automatically (failover), and promise a level (SLA).
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 12_
