@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-labelledby="cm-title cm-desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="cm-title">How the course fits together: units, modules, lessons, and their parts</title>
+  <desc id="cm-desc">A tree: Units contain Modules 00 through 15. Each module contains Lessons that follow the same seven-part shape. From a lesson branch a workbook, a quiz with answers in a key, a cheat sheet, and labs. A side panel lists shared resources: one glossary, two practice exams, and flashcards.</desc>
+
+  <rect x="0" y="0" width="760" height="470" fill="#ffffff"/>
+  <text x="300" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#12263a">How the course fits together</text>
+
+  <!-- Units -->
+  <rect x="200" y="52" width="200" height="40" rx="8" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+  <text x="300" y="77" text-anchor="middle" font-size="14" fill="#12263a">Units (phases, in order)</text>
+  <line x1="300" y1="92" x2="300" y2="112" stroke="#333" stroke-width="2"/>
+
+  <!-- Modules -->
+  <rect x="180" y="112" width="240" height="40" rx="8" fill="#dbeadd" stroke="#2e7d5b" stroke-width="2"/>
+  <text x="300" y="137" text-anchor="middle" font-size="14" fill="#12263a">Modules 00 … 15 (one topic each)</text>
+  <line x1="300" y1="152" x2="300" y2="172" stroke="#333" stroke-width="2"/>
+
+  <!-- Lesson -->
+  <rect x="200" y="172" width="200" height="40" rx="8" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="2"/>
+  <text x="300" y="197" text-anchor="middle" font-size="14" fill="#12263a">Lesson (same 7-part shape)</text>
+
+  <!-- four leaves -->
+  <line x1="300" y1="212" x2="300" y2="232" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="252" x2="520" y2="252" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="232" x2="80" y2="252" stroke="#333" stroke-width="2"/>
+  <line x1="227" y1="232" x2="227" y2="252" stroke="#333" stroke-width="2"/>
+  <line x1="373" y1="232" x2="373" y2="252" stroke="#333" stroke-width="2"/>
+  <line x1="520" y1="232" x2="520" y2="252" stroke="#333" stroke-width="2"/>
+  <line x1="300" y1="232" x2="300" y2="252" stroke="#333" stroke-width="2"/>
+
+  <rect x="30" y="252" width="100" height="46" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="80" y="273" text-anchor="middle" font-size="12" fill="#12263a">Workbook</text>
+  <text x="80" y="289" text-anchor="middle" font-size="10" fill="#3a4a5a">practice</text>
+
+  <rect x="177" y="252" width="100" height="46" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="227" y="273" text-anchor="middle" font-size="12" fill="#12263a">Quiz</text>
+  <text x="227" y="289" text-anchor="middle" font-size="10" fill="#3a4a5a">answers in key</text>
+
+  <rect x="323" y="252" width="100" height="46" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="373" y="273" text-anchor="middle" font-size="12" fill="#12263a">Cheat sheet</text>
+  <text x="373" y="289" text-anchor="middle" font-size="10" fill="#3a4a5a">1-page summary</text>
+
+  <rect x="470" y="252" width="100" height="46" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="520" y="273" text-anchor="middle" font-size="12" fill="#12263a">Labs</text>
+  <text x="520" y="289" text-anchor="middle" font-size="10" fill="#3a4a5a">hands-on gear</text>
+
+  <!-- Shared side panel -->
+  <rect x="600" y="112" width="140" height="186" rx="8" fill="#12263a"/>
+  <text x="670" y="138" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Shared</text>
+  <text x="670" y="166" text-anchor="middle" font-size="11" fill="#e8eef5">one Glossary</text>
+  <text x="670" y="186" text-anchor="middle" font-size="11" fill="#cdd8e6">(all terms, A–Z)</text>
+  <text x="670" y="214" text-anchor="middle" font-size="11" fill="#e8eef5">2 Practice Exams</text>
+  <text x="670" y="242" text-anchor="middle" font-size="11" fill="#e8eef5">Flashcards</text>
+
+  <text x="380" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="#12263a">Routine for one lesson</text>
+  <text x="380" y="372" text-anchor="middle" font-size="13" fill="#12263a">read → look at the diagram → do the workbook → take the quiz → keep the cheat sheet handy</text>
+  <text x="380" y="404" text-anchor="middle" font-size="12" fill="#3a4a5a">Do lessons in order. Look up any fuzzy word in the glossary.</text>
+</svg>

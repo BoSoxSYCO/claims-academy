@@ -27,4 +27,23 @@
 > **Remember:** a network is just devices talking; Network+ proves you understand them; this course takes you there step by step.
 
 ---
+
+## How the course works (Lesson 00-02)
+
+- **Structure:** units → **modules** (00–15) → **lessons**.
+- **Every lesson has the same 7 parts:** why it matters → key words → the idea (with a diagram) → see it for real → step by step → check yourself → remember this.
+- **Each lesson comes with:** a workbook (practice), a quiz (answers in a separate key), and a cheat sheet.
+- **Shared across the course:** one alphabetical glossary · two full practice exams · a flashcard deck · labs for hands-on work.
+
+### The one-lesson routine
+
+**Read** → **look** at the diagram → **do** the workbook → **take** the quiz (then check the key) → **keep** the cheat sheet handy.
+
+- Do lessons **in order** — each builds on the last.
+- Look up any fuzzy word in the **glossary** right away.
+- It's fine to re-read. Go at your own pace.
+
+> **Remember:** learn the pattern once — it never changes, so you can focus on learning networks.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 00_

@@ -1,7 +1,7 @@
 # Module 00 — Orientation: How to Use This Academy
 
 **Phase:** On-Ramp
-**Status:** In production (Lesson 00-01 Published) — Unit 1
+**Status:** In production (Lessons 00-01 → 00-02 Published) — Unit 1
 
 > **By the end of this module, you will be able to:** navigate the course, set up a study routine, and know how you'll be tested.
 
@@ -25,7 +25,7 @@ this board is updated:
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 00-01 | [Welcome — What Network+ Is and Why It's Worth It](lessons/00-01-welcome.md) | ✅ Published |
-| 00-02 | How This Academy Works (modules, labs, quizzes) | Planned |
+| 00-02 | [How This Academy Works](lessons/00-02-how-this-academy-works.md) | ✅ Published |
 | 00-03 | How to Study So It Sticks (spaced practice, notes) | Planned |
 | 00-04 | Meet Your Home Lab — a Tour of Your Equipment | Planned |
 | 00-05 | Setting Up Your Workspace and a Lab Notebook | Planned |
