@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" role="img" aria-labelledby="lg-title lg-desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="lg-title">The four pieces of the home lab: router, switch, laptop, and cables</title>
+  <desc id="lg-desc">Stacked top to bottom: the internet connects to a router (door to the internet, hands out addresses), which connects by an Ethernet cable to a Dell PowerConnect 3424 managed switch (connects wired devices; a callout notes its console port is for first login only), which connects by another Ethernet cable to a laptop (the test tool that runs ipconfig and ping). A note explains cables are the wires, ports are where cables plug in, and a link light shows a live connection.</desc>
+
+  <rect x="0" y="0" width="640" height="500" fill="#ffffff"/>
+  <text x="320" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#12263a">Your home lab — four pieces</text>
+
+  <!-- Internet -->
+  <ellipse cx="230" cy="74" rx="72" ry="26" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+  <text x="230" y="79" text-anchor="middle" font-size="14" fill="#12263a">Internet</text>
+  <line x1="230" y1="100" x2="230" y2="126" stroke="#333" stroke-width="3"/>
+
+  <!-- Router -->
+  <rect x="120" y="126" width="220" height="56" rx="10" fill="#dbeadd" stroke="#2e7d5b" stroke-width="2"/>
+  <text x="230" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">Router</text>
+  <text x="230" y="170" text-anchor="middle" font-size="11" fill="#3a4a5a">door to the internet · hands out addresses</text>
+  <line x1="230" y1="182" x2="230" y2="212" stroke="#333" stroke-width="3"/>
+  <text x="244" y="200" font-size="10" fill="#3a4a5a">Ethernet cable (RJ45 each end)</text>
+
+  <!-- Switch -->
+  <rect x="100" y="212" width="260" height="64" rx="10" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="2"/>
+  <text x="230" y="236" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">Switch — Dell PowerConnect 3424</text>
+  <text x="230" y="256" text-anchor="middle" font-size="11" fill="#3a4a5a">managed · connects wired devices</text>
+  <text x="230" y="270" text-anchor="middle" font-size="10" fill="#3a4a5a">24 ports [verify on hardware]</text>
+  <!-- console port callout -->
+  <line x1="360" y1="244" x2="450" y2="244" stroke="#b5852a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="450" y="224" width="170" height="40" rx="6" fill="#fdf0d5" stroke="#b5852a" stroke-width="1.5"/>
+  <text x="535" y="240" text-anchor="middle" font-size="10" fill="#12263a">console port =</text>
+  <text x="535" y="254" text-anchor="middle" font-size="10" fill="#12263a">first login only</text>
+
+  <line x1="230" y1="276" x2="230" y2="306" stroke="#333" stroke-width="3"/>
+  <text x="244" y="294" font-size="10" fill="#3a4a5a">Ethernet cable</text>
+
+  <!-- Laptop -->
+  <rect x="120" y="306" width="220" height="56" rx="10" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="230" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">Laptop</text>
+  <text x="230" y="350" text-anchor="middle" font-size="11" fill="#3a4a5a">your test tool · ipconfig, ping (later)</text>
+
+  <!-- notes footer -->
+  <rect x="40" y="392" width="560" height="72" rx="8" fill="#eef3f8" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text x="320" y="416" text-anchor="middle" font-size="12" fill="#12263a">Cables = the wires · Ports = where cables plug in · Link light = the connection is alive</text>
+  <text x="320" y="440" text-anchor="middle" font-size="12" fill="#3a4a5a">You don't need it all at once. Start small; build slowly.</text>
+</svg>

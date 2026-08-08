@@ -69,4 +69,24 @@ Don't just re-read — recognition is not knowing. Use three simple habits.
 > **Remember:** water the plant a little often — recall, space, and note it in your own words.
 
 ---
+
+## Your home lab gear (Lesson 00-04)
+
+Four pieces, each with one job.
+
+| Piece | Job |
+|-------|-----|
+| **Laptop** | your test tool (runs `ipconfig`, `ping` later) |
+| **Switch** (Dell PowerConnect 3424) | connects wired devices; **managed** = you can log in |
+| **Router** | the door to the internet; hands out addresses |
+| **Ethernet** cables (**RJ45**) | the wires between ports |
+
+- **Port** = where a cable plugs in. **Link light** = the connection is alive.
+- The switch's **console port** is separate — first login only.
+- You don't need it all at once. Start small; build slowly.
+- Exact switch port layout/LEDs: *[TO VERIFY ON HARDWARE]*.
+
+> **Remember:** a small kitchen with a few good tools — laptop, switch, router, cables.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 00_
