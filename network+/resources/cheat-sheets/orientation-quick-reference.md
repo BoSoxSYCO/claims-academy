@@ -89,4 +89,29 @@ Four pieces, each with one job.
 > **Remember:** a small kitchen with a few good tools — laptop, switch, router, cables.
 
 ---
+
+## Workspace & lab notebook (Lesson 00-05)
+
+Set up a calm, safe place and a notebook you'll use all course.
+
+| Set up | Do this |
+|--------|---------|
+| Workspace | near power · room to spread · good light · tidy cables |
+| Safety | never force a connector · power down to move cables · drinks away · protect the shared switch |
+| Lab notebook | a form of **documentation**: date · what you did · what you saw |
+| Labels | tape your cables/ports ("to router," "Port 1") |
+
+### Pre-lab checklist (before each session)
+
+1. Outlet reachable, space clear.
+2. Gear and cables together and tidy.
+3. Notebook open, today's date written.
+4. You know which lesson/lab you're doing.
+
+- On a **shared switch**, change only what you were told to — a wrong change can lock others out.
+- This workspace and notebook carry through every hands-on lab in the course.
+
+> **Remember:** set the space, stay safe, and write it down — then Module 01 is easy to start.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 00_
