@@ -112,4 +112,28 @@ A practice exam is a dress rehearsal. Take it, score it, and — most important 
 > **Remember:** the score aims you; the review moves you.
 
 ---
+
+## Compare two exams (Lesson 15-05)
+
+One score is a snapshot; two scores are a trend. Take a second, distinct form and compare.
+
+| Step | Do this |
+|------|---------|
+| Take #2 | 90 min · real conditions · no blanks (use Exam #2, not #1 from memory) |
+| Score | correct ÷ 90 |
+| Compare | overall % and each domain vs Exam #1 |
+| Decide | read the ready signal |
+
+### The ready signal
+
+- ✓ **Ready:** 80%+ on **both** exams, no domain badly behind.
+- ~ **Almost:** one exam lower — drill the lagging domain.
+- ✗ **Not yet:** either exam under 70% — re-study that module first.
+
+- A rise in a weak domain from #1 to #2 means your review is working.
+- Space the two exams a day or two apart so the retest stays honest.
+
+> **Remember:** two weigh-ins beat one — watch the trend, not a single number.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 15_

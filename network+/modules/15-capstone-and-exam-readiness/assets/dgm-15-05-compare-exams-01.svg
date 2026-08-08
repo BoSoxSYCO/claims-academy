@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" role="img" aria-labelledby="cmp-title cmp-desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="cmp-title">Comparing Practice Exam #1 and #2 by domain, with a ready signal</title>
+  <desc id="cmp-desc">Two score bars compare Exam #1 and Exam #2. Below, a five-row domain table shows Exam #1 and Exam #2 misses with an improved mark. At the bottom, a ready-signal panel: 80 percent or higher on both exams with no domain lagging means ready; one shaky exam means drill that domain; either exam under 70 percent means review the module first.</desc>
+
+  <rect x="0" y="0" width="760" height="540" fill="#ffffff"/>
+  <text x="380" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#12263a">Compare two exams — the trend is the truth</text>
+
+  <!-- Score bars -->
+  <text x="40" y="70" font-size="13" fill="#12263a">Exam #1</text>
+  <rect x="120" y="58" width="360" height="20" rx="4" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="1.5"/>
+  <rect x="120" y="58" width="260" height="20" rx="4" fill="#5b4a8a"/>
+  <text x="500" y="73" font-size="12" fill="#3a4a5a">example: 72%</text>
+
+  <text x="40" y="102" font-size="13" fill="#12263a">Exam #2</text>
+  <rect x="120" y="90" width="360" height="20" rx="4" fill="#dbeadd" stroke="#2e7d5b" stroke-width="1.5"/>
+  <rect x="120" y="90" width="292" height="20" rx="4" fill="#2e7d5b"/>
+  <text x="500" y="105" font-size="12" fill="#3a4a5a">example: 81% ↑</text>
+
+  <!-- Domain table -->
+  <text x="40" y="146" font-size="15" font-weight="bold" fill="#12263a">Compare each domain (misses)</text>
+  <g font-size="12" fill="#12263a">
+    <rect x="40" y="158" width="680" height="26" fill="#12263a"/>
+    <text x="52" y="176" fill="#ffffff">Domain</text>
+    <text x="430" y="176" fill="#ffffff">#1 misses</text>
+    <text x="540" y="176" fill="#ffffff">#2 misses</text>
+    <text x="650" y="176" fill="#ffffff">better?</text>
+
+    <rect x="40" y="184" width="680" height="24" fill="#f4f6f9"/>
+    <text x="52" y="201">1 · Networking Concepts</text><text x="460" y="201">__</text><text x="570" y="201">__</text><text x="660" y="201">□</text>
+    <rect x="40" y="208" width="680" height="24" fill="#ffffff"/>
+    <text x="52" y="225">2 · Network Implementation</text><text x="460" y="225">__</text><text x="570" y="225">__</text><text x="660" y="225">□</text>
+    <rect x="40" y="232" width="680" height="24" fill="#f4f6f9"/>
+    <text x="52" y="249">3 · Network Operations</text><text x="460" y="249">__</text><text x="570" y="249">__</text><text x="660" y="249">□</text>
+    <rect x="40" y="256" width="680" height="24" fill="#ffffff"/>
+    <text x="52" y="273">4 · Network Security</text><text x="460" y="273">__</text><text x="570" y="273">__</text><text x="660" y="273">□</text>
+    <rect x="40" y="280" width="680" height="24" fill="#f4f6f9"/>
+    <text x="52" y="297">5 · Network Troubleshooting</text><text x="460" y="297">__</text><text x="570" y="297">__</text><text x="660" y="297">□</text>
+  </g>
+
+  <!-- Ready signal panel -->
+  <rect x="40" y="330" width="680" height="150" rx="8" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+  <text x="60" y="356" font-size="15" font-weight="bold" fill="#12263a">Ready signal</text>
+  <text x="60" y="384" font-size="13" fill="#12263a">✓ READY: 80%+ on BOTH exams, and no domain badly behind.</text>
+  <text x="60" y="414" font-size="13" fill="#12263a">~ ALMOST: one exam a bit lower — drill the lagging domain.</text>
+  <text x="60" y="444" font-size="13" fill="#12263a">✗ NOT YET: either exam under 70% — re-study that module first.</text>
+  <text x="60" y="470" font-size="12" fill="#3a4a5a">A rise in a weak domain from #1 to #2 means your review is working.</text>
+
+  <text x="380" y="510" text-anchor="middle" font-size="13" fill="#12263a">One score is a snapshot; two scores are a trend.</text>
+</svg>
