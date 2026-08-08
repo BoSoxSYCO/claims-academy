@@ -1,7 +1,7 @@
 # Module 15 — Capstone & Exam Readiness
 
 **Phase:** Readiness
-**Status:** In production (Lessons 15-01 → 15-06 Published) — Unit 12
+**Status:** ✅ Complete (Lessons 15-01 → 15-07 Published) — Unit 12
 
 > **By the end of this module, you will be able to:** prove your skills in a full build and walk into the exam prepared.
 
@@ -30,7 +30,7 @@ this board is updated:
 | 15-04 | [Full-Length Practice Exam #1 + Review](lessons/15-04-practice-exam-1.md) | ✅ Published |
 | 15-05 | [Full-Length Practice Exam #2 + Review](lessons/15-05-practice-exam-2.md) | ✅ Published |
 | 15-06 | [Weak-Spot Review and Final Flashcard Sprint](lessons/15-06-weak-spot-review.md) | ✅ Published |
-| 15-07 | Your 7-Day Pre-Exam Plan | Planned |
+| 15-07 | [Your 7-Day Pre-Exam Plan](lessons/15-07-seven-day-plan.md) | ✅ Published |
 
 Status values: `Planned → Drafting → In Review → Published`
 

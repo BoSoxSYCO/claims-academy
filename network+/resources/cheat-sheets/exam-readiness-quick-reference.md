@@ -162,4 +162,30 @@ Don't re-read everything. Train your weakest domains with recall, and space the 
 > **Remember:** train the weak muscle — recall, don't re-read; space the repeats.
 
 ---
+
+## The 7-day pre-exam plan (Lesson 15-07)
+
+The final week is a taper — sharpen, don't cram. One job per day.
+
+| Day | Job |
+|-----|-----|
+| 7 | Diagnose — Practice Exam #1, list weak domains |
+| 6 | Drill your weakest domain (flashcards, active recall) |
+| 5 | Drill the next domain + spaced repeats |
+| 4 | Re-measure — Practice Exam #2, compare per domain |
+| 3 | Close remaining gaps + PBQ practice |
+| 2 | Light full pass + **logistics check** |
+| 1 | Rest, prep, sleep (light review only) |
+| Exam | Brain dump · flag PBQs · bank the MC · no blanks · watch the clock |
+
+### Logistics check (do on Day 2)
+
+- Valid government photo ID · exam **voucher** · location + route (or tested webcam for **online proctoring**) · confirmed date/time. *[VERIFY WITH CompTIA — check-in steps vary.]*
+
+- Trust two solid practice scores — nerves aren't a reason to delay.
+- Arrive rested; a calm brain beats a crammed one.
+
+> **Remember:** the final week is a taper, not a last sprint.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 15_
