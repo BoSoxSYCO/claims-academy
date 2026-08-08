@@ -46,4 +46,27 @@
 > **Remember:** learn the pattern once — it never changes, so you can focus on learning networks.
 
 ---
+
+## How to study so it sticks (Lesson 00-03)
+
+Don't just re-read — recognition is not knowing. Use three simple habits.
+
+| Habit | What to do |
+|-------|-----------|
+| **Active recall** | Read a bit, look away, say it from memory, then check |
+| **Spaced repetition** | Review again tomorrow, in a few days, in a week |
+| Notes | Write 1–2 sentences per lesson, in your own words |
+
+### A tiny weekly rhythm
+
+- **Most days:** one focused session, 15–25 min (a lesson + its workbook + its quiz).
+- **End of each session:** a one-sentence summary.
+- **Once a week:** a quick recall pass over earlier lessons (or the flashcards later).
+
+- A little every day beats one long cram.
+- Use the workbook and quiz for recall; use the `flashcards-core` deck for spacing.
+
+> **Remember:** water the plant a little often — recall, space, and note it in your own words.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 00_

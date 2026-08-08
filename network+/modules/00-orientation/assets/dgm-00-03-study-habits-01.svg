@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" role="img" aria-labelledby="sh-title sh-desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="sh-title">Weak vs strong studying, and a weekly rhythm</title>
+  <desc id="sh-desc">The weak path is re-reading only, which feels familiar but is forgotten within a week. The strong path has three steps: active recall (answer from memory then check), spaced repetition (review at growing gaps), and notes (one or two sentences in your own words). A footer strip shows a weekly rhythm: most days a short session, a one-sentence summary each time, and a weekly recall pass.</desc>
+
+  <rect x="0" y="0" width="780" height="440" fill="#ffffff"/>
+  <text x="390" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#12263a">How learning sticks</text>
+
+  <!-- Weak path -->
+  <rect x="30" y="56" width="720" height="54" rx="8" fill="#fde8e8" stroke="#b5452a" stroke-width="2"/>
+  <text x="48" y="80" font-size="14" font-weight="bold" fill="#12263a">Weak:</text>
+  <text x="120" y="80" font-size="13" fill="#12263a">re-read only  →  feels familiar  →  forgotten in a week</text>
+  <text x="120" y="98" font-size="11" fill="#8a2a2a">recognizing is not knowing</text>
+
+  <!-- Strong path -->
+  <text x="30" y="140" font-size="14" font-weight="bold" fill="#12263a">Strong:</text>
+
+  <rect x="30" y="150" width="230" height="80" rx="8" fill="#dbeadd" stroke="#2e7d5b" stroke-width="2"/>
+  <text x="145" y="174" text-anchor="middle" font-size="14" font-weight="bold" fill="#12263a">Active recall</text>
+  <text x="145" y="196" text-anchor="middle" font-size="11" fill="#3a4a5a">read a bit → look away →</text>
+  <text x="145" y="212" text-anchor="middle" font-size="11" fill="#3a4a5a">say it from memory → check</text>
+
+  <rect x="275" y="150" width="230" height="80" rx="8" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="2"/>
+  <text x="390" y="174" text-anchor="middle" font-size="14" font-weight="bold" fill="#12263a">Spaced repetition</text>
+  <text x="390" y="196" text-anchor="middle" font-size="11" fill="#3a4a5a">review again tomorrow,</text>
+  <text x="390" y="212" text-anchor="middle" font-size="11" fill="#3a4a5a">in a few days, in a week</text>
+
+  <rect x="520" y="150" width="230" height="80" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="635" y="174" text-anchor="middle" font-size="14" font-weight="bold" fill="#12263a">Notes</text>
+  <text x="635" y="196" text-anchor="middle" font-size="11" fill="#3a4a5a">write 1–2 sentences</text>
+  <text x="635" y="212" text-anchor="middle" font-size="11" fill="#3a4a5a">in your own words</text>
+
+  <line x1="260" y1="190" x2="275" y2="190" stroke="#333" stroke-width="2"/>
+  <line x1="505" y1="190" x2="520" y2="190" stroke="#333" stroke-width="2"/>
+
+  <!-- Weekly rhythm strip -->
+  <rect x="30" y="270" width="720" height="90" rx="8" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+  <text x="390" y="296" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">A tiny weekly rhythm</text>
+  <text x="390" y="322" text-anchor="middle" font-size="13" fill="#12263a">Most days: one focused session, 15–25 min (lesson + workbook + quiz)</text>
+  <text x="390" y="344" text-anchor="middle" font-size="13" fill="#12263a">End of each session: a one-sentence summary · Once a week: a quick recall pass</text>
+
+  <text x="390" y="398" text-anchor="middle" font-size="14" fill="#12263a">A little every day beats one long cram.</text>
+</svg>
