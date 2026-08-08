@@ -60,4 +60,31 @@ Know the format so exam day holds no surprises.
 > **Remember:** work it like a buffet — easy dishes first, circle back, never leave with an empty plate.
 
 ---
+
+## PBQ practice (Lesson 15-03)
+
+A **PBQ** is known content in a hands-on wrapper. Use the same five steps every time.
+
+### The five steps
+
+**Read** the whole task → **Plan** on scratch → **Do** the sure parts → **Guess** the rest → **Check** for blanks.
+
+### The three formats
+
+| Format | Example | Key move |
+|--------|---------|----------|
+| Drag-and-drop / matching | OSI layers, port numbers | place the sure ones first |
+| Fill-in / configure | IP · mask · gateway · VLAN | `/24` = `255.255.255.0` |
+| Label / identify | cable type, topology | match the cable to the job |
+
+### Quick recall for PBQs
+
+- IP → Layer 3 · MAC/switch → Layer 2 · cable/hub → Layer 1 · port → Layer 4.
+- Host stays in the same network; gateway is the router's address on it.
+- PC-to-switch = straight-through; long run = fiber.
+- **Answer every sub-part** — partial credit is possible; a blank is zero.
+
+> **Remember:** a PBQ is a cooking test, not a menu quiz — read the recipe, then make it.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 15_
