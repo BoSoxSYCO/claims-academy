@@ -33,15 +33,15 @@ Glossary-backed bolds verified (PBQ, scaled score, voucher, online proctoring). 
 
 No insertions. §18 "No new terms." Footer unchanged (`last: NA-M15-L02`).
 
-## Course completion note
+## Course completion note (corrected)
 
-**This is the final lesson of Module 15 and of the entire NetworkAcademy+ curriculum.** With 15-07 published:
+**This is the final lesson of Module 15, the last exam-readiness module.** With 15-07 published, **Module 15 is complete (7 of 7)** — README status line set to ✅ Complete.
 
-- **Module 15 is complete (7 of 7)** — README status line set to ✅ Complete.
-- **All 16 modules' teaching content (00–15) is built** — the Phase 4 readiness endpoint of the curriculum roadmap.
-- The course now includes: the full lesson set across all modules, two 90-question practice exams with keys, a core flashcard deck, module cheat sheets, a 480-headword master glossary, and the full instructor guide set (answer keys, teaching notes, QA reports).
+**Accurate curriculum state:** Modules **01–15 are all Content-complete/Complete**. **Module 00 (Orientation) remains `Planned`** — its 5 on-ramp lessons (00-01 → 00-05, per the roadmap) were skipped when production began at Module 01 and have not been produced. So the course is **not yet fully complete**: Module 00 is the one remaining block of teaching content.
 
-Remaining product-level polish is optional and roadmap-defined (e.g., expanding practice exams, growing the flashcard deck, a course-completion index) — not new teaching lessons. The forward lesson-production loop has reached its natural end.
+The course currently includes: the full lesson set for Modules 01–15, two 90-question practice exams with keys, a core flashcard deck, module cheat sheets, a 480-headword master glossary, and the full instructor guide set (answer keys, teaching notes, QA reports).
+
+**Next in the production loop:** Module 00 — Orientation (00-01 Welcome, 00-02 How this academy works, 00-03 How to study, 00-04 Meet your home lab, 00-05 Workspace + lab notebook). Producing these finishes all 16 modules.
 
 ---
 _NetworkAcademy+ · QA Report · CompTIA Network+ N10-009 · NA-M15-L07 · Module 15_
