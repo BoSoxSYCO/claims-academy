@@ -31,4 +31,33 @@ Build from the bottom. Test from the bottom. Prove each layer before you trust t
 > **Remember:** plumb the pipes, open the main valve, check each faucet in order, then mark the map.
 
 ---
+
+## Exam-day logistics (Lesson 15-02)
+
+Know the format so exam day holds no surprises.
+
+| Fact | Value |
+|------|-------|
+| Time | 90 minutes |
+| Questions | up to ~90 *[VERIFY WITH CompTIA]* |
+| Passing score | 720 / 900 (a **scaled score**, not a percent) |
+| Question types | multiple-choice + **Performance-Based Questions (PBQs)** |
+| Where | **Pearson VUE** center or **online proctoring** |
+| Bring | a valid government photo ID (and your **voucher**) |
+
+### The game plan (order matters)
+
+1. See an early **PBQ**? **Flag** it and skip it.
+2. Answer the fast multiple-choice first — bank the points.
+3. Return to the flagged PBQs with the time left.
+4. **Guess** any blanks — there is no penalty for guessing.
+5. Review, then submit.
+
+- **Never leave a blank.** A guess can score; a blank is a sure zero.
+- Do a "brain dump" of facts you fear forgetting the moment you sit down.
+- Check the clock at the 30- and 60-minute marks.
+
+> **Remember:** work it like a buffet — easy dishes first, circle back, never leave with an empty plate.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 15_

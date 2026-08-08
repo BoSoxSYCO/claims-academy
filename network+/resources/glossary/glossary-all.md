@@ -305,6 +305,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 
 ## N
 
+- **N10-009** — The current version of the CompTIA Network+ exam and its objectives. *(First taught: NA-M15-L02)*
 - **NAT (Network Address Translation)** — When a router swaps a device's private address for its public one so it can reach the internet. *(First taught: NA-M08-L08)*
 - **NAT overload** — Another name for PAT — many devices share one public IP using ports. *(First taught: NA-M09-L03)*
 - **NAT translation table** — The router's list matching inside address:port to public address:port. *(First taught: NA-M09-L03)*
@@ -333,6 +334,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **OID (Object Identifier)** — The address of one single item in the MIB. *(First taught: NA-M12-L02)*
 - **On-path attack** — An attack where someone secretly sits between two parties to read or change their traffic (formerly "man-in-the-middle"). *(First taught: NA-M13-L02)*
 - **Onboarding** — Setting up a new person's accounts, access, and training. *(First taught: NA-M12-L05)*
+- **Online proctoring** — Taking an exam from home while a remote proctor watches by webcam. *(First taught: NA-M15-L02)*
 - **Open** — A broken or cut wire — no continuity, no signal. *(First taught: NA-M06-L06)*
 - **Operating system (OS)** — The main program that runs your programs and manages the hardware. *(First taught: NA-M01-L04)*
 - **OSI model** — The 7-layer reference model used to describe networks. *(First taught: NA-M05-L01)*
@@ -354,8 +356,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Patch panel** — A panel of jacks where in-wall cables end; links to the switch. *(First taught: NA-M06-L02)*
 - **pathping** — A command that combines ping and tracert to show a path and the packet loss at each hop. *(First taught: NA-M14-L03)*
 - **PDU (Protocol Data Unit)** — The name for the wrapped data unit at a given layer. *(First taught: NA-M05-L04)*
+- **Pearson VUE** — The company that delivers CompTIA exams, at a test center or online. *(First taught: NA-M15-L02)*
 - **Peer** — An equal computer in a P2P network; it can both ask and share. *(First taught: NA-M04-L05)*
 - **Peer-to-peer (P2P)** — A model where equal computers share directly, with no central server. *(First taught: NA-M04-L05)*
+- **Performance-Based Question (PBQ)** — A hands-on exam task, such as a drag-and-drop, matching, or a simulated screen. *(First taught: NA-M15-L02)*
 - **Permanent** — Stays even after the power is off; storage is permanent. *(First taught: NA-M01-L02)*
 - **Phishing** — A fake message that tricks you into giving up secrets. *(First taught: NA-M13-L02)*
 - **Physical address** — The hardware address (MAC) burned into a device; it does not change. *(First taught: NA-M08-L01)*
@@ -424,6 +428,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ## S
 
 - **Scale** — To grow to handle more users or devices without breaking. *(First taught: NA-M04-L05)*
+- **Scaled score** — A converted exam score on a 100-900 scale; 720 passes the Network+ exam. *(First taught: NA-M15-L02)*
 - **Screened subnet** — The current name for a DMZ: an isolated zone for public-facing servers. *(First taught: NA-M13-L04)*
 - **Search box** — The box where you type a tool's name to find it. *(First taught: NA-M02-L02)*
 - **Section** — A group of output lines under a heading, such as one network connection. *(First taught: NA-M02-L05)*
@@ -533,6 +538,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **VLAN (Virtual Local Area Network)** — A group of switch ports that act as their own separate network and broadcast domain. *(First taught: NA-M11-L01)*
 - **VLAN ID** — The number (1–4094) that names a VLAN; VLAN 1 is the default. *(First taught: NA-M11-L01)*
 - **VLAN tag** — The small label inside a frame that names which VLAN it belongs to. *(First taught: NA-M11-L03)*
+- **Voucher** — A prepaid code that pays for an exam seat. *(First taught: NA-M15-L02)*
 - **VPN (Virtual Private Network)** — A private, encrypted tunnel across a public network. *(First taught: NA-M13-L06)*
 - **Vulnerability** — A weak spot that lets harm happen. *(First taught: NA-M13-L02)*
 
@@ -553,4 +559,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M14-L06)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M15-L02)_
