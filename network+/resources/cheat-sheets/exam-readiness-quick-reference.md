@@ -87,4 +87,29 @@ A **PBQ** is known content in a hands-on wrapper. Use the same five steps every 
 > **Remember:** a PBQ is a cooking test, not a menu quiz — read the recipe, then make it.
 
 ---
+
+## Practice-exam review (Lesson 15-04)
+
+A practice exam is a dress rehearsal. Take it, score it, and — most important — review it.
+
+| Phase | Do this | Output |
+|-------|---------|--------|
+| Take | 90 min · real conditions · no blanks | a completed exam |
+| Score | correct ÷ 90 | a percentage |
+| Review | read every miss, tag its domain | a weak-domain list |
+| Log | carry weak domains forward | a plan for 15-06 |
+| Retake | Exam #2 (15-05), compare | measured progress |
+
+### Read your score
+
+- **80%+ (72/90):** strong — keep drilling timing.
+- **70–79%:** close — review your two weakest domains.
+- **Under 70%:** re-study those modules before retaking.
+
+- The **review** is where the points come from — a score with no review hides weak spots.
+- Log every miss by domain (1–5); bring that list to Lesson 15-06.
+
+> **Remember:** the score aims you; the review moves you.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 15_
