@@ -136,4 +136,30 @@ One score is a snapshot; two scores are a trend. Take a second, distinct form an
 > **Remember:** two weigh-ins beat one — watch the trend, not a single number.
 
 ---
+
+## Weak-spot review & flashcards (Lesson 15-06)
+
+Don't re-read everything. Train your weakest domains with recall, and space the repeats.
+
+| Step | Do this |
+|------|---------|
+| Prioritize | rank weak domains (most misses first) |
+| Drill | flashcards, active recall (answer, then check) |
+| Sort | "got it" vs "review again" |
+| Confirm | closed = cold + correct + twice, spaced |
+
+### Leitner boxes (spacing made simple)
+
+- **Box 1** — missed / new cards → review daily.
+- **Box 2** — got it once → every few days.
+- **Box 3** — got it twice, spaced → weekly.
+- Correct → move a card up; miss → back to Box 1.
+
+- **Active recall** beats re-reading — answer before you uncover the card.
+- Short daily sprints beat one long cram.
+- Core deck: `assessments/flashcards/flashcards-core.md` (ports, OSI, subnets, CIA/AAA, tools, 7-step method).
+
+> **Remember:** train the weak muscle — recall, don't re-read; space the repeats.
+
+---
 _NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 15_
