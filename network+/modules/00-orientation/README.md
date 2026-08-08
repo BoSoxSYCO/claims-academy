@@ -1,7 +1,7 @@
 # Module 00 — Orientation: How to Use This Academy
 
 **Phase:** On-Ramp
-**Status:** Planned (content not yet produced)
+**Status:** In production (Lesson 00-01 Published) — Unit 1
 
 > **By the end of this module, you will be able to:** navigate the course, set up a study routine, and know how you'll be tested.
 
@@ -22,9 +22,13 @@ The full, exam-mapped lesson list for this module lives in the
 [Curriculum Roadmap](../../docs/CURRICULUM-ROADMAP.md). As lessons are built,
 this board is updated:
 
-| Lesson | Status |
-|--------|--------|
-| _Populated during production_ | Planned |
+| Lesson | Title | Status |
+|--------|-------|--------|
+| 00-01 | [Welcome — What Network+ Is and Why It's Worth It](lessons/00-01-welcome.md) | ✅ Published |
+| 00-02 | How This Academy Works (modules, labs, quizzes) | Planned |
+| 00-03 | How to Study So It Sticks (spaced practice, notes) | Planned |
+| 00-04 | Meet Your Home Lab — a Tour of Your Equipment | Planned |
+| 00-05 | Setting Up Your Workspace and a Lab Notebook | Planned |
 
 Status values: `Planned → Drafting → In Review → Published`
 

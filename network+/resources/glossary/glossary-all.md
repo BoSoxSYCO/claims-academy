@@ -79,6 +79,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Cable certifier** — A tester that also checks a cable meets a full speed standard (crosstalk, attenuation, rating). *(First taught: NA-M14-L04)*
 - **Cable tester** — A tool that checks each wire end to end for opens, shorts, and miswires. *(First taught: NA-M06-L06)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
+- **Certification** — A credential you earn by passing an exam; it proves you have a skill. *(First taught: NA-M00-L01)*
 - **Change control** — A safe process to plan, approve, and make changes (also called change management). *(First taught: NA-M12-L04)*
 - **Channel** — One "lane" within a band; nearby access points should use different, non-overlapping ones. *(First taught: NA-M11-L07)*
 - **Checksum** — A short number made from a file, used to spot whether the file changed. *(First taught: NA-M13-L01)*
@@ -99,6 +100,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Command line (CLI)** — A place where you type text commands instead of clicking. *(First taught: NA-M02-L03)*
 - **Command Prompt** — The classic, simple Windows terminal. *(First taught: NA-M02-L03)*
 - **Communicate** — To send and receive information between devices or people. *(First taught: NA-M04-L01)*
+- **CompTIA Network+** — An entry-level, vendor-neutral IT certification that proves you understand computer networks (current exam version N10-009). *(First taught: NA-M00-L01)*
 - **Computer** — A machine that follows instructions to turn input into useful output. *(First taught: NA-M01-L01)*
 - **Confidentiality** — Keeping data secret so only the right people can see it. *(First taught: NA-M13-L01)*
 - **Connection** — Another word for a link between two nodes. *(First taught: NA-M04-L02)*
@@ -559,4 +561,4 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M15-L02)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M00-L01)_

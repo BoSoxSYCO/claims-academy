@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" role="img" aria-labelledby="hn-title hn-desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="hn-title">A friendly home network: internet to router to phone, laptop, and TV</title>
+  <desc id="hn-desc">At the top is an Internet cloud. Below it, a router box that shares the internet. Three lines connect the router down to three labeled devices: a phone, a laptop, and a TV. A caption explains a network is devices connected to share and talk.</desc>
+
+  <rect x="0" y="0" width="600" height="440" fill="#ffffff"/>
+  <text x="300" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#12263a">Your home already has a network</text>
+
+  <!-- Internet cloud -->
+  <ellipse cx="300" cy="86" rx="86" ry="30" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+  <text x="300" y="91" text-anchor="middle" font-size="15" fill="#12263a">Internet</text>
+  <line x1="300" y1="116" x2="300" y2="150" stroke="#333" stroke-width="3"/>
+
+  <!-- Router -->
+  <rect x="210" y="150" width="180" height="58" rx="10" fill="#dbeadd" stroke="#2e7d5b" stroke-width="2"/>
+  <text x="300" y="176" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">Router</text>
+  <text x="300" y="196" text-anchor="middle" font-size="12" fill="#3a4a5a">shares the internet</text>
+
+  <!-- connectors to devices -->
+  <line x1="300" y1="208" x2="120" y2="280" stroke="#333" stroke-width="2.5"/>
+  <line x1="300" y1="208" x2="300" y2="280" stroke="#333" stroke-width="2.5"/>
+  <line x1="300" y1="208" x2="480" y2="280" stroke="#333" stroke-width="2.5"/>
+
+  <!-- Phone -->
+  <rect x="70" y="280" width="100" height="70" rx="10" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="120" y="320" text-anchor="middle" font-size="15" fill="#12263a">Phone</text>
+
+  <!-- Laptop -->
+  <rect x="250" y="280" width="100" height="70" rx="10" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="2"/>
+  <text x="300" y="320" text-anchor="middle" font-size="15" fill="#12263a">Laptop</text>
+
+  <!-- TV -->
+  <rect x="430" y="280" width="100" height="70" rx="10" fill="#fde8e8" stroke="#b5452a" stroke-width="2"/>
+  <text x="480" y="320" text-anchor="middle" font-size="15" fill="#12263a">TV</text>
+
+  <text x="300" y="400" text-anchor="middle" font-size="14" fill="#12263a">A network = devices connected to share and talk.</text>
+</svg>
