@@ -4,7 +4,22 @@
 >
 > **How this was built:** the objective-ID → lesson rows are generated from each lesson's front-matter `objective_ids`, so they reflect what the course actually claims to cover. The domain names use CompTIA's five N10-009 domains. **Objective descriptions below are course-side summaries of what the mapped lessons teach — not verbatim CompTIA objective titles.** Before the Curriculum Director signs off, reconcile this table against the official *CompTIA Network+ N10-009 Exam Objectives* document to confirm exact wording and that no official sub-objective is left unmapped. Items needing that check are marked **[VERIFY WITH CompTIA]**.
 
-**Domain legend:** `[1]` Networking Concepts · `[2]` Network Implementation · `[3]` Network Operations · `[4]` Network Security · `[5]` Network Troubleshooting · `on-ramp` / `orientation` / `exam-readiness` = foundation & meta lessons (not a directly tested objective).
+**Domain legend & official weights** (confirmed against published N10-009 sources): `[1]` Networking Concepts **23%** · `[2]` Network Implementation **20%** · `[3]` Network Operations **19%** · `[4]` Network Security **14%** · `[5]` Network Troubleshooting **24%** · `on-ramp` / `orientation` / `exam-readiness` = foundation & meta lessons (not a directly tested objective).
+
+> ### ⚠️ Reconciliation status (read before sign-off)
+> A partial cross-check against the published N10-009 objectives (via web search — the official CompTIA PDF and training-provider sites are blocked by this environment's network egress, so a full automated fetch was not possible here) surfaced a **numbering discrepancy**: the course's front-matter `objective_ids` do **not** line up with the official N10-009 sub-objective numbers. Confirmed examples of the official numbering:
+> - Official **1.1** = OSI reference model *(course also tags OSI 1.1 — matches)*
+> - Official **1.4** = common ports, protocols, services & traffic types
+> - Official **1.5** = transmission media & transceivers *(course tags cabling/media 1.5 — matches)*
+> - Official **1.6** = network topologies, architectures & types *(course tags topologies **1.2**)*
+> - Official **1.7** = IPv4 network addressing *(course tags IP addressing **1.4**)*
+> - Official **1.8** = modern network environments / evolving use cases
+> - Official **2.1** = routing technologies · **2.2** = switching technologies & features · **2.3** = wireless
+> - Official **5.1** = troubleshooting methodology
+>
+> **Conclusion:** the *content* coverage below is complete (every course objective ID maps to lessons, and all five domains are taught end-to-end), but the *ID labels* in lesson front-matter follow the course's own scheme, not the official N10-009 numbering. **Open action for a human with the official objectives PDF (or paste its text to the assistant):** re-tag each lesson's `objective_ids` to the official N10-009 numbers, and confirm the official domain-3 and domain-4 sub-objective titles (not surfaced by search). Until then, treat the tables below as *content* coverage, not official-ID coverage.
+>
+> _Sources consulted (titles/weights): [CompTIA N10-009 objectives (ExamCompass mirror)](https://www.examcompass.com/comptia-certifications/network-plus/comptia-network-plus-n10-009-exam-objectives.pdf) · [Dion Training — N10-009 objectives breakdown](https://www.diontraining.com/blogs/news/comptia-network-exam-objectives) · [DestCert — N10-009 objectives](https://destcert.com/resources/n10-009-objectives/). The authoritative source is CompTIA's official objectives PDF (V4.0)._
 
 **Status:** all 16 modules (00–15) Published · 96 lessons · 2 full practice exams · flashcard decks · 482-term glossary.
 
