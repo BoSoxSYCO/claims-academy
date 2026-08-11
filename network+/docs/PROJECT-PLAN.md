@@ -118,12 +118,14 @@ Modules 00–03 are the **zero-knowledge on-ramp** (not directly tested, but req
 
 ## 9. Quality bar (definition of "done" for the whole product)
 
-- [ ] All 16 modules Published.
-- [ ] 100% of N10-009 objectives mapped to at least one Published lesson.
-- [ ] Every lesson passes the reading-level and accessibility checklist.
-- [ ] Every lab reproduced end-to-end on the learner's real equipment.
-- [ ] Two full-length practice exams + a full flashcard deck complete.
-- [ ] Glossary covers every bolded key term used in the course.
+- [x] All 16 modules Published. *(00–15, 96 lessons)*
+- [x] 100% of *declared* N10-009 objectives mapped to at least one Published lesson. *(see `docs/reference/objective-map.md`; one open item there: reconcile against the official CompTIA objectives PDF — **[VERIFY WITH CompTIA]**)*
+- [x] Every lesson passes the reading-level and accessibility checklist. *(each lesson's QA report records FK ≤ 8 and the SVG/alt-text checks)*
+- [ ] Every lab reproduced end-to-end on the learner's real equipment. *(open — requires the physical Windows laptop + Dell PowerConnect 3424; `[TO VERIFY ON HARDWARE]` notes flag every unverified value)*
+- [x] Two full-length practice exams + a full flashcard deck complete. *(practice-exam-01/02; per-domain decks in `assessments/flashcards/` + combined `flashcards-core`)*
+- [x] Glossary covers every bolded key term used in the course. *(482 headwords; audit confirms remaining un-glossaried bolds are worksheet labels, generic emphasis, or plural forms of existing terms — no missing key term)*
+
+> **Remaining before v1.0 sign-off** (needs the physical gear and/or the official objectives PDF, so it can't be completed from the repo alone): reproduce each lab on the real equipment, replace the `[PHOTO NEEDED]` placeholders with real photos of the learner's gear, and reconcile the objective map against the official CompTIA N10-009 objectives document.
 
 ## 10. Risks & mitigations
 
