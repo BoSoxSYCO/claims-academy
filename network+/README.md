@@ -23,7 +23,7 @@ Everything here is written at about a **7th-grade reading level**, always explai
 
 | Gear | Role in this course |
 |------|--------------------|
-| Windows laptop | Your workstation, terminal, and testing tool |
+| Windows Dell OptiPlex 3060 | Your workstation, terminal, and testing tool |
 | Dell PowerConnect 3424 (managed switch) | Your hands-on switching lab — VLANs, ports, management |
 | Home router | Your gateway to the internet and DHCP/DNS lab |
 | Ethernet cables | The physical layer you will build and test |
