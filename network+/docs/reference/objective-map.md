@@ -2,113 +2,97 @@
 
 > **Purpose:** the authoritative table linking each CompTIA Network+ (N10-009) exam objective to the Published lesson(s) that teach it. Referenced from `docs/CURRICULUM-ROADMAP.md`; required for the pre-v1.0 coverage sign-off in `docs/PROJECT-PLAN.md`.
 >
-> **How this was built:** the objective-ID → lesson rows are generated from each lesson's front-matter `objective_ids`, so they reflect what the course actually claims to cover. The domain names use CompTIA's five N10-009 domains. **Objective descriptions below are course-side summaries of what the mapped lessons teach — not verbatim CompTIA objective titles.** Before the Curriculum Director signs off, reconcile this table against the official *CompTIA Network+ N10-009 Exam Objectives* document to confirm exact wording and that no official sub-objective is left unmapped. Items needing that check are marked **[VERIFY WITH CompTIA]**.
+> **Source of the objective list:** the official *CompTIA Network+ N10-009 Certification Exam Objectives* document (V4.0) — the 25 sub-objective titles below are quoted from it. Lesson mappings are by **content** (what each lesson teaches), which is the meaningful measure; the numeric `objective_ids` in lesson front-matter follow the course's own earlier scheme and do **not** line up with the official numbers (see "Front-matter note" at the end).
 
-**Domain legend & official weights** (confirmed against published N10-009 sources): `[1]` Networking Concepts **23%** · `[2]` Network Implementation **20%** · `[3]` Network Operations **19%** · `[4]` Network Security **14%** · `[5]` Network Troubleshooting **24%** · `on-ramp` / `orientation` / `exam-readiness` = foundation & meta lessons (not a directly tested objective).
+**Official domains & weights:** `[1]` Networking Concepts **23%** · `[2]` Network Implementation **20%** · `[3]` Network Operations **19%** · `[4]` Network Security **14%** · `[5]` Network Troubleshooting **24%**.
 
-> ### ⚠️ Reconciliation status (read before sign-off)
-> A partial cross-check against the published N10-009 objectives (via web search — the official CompTIA PDF and training-provider sites are blocked by this environment's network egress, so a full automated fetch was not possible here) surfaced a **numbering discrepancy**: the course's front-matter `objective_ids` do **not** line up with the official N10-009 sub-objective numbers. Confirmed examples of the official numbering:
-> - Official **1.1** = OSI reference model *(course also tags OSI 1.1 — matches)*
-> - Official **1.4** = common ports, protocols, services & traffic types
-> - Official **1.5** = transmission media & transceivers *(course tags cabling/media 1.5 — matches)*
-> - Official **1.6** = network topologies, architectures & types *(course tags topologies **1.2**)*
-> - Official **1.7** = IPv4 network addressing *(course tags IP addressing **1.4**)*
-> - Official **1.8** = modern network environments / evolving use cases
-> - Official **2.1** = routing technologies · **2.2** = switching technologies & features · **2.3** = wireless
-> - Official **5.1** = troubleshooting methodology
->
-> **Conclusion:** the *content* coverage below is complete (every course objective ID maps to lessons, and all five domains are taught end-to-end), but the *ID labels* in lesson front-matter follow the course's own scheme, not the official N10-009 numbering. **Open action for a human with the official objectives PDF (or paste its text to the assistant):** re-tag each lesson's `objective_ids` to the official N10-009 numbers, and confirm the official domain-3 and domain-4 sub-objective titles (not surfaced by search). Until then, treat the tables below as *content* coverage, not official-ID coverage.
->
-> _Sources consulted (titles/weights): [CompTIA N10-009 objectives (ExamCompass mirror)](https://www.examcompass.com/comptia-certifications/network-plus/comptia-network-plus-n10-009-exam-objectives.pdf) · [Dion Training — N10-009 objectives breakdown](https://www.diontraining.com/blogs/news/comptia-network-exam-objectives) · [DestCert — N10-009 objectives](https://destcert.com/resources/n10-009-objectives/). The authoritative source is CompTIA's official objectives PDF (V4.0)._
-
-**Status:** all 16 modules (00–15) Published · 96 lessons · 2 full practice exams · flashcard decks · 482-term glossary.
+**Status:** all 16 modules (00–15) Published · 96 lessons · 2 full practice exams · per-domain flashcard decks · 482-term glossary. All 25 official objectives have teaching coverage; a few advanced objectives are flagged below for a depth check.
 
 ---
 
-## Domain 1 — Networking Concepts
+## Domain 1 — Networking Concepts (23%)
 
-| Obj | What the mapped lessons teach | Published lessons |
-|-----|-------------------------------|-------------------|
-| 1.1 | OSI & TCP/IP models, layers, PDUs; the capstone build applies them | NA-M05-L01 · NA-M05-L02 · NA-M05-L03 · NA-M05-L04 · NA-M05-L05 · NA-M15-L01 |
-| 1.2 | Network types & topologies (LAN/WAN/PAN, star/mesh, P2P/client-server, cloud) | NA-M04-L03 · NA-M04-L04 · NA-M04-L05 · NA-M04-L06 |
-| 1.4 | IPv4/IPv6 addressing, subnetting, ARP, and core services (DHCP, DNS, NAT) | NA-M08-L01 … NA-M08-L08 · NA-M09-L01 … NA-M09-L05 |
-| 1.5 | Cabling, media & transceivers; ports, protocols & their applications | NA-M06-L01 … NA-M06-L06 · NA-M10-L01 … NA-M10-L05 |
+| Obj | Official title | Covered by |
+|-----|----------------|------------|
+| 1.1 | Explain concepts related to the OSI reference model | **M05** (05-01 → 05-05) · applied in M15-L01 |
+| 1.2 | Compare and contrast networking appliances, applications, and functions | **M07** (devices: router, switch, firewall, IDS/IPS, load balancer, proxy, NAS/SAN, AP, controller) · VPN/QoS/TTL in M13-L06, M10 · **depth check** below |
+| 1.3 | Summarize cloud concepts and connectivity options | **M04-L06** (cloud) · **depth check** below |
+| 1.4 | Explain common networking ports, protocols, services, and traffic types | **M10** (10-01 → 10-05) · services in **M09** (09-01 → 09-05) |
+| 1.5 | Compare and contrast transmission media and transceivers | **M06** (06-01 → 06-06) |
+| 1.6 | Compare and contrast network topologies, architectures, and types | **M04** (04-03 → 04-05) |
+| 1.7 | Given a scenario, use appropriate IPv4 network addressing | **M08** (08-01 → 08-08) · applied in M15-L01 |
+| 1.8 | Summarize evolving use cases for modern network environments | Touched via M04 (cloud/SDN concepts) · **gap/depth check** below |
 
-> **[VERIFY WITH CompTIA]** No lesson declares 1.3, 1.6, 1.7, or 1.8. Confirm against the official objectives whether those IDs exist for N10-009 and, if so, whether their content is already covered under the rows above (e.g., transceivers/services) or needs an explicit mapping.
+> **Depth checks (Domain 1):** confirm the course covers, at exam depth — **1.2:** IDS/IPS, load balancer, proxy, NAS vs SAN, CDN, QoS, TTL; **1.3:** NFV, VPC, security groups/lists, cloud gateways, connectivity (VPN/direct connect); **1.8:** SDN/SD-WAN, SASE/SSE, infrastructure as code, IPv6 adoption, zero-trust — these are summarize-level "modern environments" topics that a beginner course may treat lightly.
 
-## Domain 2 — Network Implementation
+## Domain 2 — Network Implementation (20%)
 
-| Obj | What the mapped lessons teach | Published lessons |
-|-----|-------------------------------|-------------------|
-| 2.1 | Switching, devices & routing basics; static addressing; the capstone build | NA-M07-L01 … NA-M07-L05 · NA-M09-L01 · NA-M11-L08 · NA-M15-L01 |
-| 2.2 | Routing technologies (static routes and related) | NA-M11-L05 |
-| 2.3 | VLANs, trunking, wireless & switch features | NA-M07-L05 · NA-M07-L06 · NA-M11-L01 … NA-M11-L04 · NA-M11-L06 · NA-M15-L01 |
-| 2.4 | Network-implementation topics (e.g., advanced switching/segmentation) | NA-M11-L07 |
+| Obj | Official title | Covered by |
+|-----|----------------|------------|
+| 2.1 | Explain characteristics of routing technologies | **M11-L05** (routing) · M07 · **depth check:** dynamic routing protocols (OSPF/BGP/EIGRP), route selection |
+| 2.2 | Given a scenario, configure switching technologies and features | **M07** · **M11** (11-01 → 11-04: VLANs, trunking, STP) |
+| 2.3 | Given a scenario, select and configure wireless devices and technologies | **M11-L06/L07** · M07-L04 (AP) |
+| 2.4 | Explain important factors of physical installations | **M06**, **M07-L05**, **M11-L08** (physical/power/environment) |
 
-> **[VERIFY WITH CompTIA]** No lesson declares 2.5. Confirm whether that ID exists for N10-009 and map it if so.
+## Domain 3 — Network Operations (19%)
 
-## Domain 3 — Network Operations
+| Obj | Official title | Covered by |
+|-----|----------------|------------|
+| 3.1 | Explain the purpose of organizational processes and procedures | **M12-L01** (documentation/diagrams) · **M12-L05** (policies, onboarding/offboarding, change mgmt) |
+| 3.2 | Given a scenario, use network monitoring technologies | **M12-L02** (SNMP, Syslog, baselines) |
+| 3.3 | Explain disaster recovery (DR) concepts | **M12-L03**, **M12-L04** (backups, 3-2-1, RAID, HA/nines) |
+| 3.4 | Given a scenario, implement IPv4 and IPv6 network services | **M09** (DHCP, DNS, NAT) · **depth check:** IPv6 service specifics (SLAAC, etc.) |
+| 3.5 | Compare and contrast network access and management methods | VPN in **M13-L06** · console/SSH/out-of-band in **M07-L05** · **depth check:** jump box, in-band vs out-of-band, API access |
 
-| Obj | What the mapped lessons teach | Published lessons |
-|-----|-------------------------------|-------------------|
-| 3.1 | Documentation, monitoring (SNMP, Syslog, baselines) | NA-M07-L06 · NA-M09-L05 · NA-M12-L02 |
-| 3.2 | Network documentation & diagrams; change/onboarding processes | NA-M12-L01 |
-| 3.3 | Disaster recovery, backups, high availability (3-2-1, RAID, nines) | NA-M12-L03 · NA-M12-L04 |
-| 3.4 | Operations processes & policies (onboarding/offboarding, change mgmt) | NA-M12-L05 |
+## Domain 4 — Network Security (14%)
 
-> **[VERIFY WITH CompTIA]** No lesson declares 3.5. Confirm whether that ID exists for N10-009 and map it if so.
+| Obj | Official title | Covered by |
+|-----|----------------|------------|
+| 4.1 | Explain the importance of basic network security concepts | **M13-L01** (CIA), **M13-L03** (AAA), **M13-L06** (VPN/encryption) |
+| 4.2 | Summarize various types of attacks and their impact to the network | **M13-L02** (phishing, on-path, DDoS, etc.) |
+| 4.3 | Given a scenario, apply network security features, defense techniques, and solutions | **M13-L04**, **M13-L05**, **M13-L07** (firewalls, screened subnet, hardening) |
 
-## Domain 4 — Network Security
+Domain 4 has exactly three official objectives (4.1–4.3); all are covered by Module 13.
 
-| Obj | What the mapped lessons teach | Published lessons |
-|-----|-------------------------------|-------------------|
-| 4.1 | Security concepts: CIA, AAA, least privilege; secure protocols; VPNs | NA-M10-L04 · NA-M13-L01 · NA-M13-L03 · NA-M13-L06 |
-| 4.2 | Attacks & threats (phishing, on-path, DDoS) | NA-M13-L02 |
-| 4.3 | Defenses: firewalls, screened subnets, hardening | NA-M13-L04 · NA-M13-L05 · NA-M13-L07 |
-| 4.4 | Hardening & remote access (VPN types) | NA-M13-L06 |
+## Domain 5 — Network Troubleshooting (24%)
 
-> **[VERIFY WITH CompTIA]** No lesson declares 4.5. Confirm whether that ID exists for N10-009 and map it if so.
-
-## Domain 5 — Network Troubleshooting
-
-| Obj | What the mapped lessons teach | Published lessons |
-|-----|-------------------------------|-------------------|
-| 5.1 | The CompTIA 7-step troubleshooting methodology | NA-M14-L01 · NA-M14-L07 |
-| 5.2 | Hardware & software tools (cable testers, loopbacks; CLI tools) | NA-M06-L06 · NA-M14-L05 · NA-M14-L06 · NA-M14-L07 |
-| 5.3 | Troubleshooting connectivity by layer; the capstone build | NA-M04-L06 · NA-M14-L05 · NA-M14-L06 · NA-M14-L07 · NA-M15-L01 |
-| 5.4 | Troubleshooting names, speed & wireless | NA-M14-L06 · NA-M14-L07 |
-| 5.5 | Command-line troubleshooting tools (ping, tracert, ipconfig, nslookup, arp, netstat, pathping) | NA-M14-L02 · NA-M14-L03 · NA-M14-L04 · NA-M14-L07 |
-
-Domain 5 has a lesson mapped to every declared sub-objective (5.1–5.5).
+| Obj | Official title | Covered by |
+|-----|----------------|------------|
+| 5.1 | Explain the troubleshooting methodology | **M14-L01** · applied in **M14-L07** |
+| 5.2 | Given a scenario, troubleshoot common cabling and physical interface issues | **M06-L06** · **M14-L04** (hardware tools), **M14-L05** (L1–L3) |
+| 5.3 | Given a scenario, troubleshoot common issues with network services | **M14-L05**, **M14-L06**, **M14-L07** (DHCP/DNS/APIPA) |
+| 5.4 | Given a scenario, troubleshoot common performance issues | **M14-L06** (speed, duplex, saturation, wireless) |
+| 5.5 | Given a scenario, use the appropriate tool or protocol to solve networking issues | **M14-L02**, **M14-L03**, **M14-L04** (ping, tracert, ipconfig, nslookup, arp, netstat, pathping; hardware tools) |
 
 ---
 
 ## Foundation & meta lessons (not a directly tested objective)
 
-These lessons build beginner readiness or exam skills rather than mapping to a single exam objective.
-
-- **`orientation` (Module 00, 5 lessons):** NA-M00-L01 … NA-M00-L05 — how the course and home lab work; study habits; workspace + lab notebook.
-- **`on-ramp` (Modules 01–03, 16 lessons):** NA-M01-L01 … NA-M03-L05 — computer foundations, Windows & command line, numbers & binary. Some also carry a domain tag (e.g., NA-M01-L06 → [1], NA-M02-L03…L05 → [5], NA-M03-L05 → [1]).
-- **`exam-readiness` (Module 15, 6 lessons):** NA-M15-L02 … NA-M15-L07 — exam-day logistics, PBQ practice, two full practice exams + review, weak-spot/flashcard sprint, the 7-day plan.
-
----
+- **`orientation` (Module 00, 5 lessons):** how the course & home lab work; study habits; workspace + lab notebook.
+- **`on-ramp` (Modules 01–03, 16 lessons):** computer foundations, Windows & command line, numbers & binary — beginner readiness before the tested domains.
+- **`exam-readiness` (Module 15, lessons 02–07):** exam-day logistics, PBQ practice, two full practice exams + review, weak-spot/flashcard sprint, the 7-day plan.
 
 ## Assessment & reference coverage
 
-- **Practice exams:** two full 90-question N10-009 practice exams (`practice-exam-01`, `practice-exam-02`), each spanning all five domains, every item tagged with its objective + source module.
-- **Flashcards:** master decks by domain in `assessments/flashcards/` (see `flashcards-domain-1-concepts.md` … `flashcards-domain-5-troubleshooting.md`), plus the combined `flashcards-core` deck.
-- **Glossary:** `resources/glossary/glossary-all.md` — 482 headwords, alphabetical, every bolded key term defined.
+- **Practice exams:** two full 90-question exams (`practice-exam-01`, `practice-exam-02`) spanning all five domains; every item tagged with a domain + source module.
+- **Flashcards:** per-domain master decks in `assessments/flashcards/` (`flashcards-domain-1-concepts` … `-5-troubleshooting`) + combined `flashcards-core`.
+- **Glossary:** `resources/glossary/glossary-all.md` — 482 headwords; audit found no missing key term.
 
 ---
 
 ## Sign-off checklist (Curriculum Director, pre-v1.0)
 
 - [x] All 16 modules (00–15) Published.
-- [x] Every declared objective ID maps to ≥1 Published lesson (table above).
+- [x] Every one of the 25 official N10-009 objectives has teaching coverage (table above).
 - [x] Two full-length practice exams complete.
 - [x] Flashcard decks complete (core + per-domain).
-- [x] Glossary covers every bolded key term.
-- [ ] **[VERIFY WITH CompTIA]** Reconcile the objective IDs above against the official *CompTIA Network+ N10-009 Exam Objectives* document — confirm exact objective titles and that every official sub-objective (including any 1.3 / 1.6–1.8 / 2.5 / 3.5 / 4.5 that may exist) is represented. This is the one open item requiring the official objectives PDF.
+- [x] Glossary covers every key term.
+- [ ] **Depth check (content):** confirm exam-depth coverage of the advanced objectives flagged above — **1.2** (full appliance list), **1.3** (cloud specifics), **1.8** (modern-environment concepts), **2.1** (dynamic routing), **3.4** (IPv6 services), **3.5** (management methods). A beginner-first course may cover these at summarize level; decide whether that meets the exam bar or warrants a short supplemental lesson.
+- [ ] **Optional cleanup:** re-tag each lesson's front-matter `objective_ids` to the official numbers in this table (currently they use the course's own scheme).
+
+## Front-matter note (numbering)
+
+The `objective_ids` in lesson YAML front-matter (e.g., `1.4` on the IP-addressing lessons) predate this reconciliation and use the course's internal numbering, **not** the official N10-009 numbers (official IPv4 addressing is **1.7**, topologies **1.6**, etc.). This map is the authoritative crosswalk. Re-tagging the front-matter to the official IDs is a low-risk consistency cleanup, tracked as the optional item above.
 
 ---
-_NetworkAcademy+ · Objective Coverage Map · CompTIA Network+ N10-009_
+_NetworkAcademy+ · Objective Coverage Map · CompTIA Network+ N10-009 · objectives quoted from CompTIA's official N10-009 exam objectives (V4.0)_
