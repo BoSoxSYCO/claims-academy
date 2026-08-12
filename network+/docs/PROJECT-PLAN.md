@@ -22,7 +22,7 @@ These are non-negotiable and are enforced during review (see the [Style Guide](S
 
 1. **Zero assumed knowledge.** If a word has not been taught yet, we teach it before we use it.
 2. **WHY before HOW.** Every topic opens with the problem it solves in the real world, *then* the mechanics.
-3. **~7th-grade reading level.** Short sentences. Plain words. One idea at a time.
+3. **~7th-grade reading level.** Short sentences. Plain words. One idea at a time. I absorb the information better if you use real world analogies. for instance, using a trains on a track to explain how data moves or how routes work. 
 4. **Four learning channels, every module:** read it, see it (diagram), look at it (real photo), do it (hands-on).
 5. **Spiral learning.** Ideas are introduced simply, then revisited with more depth later — never dumped all at once.
 6. **Exam-aligned + reality-aligned.** Every lesson maps to an N10-009 objective *and* connects to the home lab.
