@@ -119,7 +119,7 @@ Modules 00–03 are the **zero-knowledge on-ramp** (not directly tested, but req
 ## 9. Quality bar (definition of "done" for the whole product)
 
 - [x] All 16 modules Published. *(00–15, 96 lessons)*
-- [x] 100% of *declared* N10-009 objectives mapped to at least one Published lesson. *(see `docs/reference/objective-map.md`; one open item there: reconcile against the official CompTIA objectives PDF — **[VERIFY WITH CompTIA]**)*
+- [x] 100% of the official N10-009 objectives mapped to teaching content. *(reconciled against CompTIA's official N10-009 objectives PDF; all 25 covered — core lessons plus seven exam-depth supplements in `resources/exam-depth/` for the advanced 1.2/1.3/1.8/2.1/2.4/3.4/3.5 topics; see `docs/reference/objective-map.md`)*
 - [x] Every lesson passes the reading-level and accessibility checklist. *(each lesson's QA report records FK ≤ 8 and the SVG/alt-text checks)*
 - [ ] Every lab reproduced end-to-end on the learner's real equipment. *(open — requires the physical Windows laptop + Dell PowerConnect 3424; `[TO VERIFY ON HARDWARE]` notes flag every unverified value)*
 - [x] Two full-length practice exams + a full flashcard deck complete. *(practice-exam-01/02; per-domain decks in `assessments/flashcards/` + combined `flashcards-core`)*

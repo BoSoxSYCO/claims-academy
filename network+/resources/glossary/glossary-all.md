@@ -10,16 +10,15 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 ---
 
 ## 0-9
-
 - **2FA (Two-Factor Authentication)** — Logging in with exactly two different factors. *(First taught: NA-M13-L03)*
 - **3-2-1 rule** — A backup rule: keep 3 copies of data, on 2 media types, with 1 copy off-site. *(First taught: NA-M12-L04)*
 - **802.11** — The IEEE family of Wi-Fi standards (a/b/g/n/ac/ax). *(First taught: NA-M11-L07)*
 - **802.1Q (dot1q)** — The IEEE standard that tags each frame with its VLAN ID so one trunk can carry many VLANs. *(First taught: NA-M11-L03)*
 
 ## A
-
 - **A record** — A DNS record mapping a name to an IPv4 address. *(First taught: NA-M09-L02)*
 - **AAA** — Authentication, authorization, and accounting: the framework for controlling access. *(First taught: NA-M13-L03)*
+- **AAAA record** — A DNS record that maps a name to an IPv6 address. *(Added: Exam-Depth Supplement 3.4)*
 - **Access point (AP)** — A device that lets wireless devices join a wired network. *(First taught: NA-M07-L04)*
 - **Access port** — A regular port on a switch where an end device, such as a PC, plugs in. *(First taught: NA-M07-L05)*
 - **Accounting** — Keeping a record of what a user did on a system or network. *(First taught: NA-M13-L03)*
@@ -28,8 +27,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Active recall** — Pulling an answer from memory instead of looking at it; it builds strong, lasting memory. *(First taught: NA-M10-L05)*
 - **Adapter** — A small part that changes one port into another, e.g., USB to Ethernet. *(First taught: NA-M01-L03)*
 - **Address class** — The A–E grouping of IPv4 addresses, decided by the first octet. *(First taught: NA-M08-L02)*
+- **Administrative distance** — How much a router trusts a route's source; a lower number is more trusted. *(Added: Exam-Depth Supplement 2.1)*
 - **Aging time** — How long a switch keeps a MAC entry before removing it. *(First taught: NA-M07-L02)*
 - **Alert** — A message that warns you when something needs attention (often from a threshold). *(First taught: NA-M12-L02)*
+- **API (Application Programming Interface)** — A way for tools and scripts to manage a device automatically. *(Added: Exam-Depth Supplement 3.5)*
 - **APIPA** — Automatic Private IP Addressing: a 169.254.x.x address a device gives itself when no DHCP answers. *(First taught: NA-M08-L02)*
 - **Application (app)** — A program you use to do a task, like a browser or Notepad. *(First taught: NA-M01-L04)*
 - **Application layer** — Layer 7 — the apps you use and their network rules. *(First taught: NA-M05-L02)*
@@ -47,7 +48,6 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Availability** — The share of time a service is up and usable, often written in the "nines." *(First taught: NA-M12-L03)*
 
 ## B
-
 - **Backbone** — The single shared cable that a bus network is built on. *(First taught: NA-M04-L04)*
 - **Backup** — A saved copy of data you can restore later. *(First taught: NA-M12-L04)*
 - **Band** — A range of radio frequencies Wi-Fi uses, mainly 2.4 GHz or 5 GHz. *(First taught: NA-M11-L07)*
@@ -74,11 +74,12 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Byte** — A group of 8 bits. *(First taught: NA-M03-L02)*
 
 ## C
-
 - **Cable category** — The grade of a cable (Cat5e–Cat8) that sets its top speed and distance. *(First taught: NA-M06-L01)*
 - **Cable certifier** — A tester that also checks a cable meets a full speed standard (crosstalk, attenuation, rating). *(First taught: NA-M14-L04)*
+- **Cable management** — Trays and ties that keep cables neat for airflow and easy changes. *(Added: Exam-Depth Supplement 2.4)*
 - **Cable tester** — A tool that checks each wire end to end for opens, shorts, and miswires. *(First taught: NA-M06-L06)*
 - **cd** — "Change directory" — a command to move into a folder (`cd ..` goes up one). *(First taught: NA-M02-L04)*
+- **CDN (Content Delivery Network)** — Cached copies of content placed near users around the world. *(Added: Exam-Depth Supplement 1.2)*
 - **Certification** — A credential you earn by passing an exam; it proves you have a skill. *(First taught: NA-M00-L01)*
 - **Change control** — A safe process to plan, approve, and make changes (also called change management). *(First taught: NA-M12-L04)*
 - **Channel** — One "lane" within a band; nearby access points should use different, non-overlapping ones. *(First taught: NA-M11-L07)*
@@ -92,6 +93,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Clear text** — Data sent unscrambled, which anyone in the path can read. *(First taught: NA-M10-L04)*
 - **Client** — A computer or program that asks for something. *(First taught: NA-M01-L06)*
 - **Client-server** — A model where one server provides and many clients ask. *(First taught: NA-M04-L05)*
+- **Cloud gateway** — A doorway in or out of a cloud network, such as an internet or NAT gateway. *(Added: Exam-Depth Supplement 1.3)*
 - **CNAME record** — A DNS record that points one name to another (an alias). *(First taught: NA-M09-L02)*
 - **Cold site** — A DR site with empty space, power, and cooling only; cheap but slow to bring up. *(First taught: NA-M12-L04)*
 - **Collision** — Two devices sending at once on a shared wire, clashing their signals. *(First taught: NA-M07-L03)*
@@ -109,8 +111,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Connector** — The plug on the end of a cable (the male part). *(First taught: NA-M06-L02)*
 - **Console cable** — The cable that plugs your laptop straight into the switch's console port. *(First taught: NA-M07-L06)*
 - **Console port** — A management-only port on a switch, used for the first login with a console cable. *(First taught: NA-M07-L05)*
+- **Content filtering** — Blocking unwanted or unsafe websites by category. *(Added: Exam-Depth Supplement 1.2)*
 - **Continuity** — Whether a wire has an unbroken path from end to end. *(First taught: NA-M06-L06)*
 - **Control Panel** — An older Windows settings area; some network tools still live there. *(First taught: NA-M02-L02)*
+- **Convergence** — How quickly all routers agree again after a network change. *(Added: Exam-Depth Supplement 2.1)*
 - **Convert** — To rewrite a number from one system to another (binary ↔ decimal). *(First taught: NA-M03-L03)*
 - **Copper cable** — A cable of copper wires that carry electrical signals. *(First taught: NA-M06-L01)*
 - **Core** — The thin glass center that the light travels through. *(First taught: NA-M06-L03)*
@@ -120,7 +124,6 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **CSMA/CD** — The old method for handling collisions (listen, send, back off, resend). *(First taught: NA-M07-L03)*
 
 ## D
-
 - **Data-handling policy** — Rules for storing, protecting, and deleting data, including how long to keep it (retention). *(First taught: NA-M12-L05)*
 - **Data Link layer** — Layer 2 — local delivery on one network, using MAC addresses (switches). *(First taught: NA-M05-L02)*
 - **DDoS (Distributed Denial of Service)** — A DoS attack launched from many machines at once. *(First taught: NA-M13-L02)*
@@ -134,13 +137,16 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Defense in depth** — Using many layers of security so that one failure does not expose everything. *(First taught: NA-M13-L07)*
 - **Destination address** — The address the data is going to. *(First taught: NA-M05-L05)*
 - **DHCP** — A service that automatically gives devices their IP settings. *(First taught: NA-M09-L01)*
+- **DHCP relay** — A router feature (IP helper) that forwards DHCP requests to a server on another subnet. *(Added: Exam-Depth Supplement 3.4)*
 - **DHCP reservation** — A fixed address always given to one device (by its MAC). *(First taught: NA-M09-L01)*
 - **DHCP scope** — The range (pool) of addresses a DHCP server can hand out. *(First taught: NA-M09-L01)*
+- **DHCPv6** — The IPv6 version of DHCP that hands out addresses or settings. *(Added: Exam-Depth Supplement 3.4)*
 - **Differential backup** — A backup that copies everything changed since the last full backup. *(First taught: NA-M12-L04)*
 - **Digital** — Using only separate, exact values (like 1 and 0), not an in-between. *(First taught: NA-M03-L01)*
 - **dir** — A command that lists the files and folders where you are. *(First taught: NA-M02-L04)*
 - **Directory** — Another word for a folder. *(First taught: NA-M02-L01)*
 - **Disaster recovery (DR)** — The plan to bring a network back after a big failure. *(First taught: NA-M12-L04)*
+- **Distance-vector** — A routing style where routers share their whole table with their neighbors. *(Added: Exam-Depth Supplement 2.1)*
 - **DMZ (Demilitarized Zone)** — A separate zone for public-facing servers, kept away from the private network; now often called a screened subnet. *(First taught: NA-M13-L04)*
 - **DNS** — The service that turns names into IP addresses. *(First taught: NA-M09-L02)*
 - **DNS cache** — A short local store of recent name → IP answers. *(First taught: NA-M09-L02)*
@@ -153,6 +159,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Double colon (::)** — A shorthand that replaces one run of all-zero hextets in an IPv6 address — used only once. *(First taught: NA-M08-L07)*
 - **DR site** — A second location you can run from after a disaster (cold, warm, or hot). *(First taught: NA-M12-L04)*
 - **Drive** — A whole storage space, like the C: drive. *(First taught: NA-M02-L01)*
+- **Dual stack** — Running IPv4 and IPv6 at the same time on a device. *(Added: Exam-Depth Supplement 3.4)*
 - **Duplex** — Direction of data: full = both ways at once; half = one at a time. *(First taught: NA-M06-L05)*
 - **Duplex mismatch** — When one side of a link is set to full duplex and the other to half, causing errors and slow speed. *(First taught: NA-M14-L05)*
 - **Dynamic IP address** — An address given automatically by DHCP; it can change. *(First taught: NA-M09-L01)*
@@ -160,7 +167,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Dynamic routing** — Routers learning routes from each other and updating automatically. *(First taught: NA-M11-L05)*
 
 ## E
-
+- **Edge computing** — Doing the work near where data is created to cut delay. *(Added: Exam-Depth Supplement 1.8)*
+- **EGP (Exterior Gateway Protocol)** — A routing protocol used between organizations, such as BGP. *(Added: Exam-Depth Supplement 2.1)*
+- **EIGRP (Enhanced Interior Gateway Routing Protocol)** — A Cisco routing protocol that ranks paths using bandwidth and delay. *(Added: Exam-Depth Supplement 2.1)*
+- **Elasticity** — The cloud's ability to add or remove resources quickly as demand changes. *(Added: Exam-Depth Supplement 1.3)*
 - **Encapsulation** — Wrapping data with a header at each layer, going down the stack. *(First taught: NA-M05-L04)*
 - **Encryption** — Scrambling data so only the right receiver can read it. *(First taught: NA-M10-L04)*
 - **End-to-end** — Staying the same from the first sender to the final receiver (like the IP). *(First taught: NA-M05-L05)*
@@ -169,38 +179,40 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Escalate** — To pass a problem to someone with more access, skill, or authority. *(First taught: NA-M14-L01)*
 - **Ethernet** — The family of rules for wired local networks (IEEE 802.3). *(First taught: NA-M06-L05)*
 - **Ethernet port** — The port where a network cable plugs in; a small, near-square slot. *(First taught: NA-M01-L03)*
+- **EUI-64** — A way to build an IPv6 host address from the interface's MAC address. *(Added: Exam-Depth Supplement 3.4)*
 
 ## F
-
 - **Factor** — A way to prove who you are: something you know, have, or are. *(First taught: NA-M13-L03)*
 - **Failover** — The automatic switch from a failed part to its backup. *(First taught: NA-M12-L03)*
 - **Fast Ethernet** — The 100 Mbps Ethernet standard (100BASE-TX). *(First taught: NA-M06-L05)*
 - **Fault tolerance** — The ability to keep working even when a part fails. *(First taught: NA-M12-L03)*
+- **FHRP (First Hop Redundancy Protocol)** — Lets two routers share one virtual gateway IP so one can back up the other. *(Added: Exam-Depth Supplement 2.1)*
 - **Fiber optic cable** — A cable that carries data as pulses of light through glass. *(First taught: NA-M06-L03)*
 - **File** — One saved item of information (a photo, note, or document). *(First taught: NA-M02-L01)*
 - **File Explorer** — The Windows tool that shows your files and folders. *(First taught: NA-M02-L01)*
 - **File path** — The address that lists each folder to open to reach a file. *(First taught: NA-M02-L01)*
+- **Fire suppression** — A system that puts out fire without soaking the electronics. *(Added: Exam-Depth Supplement 2.4)*
 - **Firewall** — A device or software that allows or blocks traffic by rules. *(First taught: NA-M07-L04)*
 - **Firmware** — Software built into a device, like a switch, that rarely changes. *(First taught: NA-M01-L05)*
 - **Flashcard** — A card with a question on one side and its answer on the other, used for self-quizzing. *(First taught: NA-M10-L05)*
 - **Flood** — To send a frame out all ports except the one it came in on. *(First taught: NA-M07-L02)*
 - **Folder** — A container that holds files and other folders; also called a directory. *(First taught: NA-M02-L01)*
 - **Forward** — To send a frame out the one port where the destination lives. *(First taught: NA-M07-L02)*
+- **Forward proxy** — A middleman that sits in front of clients and makes web requests for them. *(Added: Exam-Depth Supplement 1.2)*
 - **Frame** — The Data Link-layer PDU (data plus a MAC header and trailer). *(First taught: NA-M05-L04)*
 - **FTP (File Transfer Protocol)** — Transfers files between computers (ports 20/21, TCP). *(First taught: NA-M10-L03)*
 - **FTPS (FTP Secure)** — FTP wrapped in TLS encryption (ports 989/990). *(First taught: NA-M10-L04)*
 - **Full backup** — A backup that copies everything, every time. *(First taught: NA-M12-L04)*
 
 ## G
-
 - **Gigabit Ethernet** — The 1 Gbps Ethernet standard (1000BASE-T). *(First taught: NA-M06-L05)*
 - **Gigabyte (GB)** — A unit for measuring memory and storage size; more GB means more room. *(First taught: NA-M01-L02)*
 - **Global configuration mode** — The switch CLI mode (`(config)#`) where you change switch-wide settings. *(First taught: NA-M11-L02)*
 - **Global unicast address** — A public, internet-routable IPv6 address (starts 2000–3fff). *(First taught: NA-M08-L07)*
+- **Grounding** — A safe path for stray electricity to flow into the earth instead of into you or the gear. *(Added: Exam-Depth Supplement 2.4)*
 - **Guest network** — A separate Wi-Fi for visitors, kept away from the main network. *(First taught: NA-M13-L05)*
 
 ## H
-
 - **Hardening** — Making a device or network harder to attack by removing weak spots. *(First taught: NA-M13-L07)*
 - **Hardware** — The physical parts of a computer that you can touch. *(First taught: NA-M01-L01)*
 - **Hashing** — Turning data into a one-way, fixed-length fingerprint used to detect changes. *(First taught: NA-M13-L06)*
@@ -212,14 +224,19 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Hop-to-hop** — Changing at each link along the way (like the MAC). *(First taught: NA-M05-L05)*
 - **Host** — Any device that has an IP address and communicates on a network. *(First taught: NA-M08-L01)*
 - **Host portion** — The part of an IP address that says which device on a network. *(First taught: NA-M08-L02)*
+- **Hot aisle / cold aisle** — A rack layout that keeps cool air at equipment fronts and hot air at the backs. *(Added: Exam-Depth Supplement 2.4)*
 - **Hot site** — A DR site that is a full running copy, ready to take over fast (but costly). *(First taught: NA-M12-L04)*
 - **HTTP (HyperText Transfer Protocol)** — The web protocol for plain web pages (port 80, TCP). *(First taught: NA-M10-L03)*
 - **HTTPS (HTTP Secure)** — The secure, encrypted web protocol (port 443, TCP). *(First taught: NA-M10-L03)*
 - **Hub** — A Layer 1 device that repeats every incoming signal out all ports. *(First taught: NA-M07-L01)*
+- **HVAC (Heating, Ventilation, and Air Conditioning)** — The system that keeps a server room cool and at safe humidity. *(Added: Exam-Depth Supplement 2.4)*
+- **Hybrid cloud** — A mix of private and public cloud, joined together. *(Added: Exam-Depth Supplement 1.3)*
 
 ## I
-
+- **IaaS (Infrastructure as a Service)** — A cloud model where you rent virtual hardware and manage the operating system and apps yourself. *(Added: Exam-Depth Supplement 1.3)*
+- **IaC (Infrastructure as Code)** — Building the network from text files so it is the same every time. *(Added: Exam-Depth Supplement 1.8)*
 - **IDS/IPS** — Systems that detect (IDS) or block (IPS) attacks. *(First taught: NA-M07-L04)*
+- **IGP (Interior Gateway Protocol)** — A routing protocol used inside one organization, such as RIP, OSPF, or EIGRP. *(Added: Exam-Depth Supplement 2.1)*
 - **IMAP (Internet Message Access Protocol)** — Reads email kept on the server, syncing across devices (port 143, TCP). *(First taught: NA-M10-L03)*
 - **IMAPS (IMAP Secure)** — IMAP email access over TLS (port 993). *(First taught: NA-M10-L04)*
 - **Implicit deny** — The default rule that blocks anything an ACL does not expressly allow. *(First taught: NA-M13-L04)*
@@ -233,6 +250,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Interference** — Unwanted electrical noise that can harm a signal (also called EMI). *(First taught: NA-M06-L01)*
 - **Internet edge** — Where your network meets the ISP (the modem and router). *(First taught: NA-M11-L08)*
 - **Internet layer** — The TCP/IP layer that routes between networks with IP (OSI 3). *(First taught: NA-M05-L03)*
+- **IoT (Internet of Things)** — Many small smart devices, like cameras and sensors, on the network — often isolated for safety. *(Added: Exam-Depth Supplement 1.8)*
 - **IP (Internet Protocol)** — The rule-set for addressing and routing data between networks. *(First taught: NA-M05-L03)*
 - **IP address** — Your computer's address on the network (full details in Module 08). *(First taught: NA-M02-L04)*
 - **IPAM (IP Address Management)** — Tracking every IP address in use, free, and assigned. *(First taught: NA-M12-L01)*
@@ -243,18 +261,16 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **ISP (Internet Service Provider)** — The company that brings internet to your home or office. *(First taught: NA-M11-L08)*
 
 ## J
-
 - **Jack** — The socket that a connector plugs into (the female part). *(First taught: NA-M06-L02)*
 - **Jitter** — How much the latency (delay) changes from moment to moment. *(First taught: NA-M04-L06)*
+- **Jump box (bastion host)** — One hardened host you must go through to reach sensitive systems. *(Added: Exam-Depth Supplement 3.5)*
 
 ## K
-
 - **Key (encryption)** — The secret value used to lock and unlock encrypted data. *(First taught: NA-M13-L06)*
 - **Key line** — The one line in command output that has the answer you need. *(First taught: NA-M02-L05)*
 - **Keystone jack** — A snap-in jack module that fits a wall plate or panel. *(First taught: NA-M06-L02)*
 
 ## L
-
 - **Label** — The name on the left of an output line (before the colon). *(First taught: NA-M02-L05)*
 - **Labeling** — Putting clear names on cables, ports, and devices (both ends of a cable). *(First taught: NA-M12-L01)*
 - **LAN (Local Area Network)** — A network in one place, like a home or office. *(First taught: NA-M04-L03)*
@@ -269,6 +285,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Link** — The connection between two nodes (wired or wireless). *(First taught: NA-M04-L02)*
 - **Link light** — The LED on a port that glows when a live link is present. *(First taught: NA-M14-L05)*
 - **Link-local address** — An address (IPv6 fe80::…) a device makes itself to talk on its own link. *(First taught: NA-M08-L07)*
+- **Link-state** — A routing style where routers share a map of links and compute the best path, as OSPF does. *(Added: Exam-Depth Supplement 2.1)*
 - **Listening port** — A port waiting to accept incoming connections. *(First taught: NA-M14-L03)*
 - **Load balancer** — A device that spreads traffic across several servers. *(First taught: NA-M07-L04)*
 - **Log** — A saved record of events on a device. *(First taught: NA-M12-L02)*
@@ -278,7 +295,6 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Loopback plug** — A physical adapter that loops a port's transmit back to its receive to test the port or NIC. *(First taught: NA-M14-L04)*
 
 ## M
-
 - **MAC address** — A device's hardware ID, written in hex (full details in Module 07). *(First taught: NA-M03-L04)*
 - **MAC address table** — The switch's list matching each MAC address to a port. *(First taught: NA-M07-L02)*
 - **MAC filtering** — Allowing only known MAC addresses onto a port or network. *(First taught: NA-M13-L05)*
@@ -290,6 +306,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Mbps** — Megabits per second — millions of bits each second. *(First taught: NA-M04-L06)*
 - **Memory** — Where a computer holds the information it is working on right now; see **RAM**. *(First named: NA-M01-L01; taught: NA-M01-L02)*
 - **Mesh topology** — A network shape where nodes connect to many others, giving many paths. *(First taught: NA-M04-L04)*
+- **Metric** — The cost a routing protocol uses to rank paths; lower is better. *(Added: Exam-Depth Supplement 2.1)*
 - **MFA (Multi-Factor Authentication)** — Logging in with two or more different factors. *(First taught: NA-M13-L03)*
 - **MIB (Management Information Base)** — The catalog of items SNMP can ask a device about. *(First taught: NA-M12-L02)*
 - **Millisecond (ms)** — One thousandth of a second; the unit for latency. *(First taught: NA-M04-L06)*
@@ -301,18 +318,21 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **MOU (Memorandum of Understanding)** — An informal agreement between parties to work together. *(First taught: NA-M12-L05)*
 - **MTBF (Mean Time Between Failures)** — The average time a part runs before it fails. *(First taught: NA-M12-L03)*
 - **MTTR (Mean Time To Repair)** — The average time to fix a failed part. *(First taught: NA-M12-L03)*
+- **Multicloud** — Using more than one public cloud provider at once. *(Added: Exam-Depth Supplement 1.3)*
 - **Multimode fiber (MMF)** — Wider-core fiber with many light paths; LED; shorter distances. *(First taught: NA-M06-L03)*
 - **Multitasking** — Running several programs at once; the OS shares the hardware between them. *(First taught: NA-M01-L04)*
+- **Multitenancy** — Many customers sharing the same physical hardware, kept apart by software. *(Added: Exam-Depth Supplement 1.3)*
 - **MX record** — A DNS record that names a domain's mail server. *(First taught: NA-M09-L02)*
 
 ## N
-
 - **N10-009** — The current version of the CompTIA Network+ exam and its objectives. *(First taught: NA-M15-L02)*
+- **NAS (Network Attached Storage)** — Shared file storage reached over the normal network. *(Added: Exam-Depth Supplement 1.2)*
 - **NAT (Network Address Translation)** — When a router swaps a device's private address for its public one so it can reach the internet. *(First taught: NA-M08-L08)*
 - **NAT overload** — Another name for PAT — many devices share one public IP using ports. *(First taught: NA-M09-L03)*
 - **NAT translation table** — The router's list matching inside address:port to public address:port. *(First taught: NA-M09-L03)*
 - **Native VLAN** — The one VLAN whose frames cross a trunk untagged (default VLAN 1). *(First taught: NA-M11-L03)*
 - **NDA (Non-Disclosure Agreement)** — A promise not to share private or confidential information. *(First taught: NA-M12-L05)*
+- **NDP (Neighbor Discovery Protocol)** — IPv6's replacement for ARP; it finds neighbors and routers on the link. *(Added: Exam-Depth Supplement 3.4)*
 - **NetFlow** — A tool that records network flows: who talked to whom, and how much. *(First taught: NA-M12-L02)*
 - **netstat** — A command that shows a computer's active connections and listening ports. *(First taught: NA-M14-L03)*
 - **Network** — Two or more devices connected to share resources and communicate. *(First taught: NA-M04-L01)*
@@ -323,13 +343,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Network layer** — Layer 3 — addressing and routing between networks, using IP (routers). *(First taught: NA-M05-L02)*
 - **Network portion** — The part of an IP address that says which network. *(First taught: NA-M08-L02)*
 - **Next hop** — The next router a packet is handed to on its way. *(First taught: NA-M09-L04)*
+- **NFV (Network Functions Virtualization)** — Running network gear like routers and firewalls as software instead of physical boxes. *(Added: Exam-Depth Supplement 1.3)*
+- **NGFW (Next-Generation Firewall)** — A firewall that also understands apps, users, and content. *(Added: Exam-Depth Supplement 1.2)*
 - **Nibble** — A group of 4 bits; half of a byte. *(First taught: NA-M03-L04)*
 - **Node** — Any device that connects to a network. *(First taught: NA-M04-L02)*
 - **nslookup** — A command that asks DNS for the IP address behind a name. *(First taught: NA-M14-L02)*
 - **NTP** — Keeps device clocks synchronized to a reliable time source. *(First taught: NA-M09-L05)*
 
 ## O
-
 - **Octet** — One byte (8 bits) of an IPv4 address — one of the four numbers. *(First taught: NA-M03-L05)*
 - **Off-site backup** — A backup copy kept in a different location, so a local disaster can't destroy it. *(First taught: NA-M12-L04)*
 - **Offboarding** — Removing a departing person's access and collecting their equipment. *(First taught: NA-M12-L05)*
@@ -345,9 +366,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Out-of-band management** — Managing a device over a path that is not the network (the console). *(First taught: NA-M07-L06)*
 - **Output** — The result a computer gives back, such as words on a screen, a sound, or a printout. *(First taught: NA-M01-L01)*
 - **Output device** — Hardware that sends information out to you (screen, speakers, printer). *(First taught: NA-M01-L03)*
+- **Overlay network** — A logical network built on top of the real one, like a tunnel. *(Added: Exam-Depth Supplement 1.8)*
 
 ## P
-
+- **PaaS (Platform as a Service)** — A cloud model that gives you a ready place to run your code; you manage only the app and data. *(Added: Exam-Depth Supplement 1.3)*
 - **Packet** — The Network-layer PDU (data plus an IP header). *(First taught: NA-M05-L04)*
 - **Packet loss** — The percent of ping messages that got no reply (0% is best). *(First taught: NA-M02-L05)*
 - **PAN (Personal Area Network)** — A tiny network around one person (Bluetooth). *(First taught: NA-M04-L03)*
@@ -384,6 +406,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **PowerShell** — A newer, more powerful Windows terminal. *(First taught: NA-M02-L03)*
 - **Prefix length** — The /n number: how many bits of an address are network. *(First taught: NA-M08-L04)*
 - **Presentation layer** — Layer 6 — formats, encrypts, and translates the data. *(First taught: NA-M05-L02)*
+- **Private cloud** — Cloud technology run for one organization only. *(Added: Exam-Depth Supplement 1.3)*
 - **Private IP address** — An address from a reserved private range; used inside a network, not on the internet. *(First taught: NA-M08-L02)*
 - **Processing** — The work a computer does by following its instructions. *(First taught: NA-M01-L01)*
 - **Program** — A set of instructions that tells a computer what to do. *(First taught: NA-M01-L01)*
@@ -391,11 +414,15 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Protocol** — An agreed set of rules a layer follows so devices understand each other. *(First taught: NA-M05-L01)*
 - **Proxy server** — A middleman that forwards and can filter users' requests. *(First taught: NA-M07-L04)*
 - **PSK (Pre-Shared Key)** — The shared password used to join a Wi-Fi network. *(First taught: NA-M13-L05)*
+- **Public cloud** — Cloud resources shared by many customers on a provider's hardware. *(Added: Exam-Depth Supplement 1.3)*
 - **Public IP address** — An address that is unique on the internet and routable there. *(First taught: NA-M08-L02)*
 
-## R
+## Q
+- **QoS (Quality of Service)** — Giving important traffic, like voice and video, priority over the rest. *(Added: Exam-Depth Supplement 1.2)*
 
+## R
 - **Rack diagram** — A physical diagram showing where each device sits in an equipment rack. *(First taught: NA-M12-L01)*
+- **Rack unit (U)** — The height measure for rack gear; 1U is about 1.75 inches. *(Added: Exam-Depth Supplement 2.4)*
 - **RADIUS** — A server that checks logins (AAA) for many devices at once. *(First taught: NA-M13-L03)*
 - **RAM (Random Access Memory)** — Fast, temporary space for what a computer is using right now; cleared when the power turns off. *(First taught: NA-M01-L02)*
 - **Ransomware** — Malware that locks your files and demands money to unlock them. *(First taught: NA-M13-L02)*
@@ -408,9 +435,12 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Remote-access VPN** — A VPN that connects one remote person (a client) to a network. *(First taught: NA-M13-L06)*
 - **Repeater** — A Layer 1 device that boosts a weak signal so it travels farther. *(First taught: NA-M07-L01)*
 - **Request** — The client's ask ("please send me this"). *(First taught: NA-M01-L06)*
+- **Reservation** — A DHCP setting that always gives one device the same address, by its MAC. *(Added: Exam-Depth Supplement 3.4)*
 - **Resource** — Something a network lets you share: a file, printer, or internet connection. *(First taught: NA-M04-L01)*
 - **Response** — The server's answer ("here it is"). *(First taught: NA-M01-L06)*
+- **Reverse proxy** — A middleman that sits in front of servers and takes requests for them. *(Added: Exam-Depth Supplement 1.2)*
 - **Ring topology** — A network shape where each node connects to two neighbors, forming a loop. *(First taught: NA-M04-L04)*
+- **RIP (Routing Information Protocol)** — An old distance-vector routing protocol that ranks paths by hop count. *(Added: Exam-Depth Supplement 2.1)*
 - **RJ11** — A smaller connector used for telephones (fewer pins). *(First taught: NA-M06-L02)*
 - **RJ45** — The 8-pin connector used for twisted-pair Ethernet. *(First taught: NA-M06-L02)*
 - **Rollback** — Undoing a change to return to the last good state. *(First taught: NA-M12-L04)*
@@ -428,12 +458,19 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **running-config** — A switch's live settings, held in memory right now. *(First taught: NA-M11-L02)*
 
 ## S
-
+- **SaaS (Software as a Service)** — A cloud model where you just use a finished app over the web. *(Added: Exam-Depth Supplement 1.3)*
+- **SAN (Storage Area Network)** — High-speed block storage on its own dedicated network. *(Added: Exam-Depth Supplement 1.2)*
+- **SASE (Secure Access Service Edge)** — One cloud service that bundles networking and security near the user. *(Added: Exam-Depth Supplement 1.8)*
+- **Scalability** — The ability to grow or shrink resources to match the load. *(Added: Exam-Depth Supplement 1.3)*
 - **Scale** — To grow to handle more users or devices without breaking. *(First taught: NA-M04-L05)*
 - **Scaled score** — A converted exam score on a 100-900 scale; 720 passes the Network+ exam. *(First taught: NA-M15-L02)*
+- **Scope** — The pool of addresses a DHCP server may hand out for a subnet. *(Added: Exam-Depth Supplement 3.4)*
 - **Screened subnet** — The current name for a DMZ: an isolated zone for public-facing servers. *(First taught: NA-M13-L04)*
+- **SD-WAN (Software-Defined WAN)** — Software that automatically picks the best link between sites. *(Added: Exam-Depth Supplement 1.8)*
+- **SDN (Software-Defined Networking)** — Splitting the network's decisions (control plane) from its forwarding (data plane), run by a central controller. *(Added: Exam-Depth Supplement 1.8)*
 - **Search box** — The box where you type a tool's name to find it. *(First taught: NA-M02-L02)*
 - **Section** — A group of output lines under a heading, such as one network connection. *(First taught: NA-M02-L05)*
+- **Security group** — A cloud firewall rule set that controls which traffic may reach a resource. *(Added: Exam-Depth Supplement 1.3)*
 - **Segment** — The Transport-layer PDU (data plus a port header). *(First taught: NA-M05-L04)*
 - **Segmentation** — Dividing a network into separate, protected zones (VLANs do this). *(First taught: NA-M11-L01)*
 - **Server** — A computer or program that provides something when asked. *(First taught: NA-M01-L06)*
@@ -449,6 +486,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Single point of failure** — One part whose failure takes down the whole service. *(First taught: NA-M04-L05)*
 - **Site-to-site VPN** — A VPN that connects two whole networks, such as two offices. *(First taught: NA-M13-L06)*
 - **SLA (Service Level Agreement)** — A written promise about a service, such as an uptime target. *(First taught: NA-M12-L03)*
+- **SLAAC (Stateless Address Autoconfiguration)** — An IPv6 device building its own address from a router advertisement, with no server tracking it. *(Added: Exam-Depth Supplement 3.4)*
 - **SMB (Server Message Block)** — Windows file and printer sharing (port 445, TCP). *(First taught: NA-M10-L03)*
 - **SMTP (Simple Mail Transfer Protocol)** — Sends email (port 25, TCP). *(First taught: NA-M10-L03)*
 - **Snapshot** — A saved point-in-time image of a system you can roll back to. *(First taught: NA-M12-L04)*
@@ -462,6 +500,7 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Spaced repetition** — Reviewing material at growing gaps over days instead of all at once. *(First taught: NA-M10-L05)*
 - **Spanning Tree Protocol (STP)** — A protocol that prevents switching loops by keeping one active path and blocking the rest. *(First taught: NA-M11-L04)*
 - **Spoofing** — Faking an identity to appear trusted. *(First taught: NA-M13-L02)*
+- **SSE (Security Service Edge)** — The security-only part of SASE, without the SD-WAN piece. *(Added: Exam-Depth Supplement 1.8)*
 - **SSH (Secure Shell)** — Secure, encrypted remote command access (port 22, TCP). *(First taught: NA-M10-L03)*
 - **SSID (Service Set Identifier)** — The name of a wireless network. *(First taught: NA-M11-L07)*
 - **Stack** — The full set of layers, one on top of another. *(First taught: NA-M05-L01)*
@@ -491,7 +530,6 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Syslog** — A standard for sending device log messages to a central server. *(First taught: NA-M09-L05)*
 
 ## T
-
 - **T568A** — One standard RJ45 wire order; swaps orange/green vs. T568B. *(First taught: NA-M06-L04)*
 - **T568B** — The most common US wire order for RJ45. *(First taught: NA-M06-L04)*
 - **TACACS+** — A server that provides AAA for network devices, separating the three A's. *(First taught: NA-M13-L03)*
@@ -524,10 +562,10 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Twisted pair** — Two copper wires twisted together to cancel interference. *(First taught: NA-M06-L01)*
 
 ## U
-
 - **UDP (User Datagram Protocol)** — A fast, connectionless way to send data with no delivery checks. *(First taught: NA-M10-L02)*
 - **Unmanaged switch** — A switch with no settings; it just forwards frames automatically. *(First taught: NA-M07-L05)*
 - **Uplink port** — A (usually faster) port that connects a switch up to a router or core switch. *(First taught: NA-M07-L05)*
+- **UPS (Uninterruptible Power Supply)** — A battery that keeps gear running through a short power outage. *(Added: Exam-Depth Supplement 2.4)*
 - **Uptime** — The time a service is running (the opposite of downtime). *(First taught: NA-M12-L03)*
 - **Usable host** — An address a device can use — not the network or broadcast address. *(First taught: NA-M08-L05)*
 - **USB** — A common port shape used for many devices and adapters. *(First taught: NA-M01-L03)*
@@ -535,17 +573,19 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **UTP (Unshielded Twisted Pair)** — Twisted-pair cable with no metal shield; common and cheap. *(First taught: NA-M06-L01)*
 
 ## V
-
 - **Value** — The answer on the right of an output line (after the colon). *(First taught: NA-M02-L05)*
 - **VLAN (Virtual Local Area Network)** — A group of switch ports that act as their own separate network and broadcast domain. *(First taught: NA-M11-L01)*
 - **VLAN ID** — The number (1–4094) that names a VLAN; VLAN 1 is the default. *(First taught: NA-M11-L01)*
 - **VLAN tag** — The small label inside a frame that names which VLAN it belongs to. *(First taught: NA-M11-L03)*
 - **Voucher** — A prepaid code that pays for an exam seat. *(First taught: NA-M15-L02)*
+- **VPC (Virtual Private Cloud)** — Your own walled-off private network inside a public cloud. *(Added: Exam-Depth Supplement 1.3)*
 - **VPN (Virtual Private Network)** — A private, encrypted tunnel across a public network. *(First taught: NA-M13-L06)*
+- **VPN concentrator** — A device that terminates many VPN tunnels. *(Added: Exam-Depth Supplement 1.2)*
+- **VRRP (Virtual Router Redundancy Protocol)** — A common FHRP that provides a backup default gateway. *(Added: Exam-Depth Supplement 2.1)*
 - **Vulnerability** — A weak spot that lets harm happen. *(First taught: NA-M13-L02)*
+- **VXLAN (Virtual Extensible LAN)** — An overlay that stretches a Layer 2 network across a Layer 3 network. *(Added: Exam-Depth Supplement 1.8)*
 
 ## W
-
 - **WAN (Wide Area Network)** — A network over a long distance; the internet is one. *(First taught: NA-M04-L03)*
 - **Warm site** — A DR site with some gear ready to set up; medium speed and cost. *(First taught: NA-M12-L04)*
 - **Web management (GUI)** — A point-and-click web page for managing a switch in a browser. *(First taught: NA-M07-L06)*
@@ -555,10 +595,14 @@ If a word isn't here yet, it hasn't been taught yet — and no lesson uses a ter
 - **Wi-Fi analyzer** — A tool that shows wireless signal strength and which channels are busy. *(First taught: NA-M14-L04)*
 - **Windows** — The operating system on most laptops, including yours. *(First taught: NA-M01-L04)*
 - **Wired link** — A link that uses a cable to connect two nodes. *(First taught: NA-M04-L02)*
+- **Wireless controller** — A device that manages many access points from one place. *(Added: Exam-Depth Supplement 1.2)*
 - **Wireless link** — A link that uses radio waves (Wi-Fi) to connect two nodes. *(First taught: NA-M04-L02)*
 - **WLAN (Wireless LAN)** — A LAN that uses Wi-Fi instead of cables. *(First taught: NA-M04-L03)*
 - **WPA2 / WPA3 (Wi-Fi Protected Access)** — Modern Wi-Fi security; WPA3 is the newest and strongest. *(First taught: NA-M11-L07)*
 - **WPS (Wi-Fi Protected Setup)** — An easy-join Wi-Fi feature that is insecure and should be turned off. *(First taught: NA-M13-L05)*
 
+## Z
+- **Zero trust** — A security model that trusts no user or device by default and verifies every request. *(Added: Exam-Depth Supplement 1.8)*
+
 ---
-_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M00-L01)_
+_NetworkAcademy+ · Glossary · CompTIA Network+ N10-009 · Updated as lessons publish (last: NA-M00-L01; + Exam-Depth Supplements 1.2/1.3/1.8/2.1/2.4/3.4/3.5)_

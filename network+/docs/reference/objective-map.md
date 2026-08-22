@@ -6,7 +6,7 @@
 
 **Official domains & weights:** `[1]` Networking Concepts **23%** · `[2]` Network Implementation **20%** · `[3]` Network Operations **19%** · `[4]` Network Security **14%** · `[5]` Network Troubleshooting **24%**.
 
-**Status:** all 16 modules (00–15) Published · 96 lessons · 2 full practice exams · per-domain flashcard decks · 482-term glossary. **22 of 25** official objectives have direct teaching coverage. Three had only incidental mentions — **1.3** (cloud), **1.8** (modern environments), and **2.4** (physical installations) — and are being filled with exam-depth supplements (see the "Supplements in progress" note under each). Four more (**1.2, 2.1, 3.4, 3.5**) are covered but at a beginner "summarize" level and are getting depth add-ons.
+**Status:** all 16 modules (00–15) Published · 96 lessons · 2 full practice exams · per-domain flashcard decks · 545-term glossary. **All 25** official objectives now have teaching coverage. The three formerly-thin objectives — **1.3** (cloud), **1.8** (modern environments), **2.4** (physical installations) — and four summarize-level ones — **1.2, 2.1, 3.4, 3.5** — are backed by short exam-depth supplements in [`resources/exam-depth/`](../../resources/exam-depth/README.md).
 
 ---
 
@@ -15,24 +15,24 @@
 | Obj | Official title | Covered by |
 |-----|----------------|------------|
 | 1.1 | Explain concepts related to the OSI reference model | **M05** (05-01 → 05-05) · applied in M15-L01 |
-| 1.2 | Compare and contrast networking appliances, applications, and functions | **M07** (devices: router, switch, firewall, IDS/IPS, load balancer, proxy, NAS/SAN, AP, controller) · VPN/QoS/TTL in M13-L06, M10 · **depth check** below |
-| 1.3 | Summarize cloud concepts and connectivity options | ⚠️ **Gap** — only incidental mentions across M04/M07. **Supplement in progress** (cloud models, NFV/VPC, connectivity). |
+| 1.2 | Compare and contrast networking appliances, applications, and functions | **M07** (devices) + [Supplement 1.2](../../resources/exam-depth/supplement-1-2-networking-appliances.md) (full appliance list: NGFW, IDS/IPS, load balancer, forward/reverse proxy, NAS/SAN, CDN, QoS, TTL) |
+| 1.3 | Summarize cloud concepts and connectivity options | [Supplement 1.3](../../resources/exam-depth/supplement-1-3-cloud-concepts.md) (IaaS/PaaS/SaaS, deploy models, NFV/VPC, VPN vs. direct connect) |
 | 1.4 | Explain common networking ports, protocols, services, and traffic types | **M10** (10-01 → 10-05) · services in **M09** (09-01 → 09-05) |
 | 1.5 | Compare and contrast transmission media and transceivers | **M06** (06-01 → 06-06) |
 | 1.6 | Compare and contrast network topologies, architectures, and types | **M04** (04-03 → 04-05) |
 | 1.7 | Given a scenario, use appropriate IPv4 network addressing | **M08** (08-01 → 08-08) · applied in M15-L01 |
-| 1.8 | Summarize evolving use cases for modern network environments | ⚠️ **Gap** — not taught. **Supplement in progress** (SDN/SD-WAN, SASE/SSE, IaC, zero trust, IPv6 adoption). |
+| 1.8 | Summarize evolving use cases for modern network environments | [Supplement 1.8](../../resources/exam-depth/supplement-1-8-modern-network-environments.md) (SDN/SD-WAN, SASE/SSE, zero trust, IaC, VXLAN, IoT, edge) |
 
-> **Depth checks (Domain 1):** confirm the course covers, at exam depth — **1.2:** IDS/IPS, load balancer, proxy, NAS vs SAN, CDN, QoS, TTL; **1.3:** NFV, VPC, security groups/lists, cloud gateways, connectivity (VPN/direct connect); **1.8:** SDN/SD-WAN, SASE/SSE, infrastructure as code, IPv6 adoption, zero-trust — these are summarize-level "modern environments" topics that a beginner course may treat lightly.
+> **Domain 1 depth (now covered):** the advanced 1.2/1.3/1.8 topics — IDS/IPS, load balancer, forward/reverse proxy, NAS vs. SAN, CDN, QoS, TTL; NFV, VPC, security groups, cloud gateways, VPN vs. direct connect; SDN/SD-WAN, SASE/SSE, IaC, zero trust, IPv6 adoption — are taught in the exam-depth supplements linked above.
 
 ## Domain 2 — Network Implementation (20%)
 
 | Obj | Official title | Covered by |
 |-----|----------------|------------|
-| 2.1 | Explain characteristics of routing technologies | **M11-L05** (routing) · M07 · **depth check:** dynamic routing protocols (OSPF/BGP/EIGRP), route selection |
+| 2.1 | Explain characteristics of routing technologies | **M11-L05** (routing) + [Supplement 2.1](../../resources/exam-depth/supplement-2-1-dynamic-routing.md) (RIP/OSPF/EIGRP/BGP, IGP vs. EGP, admin distance, route selection, FHRP) |
 | 2.2 | Given a scenario, configure switching technologies and features | **M07** · **M11** (11-01 → 11-04: VLANs, trunking, STP) |
 | 2.3 | Given a scenario, select and configure wireless devices and technologies | **M11-L06/L07** · M07-L04 (AP) |
-| 2.4 | Explain important factors of physical installations | ⚠️ **Gap** — M06/M07-L05/M11-L08 teach cabling (1.5), the device (1.2), and design (1.6), not install *factors*. **Supplement in progress** (power/UPS/PDU, environment/HVAC, racks, cable management, grounding, fire suppression). |
+| 2.4 | Explain important factors of physical installations | [Supplement 2.4](../../resources/exam-depth/supplement-2-4-physical-installation-factors.md) (power/UPS/PDU, environment/HVAC/humidity, racks/U/weight, cable management, grounding, fire suppression) |
 
 ## Domain 3 — Network Operations (19%)
 
@@ -41,8 +41,8 @@
 | 3.1 | Explain the purpose of organizational processes and procedures | **M12-L01** (documentation/diagrams) · **M12-L05** (policies, onboarding/offboarding, change mgmt) |
 | 3.2 | Given a scenario, use network monitoring technologies | **M12-L02** (SNMP, Syslog, baselines) |
 | 3.3 | Explain disaster recovery (DR) concepts | **M12-L03**, **M12-L04** (backups, 3-2-1, RAID, HA/nines) |
-| 3.4 | Given a scenario, implement IPv4 and IPv6 network services | **M09** (DHCP, DNS, NAT) · **depth check:** IPv6 service specifics (SLAAC, etc.) |
-| 3.5 | Compare and contrast network access and management methods | VPN in **M13-L06** · console/SSH/out-of-band in **M07-L05** · **depth check:** jump box, in-band vs out-of-band, API access |
+| 3.4 | Given a scenario, implement IPv4 and IPv6 network services | **M09** (DHCP, DNS, NAT, NTP) + [Supplement 3.4](../../resources/exam-depth/supplement-3-4-ipv4-ipv6-services.md) (SLAAC, DHCPv6, EUI-64, NDP, dual stack, AAAA, DHCP relay/scope/reservation) |
+| 3.5 | Compare and contrast network access and management methods | **M07-L06**, **M13-L06** + [Supplement 3.5](../../resources/exam-depth/supplement-3-5-access-management-methods.md) (in-band vs. out-of-band, SSH/Telnet, console, RDP, API, jump box, VPN types) |
 
 ## Domain 4 — Network Security (14%)
 
@@ -83,12 +83,12 @@ Domain 4 has exactly three official objectives (4.1–4.3); all are covered by M
 ## Sign-off checklist (Curriculum Director, pre-v1.0)
 
 - [x] All 16 modules (00–15) Published.
-- [ ] Every one of the 25 official N10-009 objectives has teaching coverage — **22/25 direct today**; 1.3, 1.8, 2.4 supplements in progress (table above).
+- [x] Every one of the 25 official N10-009 objectives has teaching coverage — core lessons plus seven exam-depth supplements (table above).
 - [x] Two full-length practice exams complete.
 - [x] Flashcard decks complete (core + per-domain).
 - [x] Glossary covers every key term.
-- [ ] **Fill the three gaps:** exam-depth supplements for **1.3** (cloud), **1.8** (modern environments), **2.4** (physical installations) — in progress.
-- [ ] **Depth add-ons:** lift **1.2** (full appliance list), **2.1** (dynamic routing), **3.4** (IPv6 services), **3.5** (management methods) from summarize-level to exam depth — in progress.
+- [x] **Filled the three gaps:** exam-depth supplements for **1.3** (cloud), **1.8** (modern environments), **2.4** (physical installations).
+- [x] **Depth add-ons:** **1.2** (full appliance list), **2.1** (dynamic routing), **3.4** (IPv6 services), **3.5** (management methods) lifted to exam depth via supplements.
 - [x] **Front-matter re-tag:** every lesson's `objective_ids` now uses the official numbers in this table (or a non-tested label).
 
 ## Front-matter note (numbering)
