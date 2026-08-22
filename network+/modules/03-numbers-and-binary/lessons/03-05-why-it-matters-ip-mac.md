@@ -4,7 +4,7 @@ module: 03
 lesson: 05
 title: "Why This Matters for IP and MAC Addresses"
 unit: 1
-objective_ids: ["on-ramp", "1.0"]
+objective_ids: ["on-ramp"]
 reading_level_target: 7
 status: Published
 est_minutes: 25

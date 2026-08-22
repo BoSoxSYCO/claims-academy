@@ -4,7 +4,7 @@ module: 04
 lesson: 02
 title: "Nodes, Links, and the Idea of a Connection"
 unit: 2
-objective_ids: ["1.0"]
+objective_ids: ["1.6"]
 reading_level_target: 7
 status: Published
 est_minutes: 20

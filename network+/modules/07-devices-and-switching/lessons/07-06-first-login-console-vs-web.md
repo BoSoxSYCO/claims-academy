@@ -4,7 +4,7 @@ module: 07
 lesson: 06
 title: "First Login: Console vs. Web Management"
 unit: 4
-objective_ids: ["2.3", "3.1"]
+objective_ids: ["3.5"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

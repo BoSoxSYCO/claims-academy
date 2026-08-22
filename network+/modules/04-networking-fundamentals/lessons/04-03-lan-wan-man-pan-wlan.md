@@ -4,7 +4,7 @@ module: 04
 lesson: 03
 title: "LAN, WAN, MAN, PAN, and WLAN Explained"
 unit: 2
-objective_ids: ["1.2"]
+objective_ids: ["1.6"]
 reading_level_target: 7
 status: Published
 est_minutes: 25

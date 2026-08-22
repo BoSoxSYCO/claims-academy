@@ -4,7 +4,7 @@ module: 13
 lesson: 06
 title: "VPNs and Encryption in Plain Language"
 unit: 10
-objective_ids: ["4.1", "4.4"]
+objective_ids: ["4.1", "4.3"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

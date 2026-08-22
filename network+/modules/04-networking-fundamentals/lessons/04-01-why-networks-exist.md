@@ -4,7 +4,7 @@ module: 04
 lesson: 01
 title: "Why Networks Exist (The Problem They Solve)"
 unit: 2
-objective_ids: ["1.0"]
+objective_ids: ["1.6"]
 reading_level_target: 7
 status: Published
 est_minutes: 20

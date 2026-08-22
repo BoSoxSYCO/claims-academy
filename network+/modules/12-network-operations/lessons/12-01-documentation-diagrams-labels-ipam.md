@@ -4,7 +4,7 @@ module: 12
 lesson: 01
 title: "Documentation: Diagrams, Labels, and IPAM"
 unit: 9
-objective_ids: ["3.2"]
+objective_ids: ["3.1"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

@@ -4,7 +4,7 @@ module: 11
 lesson: 05
 title: "Routing Basics: Static vs. Dynamic"
 unit: 8
-objective_ids: ["2.2"]
+objective_ids: ["2.1"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

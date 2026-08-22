@@ -4,7 +4,7 @@ module: 11
 lesson: 07
 title: "Wireless Standards, Channels, and Security"
 unit: 8
-objective_ids: ["2.4"]
+objective_ids: ["2.3"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

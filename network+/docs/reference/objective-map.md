@@ -2,11 +2,11 @@
 
 > **Purpose:** the authoritative table linking each CompTIA Network+ (N10-009) exam objective to the Published lesson(s) that teach it. Referenced from `docs/CURRICULUM-ROADMAP.md`; required for the pre-v1.0 coverage sign-off in `docs/PROJECT-PLAN.md`.
 >
-> **Source of the objective list:** the official *CompTIA Network+ N10-009 Certification Exam Objectives* document (V4.0) — the 25 sub-objective titles below are quoted from it. Lesson mappings are by **content** (what each lesson teaches), which is the meaningful measure; the numeric `objective_ids` in lesson front-matter follow the course's own earlier scheme and do **not** line up with the official numbers (see "Front-matter note" at the end).
+> **Source of the objective list:** the official *CompTIA Network+ N10-009 Certification Exam Objectives* document (V4.0) — the 25 sub-objective titles below are quoted from it. Lesson mappings are by **content** (what each lesson teaches). As of the front-matter re-tag, every lesson's `objective_ids` now uses these official numbers (or a non-tested label: `orientation`, `on-ramp`, `exam-readiness`), so the table below and the lesson YAML agree.
 
 **Official domains & weights:** `[1]` Networking Concepts **23%** · `[2]` Network Implementation **20%** · `[3]` Network Operations **19%** · `[4]` Network Security **14%** · `[5]` Network Troubleshooting **24%**.
 
-**Status:** all 16 modules (00–15) Published · 96 lessons · 2 full practice exams · per-domain flashcard decks · 482-term glossary. All 25 official objectives have teaching coverage; a few advanced objectives are flagged below for a depth check.
+**Status:** all 16 modules (00–15) Published · 96 lessons · 2 full practice exams · per-domain flashcard decks · 482-term glossary. **22 of 25** official objectives have direct teaching coverage. Three had only incidental mentions — **1.3** (cloud), **1.8** (modern environments), and **2.4** (physical installations) — and are being filled with exam-depth supplements (see the "Supplements in progress" note under each). Four more (**1.2, 2.1, 3.4, 3.5**) are covered but at a beginner "summarize" level and are getting depth add-ons.
 
 ---
 
@@ -16,12 +16,12 @@
 |-----|----------------|------------|
 | 1.1 | Explain concepts related to the OSI reference model | **M05** (05-01 → 05-05) · applied in M15-L01 |
 | 1.2 | Compare and contrast networking appliances, applications, and functions | **M07** (devices: router, switch, firewall, IDS/IPS, load balancer, proxy, NAS/SAN, AP, controller) · VPN/QoS/TTL in M13-L06, M10 · **depth check** below |
-| 1.3 | Summarize cloud concepts and connectivity options | **M04-L06** (cloud) · **depth check** below |
+| 1.3 | Summarize cloud concepts and connectivity options | ⚠️ **Gap** — only incidental mentions across M04/M07. **Supplement in progress** (cloud models, NFV/VPC, connectivity). |
 | 1.4 | Explain common networking ports, protocols, services, and traffic types | **M10** (10-01 → 10-05) · services in **M09** (09-01 → 09-05) |
 | 1.5 | Compare and contrast transmission media and transceivers | **M06** (06-01 → 06-06) |
 | 1.6 | Compare and contrast network topologies, architectures, and types | **M04** (04-03 → 04-05) |
 | 1.7 | Given a scenario, use appropriate IPv4 network addressing | **M08** (08-01 → 08-08) · applied in M15-L01 |
-| 1.8 | Summarize evolving use cases for modern network environments | Touched via M04 (cloud/SDN concepts) · **gap/depth check** below |
+| 1.8 | Summarize evolving use cases for modern network environments | ⚠️ **Gap** — not taught. **Supplement in progress** (SDN/SD-WAN, SASE/SSE, IaC, zero trust, IPv6 adoption). |
 
 > **Depth checks (Domain 1):** confirm the course covers, at exam depth — **1.2:** IDS/IPS, load balancer, proxy, NAS vs SAN, CDN, QoS, TTL; **1.3:** NFV, VPC, security groups/lists, cloud gateways, connectivity (VPN/direct connect); **1.8:** SDN/SD-WAN, SASE/SSE, infrastructure as code, IPv6 adoption, zero-trust — these are summarize-level "modern environments" topics that a beginner course may treat lightly.
 
@@ -32,7 +32,7 @@
 | 2.1 | Explain characteristics of routing technologies | **M11-L05** (routing) · M07 · **depth check:** dynamic routing protocols (OSPF/BGP/EIGRP), route selection |
 | 2.2 | Given a scenario, configure switching technologies and features | **M07** · **M11** (11-01 → 11-04: VLANs, trunking, STP) |
 | 2.3 | Given a scenario, select and configure wireless devices and technologies | **M11-L06/L07** · M07-L04 (AP) |
-| 2.4 | Explain important factors of physical installations | **M06**, **M07-L05**, **M11-L08** (physical/power/environment) |
+| 2.4 | Explain important factors of physical installations | ⚠️ **Gap** — M06/M07-L05/M11-L08 teach cabling (1.5), the device (1.2), and design (1.6), not install *factors*. **Supplement in progress** (power/UPS/PDU, environment/HVAC, racks, cable management, grounding, fire suppression). |
 
 ## Domain 3 — Network Operations (19%)
 
@@ -83,16 +83,17 @@ Domain 4 has exactly three official objectives (4.1–4.3); all are covered by M
 ## Sign-off checklist (Curriculum Director, pre-v1.0)
 
 - [x] All 16 modules (00–15) Published.
-- [x] Every one of the 25 official N10-009 objectives has teaching coverage (table above).
+- [ ] Every one of the 25 official N10-009 objectives has teaching coverage — **22/25 direct today**; 1.3, 1.8, 2.4 supplements in progress (table above).
 - [x] Two full-length practice exams complete.
 - [x] Flashcard decks complete (core + per-domain).
 - [x] Glossary covers every key term.
-- [ ] **Depth check (content):** confirm exam-depth coverage of the advanced objectives flagged above — **1.2** (full appliance list), **1.3** (cloud specifics), **1.8** (modern-environment concepts), **2.1** (dynamic routing), **3.4** (IPv6 services), **3.5** (management methods). A beginner-first course may cover these at summarize level; decide whether that meets the exam bar or warrants a short supplemental lesson.
-- [ ] **Optional cleanup:** re-tag each lesson's front-matter `objective_ids` to the official numbers in this table (currently they use the course's own scheme).
+- [ ] **Fill the three gaps:** exam-depth supplements for **1.3** (cloud), **1.8** (modern environments), **2.4** (physical installations) — in progress.
+- [ ] **Depth add-ons:** lift **1.2** (full appliance list), **2.1** (dynamic routing), **3.4** (IPv6 services), **3.5** (management methods) from summarize-level to exam depth — in progress.
+- [x] **Front-matter re-tag:** every lesson's `objective_ids` now uses the official numbers in this table (or a non-tested label).
 
 ## Front-matter note (numbering)
 
-The `objective_ids` in lesson YAML front-matter (e.g., `1.4` on the IP-addressing lessons) predate this reconciliation and use the course's internal numbering, **not** the official N10-009 numbers (official IPv4 addressing is **1.7**, topologies **1.6**, etc.). This map is the authoritative crosswalk. Re-tagging the front-matter to the official IDs is a low-risk consistency cleanup, tracked as the optional item above.
+The `objective_ids` in lesson YAML front-matter now use the **official N10-009 numbers** shown in this map (IPv4 addressing **1.7**, topologies/types **1.6**, services **3.4**, ports/protocols **1.4**, and so on). Lessons that map to no tested objective carry a plain-language label instead: `orientation` (Module 00), `on-ramp` (Modules 01–03), or `exam-readiness` (Module 15 lessons 02–07). This map remains the authoritative content crosswalk; the front-matter and this table now agree.
 
 ---
 _NetworkAcademy+ · Objective Coverage Map · CompTIA Network+ N10-009 · objectives quoted from CompTIA's official N10-009 exam objectives (V4.0)_

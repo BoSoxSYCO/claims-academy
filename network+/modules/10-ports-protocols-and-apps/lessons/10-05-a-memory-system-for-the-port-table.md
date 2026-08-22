@@ -4,7 +4,7 @@ module: 10
 lesson: 05
 title: "A Memory System for the Port Table"
 unit: 7
-objective_ids: ["1.5"]
+objective_ids: ["1.4"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

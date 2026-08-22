@@ -4,7 +4,7 @@ module: 14
 lesson: 06
 title: "Troubleshooting Names, Speed, and Wireless"
 unit: 11
-objective_ids: ["5.2", "5.3", "5.4"]
+objective_ids: ["5.3", "5.4"]
 reading_level_target: 7
 status: Published
 est_minutes: 35

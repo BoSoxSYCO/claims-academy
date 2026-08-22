@@ -4,7 +4,7 @@ module: 11
 lesson: 06
 title: "Inter-VLAN Routing (Getting VLANs to Talk)"
 unit: 8
-objective_ids: ["2.3"]
+objective_ids: ["2.1"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

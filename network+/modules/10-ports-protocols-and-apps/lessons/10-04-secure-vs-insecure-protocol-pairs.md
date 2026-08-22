@@ -4,7 +4,7 @@ module: 10
 lesson: 04
 title: "Secure vs. Insecure Protocol Pairs"
 unit: 7
-objective_ids: ["1.5", "4.1"]
+objective_ids: ["1.4", "4.1"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

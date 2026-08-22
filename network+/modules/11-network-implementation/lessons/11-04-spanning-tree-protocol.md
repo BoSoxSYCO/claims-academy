@@ -4,7 +4,7 @@ module: 11
 lesson: 04
 title: "Spanning Tree Protocol (Loop Prevention)"
 unit: 8
-objective_ids: ["2.3"]
+objective_ids: ["2.2"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

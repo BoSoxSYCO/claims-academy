@@ -4,7 +4,7 @@ module: 01
 lesson: 06
 title: "What a Server and a Client Are"
 unit: 1
-objective_ids: ["on-ramp", "1.0"]
+objective_ids: ["on-ramp"]
 reading_level_target: 7
 status: Published
 est_minutes: 20

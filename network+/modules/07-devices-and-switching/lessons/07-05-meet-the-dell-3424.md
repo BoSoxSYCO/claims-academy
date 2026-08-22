@@ -4,7 +4,7 @@ module: 07
 lesson: 05
 title: "Meet the Dell PowerConnect 3424 (Managed Switch)"
 unit: 4
-objective_ids: ["2.1", "2.3"]
+objective_ids: ["1.2"]
 reading_level_target: 7
 status: Published
 est_minutes: 28

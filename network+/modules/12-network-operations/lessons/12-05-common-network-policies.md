@@ -4,7 +4,7 @@ module: 12
 lesson: 05
 title: "Common Network Policies and Best Practices"
 unit: 9
-objective_ids: ["3.4"]
+objective_ids: ["3.1"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

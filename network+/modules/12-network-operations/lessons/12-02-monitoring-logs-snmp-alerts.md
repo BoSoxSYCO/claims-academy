@@ -4,7 +4,7 @@ module: 12
 lesson: 02
 title: "Monitoring, Logs, SNMP, and Alerts"
 unit: 9
-objective_ids: ["3.1"]
+objective_ids: ["3.2"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

@@ -4,7 +4,7 @@ module: 09
 lesson: 01
 title: "DHCP: How Devices Get an Address Automatically"
 unit: 6
-objective_ids: ["1.4", "2.1"]
+objective_ids: ["3.4"]
 reading_level_target: 7
 status: Published
 est_minutes: 28

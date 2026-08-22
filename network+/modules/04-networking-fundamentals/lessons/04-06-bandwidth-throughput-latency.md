@@ -4,7 +4,7 @@ module: 04
 lesson: 06
 title: "Bandwidth, Throughput, and Latency in Plain Words"
 unit: 2
-objective_ids: ["1.2", "5.3"]
+objective_ids: ["5.4"]
 reading_level_target: 7
 status: Published
 est_minutes: 25

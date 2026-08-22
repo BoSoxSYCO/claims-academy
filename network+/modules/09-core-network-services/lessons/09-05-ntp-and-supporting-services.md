@@ -4,7 +4,7 @@ module: 09
 lesson: 05
 title: "Time (NTP) and Other Supporting Services"
 unit: 6
-objective_ids: ["1.4", "3.1"]
+objective_ids: ["3.4"]
 reading_level_target: 7
 status: Published
 est_minutes: 26

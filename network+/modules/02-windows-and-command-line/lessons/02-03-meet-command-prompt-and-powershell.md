@@ -4,7 +4,7 @@ module: 02
 lesson: 03
 title: "Meet the Command Prompt and PowerShell"
 unit: 1
-objective_ids: ["on-ramp", "5.0"]
+objective_ids: ["on-ramp"]
 reading_level_target: 7
 status: Published
 est_minutes: 25

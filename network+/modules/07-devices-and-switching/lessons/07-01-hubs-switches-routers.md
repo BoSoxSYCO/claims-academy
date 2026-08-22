@@ -4,7 +4,7 @@ module: 07
 lesson: 01
 title: "Hubs, Switches, Routers — What's the Difference?"
 unit: 4
-objective_ids: ["2.1"]
+objective_ids: ["1.2"]
 reading_level_target: 7
 status: Published
 est_minutes: 27

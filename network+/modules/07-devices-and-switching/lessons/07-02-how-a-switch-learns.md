@@ -4,7 +4,7 @@ module: 07
 lesson: 02
 title: "MAC Addresses and How a Switch Learns Them"
 unit: 4
-objective_ids: ["2.1"]
+objective_ids: ["1.2"]
 reading_level_target: 7
 status: Published
 est_minutes: 28

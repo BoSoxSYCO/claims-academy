@@ -4,7 +4,7 @@ module: 15
 lesson: 01
 title: "Capstone Project: Build the Whole Home Lab"
 unit: 12
-objective_ids: ["1.1", "2.1", "2.3", "5.3"]
+objective_ids: ["2.1", "2.2", "2.3"]
 reading_level_target: 7
 status: Published
 est_minutes: 45

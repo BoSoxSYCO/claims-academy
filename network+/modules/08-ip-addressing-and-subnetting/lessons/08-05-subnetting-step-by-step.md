@@ -4,7 +4,7 @@ module: 08
 lesson: 05
 title: "Subnetting Step by Step (the Beginner Method)"
 unit: 5
-objective_ids: ["1.4"]
+objective_ids: ["1.7"]
 reading_level_target: 7
 status: Published
 est_minutes: 32

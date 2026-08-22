@@ -4,7 +4,7 @@ module: 10
 lesson: 03
 title: "The Must-Know Ports (Web, Mail, Remote, Files)"
 unit: 7
-objective_ids: ["1.5"]
+objective_ids: ["1.4"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

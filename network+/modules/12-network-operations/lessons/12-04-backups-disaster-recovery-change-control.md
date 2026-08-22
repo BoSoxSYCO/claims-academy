@@ -4,7 +4,7 @@ module: 12
 lesson: 04
 title: "Backups, Disaster Recovery, and Change Control"
 unit: 9
-objective_ids: ["3.3"]
+objective_ids: ["3.3", "3.1"]
 reading_level_target: 7
 status: Published
 est_minutes: 30

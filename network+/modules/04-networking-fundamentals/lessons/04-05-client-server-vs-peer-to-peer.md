@@ -4,7 +4,7 @@ module: 04
 lesson: 05
 title: "Client-Server vs. Peer-to-Peer"
 unit: 2
-objective_ids: ["1.2"]
+objective_ids: ["1.6"]
 reading_level_target: 7
 status: Published
 est_minutes: 25

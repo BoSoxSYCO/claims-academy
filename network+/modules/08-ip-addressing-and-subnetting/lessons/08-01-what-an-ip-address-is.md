@@ -4,7 +4,7 @@ module: 08
 lesson: 01
 title: "What an IP Address Is and Why We Need It"
 unit: 5
-objective_ids: ["1.4"]
+objective_ids: ["1.7"]
 reading_level_target: 7
 status: Published
 est_minutes: 25

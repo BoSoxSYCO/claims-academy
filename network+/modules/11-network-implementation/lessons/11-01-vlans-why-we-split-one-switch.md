@@ -4,7 +4,7 @@ module: 11
 lesson: 01
 title: "VLANs: Why We Split One Switch Into Many"
 unit: 8
-objective_ids: ["2.3"]
+objective_ids: ["2.2"]
 reading_level_target: 7
 status: Published
 est_minutes: 30
