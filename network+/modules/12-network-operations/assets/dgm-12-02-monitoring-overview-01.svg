@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 540" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Three ways to watch a network, plus alerts</title>
+  <desc id="desc">Three lanes for watching a network. Lane one, Metrics: an SNMP manager polls each device's agent to pull health numbers, and a device sends a trap to push a warning on trouble; a note says the MIB lists items and each has an OID. Lane two, Logs: devices send Syslog messages to a central log server, with a severity scale from 0, the worst, to 7, debug detail, where lower numbers are more urgent. Lane three, Flow: NetFlow records who talked to whom and how much. At the bottom, when a value crosses a set threshold, an alert is sent to the administrator.</desc>
+
+  <rect x="0" y="0" width="740" height="540" fill="#ffffff"/>
+  <text x="370" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2a3a">Three ways to watch a network</text>
+
+  <!-- METRICS lane -->
+  <rect x="20" y="48" width="700" height="120" rx="10" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="36" y="72" font-size="15" font-weight="bold" fill="#2b6cb0">1 · METRICS (SNMP) — "how is it doing?"</text>
+  <rect x="40" y="86" width="120" height="40" rx="5" fill="#ffffff" stroke="#2b6cb0"/>
+  <text x="100" y="111" text-anchor="middle" font-size="12" fill="#1a2a3a">Manager</text>
+  <rect x="300" y="86" width="120" height="40" rx="5" fill="#ffffff" stroke="#2b6cb0"/>
+  <text x="360" y="105" text-anchor="middle" font-size="12" fill="#1a2a3a">Device</text>
+  <text x="360" y="119" text-anchor="middle" font-size="10" fill="#555">(agent)</text>
+  <text x="230" y="101" text-anchor="middle" font-size="11" fill="#2f855a">poll → (pull)</text>
+  <line x1="160" y1="98" x2="298" y2="98" stroke="#2f855a" stroke-width="2"/>
+  <text x="230" y="122" text-anchor="middle" font-size="11" fill="#9b2c2c">← trap (push, on trouble)</text>
+  <line x1="298" y1="116" x2="162" y2="116" stroke="#9b2c2c" stroke-width="2"/>
+  <text x="470" y="103" font-size="11.5" fill="#1a2a3a">MIB = catalog of items</text>
+  <text x="470" y="122" font-size="11.5" fill="#1a2a3a">OID = one item's address</text>
+
+  <!-- LOGS lane -->
+  <rect x="20" y="180" width="700" height="120" rx="10" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="36" y="204" font-size="15" font-weight="bold" fill="#2f855a">2 · LOGS (Syslog) — "what happened?"</text>
+  <text x="40" y="228" font-size="12" fill="#1a2a3a">devices → Syslog → central log server</text>
+  <text x="40" y="256" font-size="12.5" font-weight="bold" fill="#1a2a3a">Severity:</text>
+  <text x="40" y="278" font-size="12" fill="#1a2a3a">0 Emergency (worst) · 1 · 2 · 3 Error · 4 Warning · 5 · 6 Info · 7 Debug</text>
+  <text x="40" y="295" font-size="11" font-style="italic" fill="#9b2c2c">Lower number = more urgent.</text>
+
+  <!-- FLOW lane -->
+  <rect x="20" y="312" width="700" height="80" rx="10" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="36" y="336" font-size="15" font-weight="bold" fill="#c05621">3 · FLOW (NetFlow) — "who talked to whom?"</text>
+  <text x="40" y="362" font-size="12.5" fill="#1a2a3a">Records each conversation: source → destination, and how much data.</text>
+  <text x="40" y="382" font-size="11.5" font-style="italic" fill="#555">Helps spot heavy users and odd traffic.</text>
+
+  <!-- THRESHOLD / ALERT -->
+  <rect x="20" y="404" width="700" height="66" rx="10" fill="#fffbe8" stroke="#b7791f" stroke-width="2"/>
+  <text x="370" y="432" text-anchor="middle" font-size="14" fill="#1a2a3a">A value crosses a set <tspan font-weight="bold">threshold</tspan>  →  an <tspan font-weight="bold">ALERT</tspan> is sent to you.</text>
+  <text x="370" y="454" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555">Each lane is titled with its question; the severity scale uses numbers 0–7 and text, not color alone.</text>
+
+  <text x="370" y="500" text-anchor="middle" font-size="12.5" fill="#1a2a3a">Poll <tspan font-weight="bold">pulls</tspan> on a schedule · a trap <tspan font-weight="bold">pushes</tspan> the moment something breaks.</text>
+</svg>

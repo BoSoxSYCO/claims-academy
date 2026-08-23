@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" role="img" aria-labelledby="pbq-title pbq-desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="pbq-title">The five-step PBQ method and the three PBQ formats</title>
+  <desc id="pbq-desc">On the left, a five-step method for any Performance-Based Question: read the whole task, plan your answer, do the parts you are sure of, guess the rest so every sub-part is answered, and check that nothing is blank. On the right, three cards name the common formats: drag-and-drop with an OSI layers example, fill-in or configure with an IP settings example, and label or identify with a cable-type example.</desc>
+
+  <rect x="0" y="0" width="880" height="480" fill="#ffffff"/>
+  <text x="440" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#12263a">Any PBQ: same five steps</text>
+  <text x="440" y="56" text-anchor="middle" font-size="13" fill="#3a4a5a">Known content in a hands-on wrapper</text>
+
+  <!-- Left: five steps -->
+  <g>
+    <rect x="40" y="86" width="300" height="46" rx="8" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+    <text x="60" y="114" font-size="14" fill="#12263a">1. READ the whole task — know the goal</text>
+    <line x1="190" y1="132" x2="190" y2="150" stroke="#333" stroke-width="2"/>
+
+    <rect x="40" y="150" width="300" height="46" rx="8" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="2"/>
+    <text x="60" y="178" font-size="14" fill="#12263a">2. PLAN before touching the screen</text>
+    <line x1="190" y1="196" x2="190" y2="214" stroke="#333" stroke-width="2"/>
+
+    <rect x="40" y="214" width="300" height="46" rx="8" fill="#dbeadd" stroke="#2e7d5b" stroke-width="2"/>
+    <text x="60" y="242" font-size="14" fill="#12263a">3. DO the sure parts first</text>
+    <line x1="190" y1="260" x2="190" y2="278" stroke="#333" stroke-width="2"/>
+
+    <rect x="40" y="278" width="300" height="46" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+    <text x="60" y="306" font-size="14" fill="#12263a">4. GUESS the rest — answer every part</text>
+    <line x1="190" y1="324" x2="190" y2="342" stroke="#333" stroke-width="2"/>
+
+    <rect x="40" y="342" width="300" height="46" rx="8" fill="#12263a"/>
+    <text x="60" y="370" font-size="14" font-weight="bold" fill="#ffffff">5. CHECK for blanks — leave none</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="400" y1="80" x2="400" y2="400" stroke="#cbd5df" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- Right: three format cards -->
+  <text x="640" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">Three common formats</text>
+
+  <rect x="440" y="120" width="400" height="80" rx="8" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+  <text x="456" y="146" font-size="14" font-weight="bold" fill="#12263a">Drag-and-drop / matching</text>
+  <text x="456" y="168" font-size="12" fill="#3a4a5a">Example: drag IP→L3, MAC→L2, cable→L1, port→L4</text>
+  <text x="456" y="188" font-size="12" fill="#3a4a5a">Move: place the sure ones first</text>
+
+  <rect x="440" y="212" width="400" height="80" rx="8" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="2"/>
+  <text x="456" y="238" font-size="14" font-weight="bold" fill="#12263a">Fill-in / configure</text>
+  <text x="456" y="260" font-size="12" fill="#3a4a5a">Example: IP 192.168.1.10 · mask 255.255.255.0 · gw .1</text>
+  <text x="456" y="280" font-size="12" fill="#3a4a5a">Key: /24 = 255.255.255.0</text>
+
+  <rect x="440" y="304" width="400" height="80" rx="8" fill="#dbeadd" stroke="#2e7d5b" stroke-width="2"/>
+  <text x="456" y="330" font-size="14" font-weight="bold" fill="#12263a">Label / identify</text>
+  <text x="456" y="352" font-size="12" fill="#3a4a5a">Example: PC→switch = straight-through; long run = fiber</text>
+  <text x="456" y="372" font-size="12" fill="#3a4a5a">Move: match the cable to the job</text>
+
+  <!-- Footer -->
+  <text x="440" y="432" text-anchor="middle" font-size="13" fill="#12263a">Answer every sub-part — partial credit is possible; a blank is zero.</text>
+</svg>

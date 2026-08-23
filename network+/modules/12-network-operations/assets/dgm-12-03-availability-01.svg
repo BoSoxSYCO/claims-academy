@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 540" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Availability: measure, protect, and promise</title>
+  <desc id="desc">An availability overview in three panels. Panel one, Measure: a nines table showing 99 percent is about 3.65 days down per year, 99.9 percent about 8.8 hours, 99.99 percent about 53 minutes, and 99.999 percent about 5 minutes, with a note that more nines means less downtime and more cost. Panel two, Protect: two network paths where one is active shown as a solid line and one is standby shown as a dashed line, with a failover arrow showing the automatic switch to the backup when the active path fails, giving high availability. Panel three, Promise: an SLA card reading guarantee 99.9 percent uptime. Beneath, four metrics: MTBF is the average time a part runs before failing, MTTR is the average time to repair it, RPO is how much data you can afford to lose, and RTO is how fast you must recover.</desc>
+
+  <rect x="0" y="0" width="740" height="540" fill="#ffffff"/>
+  <text x="370" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2a3a">Availability: measure · protect · promise</text>
+
+  <!-- Panel 1: Measure -->
+  <rect x="20" y="48" width="230" height="230" rx="10" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="36" y="72" font-size="14" font-weight="bold" fill="#2b6cb0">1 · MEASURE (the "nines")</text>
+  <text x="36" y="100" font-size="12.5" fill="#1a2a3a">99%  → ~3.65 days/yr</text>
+  <text x="36" y="124" font-size="12.5" fill="#1a2a3a">99.9%  → ~8.8 hours/yr</text>
+  <text x="36" y="148" font-size="12.5" fill="#1a2a3a">99.99%  → ~53 min/yr</text>
+  <text x="36" y="172" font-size="12.5" fill="#1a2a3a">99.999%  → ~5 min/yr</text>
+  <text x="36" y="210" font-size="11.5" font-style="italic" fill="#9b2c2c">More nines =</text>
+  <text x="36" y="228" font-size="11.5" font-style="italic" fill="#9b2c2c">less downtime,</text>
+  <text x="36" y="246" font-size="11.5" font-style="italic" fill="#9b2c2c">much more cost.</text>
+
+  <!-- Panel 2: Protect -->
+  <rect x="262" y="48" width="230" height="230" rx="10" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="278" y="72" font-size="14" font-weight="bold" fill="#2f855a">2 · PROTECT (redundancy)</text>
+  <rect x="290" y="92" width="80" height="34" rx="5" fill="#ffffff" stroke="#2f855a"/>
+  <text x="330" y="114" text-anchor="middle" font-size="11.5" fill="#1a2a3a">Switch A</text>
+  <rect x="390" y="92" width="80" height="34" rx="5" fill="#ffffff" stroke="#2f855a"/>
+  <text x="430" y="114" text-anchor="middle" font-size="11.5" fill="#1a2a3a">Switch B</text>
+  <line x1="370" y1="102" x2="390" y2="102" stroke="#2f855a" stroke-width="3"/>
+  <text x="330" y="146" font-size="10.5" fill="#2f855a">active (solid)</text>
+  <line x1="330" y1="152" x2="430" y2="152" stroke="#9b2c2c" stroke-width="2" stroke-dasharray="7,5"/>
+  <text x="330" y="172" font-size="10.5" fill="#9b2c2c">standby (dashed)</text>
+  <text x="278" y="206" font-size="12" fill="#1a2a3a">A part fails →</text>
+  <text x="278" y="226" font-size="12.5" font-weight="bold" fill="#2f855a">FAILOVER (auto switch)</text>
+  <text x="278" y="252" font-size="11.5" font-style="italic" fill="#555">= high availability.</text>
+
+  <!-- Panel 3: Promise -->
+  <rect x="504" y="48" width="216" height="230" rx="10" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="520" y="72" font-size="14" font-weight="bold" fill="#c05621">3 · PROMISE (SLA)</text>
+  <rect x="524" y="96" width="176" height="90" rx="6" fill="#ffffff" stroke="#c05621"/>
+  <text x="612" y="128" text-anchor="middle" font-size="12.5" fill="#1a2a3a">Service Level Agreement</text>
+  <text x="612" y="154" text-anchor="middle" font-size="15" font-weight="bold" fill="#c05621">"99.9% uptime"</text>
+  <text x="612" y="176" text-anchor="middle" font-size="11" fill="#1a2a3a">a written promise</text>
+  <text x="520" y="214" font-size="11.5" fill="#1a2a3a">Miss it → you may</text>
+  <text x="520" y="232" font-size="11.5" fill="#1a2a3a">get money back.</text>
+
+  <!-- Metrics row -->
+  <rect x="20" y="292" width="700" height="150" rx="10" fill="#f2f2f2" stroke="#4a5568" stroke-width="2"/>
+  <text x="36" y="316" font-size="14" font-weight="bold" fill="#1a2a3a">FOUR METRICS</text>
+  <text x="36" y="344" font-size="12.5" fill="#1a2a3a"><tspan font-weight="bold">MTBF</tspan> — Mean Time Between Failures: how long a part runs before failing (higher is better).</text>
+  <text x="36" y="368" font-size="12.5" fill="#1a2a3a"><tspan font-weight="bold">MTTR</tspan> — Mean Time To Repair: how long to fix it (lower is better).</text>
+  <text x="36" y="392" font-size="12.5" fill="#1a2a3a"><tspan font-weight="bold">RPO</tspan> — Recovery Point Objective: how much data you can afford to lose.</text>
+  <text x="36" y="416" font-size="12.5" fill="#1a2a3a"><tspan font-weight="bold">RTO</tspan> — Recovery Time Objective: how fast you must be back up.</text>
+
+  <text x="370" y="470" text-anchor="middle" font-size="12.5" fill="#1a2a3a">Measure in nines, protect with redundancy + failover, promise with an SLA.</text>
+  <text x="370" y="492" text-anchor="middle" font-size="11.5" font-style="italic" fill="#777">Panels are titled in words; active vs. standby paths use solid vs. dashed lines with labels, not color alone.</text>
+</svg>

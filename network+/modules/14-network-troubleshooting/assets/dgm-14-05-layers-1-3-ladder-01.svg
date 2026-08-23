@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">A bottom-up troubleshooting ladder for OSI Layers 1 to 3</title>
+  <desc id="desc">A three-rung troubleshooting ladder climbed from the bottom up. The bottom rung, Layer 1 Physical, marked start here: check the cable is plugged in at both ends, check the link light is on, and test the cable with a cable tester. The middle rung, Layer 2 Data Link: check the device is on the right VLAN and switch port, check for a duplex mismatch where one side is full and the other half, and check for errors on the port. The top rung, Layer 3 Network: run ipconfig to confirm a real IP address rather than a 169.254 APIPA address that means no DHCP answered, check the subnet mask, and ping the default gateway. A note says fix the lowest broken layer first, because most faults are physical.</desc>
+
+  <rect x="0" y="0" width="760" height="440" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Climb the ladder — bottom-up (Layers 1–3)</text>
+
+  <!-- upward arrow on the left -->
+  <line x1="60" y1="380" x2="60" y2="80" stroke="#1a2b4a" stroke-width="3" marker-end="url(#arr)"/>
+  <text x="44" y="240" text-anchor="middle" font-size="12" fill="#54606e" transform="rotate(-90 44 240)">start at the bottom</text>
+
+  <!-- L3 top -->
+  <rect x="90" y="70" width="640" height="86" rx="10" fill="#f3eefb" stroke="#7a4fbf" stroke-width="2"/>
+  <text x="110" y="94" font-size="15" font-weight="bold" fill="#7a4fbf">Layer 3 — Network</text>
+  <text x="110" y="118" font-size="13" fill="#1a2b4a">Real IP? (not 169.254 = APIPA = no DHCP) · right subnet · ping the default gateway.</text>
+  <text x="110" y="140" font-size="12" fill="#54606e">Tools: ipconfig, ping</text>
+
+  <!-- L2 middle -->
+  <rect x="90" y="166" width="640" height="86" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <text x="110" y="190" font-size="15" font-weight="bold" fill="#2e8b57">Layer 2 — Data Link</text>
+  <text x="110" y="214" font-size="13" fill="#1a2b4a">Right VLAN / switch port? · no duplex mismatch? · few errors on the port?</text>
+  <text x="110" y="236" font-size="12" fill="#54606e">Tools: switch, port stats</text>
+
+  <!-- L1 bottom -->
+  <rect x="90" y="262" width="640" height="96" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="600" y="272" width="118" height="26" rx="6" fill="#2f6db0"/>
+  <text x="659" y="290" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">START HERE</text>
+  <text x="110" y="290" font-size="15" font-weight="bold" fill="#2f6db0">Layer 1 — Physical</text>
+  <text x="110" y="314" font-size="13" fill="#1a2b4a">Cable plugged in (both ends)? · link light ON? · cable good?</text>
+  <text x="110" y="336" font-size="12" fill="#54606e">Tools: your eyes, cable tester (reseat / replace the cable)</text>
+
+  <text x="380" y="392" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Fix the lowest broken layer first — most faults are physical (Layer 1).</text>
+  <text x="380" y="414" text-anchor="middle" font-size="11" fill="#54606e">Don't check IP settings while the cable is unplugged.</text>
+
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a2b4a"/>
+    </marker>
+  </defs>
+</svg>

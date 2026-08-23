@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">CIDR: writing a subnet mask as a slash value</title>
+  <desc id="desc">A subnet mask 255.255.255.0 with each of the first three octets labeled as 8 ones and the last as 0, summing to 24 network bits, written as slash 24. A table converts default masks to slashes: 255.0.0.0 is slash 8, 255.255.0.0 is slash 16, and 255.255.255.0 is slash 24. An octet-to-bits table shows 0 equals 0 bits, 128 equals 1, 192 equals 2, 224 equals 3, 240 equals 4, 248 equals 5, 252 equals 6, 254 equals 7, and 255 equals 8. Two worked examples show 255.255.255.128 equals slash 25 and 255.255.255.192 equals slash 26.</desc>
+
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">CIDR: count the 1s in the mask</text>
+
+  <!-- mask octets summing -->
+  <g>
+    <rect x="150" y="55" width="120" height="60" rx="5" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+    <rect x="275" y="55" width="120" height="60" rx="5" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+    <rect x="400" y="55" width="120" height="60" rx="5" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+    <rect x="525" y="55" width="120" height="60" rx="5" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  </g>
+  <g font-family="monospace" font-size="18" text-anchor="middle">
+    <text x="210" y="82" fill="#14532d">255</text>
+    <text x="335" y="82" fill="#14532d">255</text>
+    <text x="460" y="82" fill="#14532d">255</text>
+    <text x="585" y="82" fill="#5b21b6">0</text>
+  </g>
+  <g font-size="12" text-anchor="middle" fill="#166534">
+    <text x="210" y="104">8 ones</text>
+    <text x="335" y="104">8 ones</text>
+    <text x="460" y="104">8 ones</text>
+    <text x="585" y="104" fill="#6d28d9">0</text>
+  </g>
+  <text x="450" y="145" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">8 + 8 + 8 + 0 = 24 network bits  →  <tspan fill="#1d4ed8">/24</tspan></text>
+
+  <!-- default table -->
+  <rect x="30" y="175" width="380" height="150" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="220" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">Default masks ↔ slashes</text>
+  <g font-size="14" fill="#111" font-family="monospace">
+    <text x="55" y="230">255.0.0.0</text><text x="300" y="230" font-weight="bold" fill="#1d4ed8">/8</text>
+    <text x="55" y="262">255.255.0.0</text><text x="300" y="262" font-weight="bold" fill="#1d4ed8">/16</text>
+    <text x="55" y="294">255.255.255.0</text><text x="300" y="294" font-weight="bold" fill="#1d4ed8">/24</text>
+  </g>
+  <text x="220" y="315" text-anchor="middle" font-size="11" fill="#475569">(count the 255 octets × 8)</text>
+
+  <!-- octet to bits -->
+  <rect x="430" y="175" width="440" height="150" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="650" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Octet → bits (partial octets)</text>
+  <g font-size="13" font-family="monospace" fill="#111">
+    <text x="450" y="228">0 = 0</text>
+    <text x="530" y="228">128 = 1</text>
+    <text x="630" y="228">192 = 2</text>
+    <text x="730" y="228">224 = 3</text>
+    <text x="450" y="256">240 = 4</text>
+    <text x="530" y="256">248 = 5</text>
+    <text x="630" y="256">252 = 6</text>
+    <text x="730" y="256">254 = 7</text>
+    <text x="450" y="284">255 = 8</text>
+  </g>
+  <text x="650" y="312" text-anchor="middle" font-size="11" fill="#475569">the 1s fill in one bit at a time</text>
+
+  <!-- examples -->
+  <rect x="30" y="345" width="840" height="90" rx="10" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  <text x="450" y="370" text-anchor="middle" font-size="14" font-weight="bold" fill="#78350f">Worked examples</text>
+  <text x="240" y="402" text-anchor="middle" font-size="15" font-family="monospace" fill="#111">255.255.255.128 = 8+8+8+1 = <tspan font-weight="bold" fill="#b45309">/25</tspan></text>
+  <text x="660" y="402" text-anchor="middle" font-size="15" font-family="monospace" fill="#111">255.255.255.192 = 8+8+8+2 = <tspan font-weight="bold" fill="#b45309">/26</tspan></text>
+
+  <!-- caption -->
+  <text x="450" y="465" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">A slash counts BITS, not octets. Each 255 = 8. CIDR is classless — split anywhere.</text>
+  <text x="450" y="487" text-anchor="middle" font-size="12" fill="#475569">Shorthand, like "a dozen" = 12: the mask is still there underneath.</text>
+</svg>

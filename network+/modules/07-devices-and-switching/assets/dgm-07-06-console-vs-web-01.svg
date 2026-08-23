@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Two ways to manage a switch: console (out-of-band) and web (in-band)</title>
+  <desc id="desc">Two ways to manage a switch shown one above the other. On top, a laptop running a terminal connects by a console cable straight into the switch's console port. This path is labeled out-of-band: it always works and is used for the first login, with serial settings 9600 8-N-1. Below, a web browser reaches the switch's IP address across the local network. This path is labeled in-band: it is an easy point-and-click web page, but it needs a working network and the switch's IP address. A caption says to start with the console for first setup, and use the web for everyday changes on a live network.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Two doors into a managed switch</text>
+
+  <!-- DOOR 1: CONSOLE (out-of-band) -->
+  <rect x="30" y="55" width="840" height="170" rx="10" fill="#f5f3ff" stroke="#6d28d9" stroke-width="2"/>
+  <text x="55" y="82" font-size="15" font-weight="bold" fill="#5b21b6">Door 1 — Console  (out-of-band: no network needed)</text>
+
+  <!-- laptop -->
+  <rect x="70" y="100" width="130" height="80" rx="6" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="135" y="132" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">Laptop</text>
+  <text x="135" y="152" text-anchor="middle" font-size="11" fill="#6d28d9">terminal</text>
+  <text x="135" y="168" text-anchor="middle" font-size="11" fill="#6d28d9">(PuTTY)</text>
+
+  <!-- console cable arrow -->
+  <line x1="200" y1="140" x2="560" y2="140" stroke="#5b21b6" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="380" y="126" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">console cable</text>
+  <text x="380" y="160" text-anchor="middle" font-size="11" fill="#6d28d9">9600 8-N-1 (serial)</text>
+
+  <!-- console port on switch -->
+  <rect x="580" y="105" width="150" height="70" rx="6" fill="#ffffff" stroke="#5b21b6" stroke-width="2"/>
+  <text x="655" y="132" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">CONSOLE port</text>
+  <text x="655" y="152" text-anchor="middle" font-size="10" fill="#6d28d9">on the switch</text>
+  <!-- always works badge -->
+  <text x="750" y="130" font-size="11" font-weight="bold" fill="#166534">✓ always works</text>
+  <text x="750" y="148" font-size="10" fill="#14532d">used for the</text>
+  <text x="750" y="162" font-size="10" fill="#14532d">FIRST login</text>
+
+  <!-- DOOR 2: WEB (in-band) -->
+  <rect x="30" y="245" width="840" height="170" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="55" y="272" font-size="15" font-weight="bold" fill="#1e3a8a">Door 2 — Web  (in-band: rides on the network)</text>
+
+  <!-- browser -->
+  <rect x="70" y="290" width="130" height="80" rx="6" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="135" y="322" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">Browser</text>
+  <text x="135" y="342" text-anchor="middle" font-size="11" fill="#1d4ed8">http://</text>
+  <text x="135" y="358" text-anchor="middle" font-size="10" fill="#1d4ed8">switch IP</text>
+
+  <!-- LAN cloud -->
+  <ellipse cx="380" cy="330" rx="70" ry="38" fill="#e2e8f0" stroke="#334155" stroke-width="2"/>
+  <text x="380" y="328" text-anchor="middle" font-size="12" fill="#334155">LAN</text>
+  <text x="380" y="345" text-anchor="middle" font-size="9" fill="#64748b">(the network)</text>
+
+  <line x1="200" y1="330" x2="305" y2="330" stroke="#1d4ed8" stroke-width="3" marker-end="url(#ab)"/>
+  <line x1="450" y1="330" x2="560" y2="330" stroke="#1d4ed8" stroke-width="3" marker-end="url(#ab)"/>
+
+  <!-- switch web page -->
+  <rect x="580" y="295" width="150" height="70" rx="6" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="655" y="322" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">Switch IP</text>
+  <text x="655" y="342" text-anchor="middle" font-size="10" fill="#1d4ed8">web page (GUI)</text>
+  <!-- needs network badge -->
+  <text x="748" y="320" font-size="11" font-weight="bold" fill="#b45309">easy, but</text>
+  <text x="748" y="338" font-size="10" fill="#78350f">needs a working</text>
+  <text x="748" y="352" font-size="10" fill="#78350f">network + IP</text>
+
+  <!-- bottom caption -->
+  <text x="450" y="445" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">First setup → Console.   Everyday changes on a live network → Web.</text>
+
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3.5 L0,7 z" fill="#5b21b6"/></marker>
+    <marker id="ab" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3.5 L0,7 z" fill="#1d4ed8"/></marker>
+  </defs>
+</svg>

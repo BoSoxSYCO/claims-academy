@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Hardware diagnostic tools grouped by the physical question each answers</title>
+  <desc id="desc">A grid of hardware tools grouped by the physical question each answers. Copper cable: a cable tester finds opens, shorts, and miswires; a cable certifier also checks the cable meets a speed standard like crosstalk and attenuation limits. Find a cable: a tone generator sends a tone and a toner probe beeps to trace that cable through a bundle or wall. Test a port: a loopback plug loops a port's transmit back to its receive to test the port or network card — a note stresses this is a physical adapter, not the software loopback address 127.0.0.1. Fiber: an OTDR reports the distance to a fiber break, and a light meter measures how much light arrives. Wireless: a Wi-Fi analyzer shows signal strength and which channels are busy.</desc>
+
+  <rect x="0" y="0" width="760" height="520" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Hardware tools — the right tool for a physical fault</text>
+
+  <!-- Group: Copper cable -->
+  <rect x="24" y="50" width="712" height="78" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <text x="40" y="72" font-size="14" font-weight="bold" fill="#2f6db0">Copper cable</text>
+  <text x="40" y="96" font-size="12" fill="#1a2b4a"><tspan font-weight="bold">Cable tester</tspan> — finds opens, shorts, and miswires.</text>
+  <text x="40" y="116" font-size="12" fill="#1a2b4a"><tspan font-weight="bold">Cable certifier</tspan> — also checks the cable meets a speed standard (crosstalk, attenuation).</text>
+
+  <!-- Group: Find a cable -->
+  <rect x="24" y="138" width="712" height="58" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <text x="40" y="160" font-size="14" font-weight="bold" fill="#2e8b57">Find a cable</text>
+  <text x="40" y="184" font-size="12" fill="#1a2b4a"><tspan font-weight="bold">Tone generator + toner probe</tspan> — send a tone, then beep to trace the cable in a bundle or wall.</text>
+
+  <!-- Group: Test a port -->
+  <rect x="24" y="206" width="712" height="78" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <text x="40" y="228" font-size="14" font-weight="bold" fill="#c07f2f">Test a port</text>
+  <text x="40" y="252" font-size="12" fill="#1a2b4a"><tspan font-weight="bold">Loopback plug</tspan> — loops a port's transmit back to receive to test the port or NIC.</text>
+  <text x="40" y="272" font-size="12" fill="#9b2d2d">⚠ A physical adapter — NOT the software loopback address 127.0.0.1.</text>
+
+  <!-- Group: Fiber -->
+  <rect x="24" y="294" width="712" height="78" rx="10" fill="#f3eefb" stroke="#7a4fbf" stroke-width="2"/>
+  <text x="40" y="316" font-size="14" font-weight="bold" fill="#7a4fbf">Fiber</text>
+  <text x="40" y="340" font-size="12" fill="#1a2b4a"><tspan font-weight="bold">OTDR</tspan> — reports the distance to a fiber break or fault.</text>
+  <text x="40" y="360" font-size="12" fill="#1a2b4a"><tspan font-weight="bold">Light meter</tspan> — measures how much light arrives (too little = loss).</text>
+
+  <!-- Group: Wireless -->
+  <rect x="24" y="382" width="712" height="58" rx="10" fill="#fdeef0" stroke="#b0416a" stroke-width="2"/>
+  <text x="40" y="404" font-size="14" font-weight="bold" fill="#b0416a">Wireless</text>
+  <text x="40" y="428" font-size="12" fill="#1a2b4a"><tspan font-weight="bold">Wi-Fi analyzer</tspan> — shows signal strength and which channels are busy.</text>
+
+  <text x="380" y="470" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Software says "no connection" — a hardware tool finds why.</text>
+  <text x="380" y="494" text-anchor="middle" font-size="11" fill="#54606e">Never test a live, in-use port — use a spare or unused one.</text>
+</svg>

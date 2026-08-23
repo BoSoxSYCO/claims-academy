@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">PAT sharing one public address using port numbers</title>
+  <desc id="desc">PAT sharing one public address. Three inside devices — 192.168.1.24, .25, and .26, each using a different local port — are mapped through the router's NAT translation table to one public address, 203.0.113.7, each with a different public port: 40001, 40002, and 40003. When a reply arrives at 203.0.113.7 port 40002, the table shows it belongs to 192.168.1.25, so the router sends it to that device. A summary lists the three kinds of NAT: static is a fixed one-to-one map, dynamic uses a pool of public addresses, and PAT or overload lets many devices share one public IP by port. A note explains port forwarding sends traffic on a chosen public port to one inside device.</desc>
+
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">PAT — many devices, one public IP (told apart by ports)</text>
+
+  <!-- inside devices -->
+  <text x="130" y="60" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">INSIDE (private)</text>
+  <g font-family="monospace" font-size="12">
+    <rect x="30" y="72" width="210" height="34" rx="5" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/><text x="45" y="94" fill="#5b21b6">192.168.1.24:51000</text>
+    <rect x="30" y="116" width="210" height="34" rx="5" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/><text x="45" y="138" fill="#5b21b6">192.168.1.25:49500</text>
+    <rect x="30" y="160" width="210" height="34" rx="5" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/><text x="45" y="182" fill="#5b21b6">192.168.1.26:52210</text>
+  </g>
+
+  <!-- NAT table -->
+  <rect x="300" y="60" width="300" height="150" rx="10" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="450" y="82" text-anchor="middle" font-size="13" font-weight="bold" fill="#14532d">NAT translation table</text>
+  <g font-family="monospace" font-size="11" fill="#14532d">
+    <text x="315" y="108">.24:51000 ⇄ :40001</text>
+    <text x="315" y="140">.25:49500 ⇄ :40002</text>
+    <text x="315" y="172">.26:52210 ⇄ :40003</text>
+  </g>
+  <text x="450" y="198" text-anchor="middle" font-size="10" fill="#166534">(public IP 203.0.113.7)</text>
+
+  <!-- arrows inside->table -->
+  <g stroke="#6d28d9" stroke-width="2" marker-end="url(#pv)">
+    <line x1="240" y1="89" x2="298" y2="100"/>
+    <line x1="240" y1="133" x2="298" y2="135"/>
+    <line x1="240" y1="177" x2="298" y2="165"/>
+  </g>
+
+  <!-- internet -->
+  <ellipse cx="740" cy="135" rx="80" ry="48" fill="#e2e8f0" stroke="#334155" stroke-width="2"/>
+  <text x="740" y="132" text-anchor="middle" font-size="13" fill="#334155">internet</text>
+  <text x="740" y="150" text-anchor="middle" font-size="10" fill="#64748b">one public IP</text>
+  <line x1="600" y1="135" x2="658" y2="135" stroke="#166534" stroke-width="3" marker-end="url(#gr)"/>
+
+  <!-- reply routing -->
+  <rect x="30" y="230" width="840" height="52" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="450" y="252" text-anchor="middle" font-size="13" fill="#1e3a8a">Reply to <tspan font-family="monospace" font-weight="bold">203.0.113.7:40002</tspan>  →  the table says port 40002 = <tspan font-family="monospace" font-weight="bold">192.168.1.25</tspan>  →  delivered to that device.</text>
+  <text x="450" y="272" text-anchor="middle" font-size="11" fill="#475569">Different port = different inside device. That's how one public IP serves them all.</text>
+
+  <!-- kinds table -->
+  <rect x="30" y="300" width="560" height="120" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="310" y="323" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">Three kinds of NAT</text>
+  <g font-size="12" fill="#111">
+    <text x="50" y="350" font-weight="bold" fill="#166534">Static</text><text x="150" y="350">one private ↔ one public (fixed)</text>
+    <text x="50" y="378" font-weight="bold" fill="#166534">Dynamic</text><text x="150" y="378">private → a pool of public IPs</text>
+    <text x="50" y="406" font-weight="bold" fill="#166534">PAT / overload</text><text x="200" y="406">many private → one public (by port)</text>
+  </g>
+
+  <!-- port forwarding note -->
+  <rect x="610" y="300" width="260" height="120" rx="10" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  <text x="740" y="323" text-anchor="middle" font-size="13" font-weight="bold" fill="#78350f">Port forwarding</text>
+  <text x="740" y="350" text-anchor="middle" font-size="11" fill="#78350f">sends traffic on a chosen</text>
+  <text x="740" y="367" text-anchor="middle" font-size="11" fill="#78350f">public port to ONE inside</text>
+  <text x="740" y="384" text-anchor="middle" font-size="11" fill="#78350f">device (e.g., a game server).</text>
+  <text x="740" y="406" text-anchor="middle" font-size="10" fill="#b45309">Use sparingly + firewall.</text>
+
+  <text x="450" y="448" text-anchor="middle" font-size="12" fill="#94a3b8">(203.0.113.0/24 is a documentation-only address block.)</text>
+
+  <defs>
+    <marker id="pv" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#6d28d9"/></marker>
+    <marker id="gr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#166534"/></marker>
+  </defs>
+</svg>

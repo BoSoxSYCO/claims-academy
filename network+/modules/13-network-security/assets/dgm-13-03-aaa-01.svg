@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 460" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">AAA: authentication, authorization, and accounting in order</title>
+  <desc id="desc">Three numbered steps left to right, joined by arrows, under the heading AAA. Step 1, Authentication, asks 'Who are you?' and is proven with factors: something you know like a password, something you have like a phone, and something you are like a fingerprint; using two or more different factors is MFA. Step 2, Authorization, asks 'What may you do?' and is guided by least privilege, giving only needed access, and RBAC, granting access by job role. Step 3, Accounting, asks 'What did you do?' and keeps a log of every action, tied to Syslog. A footer notes that RADIUS and TACACS plus are servers that perform AAA centrally for many devices.</desc>
+
+  <rect x="0" y="0" width="780" height="460" fill="#ffffff"/>
+  <text x="390" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">AAA — the order of access control</text>
+
+  <!-- Step 1 -->
+  <rect x="20" y="60" width="230" height="316" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="20" y="60" width="230" height="46" rx="10" fill="#2f6db0"/>
+  <text x="135" y="82" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">1 · Authentication</text>
+  <text x="135" y="100" text-anchor="middle" font-size="12" fill="#dce9f6">"Who are you?"</text>
+  <text x="36" y="136" font-size="12" font-weight="bold" fill="#1a2b4a">Factors:</text>
+  <text x="36" y="158" font-size="12" fill="#1a2b4a">• know — a password / PIN</text>
+  <text x="36" y="180" font-size="12" fill="#1a2b4a">• have — a phone / token</text>
+  <text x="36" y="202" font-size="12" fill="#1a2b4a">• are — a fingerprint / face</text>
+  <rect x="36" y="220" width="198" height="30" rx="6" fill="#ffffff" stroke="#2f6db0" stroke-width="1.5"/>
+  <text x="135" y="240" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a2b4a">MFA = two or more factors</text>
+
+  <!-- Step 2 -->
+  <rect x="275" y="60" width="230" height="316" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="275" y="60" width="230" height="46" rx="10" fill="#2e8b57"/>
+  <text x="390" y="82" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">2 · Authorization</text>
+  <text x="390" y="100" text-anchor="middle" font-size="12" fill="#dcefe3">"What may you do?"</text>
+  <text x="291" y="140" font-size="12" font-weight="bold" fill="#1a2b4a">Least privilege</text>
+  <text x="291" y="160" font-size="12" fill="#54606e">only the access you need</text>
+  <text x="291" y="196" font-size="12" font-weight="bold" fill="#1a2b4a">RBAC</text>
+  <text x="291" y="216" font-size="12" fill="#54606e">access by job role,</text>
+  <text x="291" y="232" font-size="12" fill="#54606e">not per person</text>
+
+  <!-- Step 3 -->
+  <rect x="530" y="60" width="230" height="316" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <rect x="530" y="60" width="230" height="46" rx="10" fill="#c07f2f"/>
+  <text x="645" y="82" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">3 · Accounting</text>
+  <text x="645" y="100" text-anchor="middle" font-size="12" fill="#f6e6d3">"What did you do?"</text>
+  <text x="546" y="140" font-size="12" font-weight="bold" fill="#1a2b4a">A log of actions</text>
+  <text x="546" y="160" font-size="12" fill="#54606e">who did what, and when</text>
+  <text x="546" y="196" font-size="12" fill="#1a2b4a">Ties to logs / Syslog</text>
+  <text x="546" y="214" font-size="12" fill="#54606e">(from Lesson 12-02)</text>
+
+  <!-- arrows -->
+  <line x1="250" y1="218" x2="275" y2="218" stroke="#1a2b4a" stroke-width="3" marker-end="url(#arr)"/>
+  <line x1="505" y1="218" x2="530" y2="218" stroke="#1a2b4a" stroke-width="3" marker-end="url(#arr)"/>
+
+  <text x="390" y="410" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Order is fixed: authenticate → authorize → account.</text>
+  <text x="390" y="434" text-anchor="middle" font-size="12" fill="#54606e">Central helpers: RADIUS and TACACS+ do AAA for many devices at once.</text>
+
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a2b4a"/>
+    </marker>
+  </defs>
+</svg>

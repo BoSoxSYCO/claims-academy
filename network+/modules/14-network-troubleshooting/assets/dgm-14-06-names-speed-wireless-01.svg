@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Three troubleshooting families: name, speed, and wireless</title>
+  <desc id="desc">Three troubleshooting cards, one per complaint. Card one, Name: the symptom is that a website name will not load even though a direct IP works; the cause is DNS; the fix is to check the DNS server, use nslookup, and run ipconfig slash flushdns to clear the DNS cache. Card two, Speed: the symptom is that everything is slow; causes include a duplex mismatch, bandwidth saturation where the link is full, and high latency or jitter; fixes include matching the duplex, checking the load, and testing wired versus wireless. Card three, Wireless: the symptom is weak or dropping Wi-Fi; causes include low RSSI signal strength, channel overlap, the wrong band, and interference; fixes include moving closer, picking a clear channel with a Wi-Fi analyzer, and choosing the right band.</desc>
+
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Sort the complaint: name · speed · wireless</text>
+
+  <!-- Name -->
+  <rect x="24" y="52" width="230" height="320" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="24" y="52" width="230" height="30" rx="10" fill="#2f6db0"/>
+  <text x="139" y="73" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">1 · Name (DNS)</text>
+  <text x="40" y="106" font-size="12" font-weight="bold" fill="#1a2b4a">Symptom:</text>
+  <text x="40" y="124" font-size="12" fill="#54606e">name fails, but the IP works</text>
+  <text x="40" y="156" font-size="12" font-weight="bold" fill="#1a2b4a">Cause: DNS</text>
+  <text x="40" y="188" font-size="12" font-weight="bold" fill="#2e6b3e">Fix:</text>
+  <text x="40" y="206" font-size="12" fill="#1a2b4a">check DNS server</text>
+  <text x="40" y="228" font-size="12" fill="#1a2b4a" font-family="Consolas, monospace">nslookup a-name</text>
+  <text x="40" y="250" font-size="12" fill="#1a2b4a" font-family="Consolas, monospace">ipconfig /flushdns</text>
+
+  <!-- Speed -->
+  <rect x="265" y="52" width="230" height="320" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="265" y="52" width="230" height="30" rx="10" fill="#2e8b57"/>
+  <text x="380" y="73" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">2 · Speed</text>
+  <text x="281" y="106" font-size="12" font-weight="bold" fill="#1a2b4a">Symptom:</text>
+  <text x="281" y="124" font-size="12" fill="#54606e">works, but slow / laggy</text>
+  <text x="281" y="156" font-size="12" font-weight="bold" fill="#1a2b4a">Causes:</text>
+  <text x="281" y="174" font-size="12" fill="#54606e">• duplex mismatch</text>
+  <text x="281" y="192" font-size="12" fill="#54606e">• bandwidth saturation</text>
+  <text x="281" y="210" font-size="12" fill="#54606e">• high latency / jitter</text>
+  <text x="281" y="242" font-size="12" font-weight="bold" fill="#2e6b3e">Fix:</text>
+  <text x="281" y="260" font-size="12" fill="#1a2b4a">match duplex · check load ·</text>
+  <text x="281" y="278" font-size="12" fill="#1a2b4a">test wired vs wireless</text>
+  <text x="281" y="308" font-size="11" fill="#9b2d2d">bandwidth ≠ latency</text>
+
+  <!-- Wireless -->
+  <rect x="506" y="52" width="230" height="320" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <rect x="506" y="52" width="230" height="30" rx="10" fill="#c07f2f"/>
+  <text x="621" y="73" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">3 · Wireless</text>
+  <text x="522" y="106" font-size="12" font-weight="bold" fill="#1a2b4a">Symptom:</text>
+  <text x="522" y="124" font-size="12" fill="#54606e">weak / dropping Wi-Fi</text>
+  <text x="522" y="156" font-size="12" font-weight="bold" fill="#1a2b4a">Causes:</text>
+  <text x="522" y="174" font-size="12" fill="#54606e">• low RSSI (weak signal)</text>
+  <text x="522" y="192" font-size="12" fill="#54606e">• channel overlap</text>
+  <text x="522" y="210" font-size="12" fill="#54606e">• wrong band · interference</text>
+  <text x="522" y="242" font-size="12" font-weight="bold" fill="#2e6b3e">Fix:</text>
+  <text x="522" y="260" font-size="12" fill="#1a2b4a">move closer · pick a clear</text>
+  <text x="522" y="278" font-size="12" fill="#1a2b4a">channel (Wi-Fi analyzer)</text>
+
+  <text x="380" y="402" text-anchor="middle" font-size="12" fill="#54606e">Find the right family first — then the fix is obvious.</text>
+</svg>

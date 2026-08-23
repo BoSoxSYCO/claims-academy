@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">The DHCP DORA exchange</title>
+  <desc id="desc">The DHCP DORA exchange between a new device and a DHCP server. Step one, Discover: the device broadcasts asking for any DHCP servers. Step two, Offer: the server offers an address such as 192.168.1.24. Step three, Request: the device requests that address. Step four, Acknowledge: the server confirms and starts a lease. The device then has four settings: an IP address, a subnet mask, a default gateway, and a DNS server. Callouts explain that a lease is how long the address is kept, a scope is the pool it comes from, a reservation is a fixed address for one device, and no answer means the device falls back to an APIPA 169.254 address.</desc>
+
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">DHCP — the four steps (DORA)</text>
+
+  <!-- device and server columns -->
+  <rect x="60" y="55" width="150" height="50" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="135" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">New device</text>
+  <text x="135" y="97" text-anchor="middle" font-size="10" fill="#6d28d9">(just joined)</text>
+
+  <rect x="690" y="55" width="150" height="50" rx="8" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="765" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#14532d">DHCP server</text>
+  <text x="765" y="97" text-anchor="middle" font-size="10" fill="#166534">(the router)</text>
+
+  <line x1="135" y1="105" x2="135" y2="300" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="765" y1="105" x2="765" y2="300" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- D -->
+  <line x1="140" y1="135" x2="760" y2="135" stroke="#6d28d9" stroke-width="2.5" marker-end="url(#pv)"/>
+  <rect x="360" y="118" width="180" height="20" fill="#ffffff"/>
+  <text x="450" y="133" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">D — Discover (broadcast)</text>
+  <text x="450" y="152" text-anchor="middle" font-size="10" fill="#475569">"Any DHCP servers out there?"</text>
+
+  <!-- O -->
+  <line x1="760" y1="185" x2="140" y2="185" stroke="#166534" stroke-width="2.5" marker-end="url(#gr)"/>
+  <rect x="360" y="168" width="180" height="20" fill="#ffffff"/>
+  <text x="450" y="183" text-anchor="middle" font-size="12" font-weight="bold" fill="#166534">O — Offer</text>
+  <text x="450" y="202" text-anchor="middle" font-size="10" fill="#475569">"Try 192.168.1.24"</text>
+
+  <!-- R -->
+  <line x1="140" y1="235" x2="760" y2="235" stroke="#6d28d9" stroke-width="2.5" marker-end="url(#pv)"/>
+  <rect x="360" y="218" width="180" height="20" fill="#ffffff"/>
+  <text x="450" y="233" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">R — Request</text>
+  <text x="450" y="252" text-anchor="middle" font-size="10" fill="#475569">"Yes, I'll take that one"</text>
+
+  <!-- A -->
+  <line x1="760" y1="285" x2="140" y2="285" stroke="#166534" stroke-width="2.5" marker-end="url(#gr)"/>
+  <rect x="360" y="268" width="180" height="20" fill="#ffffff"/>
+  <text x="450" y="283" text-anchor="middle" font-size="12" font-weight="bold" fill="#166534">A — Acknowledge</text>
+  <text x="450" y="302" text-anchor="middle" font-size="10" fill="#475569">"It's yours" → lease starts</text>
+
+  <!-- result box -->
+  <rect x="60" y="325" width="500" height="90" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="310" y="350" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e3a8a">The device now has its "starter kit"</text>
+  <text x="80" y="376" font-size="12" fill="#111">✓ IP address　　　✓ subnet mask</text>
+  <text x="80" y="398" font-size="12" fill="#111">✓ default gateway　✓ DNS server</text>
+
+  <!-- callouts -->
+  <rect x="580" y="325" width="260" height="90" rx="10" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  <text x="710" y="348" text-anchor="middle" font-size="12" font-weight="bold" fill="#78350f">Key words</text>
+  <text x="595" y="368" font-size="11" fill="#111"><tspan font-weight="bold">Lease</tspan> = how long you keep it</text>
+  <text x="595" y="386" font-size="11" fill="#111"><tspan font-weight="bold">Scope</tspan> = the pool it comes from</text>
+  <text x="595" y="404" font-size="11" fill="#111"><tspan font-weight="bold">Reservation</tspan> = a fixed IP by MAC</text>
+
+  <text x="450" y="445" text-anchor="middle" font-size="13" font-weight="bold" fill="#b91c1c">No server answers?  →  the device falls back to APIPA (169.254.x.x).</text>
+
+  <defs>
+    <marker id="pv" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#6d28d9"/></marker>
+    <marker id="gr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#166534"/></marker>
+  </defs>
+</svg>

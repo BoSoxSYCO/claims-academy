@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">T568A vs T568B wire orders and straight-through vs crossover cables</title>
+  <desc id="desc">Two RJ45 pin orders, T568A and T568B, with the eight wire colors named; the orange and green pairs are shown swapped between them. Below, a straight-through cable uses the same order on both ends for unlike devices like a PC to a switch, and a crossover cable uses T568A on one end and T568B on the other for like devices like a PC to a PC. A note says Auto-MDI-X on modern gear makes straight-through work almost everywhere.</desc>
+
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Wire orders and cable types</text>
+
+  <!-- Two standards -->
+  <text x="60" y="62" font-size="14" font-weight="bold" fill="#111">T568B (most common) — pins 1→8:</text>
+  <g font-size="11">
+    <rect x="60"  y="70" width="90" height="30" fill="#ffffff" stroke="#c2410c" stroke-width="2"/><text x="105" y="90" text-anchor="middle" fill="#c2410c">wh-orange</text>
+    <rect x="152" y="70" width="72" height="30" fill="#ffedd5" stroke="#c2410c" stroke-width="2"/><text x="188" y="90" text-anchor="middle" fill="#c2410c">orange</text>
+    <rect x="226" y="70" width="82" height="30" fill="#ffffff" stroke="#15803d" stroke-width="2"/><text x="267" y="90" text-anchor="middle" fill="#15803d">wh-green</text>
+    <rect x="310" y="70" width="60" height="30" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/><text x="340" y="90" text-anchor="middle" fill="#1d4ed8">blue</text>
+    <rect x="372" y="70" width="72" height="30" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/><text x="408" y="90" text-anchor="middle" fill="#1d4ed8">wh-blue</text>
+    <rect x="446" y="70" width="62" height="30" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="477" y="90" text-anchor="middle" fill="#15803d">green</text>
+    <rect x="510" y="70" width="80" height="30" fill="#ffffff" stroke="#78350f" stroke-width="2"/><text x="550" y="90" text-anchor="middle" fill="#78350f">wh-brown</text>
+    <rect x="592" y="70" width="66" height="30" fill="#efe0d0" stroke="#78350f" stroke-width="2"/><text x="625" y="90" text-anchor="middle" fill="#78350f">brown</text>
+  </g>
+
+  <text x="60" y="128" font-size="14" font-weight="bold" fill="#111">T568A — orange &amp; green pairs SWAPPED:</text>
+  <g font-size="11">
+    <rect x="60"  y="136" width="82" height="30" fill="#ffffff" stroke="#15803d" stroke-width="2"/><text x="101" y="156" text-anchor="middle" fill="#15803d">wh-green</text>
+    <rect x="144" y="136" width="62" height="30" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="175" y="156" text-anchor="middle" fill="#15803d">green</text>
+    <rect x="208" y="136" width="90" height="30" fill="#ffffff" stroke="#c2410c" stroke-width="2"/><text x="253" y="156" text-anchor="middle" fill="#c2410c">wh-orange</text>
+    <rect x="300" y="136" width="60" height="30" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/><text x="330" y="156" text-anchor="middle" fill="#1d4ed8">blue</text>
+    <rect x="362" y="136" width="72" height="30" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/><text x="398" y="156" text-anchor="middle" fill="#1d4ed8">wh-blue</text>
+    <rect x="436" y="136" width="72" height="30" fill="#ffedd5" stroke="#c2410c" stroke-width="2"/><text x="472" y="156" text-anchor="middle" fill="#c2410c">orange</text>
+    <rect x="510" y="136" width="80" height="30" fill="#ffffff" stroke="#78350f" stroke-width="2"/><text x="550" y="156" text-anchor="middle" fill="#78350f">wh-brown</text>
+    <rect x="592" y="136" width="66" height="30" fill="#efe0d0" stroke="#78350f" stroke-width="2"/><text x="625" y="156" text-anchor="middle" fill="#78350f">brown</text>
+  </g>
+  <text x="700" y="120" font-size="12" font-weight="bold" fill="#7f1d1d">only orange &amp;</text>
+  <text x="700" y="136" font-size="12" font-weight="bold" fill="#7f1d1d">green swap</text>
+
+  <!-- Straight-through -->
+  <rect x="40" y="200" width="400" height="150" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="240" y="226" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Straight-through</text>
+  <text x="240" y="248" text-anchor="middle" font-size="12" fill="#1e3a8a">same standard BOTH ends</text>
+  <rect x="70" y="262" width="70" height="34" rx="5" fill="#fff" stroke="#1d4ed8" stroke-width="2"/><text x="105" y="284" text-anchor="middle" font-size="12" fill="#1d4ed8">T568B</text>
+  <line x1="140" y1="279" x2="340" y2="279" stroke="#111" stroke-width="2"/>
+  <rect x="340" y="262" width="70" height="34" rx="5" fill="#fff" stroke="#1d4ed8" stroke-width="2"/><text x="375" y="284" text-anchor="middle" font-size="12" fill="#1d4ed8">T568B</text>
+  <text x="240" y="322" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">for UNLIKE devices</text>
+  <text x="240" y="340" text-anchor="middle" font-size="12" fill="#1e3a8a">PC ↔ switch · switch ↔ router</text>
+
+  <!-- Crossover -->
+  <rect x="460" y="200" width="400" height="150" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="660" y="226" text-anchor="middle" font-size="16" font-weight="bold" fill="#b91c1c">Crossover</text>
+  <text x="660" y="248" text-anchor="middle" font-size="12" fill="#7f1d1d">A on one end, B on the other</text>
+  <rect x="490" y="262" width="70" height="34" rx="5" fill="#fff" stroke="#b91c1c" stroke-width="2"/><text x="525" y="284" text-anchor="middle" font-size="12" fill="#b91c1c">T568A</text>
+  <line x1="560" y1="279" x2="700" y2="279" stroke="#111" stroke-width="2"/>
+  <line x1="590" y1="272" x2="670" y2="286" stroke="#b91c1c" stroke-width="2"/>
+  <line x1="590" y1="286" x2="670" y2="272" stroke="#b91c1c" stroke-width="2"/>
+  <rect x="700" y="262" width="70" height="34" rx="5" fill="#fff" stroke="#b91c1c" stroke-width="2"/><text x="735" y="284" text-anchor="middle" font-size="12" fill="#b91c1c">T568B</text>
+  <text x="660" y="322" text-anchor="middle" font-size="13" font-weight="bold" fill="#7f1d1d">for LIKE devices</text>
+  <text x="660" y="340" text-anchor="middle" font-size="12" fill="#7f1d1d">PC ↔ PC · switch ↔ switch (old)</text>
+
+  <!-- Auto-MDI-X note -->
+  <rect x="120" y="380" width="660" height="70" rx="10" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+  <text x="450" y="408" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">Auto-MDI-X (modern gear) auto-fixes the crossover</text>
+  <text x="450" y="432" text-anchor="middle" font-size="12" fill="#14532d">So today a STRAIGHT-THROUGH cable works almost everywhere. Crossover is mostly for old gear + the exam.</text>
+
+  <text x="450" y="478" text-anchor="middle" font-size="12" fill="#475569">Read a cable tab-down: same color order = straight-through; orange/green swapped = crossover.</text>
+</svg>

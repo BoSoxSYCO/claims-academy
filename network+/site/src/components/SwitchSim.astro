@@ -1,0 +1,201 @@
+---
+// Interactive "smart intersection" — teaches how a switch learns MAC addresses,
+// told entirely in the Network City road metaphor. Self-contained: markup + script.
+---
+<div class="ncsim" id="ncsim">
+  <div class="ncsim-head">
+    <div class="controls">
+      <label>From <select id="ncsim-from"></select></label>
+      <label>To <select id="ncsim-to"></select></label>
+      <button class="send" id="ncsim-send" type="button">Send a car ▸</button>
+      <button class="reset" id="ncsim-reset" type="button">Reset</button>
+    </div>
+  </div>
+  <div class="ncsim-grid">
+    <div class="stage">
+      <svg id="ncsim-svg" viewBox="0 0 420 360" role="img" aria-labelledby="ncsim-t ncsim-d">
+        <title id="ncsim-t">Interactive intersection</title>
+        <desc id="ncsim-d">Four houses, each on its own road into a central switch. Sending a car shows whether the switch floods every road or sends the car down one learned road.</desc>
+        <g id="ncsim-roads">
+          <line class="road" data-road="0" x1="210" y1="180" x2="210" y2="58"></line>
+          <line class="road" data-road="1" x1="210" y1="180" x2="360" y2="180"></line>
+          <line class="road" data-road="2" x1="210" y1="180" x2="210" y2="302"></line>
+          <line class="road" data-road="3" x1="210" y1="180" x2="60" y2="180"></line>
+        </g>
+        <g>
+          <line class="roaddash" x1="210" y1="180" x2="210" y2="58"></line>
+          <line class="roaddash" x1="210" y1="180" x2="360" y2="180"></line>
+          <line class="roaddash" x1="210" y1="180" x2="210" y2="302"></line>
+          <line class="roaddash" x1="210" y1="180" x2="60" y2="180"></line>
+        </g>
+        <g class="roadnum">
+          <text x="224" y="120" text-anchor="middle">Road 1</text>
+          <text x="292" y="170" text-anchor="middle">Road 2</text>
+          <text x="242" y="248" text-anchor="middle">Road 3</text>
+          <text x="128" y="170" text-anchor="middle">Road 4</text>
+        </g>
+        <g id="ncsim-houses"></g>
+        <circle cx="210" cy="180" r="34" class="switchbox"></circle>
+        <text x="210" y="184" text-anchor="middle" class="switchtxt">SWITCH</text>
+        <g id="ncsim-cars"></g>
+      </svg>
+    </div>
+    <div class="side">
+      <h4>The cop's notebook</h4>
+      <div class="notebook">
+        <div class="nb-h">Plate → Road</div>
+        <div id="ncsim-nb"><div class="nb-empty">Empty. Send a car to watch it fill in.</div></div>
+      </div>
+      <div class="log" id="ncsim-log">
+        <div class="line0">The cop is new here and knows no plates yet.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .ncsim { border: 1px solid var(--sl-color-hairline); border-radius: 14px; padding: 14px; margin: 1.2rem 0; background: var(--sl-color-bg-nav); }
+  .ncsim .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-family: 'Overpass', sans-serif; font-size: 0.85rem; }
+  .ncsim select { font-family: 'Overpass Mono', monospace; font-weight: 700; background: var(--sl-color-bg); color: var(--sl-color-text); border: 1px solid var(--sl-color-gray-4); border-radius: 8px; padding: 6px 8px; }
+  .ncsim .send { background: var(--sl-color-accent); color: var(--sl-color-white); border: none; border-radius: 9px; padding: 8px 16px; font-weight: 700; cursor: pointer; font-family: 'Overpass', sans-serif; }
+  .ncsim .send:hover { filter: brightness(1.08); }
+  .ncsim .reset { background: transparent; border: 1px solid var(--sl-color-gray-4); color: var(--sl-color-text); border-radius: 9px; padding: 8px 12px; cursor: pointer; font-family: 'Overpass', sans-serif; }
+  .ncsim-grid { display: grid; grid-template-columns: 1fr 250px; gap: 18px; margin-top: 14px; align-items: start; }
+  .ncsim .stage { background: var(--sl-color-bg); border: 1px solid var(--sl-color-hairline); border-radius: 12px; padding: 6px; }
+  .ncsim svg { width: 100%; height: auto; display: block; }
+  .ncsim h4 { margin: 0 0 8px; font-family: 'Overpass', sans-serif; }
+  .ncsim .notebook { border: 1px solid var(--sl-color-hairline); border-radius: 10px; overflow: hidden; font-family: 'Overpass Mono', monospace; font-size: 0.8rem; }
+  .ncsim .nb-h { background: var(--nc-asphalt); color: var(--nc-lane); font-family: 'Overpass', sans-serif; font-weight: 700; font-size: 0.75rem; padding: 6px 11px; }
+  .ncsim .nb-row { display: flex; justify-content: space-between; padding: 6px 11px; border-top: 1px solid var(--sl-color-hairline); }
+  .ncsim .nb-empty { padding: 11px; color: var(--sl-color-text); opacity: 0.7; font-family: 'Newsreader', serif; font-style: italic; font-size: 0.85rem; }
+  .ncsim .tblroad { color: var(--sl-color-text-accent); font-weight: 700; }
+  .ncsim .log { margin-top: 12px; font-size: 0.85rem; min-height: 3em; }
+  .ncsim .log .line0 { color: var(--sl-color-text); opacity: 0.7; }
+  .ncsim .log .line { padding: 5px 0; border-top: 1px dashed var(--sl-color-hairline); display: flex; gap: 8px; }
+  .ncsim .log .line:first-child { border-top: none; }
+  .ncsim .tag { font-family: 'Overpass', sans-serif; font-weight: 700; font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 1px 7px; border-radius: 99px; height: fit-content; flex: none; margin-top: 2px; }
+  .ncsim .tag.learn { background: var(--sl-color-accent-low); color: var(--sl-color-accent-high); }
+  .ncsim .tag.flood { background: var(--nc-route-soft); color: var(--nc-route); }
+  .ncsim .tag.direct { background: color-mix(in srgb, var(--sl-color-accent) 20%, transparent); color: var(--sl-color-text-accent); }
+  .ncsim .road { stroke: var(--nc-asphalt); stroke-width: 20; stroke-linecap: round; }
+  .ncsim .road.active-flood { stroke: var(--nc-route); }
+  .ncsim .road.active-direct { stroke: var(--sl-color-accent); }
+  .ncsim .roaddash { stroke: var(--nc-lane); stroke-width: 2.4; stroke-dasharray: 7 9; stroke-linecap: round; }
+  .ncsim .roadnum text { font-family: 'Overpass', sans-serif; font-weight: 700; font-size: 11px; fill: var(--sl-color-text); opacity: 0.75; }
+  .ncsim .house { fill: var(--sl-color-bg-nav); stroke: var(--sl-color-gray-4); stroke-width: 2; }
+  .ncsim .house.src { stroke: var(--sl-color-accent); stroke-width: 3.5; }
+  .ncsim .house.dst { stroke: var(--nc-route); stroke-width: 3.5; }
+  .ncsim .hlabel { font-family: 'Overpass Mono', monospace; font-weight: 700; font-size: 13px; fill: var(--sl-color-text); }
+  .ncsim .hsub { font-family: 'Overpass', sans-serif; font-size: 10px; fill: var(--sl-color-text); opacity: 0.7; }
+  .ncsim .switchbox { fill: var(--nc-asphalt); }
+  .ncsim .switchtxt { font-family: 'Overpass', sans-serif; font-weight: 800; font-size: 12px; fill: var(--nc-lane); letter-spacing: 0.04em; }
+  .ncsim .car { transition: transform 0.5s ease; }
+  .ncsim.reduced .car { transition: none; }
+  @media (max-width: 720px) { .ncsim-grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+  (function () {
+    const root = document.getElementById('ncsim');
+    if (!root) return;
+    const reduce = matchMedia('(prefers-reduced-motion:reduce)').matches;
+    if (reduce) root.classList.add('reduced');
+    const SVGNS = 'http://www.w3.org/2000/svg';
+    const houses = [
+      { plate: 'AA:11', street: 'Maple St', x: 210, y: 34 },
+      { plate: 'BB:22', street: 'Oak Ave', x: 388, y: 180 },
+      { plate: 'CC:33', street: 'Pine Rd', x: 210, y: 326 },
+      { plate: 'DD:44', street: 'Elm Way', x: 32, y: 180 },
+    ];
+    const center = { x: 210, y: 180 };
+    let table = {};
+    const hg = root.querySelector('#ncsim-houses');
+    const cars = root.querySelector('#ncsim-cars');
+    const roads = Array.from(root.querySelectorAll('#ncsim-roads .road'));
+    const fromSel = root.querySelector('#ncsim-from');
+    const toSel = root.querySelector('#ncsim-to');
+
+    function drawHouses(src, dst) {
+      hg.innerHTML = '';
+      houses.forEach((h, i) => {
+        const cls = 'house' + (i === src ? ' src' : '') + (i === dst ? ' dst' : '');
+        const w = 64, ht = 40, x = h.x - w / 2, y = h.y - ht / 2;
+        hg.insertAdjacentHTML('beforeend',
+          '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + ht + '" rx="7" class="' + cls + '"></rect>' +
+          '<text x="' + h.x + '" y="' + (h.y - 2) + '" text-anchor="middle" class="hlabel">' + h.plate + '</text>' +
+          '<text x="' + h.x + '" y="' + (h.y + 12) + '" text-anchor="middle" class="hsub">' + h.street + '</text>');
+      });
+    }
+    function fillSelects() {
+      houses.forEach((h, i) => {
+        fromSel.insertAdjacentHTML('beforeend', '<option value="' + i + '">' + h.plate + '</option>');
+        toSel.insertAdjacentHTML('beforeend', '<option value="' + i + '">' + h.plate + '</option>');
+      });
+      toSel.value = '2';
+    }
+    function renderNotebook() {
+      const b = root.querySelector('#ncsim-nb');
+      const keys = Object.keys(table);
+      if (!keys.length) { b.innerHTML = '<div class="nb-empty">Empty. Send a car to watch it fill in.</div>'; return; }
+      b.innerHTML = keys.map((p) => '<div class="nb-row"><span>' + p + '</span><span class="tblroad">Road ' + (table[p] + 1) + '</span></div>').join('');
+    }
+    function logLines(arr) {
+      root.querySelector('#ncsim-log').innerHTML = arr.map((l) =>
+        '<div class="line"><span class="tag ' + l[0] + '">' + l[0] + '</span><span>' + l[1] + '</span></div>').join('');
+    }
+    function clearFx() { roads.forEach((r) => r.classList.remove('active-flood', 'active-direct')); }
+    function spawnCar(fromRoad, toRoad, kind) {
+      const s = houses[fromRoad], e = houses[toRoad];
+      const c = document.createElementNS(SVGNS, 'circle');
+      c.setAttribute('r', '7'); c.setAttribute('class', 'car');
+      c.setAttribute('fill', kind === 'flood' ? 'var(--nc-route)' : (kind === 'direct' ? 'var(--sl-color-accent)' : 'var(--sl-color-accent)'));
+      c.setAttribute('stroke', 'var(--nc-lane)'); c.setAttribute('stroke-width', '2');
+      c.style.transform = 'translate(' + s.x + 'px,' + s.y + 'px)';
+      cars.appendChild(c);
+      if (reduce) { setTimeout(() => c.remove(), 300); return; }
+      requestAnimationFrame(() => { c.style.transform = 'translate(' + center.x + 'px,' + center.y + 'px)'; });
+      setTimeout(() => { c.style.transform = 'translate(' + e.x + 'px,' + e.y + 'px)'; }, 520);
+      setTimeout(() => c.remove(), 1180);
+    }
+    function send() {
+      const from = +fromSel.value, to = +toSel.value;
+      clearFx();
+      if (from === to) { logLines([['flood', 'Pick two different houses — a car needs somewhere to go.']]); return; }
+      const lines = [];
+      const learned = table[houses[from].plate] === undefined;
+      table[houses[from].plate] = from;
+      lines.push(['learn', learned
+        ? 'Cop sees plate ' + houses[from].plate + ' come in on Road ' + (from + 1) + '. Writes it down.'
+        : 'Plate ' + houses[from].plate + ' already known on Road ' + (from + 1) + '.']);
+      const destRoad = table[houses[to].plate];
+      if (destRoad === undefined) {
+        lines.push(['flood', 'Plate ' + houses[to].plate + ' is new — cop floods every other road to find it.']);
+        roads.forEach((r, i) => { if (i !== from) r.classList.add('active-flood'); });
+        roads.forEach((r, i) => { if (i !== from) spawnCar(from, i, 'flood'); });
+        setTimeout(() => {
+          table[houses[to].plate] = to;
+          renderNotebook();
+          const l2 = lines.slice();
+          l2.push(['learn', houses[to].street + ' answers. Cop learns plate ' + houses[to].plate + ' lives on Road ' + (to + 1) + '.']);
+          logLines(l2);
+        }, 1250);
+      } else {
+        lines.push(['direct', 'Cop checks the notebook: plate ' + houses[to].plate + ' is on Road ' + (destRoad + 1) + '. Sends the car straight there (unicast).']);
+        roads[destRoad].classList.add('active-direct');
+        spawnCar(from, to, 'direct');
+      }
+      drawHouses(from, to);
+      renderNotebook();
+      logLines(lines);
+      setTimeout(clearFx, 1300);
+    }
+    fillSelects();
+    drawHouses(0, 2);
+    renderNotebook();
+    root.querySelector('#ncsim-send').addEventListener('click', send);
+    root.querySelector('#ncsim-reset').addEventListener('click', () => {
+      table = {}; clearFx(); drawHouses(0, 2); renderNotebook();
+      logLines([['flood', 'Notebook wiped. The cop is new here again.']]);
+    });
+  })();
+</script>

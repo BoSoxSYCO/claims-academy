@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 520" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Three safety nets: backups, disaster recovery, and change control</title>
+  <desc id="desc">Three safety-net panels. Panel one, Backups: full copies everything, incremental copies changes since the last backup, differential copies changes since the last full backup; a snapshot is a point-in-time image; the 3-2-1 rule says keep 3 copies on 2 media types with 1 copy off-site. Panel two, Disaster recovery: three DR sites on a scale — a cold site is empty space that is slow and cheap, a warm site has some gear and is medium, and a hot site is a full running copy that is fast and costly; RPO and RTO choose the site. Panel three, Change control: a flow of plan, approve, schedule, change, with a rollback arrow looping back to undo the change if it breaks something.</desc>
+
+  <rect x="0" y="0" width="740" height="520" fill="#ffffff"/>
+  <text x="370" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2a3a">Three safety nets</text>
+
+  <!-- Panel 1: Backups -->
+  <rect x="20" y="48" width="700" height="150" rx="10" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="36" y="72" font-size="15" font-weight="bold" fill="#2b6cb0">1 · BACKUPS</text>
+  <text x="36" y="98" font-size="12.5" fill="#1a2a3a"><tspan font-weight="bold">Full</tspan> = everything, every time.</text>
+  <text x="36" y="120" font-size="12.5" fill="#1a2a3a"><tspan font-weight="bold">Incremental</tspan> = changes since the last backup (any kind).</text>
+  <text x="36" y="142" font-size="12.5" fill="#1a2a3a"><tspan font-weight="bold">Differential</tspan> = changes since the last full backup.  ·  <tspan font-style="italic">Snapshot = point-in-time image.</tspan></text>
+  <rect x="430" y="86" width="270" height="96" rx="6" fill="#ffffff" stroke="#2b6cb0"/>
+  <text x="565" y="108" text-anchor="middle" font-size="13" font-weight="bold" fill="#2b6cb0">3-2-1 RULE</text>
+  <text x="565" y="132" text-anchor="middle" font-size="12.5" fill="#1a2a3a">3 copies</text>
+  <text x="565" y="152" text-anchor="middle" font-size="12.5" fill="#1a2a3a">2 media types</text>
+  <text x="565" y="172" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#9b2c2c">1 OFF-SITE</text>
+
+  <!-- Panel 2: DR -->
+  <rect x="20" y="210" width="700" height="140" rx="10" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="36" y="234" font-size="15" font-weight="bold" fill="#2f855a">2 · DISASTER RECOVERY (a DR site to run from)</text>
+  <rect x="40" y="248" width="200" height="80" rx="6" fill="#ffffff" stroke="#4a5568"/>
+  <text x="140" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2a3a">COLD site</text>
+  <text x="140" y="292" text-anchor="middle" font-size="11.5" fill="#1a2a3a">empty space only</text>
+  <text x="140" y="312" text-anchor="middle" font-size="11.5" fill="#1a2a3a">slow (days) · low cost</text>
+  <rect x="270" y="248" width="200" height="80" rx="6" fill="#ffffff" stroke="#4a5568"/>
+  <text x="370" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2a3a">WARM site</text>
+  <text x="370" y="292" text-anchor="middle" font-size="11.5" fill="#1a2a3a">some gear ready</text>
+  <text x="370" y="312" text-anchor="middle" font-size="11.5" fill="#1a2a3a">medium (hours)</text>
+  <rect x="500" y="248" width="200" height="80" rx="6" fill="#ffffff" stroke="#4a5568"/>
+  <text x="600" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2a3a">HOT site</text>
+  <text x="600" y="292" text-anchor="middle" font-size="11.5" fill="#1a2a3a">full running copy</text>
+  <text x="600" y="312" text-anchor="middle" font-size="11.5" fill="#1a2a3a">fast (minutes) · high cost</text>
+  <text x="240" y="264" font-size="16" fill="#4a5568">→</text>
+  <text x="470" y="264" font-size="16" fill="#4a5568">→</text>
+  <text x="690" y="344" text-anchor="end" font-size="11" font-style="italic" fill="#555">RPO/RTO pick the site</text>
+
+  <!-- Panel 3: Change control -->
+  <rect x="20" y="362" width="700" height="110" rx="10" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="36" y="386" font-size="15" font-weight="bold" fill="#c05621">3 · CHANGE CONTROL</text>
+  <text x="36" y="414" font-size="13" fill="#1a2a3a">plan → approve → schedule → change</text>
+  <text x="36" y="440" font-size="13" font-weight="bold" fill="#9b2c2c">↺ ROLLBACK if it breaks (e.g., restore the saved startup-config)</text>
+  <text x="36" y="462" font-size="11.5" font-style="italic" fill="#555">A backup you never test is a hope, not a plan.</text>
+
+  <text x="370" y="500" text-anchor="middle" font-size="11.5" font-style="italic" fill="#777">Each panel is titled in words; the cold/warm/hot scale uses text (slow/fast, low/high) and order, not color alone.</text>
+</svg>

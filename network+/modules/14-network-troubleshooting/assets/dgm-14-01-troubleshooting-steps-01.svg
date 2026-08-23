@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 620" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">The seven CompTIA troubleshooting steps, in order</title>
+  <desc id="desc">A top-to-bottom flowchart of the seven CompTIA troubleshooting steps. Step 1, identify the problem by gathering information and asking what changed. Step 2, establish a theory of probable cause — your best guess, simple causes first. Step 3, test the theory; if the theory is wrong, a loop-back arrow returns to step 2 to form a new theory. Step 4, establish a plan of action. Step 5, implement the solution, or escalate to someone with more access or skill. Step 6, verify full system functionality and add preventive measures. Step 7, document the findings, actions, and outcomes.</desc>
+
+  <rect x="0" y="0" width="640" height="620" fill="#ffffff"/>
+  <text x="320" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">The 7 troubleshooting steps</text>
+
+  <!-- Step boxes -->
+  <!-- 1 -->
+  <rect x="120" y="50" width="330" height="52" rx="8" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <circle cx="145" cy="76" r="14" fill="#2f6db0"/><text x="145" y="81" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">1</text>
+  <text x="170" y="72" font-size="13" font-weight="bold" fill="#1a2b4a">Identify the problem</text>
+  <text x="170" y="90" font-size="11" fill="#54606e">gather info · ask what changed</text>
+
+  <!-- 2 -->
+  <rect x="120" y="128" width="330" height="52" rx="8" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <circle cx="145" cy="154" r="14" fill="#2e8b57"/><text x="145" y="159" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">2</text>
+  <text x="170" y="150" font-size="13" font-weight="bold" fill="#1a2b4a">Establish a theory of probable cause</text>
+  <text x="170" y="168" font-size="11" fill="#54606e">best guess · simple causes first</text>
+
+  <!-- 3 -->
+  <rect x="120" y="206" width="330" height="52" rx="8" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <circle cx="145" cy="232" r="14" fill="#2e8b57"/><text x="145" y="237" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">3</text>
+  <text x="170" y="228" font-size="13" font-weight="bold" fill="#1a2b4a">Test the theory</text>
+  <text x="170" y="246" font-size="11" fill="#54606e">right? go on · wrong? back to step 2</text>
+
+  <!-- 4 -->
+  <rect x="120" y="284" width="330" height="52" rx="8" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <circle cx="145" cy="310" r="14" fill="#c07f2f"/><text x="145" y="315" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">4</text>
+  <text x="170" y="306" font-size="13" font-weight="bold" fill="#1a2b4a">Establish a plan of action</text>
+  <text x="170" y="324" font-size="11" fill="#54606e">decide the fix · check side effects</text>
+
+  <!-- 5 -->
+  <rect x="120" y="362" width="330" height="52" rx="8" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <circle cx="145" cy="388" r="14" fill="#c07f2f"/><text x="145" y="393" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">5</text>
+  <text x="170" y="384" font-size="13" font-weight="bold" fill="#1a2b4a">Implement the solution — or escalate</text>
+  <text x="170" y="402" font-size="11" fill="#54606e">do the fix, or hand it up</text>
+
+  <!-- 6 -->
+  <rect x="120" y="440" width="330" height="52" rx="8" fill="#f3eefb" stroke="#7a4fbf" stroke-width="2"/>
+  <circle cx="145" cy="466" r="14" fill="#7a4fbf"/><text x="145" y="471" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">6</text>
+  <text x="170" y="462" font-size="13" font-weight="bold" fill="#1a2b4a">Verify full system functionality</text>
+  <text x="170" y="480" font-size="11" fill="#54606e">confirm it works · add prevention</text>
+
+  <!-- 7 -->
+  <rect x="120" y="518" width="330" height="52" rx="8" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <circle cx="145" cy="544" r="14" fill="#2f6db0"/><text x="145" y="549" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">7</text>
+  <text x="170" y="540" font-size="13" font-weight="bold" fill="#1a2b4a">Document findings, actions, outcomes</text>
+  <text x="170" y="558" font-size="11" fill="#54606e">write it down for next time</text>
+
+  <!-- down arrows -->
+  <line x1="285" y1="102" x2="285" y2="128" stroke="#1a2b4a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="285" y1="180" x2="285" y2="206" stroke="#1a2b4a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="285" y1="258" x2="285" y2="284" stroke="#1a2b4a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="285" y1="336" x2="285" y2="362" stroke="#1a2b4a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="285" y1="414" x2="285" y2="440" stroke="#1a2b4a" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="285" y1="492" x2="285" y2="518" stroke="#1a2b4a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- loop-back arrow from step 3 to step 2 -->
+  <path d="M120,232 L70,232 L70,154 L120,154" fill="none" stroke="#9b2d2d" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#arrred)"/>
+  <text x="60" y="196" text-anchor="middle" font-size="11" fill="#9b2d2d" transform="rotate(-90 60 196)">theory wrong → new theory</text>
+
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a2b4a"/>
+    </marker>
+    <marker id="arrred" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#9b2d2d"/>
+    </marker>
+  </defs>
+</svg>

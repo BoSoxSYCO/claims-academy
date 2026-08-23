@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Three subnetting shortcuts: powers of 2, round down, and sizing a mask</title>
+  <desc id="desc">Three subnetting shortcuts. First, a powers-of-2 strip: 1, 2, 4, 8, 16, 32, 64, 128, 256. Second, a number line from 0 to 255 for a /26 with block size 64; the address ending in 100 is rounded down to the 64 block, giving subnet .64, broadcast .127, and hosts .65 to .126. Third, a sizing flow: 50 hosts needs 2 to the 6th minus 2 equals 62, so /26; five subnets needs 2 to the 3rd equals 8, so borrow 3 bits for /27.</desc>
+
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Three subnetting shortcuts</text>
+
+  <!-- 1: powers of 2 -->
+  <text x="40" y="66" font-size="15" font-weight="bold" fill="#1e3a8a">1 · Powers of 2</text>
+  <g font-family="monospace" font-size="15" text-anchor="middle">
+    <rect x="40" y="76" width="70" height="34" rx="4" fill="#eff6ff" stroke="#1d4ed8"/><text x="75" y="99" fill="#111">1</text>
+    <rect x="115" y="76" width="70" height="34" rx="4" fill="#eff6ff" stroke="#1d4ed8"/><text x="150" y="99" fill="#111">2</text>
+    <rect x="190" y="76" width="70" height="34" rx="4" fill="#eff6ff" stroke="#1d4ed8"/><text x="225" y="99" fill="#111">4</text>
+    <rect x="265" y="76" width="70" height="34" rx="4" fill="#eff6ff" stroke="#1d4ed8"/><text x="300" y="99" fill="#111">8</text>
+    <rect x="340" y="76" width="70" height="34" rx="4" fill="#eff6ff" stroke="#1d4ed8"/><text x="375" y="99" fill="#111">16</text>
+    <rect x="415" y="76" width="70" height="34" rx="4" fill="#eff6ff" stroke="#1d4ed8"/><text x="450" y="99" fill="#111">32</text>
+    <rect x="490" y="76" width="70" height="34" rx="4" fill="#dbeafe" stroke="#1d4ed8"/><text x="525" y="99" fill="#111" font-weight="bold">64</text>
+    <rect x="565" y="76" width="70" height="34" rx="4" fill="#eff6ff" stroke="#1d4ed8"/><text x="600" y="99" fill="#111">128</text>
+    <rect x="640" y="76" width="70" height="34" rx="4" fill="#eff6ff" stroke="#1d4ed8"/><text x="675" y="99" fill="#111">256</text>
+  </g>
+  <text x="730" y="99" font-size="12" fill="#475569">say them until automatic</text>
+
+  <!-- 2: round down -->
+  <text x="40" y="150" font-size="15" font-weight="bold" fill="#166534">2 · Round down (magic number = block size)</text>
+  <text x="40" y="172" font-size="13" fill="#111">192.168.1.<tspan font-weight="bold">100</tspan> /26 → block <tspan font-weight="bold" fill="#166534">64</tspan> → round 100 down to <tspan font-weight="bold" fill="#166534">64</tspan></text>
+
+  <!-- number line 0..255 with 64-blocks -->
+  <line x1="60" y1="205" x2="840" y2="205" stroke="#334155" stroke-width="2"/>
+  <g font-size="11" fill="#334155" text-anchor="middle">
+    <line x1="60" y1="199" x2="60" y2="211" stroke="#334155" stroke-width="2"/><text x="60" y="228">0</text>
+    <line x1="255" y1="199" x2="255" y2="211" stroke="#334155" stroke-width="2"/><text x="255" y="228">64</text>
+    <line x1="450" y1="199" x2="450" y2="211" stroke="#334155" stroke-width="2"/><text x="450" y="228">128</text>
+    <line x1="645" y1="199" x2="645" y2="211" stroke="#334155" stroke-width="2"/><text x="645" y="228">192</text>
+    <line x1="840" y1="199" x2="840" y2="211" stroke="#334155" stroke-width="2"/><text x="840" y="228">255</text>
+  </g>
+  <!-- highlight the .64 block -->
+  <rect x="255" y="190" width="195" height="30" fill="#dcfce7" opacity="0.6"/>
+  <!-- marker for 100 -->
+  <line x1="365" y1="180" x2="365" y2="205" stroke="#b91c1c" stroke-width="2"/>
+  <text x="365" y="176" text-anchor="middle" font-size="11" font-weight="bold" fill="#b91c1c">.100</text>
+  <text x="352" y="250" text-anchor="middle" font-size="11" fill="#166534">subnet .64 · hosts .65–.126 · broadcast .127</text>
+
+  <!-- 3: size the mask -->
+  <text x="40" y="292" font-size="15" font-weight="bold" fill="#78350f">3 · Size the mask from what you need</text>
+  <rect x="40" y="305" width="400" height="90" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="1.5"/>
+  <text x="60" y="332" font-size="13" fill="#111">Need <tspan font-weight="bold">50 hosts</tspan>:</text>
+  <text x="60" y="356" font-size="13" font-family="monospace" fill="#111">2⁶ − 2 = 62 ≥ 50  →  6 host bits</text>
+  <text x="60" y="380" font-size="14" font-weight="bold" fill="#b45309">→ /26</text>
+
+  <rect x="460" y="305" width="400" height="90" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="1.5"/>
+  <text x="480" y="332" font-size="13" fill="#111">Need <tspan font-weight="bold">5 subnets</tspan> from /24:</text>
+  <text x="480" y="356" font-size="13" font-family="monospace" fill="#111">2³ = 8 ≥ 5  →  borrow 3 bits</text>
+  <text x="480" y="380" font-size="14" font-weight="bold" fill="#b45309">→ /27</text>
+
+  <!-- caption -->
+  <text x="450" y="435" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Same answers as the long method — just faster.</text>
+  <text x="450" y="460" text-anchor="middle" font-size="12" fill="#475569">Like times tables: recall the pattern instead of counting.</text>
+</svg>

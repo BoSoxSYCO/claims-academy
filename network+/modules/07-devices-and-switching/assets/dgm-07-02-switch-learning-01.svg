@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">How a switch learns MAC addresses and forwards frames</title>
+  <desc id="desc">A switch with four ports learning MAC addresses: a frame from device AA on port 1 adds the entry AA to port 1 in the MAC address table; then a frame addressed to a known device BB is forwarded out only its port, while a frame to an unknown device CC is flooded out all other ports; a note says entries age out after inactivity.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">A switch learns from the source, forwards by the destination</text>
+
+  <!-- Step 1: LEARN -->
+  <rect x="20" y="50" width="420" height="190" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="230" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d4ed8">1. LEARN — read the SOURCE MAC</text>
+  <rect x="60" y="100" width="70" height="34" rx="5" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/><text x="95" y="122" text-anchor="middle" font-size="12" fill="#1e40af">PC AA</text>
+  <line x1="130" y1="117" x2="200" y2="117" stroke="#1d4ed8" stroke-width="3" marker-end="url(#a)"/>
+  <text x="165" y="108" text-anchor="middle" font-size="10" fill="#1d4ed8">frame</text>
+  <rect x="200" y="95" width="90" height="70" rx="6" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/><text x="245" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e3a8a">SWITCH</text>
+  <text x="245" y="142" text-anchor="middle" font-size="9" fill="#1e3a8a">port 1 ← AA</text>
+  <text x="230" y="188" text-anchor="middle" font-size="11" fill="#1e3a8a">switch records: "AA is on port 1"</text>
+  <text x="230" y="210" text-anchor="middle" font-size="11" fill="#1e3a8a">it does this on every frame's source</text>
+
+  <!-- MAC table -->
+  <rect x="470" y="50" width="410" height="190" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="675" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">MAC address table (MAC → port)</text>
+  <line x1="560" y1="92" x2="560" y2="200" stroke="#94a3b8" stroke-width="1"/>
+  <text x="510" y="112" font-size="13" font-weight="bold" fill="#334155">MAC</text>
+  <text x="620" y="112" font-size="13" font-weight="bold" fill="#334155">Port</text>
+  <line x1="490" y1="120" x2="850" y2="120" stroke="#94a3b8" stroke-width="1"/>
+  <text x="510" y="142" font-size="13" fill="#111">AA</text><text x="625" y="142" font-size="13" fill="#111">1</text>
+  <text x="510" y="166" font-size="13" fill="#111">BB</text><text x="625" y="166" font-size="13" fill="#111">3</text>
+  <text x="675" y="222" text-anchor="middle" font-size="11" fill="#64748b">idle entries AGE OUT after ~5 min of silence</text>
+
+  <!-- Step 2: FORWARD vs FLOOD -->
+  <rect x="20" y="255" width="860" height="180" rx="10" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+  <text x="450" y="279" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">2. DELIVER — read the DESTINATION MAC</text>
+
+  <!-- known: forward -->
+  <text x="230" y="305" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">Known (BB is in the table) → FORWARD</text>
+  <rect x="185" y="315" width="90" height="50" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/><text x="230" y="345" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532d">SWITCH</text>
+  <line x1="275" y1="340" x2="355" y2="340" stroke="#166534" stroke-width="3" marker-end="url(#g)"/>
+  <rect x="355" y="323" width="70" height="34" rx="5" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/><text x="390" y="345" text-anchor="middle" font-size="12" fill="#1e40af">BB (p3)</text>
+  <text x="290" y="385" text-anchor="middle" font-size="11" fill="#14532d">one arrow → only BB's port (quiet)</text>
+
+  <!-- unknown: flood -->
+  <text x="670" y="305" text-anchor="middle" font-size="13" font-weight="bold" fill="#b45309">Unknown (CC not in table) → FLOOD</text>
+  <rect x="625" y="315" width="90" height="50" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="2"/><text x="670" y="345" text-anchor="middle" font-size="12" font-weight="bold" fill="#78350f">SWITCH</text>
+  <g stroke="#b45309" stroke-width="2.5" marker-end="url(#o)">
+    <line x1="715" y1="325" x2="800" y2="312"/>
+    <line x1="715" y1="340" x2="805" y2="340"/>
+    <line x1="715" y1="355" x2="800" y2="368"/>
+  </g>
+  <text x="670" y="385" text-anchor="middle" font-size="11" fill="#78350f">all other ports (until CC replies, then it's learned)</text>
+  <text x="450" y="418" text-anchor="middle" font-size="12" fill="#334155">Broadcast (FF:FF:FF:FF:FF:FF) is also flooded — on purpose, to everyone.</text>
+
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#1d4ed8"/></marker>
+    <marker id="g" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#166534"/></marker>
+    <marker id="o" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#b45309"/></marker>
+  </defs>
+</svg>

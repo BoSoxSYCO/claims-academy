@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">The NTP stratum chain and supporting services</title>
+  <desc id="desc">The NTP stratum chain for keeping clocks in sync. At the top is stratum 0, the true source such as an atomic clock or GPS, which is not on the network. Below it, stratum 1 is a primary time server connected directly to stratum 0 and is the most accurate networked time. Stratum 2 servers get their time from stratum 1 and are slightly less exact, then pass it to a router and a laptop. A lower stratum number is closer to the source and more accurate. A side panel explains two more services: SNMP lets a manager monitor network devices, and Syslog sends device logs to a central server. A list shows why accurate time matters: logs line up, certificates stay valid, and logins work.</desc>
+
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">NTP: keeping clocks in sync (by stratum)</text>
+
+  <!-- stratum chain (left column) -->
+  <rect x="60" y="60" width="380" height="46" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="80" y="82" font-size="13" font-weight="bold" fill="#7f1d1d">Stratum 0</text>
+  <text x="180" y="82" font-size="12" fill="#111">atomic clock / GPS — the true source</text>
+  <text x="180" y="98" font-size="10" fill="#7f1d1d">(not on the network)</text>
+
+  <line x1="250" y1="106" x2="250" y2="126" stroke="#334155" stroke-width="2" marker-end="url(#ar)"/>
+
+  <rect x="60" y="128" width="380" height="46" rx="8" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+  <text x="80" y="150" font-size="13" font-weight="bold" fill="#9a3412">Stratum 1</text>
+  <text x="180" y="150" font-size="12" fill="#111">primary time server (directly attached)</text>
+  <text x="180" y="166" font-size="10" fill="#9a3412">most accurate networked time</text>
+
+  <line x1="250" y1="174" x2="250" y2="194" stroke="#334155" stroke-width="2" marker-end="url(#ar)"/>
+
+  <rect x="60" y="196" width="380" height="46" rx="8" fill="#fefce8" stroke="#a16207" stroke-width="2"/>
+  <text x="80" y="218" font-size="13" font-weight="bold" fill="#854d0e">Stratum 2</text>
+  <text x="180" y="218" font-size="12" fill="#111">syncs from stratum 1 (slightly less exact)</text>
+
+  <line x1="250" y1="242" x2="250" y2="262" stroke="#334155" stroke-width="2" marker-end="url(#ar)"/>
+
+  <rect x="60" y="264" width="380" height="46" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="80" y="286" font-size="13" font-weight="bold" fill="#1e3a8a">Your router → laptop</text>
+  <text x="270" y="286" font-size="12" fill="#111">set their clocks from NTP</text>
+
+  <text x="250" y="335" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">Lower stratum = closer to the source = more accurate.</text>
+
+  <!-- services panel (right column) -->
+  <rect x="470" y="60" width="370" height="120" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="655" y="84" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">Two more helpers</text>
+  <text x="490" y="112" font-size="13" fill="#111"><tspan font-weight="bold" fill="#1d4ed8">SNMP</tspan> — a manager monitors &amp; manages</text>
+  <text x="490" y="130" font-size="12" fill="#475569">network devices (a facilities dashboard).</text>
+  <text x="490" y="156" font-size="13" fill="#111"><tspan font-weight="bold" fill="#166534">Syslog</tspan> — devices send their logs to one</text>
+  <text x="490" y="174" font-size="12" fill="#475569">central server (a shared logbook).</text>
+
+  <!-- why time matters -->
+  <rect x="470" y="196" width="370" height="114" rx="10" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  <text x="655" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#78350f">Why accurate time matters</text>
+  <text x="490" y="246" font-size="12" fill="#111">• <tspan font-weight="bold">Logs</tspan> line up (you can tell what happened when)</text>
+  <text x="490" y="270" font-size="12" fill="#111">• <tspan font-weight="bold">Certificates</tspan> stay valid (wrong clock = rejected)</text>
+  <text x="490" y="294" font-size="12" fill="#111">• <tspan font-weight="bold">Logins</tspan> work (some fail if clocks disagree)</text>
+
+  <!-- analogy strip -->
+  <rect x="60" y="360" width="780" height="90" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="450" y="386" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b21b6">Like a town clock tower</text>
+  <text x="450" y="412" text-anchor="middle" font-size="12" fill="#111">Everyone sets their watch to the same official clock, so meetings start together and logs agree.</text>
+  <text x="450" y="434" text-anchor="middle" font-size="12" fill="#6d28d9">Check yours:  w32tm /query /status  (shows Source + Stratum).</text>
+
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#334155"/></marker>
+  </defs>
+</svg>

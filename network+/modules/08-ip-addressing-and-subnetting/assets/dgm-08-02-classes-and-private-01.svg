@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">IPv4 structure, classes, and private ranges</title>
+  <desc id="desc">An IPv4 address of 32 bits shown split into a network portion and a host portion, like a phone area code and line number. A table lists classes by first octet: Class A 1 to 126, Class B 128 to 191, Class C 192 to 223, Class D 224 to 239 for multicast, and Class E 240 to 255 reserved, with 127 noted as loopback. A panel lists the three private ranges: 10.0.0.0/8, 172.16.0.0/12 covering only 172.16 to 172.31, and 192.168.0.0/16. Two special patterns are called out: 127.0.0.1 as the loopback address a device uses to reach itself, and 169.254.x.x as APIPA, given when no DHCP answers.</desc>
+
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">IPv4: structure, classes, and private ranges</text>
+
+  <!-- address split -->
+  <text x="450" y="58" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">One IPv4 address = 32 bits = 4 octets</text>
+  <rect x="250" y="70" width="180" height="46" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="340" y="92" text-anchor="middle" font-size="15" font-family="monospace" fill="#14532d">192 . 168 . 1</text>
+  <text x="340" y="108" text-anchor="middle" font-size="10" fill="#166534">NETWORK portion (which network)</text>
+  <rect x="440" y="70" width="120" height="46" rx="6" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="500" y="92" text-anchor="middle" font-size="15" font-family="monospace" fill="#5b21b6">. 10</text>
+  <text x="500" y="108" text-anchor="middle" font-size="10" fill="#6d28d9">HOST (which device)</text>
+
+  <!-- class table -->
+  <rect x="30" y="140" width="420" height="230" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="240" y="165" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">Class by first octet</text>
+
+  <g font-size="13" fill="#111">
+    <text x="55" y="195" font-weight="bold" fill="#1e3a8a">Class A</text><text x="150" y="195">first octet 1–126</text>
+    <text x="55" y="223" font-weight="bold" fill="#1e3a8a">Class B</text><text x="150" y="223">first octet 128–191</text>
+    <text x="55" y="251" font-weight="bold" fill="#1e3a8a">Class C</text><text x="150" y="251">first octet 192–223</text>
+    <text x="55" y="279" font-weight="bold" fill="#1e3a8a">Class D</text><text x="150" y="279">224–239  (multicast)</text>
+    <text x="55" y="307" font-weight="bold" fill="#1e3a8a">Class E</text><text x="150" y="307">240–255  (reserved)</text>
+  </g>
+  <line x1="50" y1="320" x2="430" y2="320" stroke="#93c5fd" stroke-width="1"/>
+  <text x="55" y="342" font-size="12" fill="#7f1d1d" font-weight="bold">127</text>
+  <text x="150" y="342" font-size="12" fill="#7f1d1d">skipped → loopback</text>
+  <text x="55" y="362" font-size="11" fill="#475569">Default network part: A=/8, B=/16, C=/24</text>
+
+  <!-- private ranges panel -->
+  <rect x="470" y="140" width="400" height="150" rx="10" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+  <text x="670" y="165" text-anchor="middle" font-size="15" font-weight="bold" fill="#14532d">Private ranges (stay inside)</text>
+  <g font-size="13" font-family="monospace" fill="#14532d">
+    <text x="490" y="195">10.0.0.0     – 10.255.255.255</text>
+    <text x="490" y="222">172.16.0.0   – 172.31.255.255</text>
+    <text x="490" y="249">192.168.0.0  – 192.168.255.255</text>
+  </g>
+  <g font-size="11" fill="#166534">
+    <text x="800" y="195">/8  (A)</text>
+    <text x="800" y="222">/12 (B)</text>
+    <text x="800" y="249">/16 (C)</text>
+  </g>
+  <text x="490" y="275" font-size="11" fill="#b45309">Note: only 172.16–172.31 is private (not 172.15 or 172.32).</text>
+
+  <!-- special panel -->
+  <rect x="470" y="305" width="400" height="120" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="670" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#7f1d1d">Special patterns</text>
+  <text x="490" y="360" font-size="13" fill="#111"><tspan font-family="monospace" font-weight="bold">127.0.0.1</tspan> = loopback (a device reaching itself)</text>
+  <text x="490" y="388" font-size="13" fill="#111"><tspan font-family="monospace" font-weight="bold">169.254.x.x</tspan> = APIPA (no DHCP answered)</text>
+  <text x="490" y="410" font-size="11" fill="#475569">A 169.254 address is a clue that DHCP failed.</text>
+
+  <!-- analogy caption -->
+  <text x="450" y="455" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Like a phone number: area code = network, line number = host.</text>
+  <text x="450" y="478" text-anchor="middle" font-size="12" fill="#475569">Memory hook for private ranges:  "10,  172-dot-16,  192-dot-168."</text>
+</svg>

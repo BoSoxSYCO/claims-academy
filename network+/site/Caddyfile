@@ -1,0 +1,7 @@
+# Caddy config for the optional HTTPS overlay (docker-compose.https.yml).
+# SITE_HOST defaults to networkcity.lan; override with the SITE_HOST env var.
+{$SITE_HOST:networkcity.lan} {
+	encode gzip
+	reverse_proxy network-city:80
+	tls internal
+}

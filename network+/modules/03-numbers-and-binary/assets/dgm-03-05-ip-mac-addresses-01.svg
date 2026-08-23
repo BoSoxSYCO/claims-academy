@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">IP addresses are four decimal bytes; MAC addresses are six hex bytes</title>
+  <desc id="desc">An IPv4 address 192.168.1.10 with each of its four octets shown above its 8-bit binary, labeled as four decimal bytes or 32 bits; and a MAC address 00:1A:2B:3C:4D:5E with each hex pair labeled as one byte, labeled as six hex bytes or 48 bits.</desc>
+
+  <rect x="0" y="0" width="900" height="420" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Addresses are just the numbers you learned</text>
+
+  <!-- IPv4 section -->
+  <rect x="40" y="55" width="820" height="150" rx="10" fill="#eff6ff" stroke="#1e40af" stroke-width="2"/>
+  <text x="60" y="80" font-size="16" font-weight="bold" fill="#1e40af">IPv4 address — 4 bytes (octets), written in DECIMAL — 32 bits</text>
+
+  <!-- octets -->
+  <g font-family="monospace" text-anchor="middle">
+    <text x="180" y="120" font-size="26" font-weight="bold" fill="#111">192</text>
+    <text x="360" y="120" font-size="26" font-weight="bold" fill="#111">168</text>
+    <text x="540" y="120" font-size="26" font-weight="bold" fill="#111">1</text>
+    <text x="720" y="120" font-size="26" font-weight="bold" fill="#111">10</text>
+    <text x="270" y="120" font-size="26" fill="#9ca3af">.</text>
+    <text x="450" y="120" font-size="26" fill="#9ca3af">.</text>
+    <text x="630" y="120" font-size="26" fill="#9ca3af">.</text>
+
+    <text x="180" y="160" font-size="17" fill="#1e40af">11000000</text>
+    <text x="360" y="160" font-size="17" fill="#1e40af">10101000</text>
+    <text x="540" y="160" font-size="17" fill="#1e40af">00000001</text>
+    <text x="720" y="160" font-size="17" fill="#1e40af">00001010</text>
+  </g>
+  <text x="450" y="190" text-anchor="middle" font-size="13" fill="#555">each octet = 1 byte = 0–255 · four octets = 32 bits</text>
+
+  <!-- MAC section -->
+  <rect x="40" y="225" width="820" height="150" rx="10" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+  <text x="60" y="250" font-size="16" font-weight="bold" fill="#166534">MAC address — 6 bytes, written in HEX — 48 bits</text>
+
+  <g font-family="monospace" text-anchor="middle" font-size="24" font-weight="bold" fill="#111">
+    <text x="150" y="300">00</text>
+    <text x="270" y="300">1A</text>
+    <text x="390" y="300">2B</text>
+    <text x="510" y="300">3C</text>
+    <text x="630" y="300">4D</text>
+    <text x="750" y="300">5E</text>
+    <text x="210" y="300" fill="#9ca3af">:</text>
+    <text x="330" y="300" fill="#9ca3af">:</text>
+    <text x="450" y="300" fill="#9ca3af">:</text>
+    <text x="570" y="300" fill="#9ca3af">:</text>
+    <text x="690" y="300" fill="#9ca3af">:</text>
+  </g>
+  <g text-anchor="middle" font-size="12" fill="#166534">
+    <text x="150" y="325">1 byte</text>
+    <text x="270" y="325">1 byte</text>
+    <text x="390" y="325">1 byte</text>
+    <text x="510" y="325">1 byte</text>
+    <text x="630" y="325">1 byte</text>
+    <text x="750" y="325">1 byte</text>
+  </g>
+  <text x="450" y="358" text-anchor="middle" font-size="13" fill="#555">each pair of hex digits = 1 byte · six bytes = 48 bits</text>
+
+  <text x="450" y="402" text-anchor="middle" font-size="14" fill="#444" font-weight="bold">Same building blocks: bits · bytes · place values · hex</text>
+</svg>

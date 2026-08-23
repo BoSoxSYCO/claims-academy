@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">A firewall with an ACL, a DMZ, and a segmented inside network</title>
+  <desc id="desc">A network diagram. At the top is the internet. It connects to a firewall in the middle. Beside the firewall is an ACL table read top to bottom: rule 1 allows web traffic to the web server, rule 2 allows staff laptops to the file server, and rule 3 denies everything else, labeled implicit deny. Below the firewall are two areas. On one side is a DMZ, also called a screened subnet, holding a public web server that internet visitors may reach. On the other side is the inside network, split by segmentation into separate VLAN zones for staff, guests, and servers, kept away from the internet and from each other to limit the blast radius.</desc>
+
+  <rect x="0" y="0" width="780" height="520" fill="#ffffff"/>
+  <text x="390" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Firewall + ACL + segmentation</text>
+
+  <!-- Internet -->
+  <ellipse cx="200" cy="76" rx="86" ry="30" fill="#eef1f5" stroke="#54606e" stroke-width="2"/>
+  <text x="200" y="82" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a2b4a">INTERNET</text>
+
+  <!-- Firewall -->
+  <rect x="140" y="140" width="120" height="56" rx="8" fill="#9b2d2d" stroke="#6f1f1f" stroke-width="2"/>
+  <text x="200" y="167" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">FIREWALL</text>
+  <text x="200" y="185" text-anchor="middle" font-size="11" fill="#f3d9d9">the guard</text>
+  <line x1="200" y1="106" x2="200" y2="140" stroke="#1a2b4a" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ACL table -->
+  <rect x="300" y="120" width="440" height="96" rx="8" fill="#fbf7ea" stroke="#c07f2f" stroke-width="2"/>
+  <text x="316" y="140" font-size="13" font-weight="bold" fill="#1a2b4a">ACL — read top to bottom, first match wins</text>
+  <text x="316" y="162" font-size="12" fill="#1a6b2e">1. ALLOW  web traffic → web server</text>
+  <text x="316" y="182" font-size="12" fill="#1a6b2e">2. ALLOW  staff laptops → file server</text>
+  <text x="316" y="202" font-size="12" fill="#9b2d2d">3. DENY  everything else   (implicit deny)</text>
+
+  <!-- branch lines -->
+  <line x1="200" y1="196" x2="200" y2="250" stroke="#1a2b4a" stroke-width="2.5"/>
+  <line x1="130" y1="250" x2="560" y2="250" stroke="#1a2b4a" stroke-width="2.5"/>
+  <line x1="130" y1="250" x2="130" y2="280" stroke="#1a2b4a" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="470" y1="250" x2="470" y2="280" stroke="#1a2b4a" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- DMZ -->
+  <rect x="40" y="286" width="230" height="150" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <rect x="40" y="286" width="230" height="30" rx="10" fill="#c07f2f"/>
+  <text x="155" y="307" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">DMZ (screened subnet)</text>
+  <rect x="90" y="336" width="130" height="54" rx="8" fill="#ffffff" stroke="#c07f2f" stroke-width="1.5"/>
+  <text x="155" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Web server</text>
+  <text x="155" y="378" text-anchor="middle" font-size="11" fill="#54606e">public — visitors OK</text>
+  <text x="155" y="416" text-anchor="middle" font-size="11" fill="#54606e">kept away from private data</text>
+
+  <!-- Inside -->
+  <rect x="300" y="286" width="440" height="200" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="300" y="286" width="440" height="30" rx="10" fill="#2e8b57"/>
+  <text x="520" y="307" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">INSIDE — split by segmentation (VLANs)</text>
+  <rect x="320" y="336" width="126" height="60" rx="8" fill="#ffffff" stroke="#2e8b57" stroke-width="1.5"/>
+  <text x="383" y="362" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Staff</text>
+  <text x="383" y="380" text-anchor="middle" font-size="11" fill="#54606e">VLAN</text>
+  <rect x="457" y="336" width="126" height="60" rx="8" fill="#ffffff" stroke="#2e8b57" stroke-width="1.5"/>
+  <text x="520" y="362" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Guests</text>
+  <text x="520" y="380" text-anchor="middle" font-size="11" fill="#54606e">VLAN</text>
+  <rect x="594" y="336" width="126" height="60" rx="8" fill="#ffffff" stroke="#2e8b57" stroke-width="1.5"/>
+  <text x="657" y="362" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Servers</text>
+  <text x="657" y="380" text-anchor="middle" font-size="11" fill="#54606e">VLAN</text>
+  <text x="520" y="428" text-anchor="middle" font-size="11" fill="#54606e">Each zone walled off — one breach can't reach the rest (small blast radius).</text>
+
+  <text x="390" y="508" text-anchor="middle" font-size="12" fill="#54606e">Guard at the edge (firewall + ACL) · public servers in the DMZ · inside split into zones.</text>
+
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a2b4a"/>
+    </marker>
+  </defs>
+</svg>

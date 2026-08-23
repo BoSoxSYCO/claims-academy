@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 470" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Encryption and hashing flows, and a VPN tunnel</title>
+  <desc id="desc">Two rows. The top row shows encryption: readable plaintext is locked with a key to become scrambled ciphertext, then unlocked with a key back into plaintext — encryption is two-way and protects confidentiality. A side note shows hashing as one-way: data goes into a hash and becomes a fixed fingerprint that cannot be turned back, which protects integrity. The bottom row shows a VPN: a laptop labeled you connects through an encrypted tunnel that crosses an internet cloud and reaches a company network, keeping the traffic private end to end.</desc>
+
+  <rect x="0" y="0" width="780" height="470" fill="#ffffff"/>
+  <text x="390" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Encryption, hashing, and the VPN tunnel</text>
+
+  <!-- Encryption row -->
+  <text x="24" y="64" font-size="14" font-weight="bold" fill="#2f6db0">Encryption — two-way (protects confidentiality)</text>
+  <rect x="24" y="76" width="120" height="48" rx="8" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <text x="84" y="98" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Plaintext</text>
+  <text x="84" y="115" text-anchor="middle" font-size="11" fill="#54606e">readable</text>
+  <line x1="144" y1="100" x2="214" y2="100" stroke="#1a2b4a" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="179" y="92" text-anchor="middle" font-size="11" fill="#1a2b4a">lock (key)</text>
+  <rect x="216" y="76" width="120" height="48" rx="8" fill="#f0e9f8" stroke="#7a4fbf" stroke-width="2"/>
+  <text x="276" y="98" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Ciphertext</text>
+  <text x="276" y="115" text-anchor="middle" font-size="11" fill="#54606e">scrambled</text>
+  <line x1="336" y1="100" x2="406" y2="100" stroke="#1a2b4a" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="371" y="92" text-anchor="middle" font-size="11" fill="#1a2b4a">unlock (key)</text>
+  <rect x="408" y="76" width="120" height="48" rx="8" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <text x="468" y="98" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Plaintext</text>
+  <text x="468" y="115" text-anchor="middle" font-size="11" fill="#54606e">readable again</text>
+
+  <!-- Hashing note -->
+  <rect x="560" y="66" width="196" height="70" rx="8" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <text x="658" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e6b3e">Hashing — one-way</text>
+  <text x="658" y="106" text-anchor="middle" font-size="12" fill="#1a2b4a">data → fingerprint</text>
+  <text x="658" y="124" text-anchor="middle" font-size="11" fill="#9b2d2d">cannot go back · integrity</text>
+
+  <line x1="390" y1="150" x2="390" y2="176" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- VPN row -->
+  <text x="24" y="206" font-size="14" font-weight="bold" fill="#c07f2f">VPN — an encrypted tunnel across the internet</text>
+
+  <rect x="40" y="240" width="120" height="70" rx="8" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <text x="100" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a2b4a">YOU</text>
+  <text x="100" y="292" text-anchor="middle" font-size="11" fill="#54606e">laptop at home</text>
+
+  <!-- internet cloud with tunnel -->
+  <ellipse cx="390" cy="275" rx="150" ry="52" fill="#eef1f5" stroke="#54606e" stroke-width="2"/>
+  <text x="390" y="248" text-anchor="middle" font-size="12" fill="#54606e">the public internet</text>
+  <rect x="270" y="262" width="240" height="26" rx="13" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <text x="390" y="280" text-anchor="middle" font-size="12" font-weight="bold" fill="#9a6420">encrypted tunnel</text>
+
+  <rect x="620" y="240" width="130" height="70" rx="8" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <text x="685" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a2b4a">NETWORK</text>
+  <text x="685" y="292" text-anchor="middle" font-size="11" fill="#54606e">company / office</text>
+
+  <line x1="160" y1="275" x2="268" y2="275" stroke="#1a2b4a" stroke-width="2.5"/>
+  <line x1="512" y1="275" x2="618" y2="275" stroke="#1a2b4a" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <text x="390" y="360" text-anchor="middle" font-size="12" fill="#1a2b4a">Two VPN types: <tspan font-weight="bold">site-to-site</tspan> (two networks) · <tspan font-weight="bold">remote-access</tspan> (one person)</text>
+  <text x="390" y="392" text-anchor="middle" font-size="12" fill="#54606e">Lock the message (encryption), seal it (hashing), tunnel it (VPN).</text>
+
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a2b4a"/>
+    </marker>
+  </defs>
+</svg>

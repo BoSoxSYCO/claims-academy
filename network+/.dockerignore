@@ -1,0 +1,5 @@
+**/node_modules
+**/dist
+**/.astro
+site/src/content/docs/modules
+.git

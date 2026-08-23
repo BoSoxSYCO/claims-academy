@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Insecure protocols and their secure twins</title>
+  <desc id="desc">Two columns pairing insecure protocols with their secure twins. HTTP port 80 becomes HTTPS port 443 using TLS. FTP becomes SFTP port 22 over SSH, or FTPS ports 989 and 990 using TLS. Telnet port 23 becomes SSH port 22. POP3 port 110 becomes POP3S port 995 using TLS. IMAP port 143 becomes IMAPS port 993 using TLS. SMTP port 25 becomes SMTP submission port 587 using TLS. LDAP port 389 becomes LDAPS port 636 using TLS. DNS port 53 becomes DNS over TLS port 853. The left side is labeled insecure clear text with an open lock; the right side is labeled secure encrypted with a closed lock.</desc>
+
+  <rect x="0" y="0" width="780" height="560" fill="#ffffff"/>
+  <text x="390" y="30" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a2a3a">Insecure protocols and their secure twins</text>
+
+  <!-- Column headers -->
+  <rect x="30" y="46" width="300" height="34" rx="6" fill="#fbeaea" stroke="#9b2c2c" stroke-width="2"/>
+  <text x="180" y="69" text-anchor="middle" font-size="15" font-weight="bold" fill="#9b2c2c">🔓 INSECURE — clear text</text>
+  <rect x="450" y="46" width="300" height="34" rx="6" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="600" y="69" text-anchor="middle" font-size="15" font-weight="bold" fill="#2f855a">🔒 SECURE — encrypted</text>
+
+  <!-- Rows: y positions -->
+  <!-- Row template -->
+  <g font-size="14" fill="#1a2a3a">
+    <!-- HTTP -->
+    <text x="40" y="112">HTTP — port 80</text>
+    <text x="345" y="112" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="112">HTTPS — port 443 (TLS)</text>
+    <!-- FTP a -->
+    <text x="40" y="146">FTP — ports 20/21</text>
+    <text x="345" y="146" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="146">SFTP — port 22 (over SSH)</text>
+    <!-- FTP b -->
+    <text x="40" y="180" fill="#777">FTP — ports 20/21</text>
+    <text x="345" y="180" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="180">FTPS — ports 989/990 (TLS)</text>
+    <!-- Telnet -->
+    <text x="40" y="214">Telnet — port 23</text>
+    <text x="345" y="214" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="214">SSH — port 22</text>
+    <!-- POP3 -->
+    <text x="40" y="248">POP3 — port 110</text>
+    <text x="345" y="248" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="248">POP3S — port 995 (TLS)</text>
+    <!-- IMAP -->
+    <text x="40" y="282">IMAP — port 143</text>
+    <text x="345" y="282" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="282">IMAPS — port 993 (TLS)</text>
+    <!-- SMTP -->
+    <text x="40" y="316">SMTP — port 25</text>
+    <text x="345" y="316" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="316">SMTP — port 587 (TLS)</text>
+    <!-- LDAP -->
+    <text x="40" y="350">LDAP — port 389</text>
+    <text x="345" y="350" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="350">LDAPS — port 636 (TLS)</text>
+    <!-- DNS -->
+    <text x="40" y="384">DNS — port 53</text>
+    <text x="345" y="384" font-size="18" fill="#4a5568">→</text>
+    <text x="460" y="384">DoT — port 853 (TLS)</text>
+  </g>
+
+  <line x1="30" y1="398" x2="750" y2="398" stroke="#cccccc" stroke-width="1"/>
+
+  <rect x="30" y="414" width="720" height="70" rx="8" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="45" y="440" font-size="14" fill="#1a2a3a">Special cases: SFTP (port 22) rides SSH — it is NOT "FTP with an S."</text>
+  <text x="45" y="462" font-size="14" fill="#1a2a3a">FTPS uses TLS (989/990). SNMPv3 stays on 161/162 but adds encryption.</text>
+
+  <text x="390" y="512" text-anchor="middle" font-size="14" font-style="italic" fill="#2f855a">Same job on both sides — the twin locks the data. Pick the twin.</text>
+</svg>

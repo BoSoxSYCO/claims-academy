@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">Three deeper command-line tools: arp, netstat, pathping</title>
+  <desc id="desc">Three tool cards. Card one, arp: answers 'which MAC address goes with this local IP?' with the command arp dash a, showing the ARP table of IP-to-MAC pairs the computer has learned. Card two, netstat: answers 'what is my computer connected to, and what ports are listening?' with the command netstat dash a n, showing active connections and listening ports. Card three, pathping: answers 'where along the path does it lose packets?' with the command pathping 8.8.8.8, combining ping and tracert to show the path and the packet loss at each hop. A note reminds that all IPs, MACs, connections, and loss values vary by computer and network.</desc>
+
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+  <text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4a">Three deeper tools — pick by the clue</text>
+
+  <!-- arp -->
+  <rect x="24" y="56" width="230" height="252" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="24" y="56" width="230" height="30" rx="10" fill="#2f6db0"/>
+  <text x="40" y="77" font-size="15" font-weight="bold" fill="#ffffff">arp</text>
+  <text x="139" y="112" text-anchor="middle" font-size="12" font-style="italic" fill="#1a2b4a">"Which MAC has</text>
+  <text x="139" y="130" text-anchor="middle" font-size="12" font-style="italic" fill="#1a2b4a">this local IP?"</text>
+  <text x="139" y="162" text-anchor="middle" font-size="12" fill="#54606e">Shows the ARP table:</text>
+  <text x="139" y="180" text-anchor="middle" font-size="12" fill="#54606e">IP-to-MAC pairs your</text>
+  <text x="139" y="198" text-anchor="middle" font-size="12" fill="#54606e">PC has learned (local).</text>
+  <rect x="44" y="256" width="190" height="30" rx="6" fill="#1a2b4a"/>
+  <text x="56" y="276" font-size="13" fill="#e8eef6" font-family="Consolas, monospace">arp -a</text>
+
+  <!-- netstat -->
+  <rect x="265" y="56" width="230" height="252" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="265" y="56" width="230" height="30" rx="10" fill="#2e8b57"/>
+  <text x="281" y="77" font-size="15" font-weight="bold" fill="#ffffff">netstat</text>
+  <text x="380" y="112" text-anchor="middle" font-size="12" font-style="italic" fill="#1a2b4a">"What am I</text>
+  <text x="380" y="130" text-anchor="middle" font-size="12" font-style="italic" fill="#1a2b4a">connected to?"</text>
+  <text x="380" y="162" text-anchor="middle" font-size="12" fill="#54606e">Shows active</text>
+  <text x="380" y="180" text-anchor="middle" font-size="12" fill="#54606e">connections and</text>
+  <text x="380" y="198" text-anchor="middle" font-size="12" fill="#54606e">listening ports.</text>
+  <text x="380" y="224" text-anchor="middle" font-size="11" fill="#9a6420">LISTENING · ESTABLISHED</text>
+  <rect x="285" y="256" width="190" height="30" rx="6" fill="#1a2b4a"/>
+  <text x="297" y="276" font-size="13" fill="#e8eef6" font-family="Consolas, monospace">netstat -an</text>
+
+  <!-- pathping -->
+  <rect x="506" y="56" width="230" height="252" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <rect x="506" y="56" width="230" height="30" rx="10" fill="#c07f2f"/>
+  <text x="522" y="77" font-size="15" font-weight="bold" fill="#ffffff">pathping</text>
+  <text x="621" y="112" text-anchor="middle" font-size="12" font-style="italic" fill="#1a2b4a">"Where does the</text>
+  <text x="621" y="130" text-anchor="middle" font-size="12" font-style="italic" fill="#1a2b4a">path lose packets?"</text>
+  <text x="621" y="162" text-anchor="middle" font-size="12" fill="#54606e">ping + tracert together:</text>
+  <text x="621" y="180" text-anchor="middle" font-size="12" fill="#54606e">the path AND the</text>
+  <text x="621" y="198" text-anchor="middle" font-size="12" fill="#54606e">packet loss per hop.</text>
+  <text x="621" y="224" text-anchor="middle" font-size="11" fill="#9a6420">slow on purpose — let it finish</text>
+  <rect x="526" y="256" width="190" height="30" rx="6" fill="#1a2b4a"/>
+  <text x="538" y="276" font-size="13" fill="#e8eef6" font-family="Consolas, monospace">pathping 8.8.8.8</text>
+
+  <text x="380" y="340" text-anchor="middle" font-size="12" fill="#54606e">arp = local who's-who · netstat = my connections · pathping = where loss happens.</text>
+  <text x="380" y="364" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a2b4a">Every IP, MAC, connection, and loss value varies — read your own output.</text>
+</svg>

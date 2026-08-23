@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">The CIA triad: three goals of network security</title>
+  <desc id="desc">Three columns under the heading CIA triad, the three goals of security. Column C, Confidentiality: only the right people can see the data; kept safe by passwords and secret codes; broken when someone snoops or steals the data. Column I, Integrity: the data is correct and unchanged; kept safe by checksums that spot changes; broken when someone tampers with the data. Column A, Availability: the service is up and usable when needed; kept safe by backups and spare parts; broken when the system goes down or an attack floods it. A note reads: break any one goal and you have a security problem.</desc>
+
+  <rect x="0" y="0" width="760" height="460" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2b4a">The CIA triad</text>
+  <text x="380" y="56" text-anchor="middle" font-size="13" fill="#54606e">The three goals of network security</text>
+
+  <!-- Column C -->
+  <rect x="24" y="76" width="228" height="320" rx="10" fill="#eef4fb" stroke="#2f6db0" stroke-width="2"/>
+  <rect x="24" y="76" width="228" height="34" rx="10" fill="#2f6db0"/>
+  <text x="138" y="99" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">C · Confidentiality</text>
+  <text x="138" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Keep it secret</text>
+  <text x="138" y="162" text-anchor="middle" font-size="12" fill="#1a2b4a">Only the right people</text>
+  <text x="138" y="178" text-anchor="middle" font-size="12" fill="#1a2b4a">can see the data.</text>
+  <line x1="44" y1="200" x2="232" y2="200" stroke="#2f6db0" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="44" y="224" font-size="12" font-weight="bold" fill="#2e6b3e">Kept safe by</text>
+  <text x="44" y="244" font-size="12" fill="#1a2b4a">passwords, secret codes</text>
+  <text x="44" y="284" font-size="12" font-weight="bold" fill="#9b2d2d">Broken when</text>
+  <text x="44" y="304" font-size="12" fill="#1a2b4a">someone snoops or</text>
+  <text x="44" y="320" font-size="12" fill="#1a2b4a">steals the data</text>
+
+  <!-- Column I -->
+  <rect x="266" y="76" width="228" height="320" rx="10" fill="#eaf6ee" stroke="#2e8b57" stroke-width="2"/>
+  <rect x="266" y="76" width="228" height="34" rx="10" fill="#2e8b57"/>
+  <text x="380" y="99" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">I · Integrity</text>
+  <text x="380" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Keep it true</text>
+  <text x="380" y="162" text-anchor="middle" font-size="12" fill="#1a2b4a">The data is correct</text>
+  <text x="380" y="178" text-anchor="middle" font-size="12" fill="#1a2b4a">and unchanged.</text>
+  <line x1="286" y1="200" x2="474" y2="200" stroke="#2e8b57" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="286" y="224" font-size="12" font-weight="bold" fill="#2e6b3e">Kept safe by</text>
+  <text x="286" y="244" font-size="12" fill="#1a2b4a">checksums (spot changes)</text>
+  <text x="286" y="284" font-size="12" font-weight="bold" fill="#9b2d2d">Broken when</text>
+  <text x="286" y="304" font-size="12" fill="#1a2b4a">someone tampers with</text>
+  <text x="286" y="320" font-size="12" fill="#1a2b4a">the data</text>
+
+  <!-- Column A -->
+  <rect x="508" y="76" width="228" height="320" rx="10" fill="#fdf3e7" stroke="#c07f2f" stroke-width="2"/>
+  <rect x="508" y="76" width="228" height="34" rx="10" fill="#c07f2f"/>
+  <text x="622" y="99" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">A · Availability</text>
+  <text x="622" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2b4a">Keep it up</text>
+  <text x="622" y="162" text-anchor="middle" font-size="12" fill="#1a2b4a">The service is up and</text>
+  <text x="622" y="178" text-anchor="middle" font-size="12" fill="#1a2b4a">usable when needed.</text>
+  <line x1="528" y1="200" x2="716" y2="200" stroke="#c07f2f" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="528" y="224" font-size="12" font-weight="bold" fill="#2e6b3e">Kept safe by</text>
+  <text x="528" y="244" font-size="12" fill="#1a2b4a">backups, spare parts</text>
+  <text x="528" y="284" font-size="12" font-weight="bold" fill="#9b2d2d">Broken when</text>
+  <text x="528" y="304" font-size="12" fill="#1a2b4a">the system goes down</text>
+  <text x="528" y="320" font-size="12" fill="#1a2b4a">or an attack floods it</text>
+
+  <text x="380" y="428" text-anchor="middle" font-size="13" font-weight="bold" fill="#9b2d2d">Break any one goal and you have a security problem.</text>
+</svg>

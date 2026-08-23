@@ -1,0 +1,141 @@
+# Cheat Sheet — Computer Basics
+
+> A one-page, printable quick reference for **Module 01**. Tear it out and keep it in your binder.
+
+---
+
+## What is a computer?
+
+**A machine that follows instructions to turn INPUT into OUTPUT.**
+
+## The three jobs — "In → Work → Out"
+
+```
+   INPUT  ──────▶  PROCESSING  ──────▶  OUTPUT
+ (info in)      (follows instructions)  (result out)
+                        │
+                 STORAGE & MEMORY
+              (holds info now / later)
+```
+
+| Job | What it means | Example |
+|-----|---------------|---------|
+| **Input** | Information you put in | Typing, tapping, clicking, speaking |
+| **Processing** | The computer follows its instructions | Working out what to show you |
+| **Output** | The result you get back | Words on screen, sound, a printout |
+| **Storage** | Saves info for later | Files you keep |
+| **Memory** | Holds what it's using now | The app open right now |
+
+## Key words
+
+- **Program** = the instructions a computer follows.
+- **Hardware** = the physical parts you can touch.
+
+## The kitchen analogy
+
+| Kitchen | Computer |
+|---------|----------|
+| Ingredients | Input |
+| Recipe + cook | Program + Processing |
+| Finished meal | Output |
+| Pantry | Storage |
+| Counter space | Memory |
+
+## Hidden computers (they don't look like one!)
+
+📱 Phone · 📺 Smart TV · 🌐 Home router · 🚗 Car · ⌚ Smart watch
+
+## Remember
+
+> If it does **In → Work → Out**, it's a computer.
+
+---
+
+## Inside a computer (Lesson 01-02)
+
+```
+   CPU (worker)      ← does the work / "the brain"
+     ↕ very fast
+   RAM (workbench)   ← fast, TEMPORARY (cleared at power-off)
+     ↕ slower
+   STORAGE (cabinet) ← slower, PERMANENT (kept at power-off)
+```
+
+| Part | Job | Key fact |
+|------|-----|----------|
+| **CPU** | Follows instructions, does the work | The "brain" |
+| **RAM** | Holds what you're using **now** | Fast, **temporary** (wiped at power-off) |
+| **Storage** | Keeps files & programs | Slower, **permanent** (kept at power-off) |
+
+> **Key rule:** RAM ≠ storage. RAM = room to *work*; storage = room to *keep*.
+> **Desk analogy:** you = CPU · desktop = RAM · filing cabinet = Storage.
+> Measured in **gigabytes (GB)** — more GB = more room.
+
+---
+
+## Ports & devices (Lesson 01-03)
+
+- **Input device** = sends info *in* (keyboard, mouse, mic, webcam).
+- **Output device** = sends info *out* (screen, speakers, printer).
+- **Port** = a shaped slot for a device or cable — the shape tells you what fits.
+
+| Port | Used for |
+|------|----------|
+| Power | Charge the laptop |
+| USB | Many devices & adapters |
+| HDMI | Video to a monitor/TV |
+| Audio | Headphones/speakers |
+| ⭐ **Ethernet** | **Network cable — our star** |
+
+> **Ethernet port** = small, near-square slot where the network cable clicks in.
+> **No Ethernet port?** Use a **USB-to-Ethernet adapter**.
+> **Never force a plug** — if it doesn't slide in gently, it's the wrong shape.
+
+---
+
+## Operating system (Lesson 01-04)
+
+```
+   YOU + YOUR APPS      ← you click and type
+        ↓ requests
+   OPERATING SYSTEM     ← the "manager": runs programs, manages hardware, user interface
+        ↓ controls
+   HARDWARE             ← CPU · RAM · Storage · Ports
+```
+
+- **OS** = the main program that runs your programs and manages the hardware.
+- You never touch the hardware directly — the **OS** does it for you.
+- **Examples:** Windows · macOS · Linux · Android · iOS.
+- ⭐ **Routers and switches run an OS too** — that's what you configure later.
+- **Restaurant analogy:** customers = apps · manager = OS · kitchen = hardware.
+- Find yours: **Start → type `winver` → Enter**.
+
+---
+
+## Hardware vs. software (Lesson 01-05)
+
+- **Hardware** = physical parts you **can touch** (laptop, CPU, RAM, cables, ports).
+- **Software** = instructions/programs you **can't touch** (Windows, browser, apps).
+- **Quick test:** *Can I touch it?* → hardware. *Is it instructions?* → software.
+- **They need each other:** software runs on hardware; hardware needs software.
+- **Firmware** = software built into a device (like your Dell switch).
+- **Memory trick:** hardware = the body · software = the ideas.
+
+---
+
+## Client & server (Lesson 01-06)
+
+```
+   CLIENT  ── 1. REQUEST ("send the page") ──▶  SERVER
+   (asks)  ◀─ 2. RESPONSE ("here it is") ─────  (provides)
+```
+
+- **Client** = asks for something (your laptop's browser).
+- **Server** = provides something when asked (web server, your router).
+- **Request** = the client's ask · **Response** = the server's answer.
+- A **server is usually just a computer with a job** — not always a big machine.
+- **Roles depend on the job**, not the machine (a computer can be both).
+- **Waiter analogy:** customer = client · waiter = server · order = request · food = response.
+
+---
+_NetworkAcademy+ · Cheat Sheet · CompTIA Network+ N10-009 · Module 01 (complete)_

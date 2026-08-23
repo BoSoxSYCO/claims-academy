@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">The four-step port memory system</title>
+  <desc id="desc">A four-step memory-system loop for the port table. Step 1, Chunk: group ports into web, mail, remote, files, and services, learning one group at a time. Step 2, Active recall: cover the answer, say it from memory, then check, practicing both number-to-protocol and protocol-to-number. Step 3, Space it: review today, tomorrow, in two days, in four days, and in one week. Step 4, Mnemonic: add a short memory trick only for the ports you keep missing, such as SSH 22 is too secure and SMB 445 is Share My Business. An arrow loops from step 4 back to step 1 to repeat.</desc>
+
+  <rect x="0" y="0" width="720" height="540" fill="#ffffff"/>
+  <text x="360" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a2a3a">The port memory system — four habits</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="56" width="300" height="140" rx="10" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="58" y="84" font-size="16" font-weight="bold" fill="#2b6cb0">1 · CHUNK</text>
+  <text x="58" y="110" font-size="13.5" fill="#1a2a3a">Group ports by job:</text>
+  <text x="58" y="132" font-size="13.5" fill="#1a2a3a">web · mail · remote · files · services</text>
+  <text x="58" y="160" font-size="13.5" fill="#1a2a3a">Learn one group at a time.</text>
+
+  <!-- Step 2 -->
+  <rect x="380" y="56" width="300" height="140" rx="10" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="398" y="84" font-size="16" font-weight="bold" fill="#2f855a">2 · ACTIVE RECALL</text>
+  <text x="398" y="110" font-size="13.5" fill="#1a2a3a">Cover the answer → say it → check.</text>
+  <text x="398" y="136" font-size="13.5" fill="#1a2a3a">Both directions:</text>
+  <text x="398" y="158" font-size="13.5" fill="#1a2a3a">number → protocol, and back.</text>
+
+  <!-- Step 3 -->
+  <rect x="380" y="230" width="300" height="140" rx="10" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="398" y="258" font-size="16" font-weight="bold" fill="#c05621">3 · SPACE IT</text>
+  <text x="398" y="284" font-size="13.5" fill="#1a2a3a">Review at growing gaps:</text>
+  <text x="398" y="308" font-size="13.5" fill="#1a2a3a">today → tomorrow → +2d</text>
+  <text x="398" y="330" font-size="13.5" fill="#1a2a3a">→ +4d → +1 week.</text>
+
+  <!-- Step 4 -->
+  <rect x="40" y="230" width="300" height="140" rx="10" fill="#f3eafb" stroke="#6b46c1" stroke-width="2"/>
+  <text x="58" y="258" font-size="16" font-weight="bold" fill="#6b46c1">4 · MNEMONIC</text>
+  <text x="58" y="284" font-size="13.5" fill="#1a2a3a">Only for ports you keep missing.</text>
+  <text x="58" y="308" font-size="13.5" fill="#1a2a3a">SSH 22 = "too secure."</text>
+  <text x="58" y="330" font-size="13.5" fill="#1a2a3a">SMB 445 = "Share My Business."</text>
+
+  <!-- Arrows loop clockwise: 1->2 ->3 ->4 ->1 -->
+  <g stroke="#4a5568" stroke-width="2" fill="none">
+    <line x1="340" y1="126" x2="378" y2="126" marker-end="url(#a)"/>
+    <line x1="530" y1="196" x2="530" y2="228" marker-end="url(#a)"/>
+    <line x1="378" y1="300" x2="342" y2="300" marker-end="url(#a)"/>
+    <line x1="190" y1="228" x2="190" y2="198" marker-end="url(#a)"/>
+  </g>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 z" fill="#4a5568"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="404" width="640" height="60" rx="8" fill="#f2f2f2" stroke="#4a5568" stroke-width="2"/>
+  <text x="360" y="440" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a2a3a">Rule: pull the fact OUT of your head — don't just read it in.</text>
+
+  <text x="360" y="496" text-anchor="middle" font-size="13" font-style="italic" fill="#555">Four habits, used together, make the 16-port list stick.</text>
+</svg>

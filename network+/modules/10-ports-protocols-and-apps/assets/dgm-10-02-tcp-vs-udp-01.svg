@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 490" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">TCP versus UDP: reliable phone call versus fast broadcast</title>
+  <desc id="desc">Two ways to send data. On the left, TCP is reliable and connection-oriented, like a phone call. It first does a three-way handshake: the client sends SYN meaning can you hear me, the server replies SYN-ACK meaning yes can you hear me, and the client sends ACK meaning yes; then data flows. Each piece is acknowledged, and lost pieces are resent and put back in order. TCP is used for web, email, and file transfer. On the right, UDP is fast and connectionless, like a live broadcast. It just sends with no handshake, no acknowledgments, no resending, and no reordering; a lost piece is gone. UDP is used for voice and video calls, online games, and DNS. TCP is trusty and checked; UDP is ultra-fast and does not care.</desc>
+
+  <rect x="0" y="0" width="900" height="490" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Two ways to send data: TCP vs. UDP</text>
+
+  <!-- TCP side -->
+  <rect x="30" y="50" width="410" height="330" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2.5"/>
+  <text x="235" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e3a8a">TCP — reliable (a phone call)</text>
+  <text x="235" y="96" text-anchor="middle" font-size="12" fill="#475569">connection-oriented · checked</text>
+
+  <!-- handshake -->
+  <text x="55" y="122" font-size="13" font-weight="bold" fill="#111">1. Three-way handshake:</text>
+  <text x="70" y="146" font-size="12" font-family="monospace" fill="#1e3a8a">client → SYN → server</text>
+  <text x="230" y="146" font-size="11" fill="#475569">"can you hear me?"</text>
+  <text x="70" y="168" font-size="12" font-family="monospace" fill="#166534">client ← SYN-ACK ← server</text>
+  <text x="250" y="168" font-size="11" fill="#475569">"yes — you?"</text>
+  <text x="70" y="190" font-size="12" font-family="monospace" fill="#1e3a8a">client → ACK → server</text>
+  <text x="230" y="190" font-size="11" fill="#475569">"yes" → ready</text>
+
+  <!-- reliable delivery -->
+  <text x="55" y="220" font-size="13" font-weight="bold" fill="#111">2. Then data, each piece checked:</text>
+  <text x="70" y="244" font-size="12" fill="#111">• send piece → get an <tspan font-weight="bold">ACK</tspan> back</text>
+  <text x="70" y="266" font-size="12" fill="#111">• lost piece? → <tspan font-weight="bold">resend</tspan> it</text>
+  <text x="70" y="288" font-size="12" fill="#111">• put all pieces back <tspan font-weight="bold">in order</tspan></text>
+
+  <rect x="55" y="308" width="360" height="56" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="235" y="330" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e3a8a">Use for: web · email · file transfer</text>
+  <text x="235" y="352" text-anchor="middle" font-size="11" fill="#475569">nothing goes missing (a little slower)</text>
+
+  <!-- UDP side -->
+  <rect x="460" y="50" width="410" height="330" rx="10" fill="#fffbeb" stroke="#a16207" stroke-width="2.5"/>
+  <text x="665" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#78350f">UDP — fast (a live broadcast)</text>
+  <text x="665" y="96" text-anchor="middle" font-size="12" fill="#475569">connectionless · best-effort</text>
+
+  <text x="485" y="130" font-size="13" font-weight="bold" fill="#111">Just send — no setup:</text>
+  <text x="500" y="156" font-size="12" font-family="monospace" fill="#78350f">sender → → → listeners</text>
+  <text x="500" y="180" font-size="12" fill="#111">• no handshake</text>
+  <text x="500" y="202" font-size="12" fill="#111">• no ACK, no resend</text>
+  <text x="500" y="224" font-size="12" fill="#111">• no reordering</text>
+  <text x="500" y="252" font-size="12" fill="#b91c1c">• a lost piece is simply gone</text>
+
+  <rect x="485" y="290" width="360" height="74" rx="8" fill="#fef3c7" stroke="#a16207" stroke-width="1.5"/>
+  <text x="665" y="312" text-anchor="middle" font-size="12" font-weight="bold" fill="#78350f">Use for: voice/video · games · DNS</text>
+  <text x="665" y="334" text-anchor="middle" font-size="11" fill="#475569">fast; skip a lost frame and stay current</text>
+  <text x="665" y="354" text-anchor="middle" font-size="10" fill="#b45309">(resending a late frame would be useless)</text>
+
+  <!-- bottom trade-off -->
+  <rect x="30" y="400" width="840" height="70" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="426" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">The trade-off</text>
+  <text x="240" y="452" text-anchor="middle" font-size="13" fill="#1e3a8a"><tspan font-weight="bold">TCP</tspan> = Trusty &amp; Checked (reliability)</text>
+  <text x="665" y="452" text-anchor="middle" font-size="13" fill="#78350f"><tspan font-weight="bold">UDP</tspan> = Ultra-fast &amp; Don't-care (speed)</text>
+</svg>

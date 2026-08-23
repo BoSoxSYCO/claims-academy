@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">The operating system sits between you and the hardware</title>
+  <desc id="desc">Three stacked layers showing the operating system in the middle: you and your apps on top send requests down to the operating system, which manages and controls the hardware (CPU, RAM, storage, ports) at the bottom.</desc>
+
+  <rect x="0" y="0" width="900" height="440" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#111111">The OS sits in the middle</text>
+
+  <!-- Apps layer (blue) -->
+  <rect x="180" y="80" width="540" height="80" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+  <text x="450" y="112" text-anchor="middle" font-size="20" font-weight="bold" fill="#1e40af">YOU + YOUR PROGRAMS (apps)</text>
+  <text x="450" y="138" text-anchor="middle" font-size="14" fill="#111">you click and type</text>
+
+  <!-- arrow down: requests -->
+  <line x1="450" y1="160" x2="450" y2="195" stroke="#333" stroke-width="4"/>
+  <polygon points="442,195 450,209 458,195" fill="#333"/>
+  <text x="500" y="182" font-size="13" fill="#444">requests</text>
+
+  <!-- OS layer (green, emphasized) -->
+  <rect x="150" y="210" width="600" height="90" rx="16" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+  <text x="450" y="245" text-anchor="middle" font-size="22" font-weight="bold" fill="#166534">OPERATING SYSTEM — the manager</text>
+  <text x="450" y="273" text-anchor="middle" font-size="14" fill="#111">runs programs · manages hardware · shows the user interface</text>
+
+  <!-- arrow down: controls -->
+  <line x1="450" y1="300" x2="450" y2="335" stroke="#333" stroke-width="4"/>
+  <polygon points="442,335 450,349 458,335" fill="#333"/>
+  <text x="500" y="322" font-size="13" fill="#444">controls</text>
+
+  <!-- Hardware layer (gray) -->
+  <rect x="180" y="350" width="540" height="70" rx="14" fill="#e5e7eb" stroke="#374151" stroke-width="3"/>
+  <text x="450" y="380" text-anchor="middle" font-size="19" font-weight="bold" fill="#374151">HARDWARE</text>
+  <text x="450" y="403" text-anchor="middle" font-size="14" fill="#111">CPU  ·  RAM  ·  Storage  ·  Ports</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Shortening an IPv6 address in two steps</title>
+  <desc id="desc">An IPv6 address 2001:0db8:0000:0000:0000:ff00:0042:8329 shortened in two steps. Rule one drops the leading zeros in each of the eight hextets, giving 2001:db8:0:0:0:ff00:42:8329. Rule two replaces the one run of all-zero groups with a double colon, giving the final 2001:db8 double-colon ff00:42:8329. A key lists address types: double-colon 1 is loopback, double-colon alone is unspecified, fe80 double-colon is link-local, and addresses starting 2000 to 3fff are global unicast, meaning public.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Reading IPv6: shorten it in two steps</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#475569">128 bits = eight hextets (4 hex digits each), separated by colons</text>
+
+  <!-- full address -->
+  <rect x="40" y="72" width="820" height="52" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="60" y="97" font-size="13" font-weight="bold" fill="#1e3a8a">Full</text>
+  <text x="450" y="105" text-anchor="middle" font-size="17" font-family="monospace" fill="#111">2001:0db8:0000:0000:0000:ff00:0042:8329</text>
+
+  <!-- rule 1 -->
+  <text x="60" y="152" font-size="14" font-weight="bold" fill="#166534">Rule 1 — drop leading zeros in each group</text>
+  <rect x="40" y="162" width="820" height="46" rx="8" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+  <text x="450" y="191" text-anchor="middle" font-size="17" font-family="monospace" fill="#111">2001:db8:<tspan fill="#b91c1c">0:0:0</tspan>:ff00:42:8329</text>
+
+  <!-- rule 2 -->
+  <text x="60" y="238" font-size="14" font-weight="bold" fill="#78350f">Rule 2 — one run of zero groups → ::  (once only)</text>
+  <rect x="40" y="248" width="820" height="46" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  <text x="450" y="277" text-anchor="middle" font-size="18" font-family="monospace" font-weight="bold" fill="#111">2001:db8<tspan fill="#b45309">::</tspan>ff00:42:8329</text>
+
+  <!-- arrow down -->
+  <text x="450" y="145" text-anchor="middle" font-size="14" fill="#166534">▼</text>
+  <text x="450" y="231" text-anchor="middle" font-size="14" fill="#78350f">▼</text>
+
+  <!-- key -->
+  <rect x="40" y="315" width="820" height="120" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="340" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Addresses to recognize</text>
+  <g font-size="14">
+    <text x="70" y="370" font-family="monospace" font-weight="bold" fill="#5b21b6">::1</text>
+    <text x="150" y="370" fill="#111">loopback (yourself)</text>
+    <text x="470" y="370" font-family="monospace" font-weight="bold" fill="#5b21b6">::</text>
+    <text x="540" y="370" fill="#111">unspecified (no address yet)</text>
+
+    <text x="70" y="402" font-family="monospace" font-weight="bold" fill="#166534">fe80::</text>
+    <text x="150" y="402" fill="#111">link-local (its own link)</text>
+    <text x="470" y="402" font-family="monospace" font-weight="bold" fill="#1d4ed8">2000–3fff</text>
+    <text x="600" y="402" fill="#111">global unicast (public)</text>
+  </g>
+  <text x="450" y="426" text-anchor="middle" font-size="11" fill="#475569">IPv6 has no broadcast — it uses multicast instead.</text>
+</svg>

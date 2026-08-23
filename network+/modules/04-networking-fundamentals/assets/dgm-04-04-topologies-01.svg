@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">The four classic network topologies</title>
+  <desc id="desc">Four panels showing network topologies. Star: five nodes each joined to one central switch or router. Bus: four nodes each dropping down to one shared horizontal backbone cable. Ring: four nodes joined in a closed loop, each to its two neighbors. Mesh: four nodes joined by many cross-links so several paths exist between them.</desc>
+
+  <rect x="0" y="0" width="900" height="620" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The four classic topologies</text>
+
+  <!-- panel frames -->
+  <rect x="30"  y="55"  width="410" height="255" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+  <rect x="460" y="55"  width="410" height="255" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+  <rect x="30"  y="330" width="410" height="255" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+  <rect x="460" y="330" width="410" height="255" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+
+  <text x="50" y="82" font-size="17" font-weight="bold" fill="#166534">STAR — one center (home networks)</text>
+  <text x="480" y="82" font-size="17" font-weight="bold" fill="#1e40af">BUS — one shared backbone</text>
+  <text x="50" y="357" font-size="17" font-weight="bold" fill="#6d28d9">RING — a closed loop</text>
+  <text x="480" y="357" font-size="17" font-weight="bold" fill="#a16207">MESH — many paths</text>
+
+  <!-- STAR: center switch + 5 spokes -->
+  <g stroke="#166534" stroke-width="3">
+    <line x1="235" y1="200" x2="130" y2="120"/>
+    <line x1="235" y1="200" x2="340" y2="120"/>
+    <line x1="235" y1="200" x2="120" y2="255"/>
+    <line x1="235" y1="200" x2="350" y2="255"/>
+    <line x1="235" y1="200" x2="235" y2="285"/>
+  </g>
+  <g fill="#dbeafe" stroke="#1e40af" stroke-width="2">
+    <rect x="95"  y="102" width="70" height="34" rx="6"/>
+    <rect x="305" y="102" width="70" height="34" rx="6"/>
+    <rect x="85"  y="238" width="70" height="34" rx="6"/>
+    <rect x="315" y="238" width="70" height="34" rx="6"/>
+    <rect x="200" y="270" width="70" height="34" rx="6"/>
+  </g>
+  <rect x="195" y="182" width="80" height="40" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <text x="235" y="207" text-anchor="middle" font-size="12" font-weight="bold" fill="#166534">switch/router</text>
+  <text x="130" y="123" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+  <text x="340" y="123" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+  <text x="120" y="259" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+  <text x="350" y="259" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+  <text x="235" y="291" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+
+  <!-- BUS: horizontal backbone + 4 drops -->
+  <line x1="500" y1="230" x2="830" y2="230" stroke="#1e40af" stroke-width="5"/>
+  <text x="665" y="255" text-anchor="middle" font-size="12" fill="#1e40af">backbone (one shared cable)</text>
+  <g stroke="#1e40af" stroke-width="3">
+    <line x1="545" y1="150" x2="545" y2="230"/>
+    <line x1="625" y1="150" x2="625" y2="230"/>
+    <line x1="705" y1="150" x2="705" y2="230"/>
+    <line x1="785" y1="150" x2="785" y2="230"/>
+  </g>
+  <g fill="#dbeafe" stroke="#1e40af" stroke-width="2">
+    <rect x="512" y="116" width="66" height="34" rx="6"/>
+    <rect x="592" y="116" width="66" height="34" rx="6"/>
+    <rect x="672" y="116" width="66" height="34" rx="6"/>
+    <rect x="752" y="116" width="66" height="34" rx="6"/>
+  </g>
+  <text x="545" y="137" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+  <text x="625" y="137" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+  <text x="705" y="137" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+  <text x="785" y="137" text-anchor="middle" font-size="11" fill="#1e40af">node</text>
+
+  <!-- RING: 4 nodes in a loop -->
+  <g stroke="#6d28d9" stroke-width="3" fill="none">
+    <line x1="150" y1="430" x2="320" y2="430"/>
+    <line x1="320" y1="430" x2="320" y2="540"/>
+    <line x1="320" y1="540" x2="150" y2="540"/>
+    <line x1="150" y1="540" x2="150" y2="430"/>
+  </g>
+  <g fill="#ede9fe" stroke="#6d28d9" stroke-width="2">
+    <rect x="117" y="413" width="66" height="34" rx="6"/>
+    <rect x="287" y="413" width="66" height="34" rx="6"/>
+    <rect x="117" y="523" width="66" height="34" rx="6"/>
+    <rect x="287" y="523" width="66" height="34" rx="6"/>
+  </g>
+  <text x="150" y="434" text-anchor="middle" font-size="11" fill="#6d28d9">node</text>
+  <text x="320" y="434" text-anchor="middle" font-size="11" fill="#6d28d9">node</text>
+  <text x="150" y="544" text-anchor="middle" font-size="11" fill="#6d28d9">node</text>
+  <text x="320" y="544" text-anchor="middle" font-size="11" fill="#6d28d9">node</text>
+
+  <!-- MESH: 4 nodes, links between most pairs -->
+  <g stroke="#a16207" stroke-width="2.5">
+    <line x1="580" y1="430" x2="750" y2="430"/>
+    <line x1="580" y1="540" x2="750" y2="540"/>
+    <line x1="580" y1="430" x2="580" y2="540"/>
+    <line x1="750" y1="430" x2="750" y2="540"/>
+    <line x1="580" y1="430" x2="750" y2="540"/>
+    <line x1="750" y1="430" x2="580" y2="540"/>
+  </g>
+  <g fill="#fef9c3" stroke="#a16207" stroke-width="2">
+    <rect x="547" y="413" width="66" height="34" rx="6"/>
+    <rect x="717" y="413" width="66" height="34" rx="6"/>
+    <rect x="547" y="523" width="66" height="34" rx="6"/>
+    <rect x="717" y="523" width="66" height="34" rx="6"/>
+  </g>
+  <text x="580" y="434" text-anchor="middle" font-size="11" fill="#a16207">node</text>
+  <text x="750" y="434" text-anchor="middle" font-size="11" fill="#a16207">node</text>
+  <text x="580" y="544" text-anchor="middle" font-size="11" fill="#a16207">node</text>
+  <text x="750" y="544" text-anchor="middle" font-size="11" fill="#a16207">node</text>
+
+  <text x="450" y="608" text-anchor="middle" font-size="12" fill="#475569">Shape carries the meaning: one center · one line · a loop · many cross-links.</text>
+</svg>

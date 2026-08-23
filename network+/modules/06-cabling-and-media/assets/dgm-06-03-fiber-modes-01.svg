@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Inside a fiber and single-mode vs multimode</title>
+  <desc id="desc">A cut-away fiber showing a light ray bouncing down a glass core surrounded by cladding, then two panels: single-mode fiber with a thin core and one straight laser ray for long distance, and multimode fiber with a wider core and many bouncing LED rays for shorter distance.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Fiber optic — light bounces down a glass core</text>
+
+  <!-- Cross-section: core + cladding -->
+  <text x="450" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">Light travels in the core; the cladding keeps it in</text>
+  <rect x="120" y="75" width="660" height="70" fill="#e0e7ff" stroke="#4338ca" stroke-width="2"/>
+  <rect x="120" y="97" width="660" height="26" fill="#fef9c3" stroke="#a16207" stroke-width="1.5"/>
+  <text x="150" y="90" font-size="11" fill="#4338ca">cladding (mirror layer)</text>
+  <text x="150" y="140" font-size="11" fill="#4338ca">cladding (mirror layer)</text>
+  <!-- bouncing light in core -->
+  <polyline points="130,110 200,100 270,120 340,100 410,120 480,100 550,120 620,100 690,120 760,110" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="450" y="115" text-anchor="middle" font-size="11" font-weight="bold" fill="#7f1d1d">core — light →</text>
+
+  <!-- Single-mode panel -->
+  <rect x="40" y="175" width="400" height="260" rx="10" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  <text x="240" y="202" text-anchor="middle" font-size="16" font-weight="bold" fill="#a16207">Single-mode (SMF)</text>
+  <text x="240" y="223" text-anchor="middle" font-size="12" fill="#78350f">thin core · laser · longest distance (km)</text>
+  <!-- thin core, one straight ray -->
+  <rect x="70" y="250" width="340" height="40" fill="#e0e7ff" stroke="#4338ca" stroke-width="1.5"/>
+  <rect x="70" y="266" width="340" height="8" fill="#fde68a" stroke="#a16207" stroke-width="1"/>
+  <line x1="72" y1="270" x2="408" y2="270" stroke="#dc2626" stroke-width="3" marker-end="url(#fw)"/>
+  <text x="240" y="312" text-anchor="middle" font-size="12" fill="#78350f">ONE straight path → goes very far</text>
+  <text x="240" y="335" text-anchor="middle" font-size="11" fill="#78350f">jacket: often YELLOW</text>
+  <text x="240" y="360" text-anchor="middle" font-size="11" fill="#78350f">use: between cities / buildings / ISP</text>
+
+  <!-- Multimode panel -->
+  <rect x="460" y="175" width="400" height="260" rx="10" fill="#ecfeff" stroke="#0e7490" stroke-width="2"/>
+  <text x="660" y="202" text-anchor="middle" font-size="16" font-weight="bold" fill="#0e7490">Multimode (MMF)</text>
+  <text x="660" y="223" text-anchor="middle" font-size="12" fill="#155e63">wider core · LED · shorter distance</text>
+  <!-- wide core, many bouncing rays -->
+  <rect x="490" y="245" width="340" height="55" fill="#e0e7ff" stroke="#4338ca" stroke-width="1.5"/>
+  <rect x="490" y="258" width="340" height="30" fill="#cffafe" stroke="#0e7490" stroke-width="1"/>
+  <polyline points="492,288 540,258 588,288 636,258 684,288 732,258 780,288 828,273" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#fw)"/>
+  <text x="660" y="322" text-anchor="middle" font-size="12" fill="#155e63">MANY bouncing paths → shorter reach</text>
+  <text x="660" y="345" text-anchor="middle" font-size="11" fill="#155e63">jacket: often AQUA / ORANGE</text>
+  <text x="660" y="370" text-anchor="middle" font-size="11" fill="#155e63">use: inside a building / data center</text>
+
+  <defs>
+    <marker id="fw" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="458" text-anchor="middle" font-size="12" fill="#475569">Fiber vs copper: carries light (no EMI/crosstalk) · farther · faster · more secure.</text>
+</svg>

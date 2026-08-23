@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">The must-know ports grouped by job</title>
+  <desc id="desc">The must-know ports grouped by job. Web: HTTP port 80 TCP and HTTPS port 443 TCP. Mail: SMTP port 25 sends, POP3 port 110 downloads, IMAP port 143 keeps mail on the server, all TCP. Remote access: SSH port 22 secure, Telnet port 23 insecure, RDP port 3389, all TCP. Files: FTP ports 20 and 21 TCP, TFTP port 69 UDP, SMB port 445 TCP. Network services from Module 09: DNS port 53 TCP and UDP, DHCP ports 67 and 68 UDP, NTP port 123 UDP, SNMP ports 161 and 162 UDP, Syslog port 514 UDP. A note warns not to confuse SSH 22 secure with Telnet 23 insecure, and that SMTP sends while POP3 and IMAP receive.</desc>
+
+  <rect x="0" y="0" width="760" height="620" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a2a3a">Must-know ports, grouped by job</text>
+
+  <!-- WEB -->
+  <rect x="20" y="54" width="720" height="82" rx="8" fill="#eaf3fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="34" y="80" font-size="16" font-weight="bold" fill="#2b6cb0">WEB</text>
+  <text x="34" y="104" font-size="15" fill="#1a2a3a">HTTP — port 80 (TCP) — plain web pages</text>
+  <text x="34" y="126" font-size="15" fill="#1a2a3a">HTTPS — port 443 (TCP) — secure, encrypted web pages</text>
+
+  <!-- MAIL -->
+  <rect x="20" y="146" width="720" height="104" rx="8" fill="#eafbf0" stroke="#2f855a" stroke-width="2"/>
+  <text x="34" y="172" font-size="16" font-weight="bold" fill="#2f855a">MAIL</text>
+  <text x="34" y="196" font-size="15" fill="#1a2a3a">SMTP — port 25 (TCP) — sends email</text>
+  <text x="34" y="218" font-size="15" fill="#1a2a3a">POP3 — port 110 (TCP) — downloads email to one device</text>
+  <text x="34" y="240" font-size="15" fill="#1a2a3a">IMAP — port 143 (TCP) — keeps email on the server (syncs)</text>
+
+  <!-- REMOTE -->
+  <rect x="20" y="260" width="720" height="104" rx="8" fill="#fbf3ea" stroke="#c05621" stroke-width="2"/>
+  <text x="34" y="286" font-size="16" font-weight="bold" fill="#c05621">REMOTE ACCESS</text>
+  <text x="34" y="310" font-size="15" fill="#1a2a3a">SSH — port 22 (TCP) — secure remote command line</text>
+  <text x="34" y="332" font-size="15" fill="#1a2a3a">Telnet — port 23 (TCP) — old, insecure command line (avoid)</text>
+  <text x="34" y="354" font-size="15" fill="#1a2a3a">RDP — port 3389 (TCP) — remote control of a Windows desktop</text>
+
+  <!-- FILES -->
+  <rect x="20" y="374" width="720" height="104" rx="8" fill="#f3eafb" stroke="#6b46c1" stroke-width="2"/>
+  <text x="34" y="400" font-size="16" font-weight="bold" fill="#6b46c1">FILES</text>
+  <text x="34" y="424" font-size="15" fill="#1a2a3a">FTP — ports 20 / 21 (TCP) — file transfer (21 controls, 20 data)</text>
+  <text x="34" y="446" font-size="15" fill="#1a2a3a">TFTP — port 69 (UDP) — simple, no-frills transfer</text>
+  <text x="34" y="468" font-size="15" fill="#1a2a3a">SMB — port 445 (TCP) — Windows file and printer sharing</text>
+
+  <!-- SERVICES -->
+  <rect x="20" y="488" width="720" height="82" rx="8" fill="#f2f2f2" stroke="#4a5568" stroke-width="2"/>
+  <text x="34" y="514" font-size="16" font-weight="bold" fill="#4a5568">SERVICES (from Module 09)</text>
+  <text x="34" y="538" font-size="15" fill="#1a2a3a">DNS 53 (TCP/UDP) · DHCP 67/68 (UDP) · NTP 123 (UDP)</text>
+  <text x="34" y="560" font-size="15" fill="#1a2a3a">SNMP 161/162 (UDP) · Syslog 514 (UDP)</text>
+
+  <!-- WATCH NOTE -->
+  <text x="380" y="596" text-anchor="middle" font-size="14" font-style="italic" fill="#9b2c2c">Watch: SSH 22 (secure) vs Telnet 23 (insecure). SMTP sends; POP3 and IMAP receive.</text>
+</svg>

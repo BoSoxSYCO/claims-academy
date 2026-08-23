@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">Other network gear along the path from the internet</title>
+  <desc id="desc">A network path from the internet through a modem, a firewall, and a router-switch to computers, a wireless access point sending Wi-Fi, and a camera powered over its Ethernet cable. A side panel lists a load balancer that spreads traffic across servers, a proxy that acts as a middleman, and an IDS or IPS that detects or blocks attacks.</desc>
+
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Other gear in a network — each has one job</text>
+
+  <!-- main path -->
+  <ellipse cx="80" cy="120" rx="60" ry="34" fill="#e2e8f0" stroke="#334155" stroke-width="2"/>
+  <text x="80" y="118" text-anchor="middle" font-size="12" fill="#334155">internet</text>
+  <text x="80" y="134" text-anchor="middle" font-size="9" fill="#64748b">(ISP)</text>
+
+  <rect x="170" y="95" width="90" height="50" rx="6" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="215" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e3a8a">MODEM</text>
+  <text x="215" y="134" text-anchor="middle" font-size="9" fill="#1e3a8a">ISP door</text>
+
+  <rect x="300" y="95" width="90" height="50" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="345" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#7f1d1d">FIREWALL</text>
+  <text x="345" y="134" text-anchor="middle" font-size="9" fill="#7f1d1d">allow / block</text>
+
+  <rect x="430" y="95" width="110" height="50" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="485" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532d">ROUTER +</text>
+  <text x="485" y="134" text-anchor="middle" font-size="11" font-weight="bold" fill="#14532d">SWITCH</text>
+
+  <g stroke="#111" stroke-width="2" marker-end="url(#fw)">
+    <line x1="140" y1="120" x2="168" y2="120"/>
+    <line x1="260" y1="120" x2="298" y2="120"/>
+    <line x1="390" y1="120" x2="428" y2="120"/>
+  </g>
+
+  <!-- endpoints -->
+  <rect x="620" y="60" width="80" height="34" rx="5" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/><text x="660" y="82" text-anchor="middle" font-size="11" fill="#1e40af">PC</text>
+  <rect x="620" y="110" width="80" height="34" rx="5" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/><text x="660" y="132" text-anchor="middle" font-size="11" fill="#6d28d9">AP )))</text>
+  <text x="745" y="132" font-size="10" fill="#6d28d9">Wi-Fi devices</text>
+  <rect x="620" y="160" width="120" height="34" rx="5" fill="#fef9c3" stroke="#a16207" stroke-width="2"/><text x="680" y="182" text-anchor="middle" font-size="10" fill="#78350f">PoE camera</text>
+  <text x="620" y="212" font-size="9" fill="#78350f">PoE = power + data on one cable</text>
+
+  <g stroke="#111" stroke-width="1.5">
+    <line x1="540" y1="115" x2="620" y2="77"/>
+    <line x1="540" y1="120" x2="620" y2="127"/>
+    <line x1="540" y1="128" x2="620" y2="177"/>
+  </g>
+
+  <!-- helpers panel -->
+  <rect x="80" y="250" width="740" height="180" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="276" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Helper devices</text>
+
+  <rect x="110" y="292" width="200" height="110" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="210" y="316" text-anchor="middle" font-size="14" font-weight="bold" fill="#1d4ed8">Load balancer</text>
+  <text x="210" y="342" text-anchor="middle" font-size="11" fill="#1e3a8a">spreads traffic across</text>
+  <text x="210" y="358" text-anchor="middle" font-size="11" fill="#1e3a8a">several servers</text>
+  <text x="210" y="384" text-anchor="middle" font-size="10" fill="#64748b">(like extra checkout lanes)</text>
+
+  <rect x="350" y="292" width="200" height="110" rx="8" fill="#f0fdf4" stroke="#166534" stroke-width="1.5"/>
+  <text x="450" y="316" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">Proxy server</text>
+  <text x="450" y="342" text-anchor="middle" font-size="11" fill="#14532d">middleman between users</text>
+  <text x="450" y="358" text-anchor="middle" font-size="11" fill="#14532d">and the internet</text>
+  <text x="450" y="384" text-anchor="middle" font-size="10" fill="#64748b">(forwards + filters requests)</text>
+
+  <rect x="590" y="292" width="200" height="110" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="690" y="316" text-anchor="middle" font-size="14" font-weight="bold" fill="#b91c1c">IDS / IPS</text>
+  <text x="690" y="342" text-anchor="middle" font-size="11" fill="#7f1d1d">watches traffic for attacks</text>
+  <text x="690" y="358" text-anchor="middle" font-size="11" fill="#7f1d1d">IDS alerts · IPS blocks</text>
+  <text x="690" y="384" text-anchor="middle" font-size="10" fill="#64748b">(detect vs. prevent)</text>
+
+  <defs>
+    <marker id="fw" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#111"/></marker>
+  </defs>
+</svg>

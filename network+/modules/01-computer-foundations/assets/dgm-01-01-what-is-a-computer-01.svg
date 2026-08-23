@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">What a computer does: Input to Processing to Output</title>
+  <desc id="desc">A flow diagram showing a computer's three jobs: information comes in as Input, the Processing block works on it following instructions, and an Output result comes out. A Storage and Memory block below Processing holds information for now and later.</desc>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="460" fill="#ffffff"/>
+
+  <!-- Heading -->
+  <text x="450" y="46" text-anchor="middle" font-size="30" font-weight="bold" fill="#111111">A computer does three jobs</text>
+  <text x="450" y="76" text-anchor="middle" font-size="18" fill="#444444">In &#8594; Work &#8594; Out</text>
+
+  <!-- INPUT block (blue, rounded rectangle) -->
+  <rect x="40" y="130" width="220" height="150" rx="18" ry="18" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+  <text x="150" y="120" text-anchor="middle" font-size="20" font-weight="bold" fill="#1e40af">1. INPUT</text>
+  <!-- keyboard icon: simple keys -->
+  <rect x="95" y="165" width="110" height="55" rx="6" fill="#ffffff" stroke="#1e40af" stroke-width="2"/>
+  <rect x="105" y="175" width="18" height="14" fill="#1e40af"/>
+  <rect x="131" y="175" width="18" height="14" fill="#1e40af"/>
+  <rect x="157" y="175" width="18" height="14" fill="#1e40af"/>
+  <rect x="118" y="195" width="64" height="14" fill="#1e40af"/>
+  <text x="150" y="252" text-anchor="middle" font-size="16" fill="#111111">You type, tap,</text>
+  <text x="150" y="272" text-anchor="middle" font-size="16" fill="#111111">click, or speak</text>
+
+  <!-- Arrow 1 -->
+  <line x1="266" y1="205" x2="322" y2="205" stroke="#333333" stroke-width="4"/>
+  <polygon points="322,197 340,205 322,213" fill="#333333"/>
+
+  <!-- PROCESSING block (green, gear) -->
+  <rect x="346" y="130" width="220" height="150" rx="18" ry="18" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+  <text x="456" y="120" text-anchor="middle" font-size="20" font-weight="bold" fill="#166534">2. PROCESSING</text>
+  <!-- gear icon -->
+  <g transform="translate(456,196)" fill="#166534">
+    <circle cx="0" cy="0" r="26" fill="#ffffff" stroke="#166534" stroke-width="3"/>
+    <circle cx="0" cy="0" r="9" fill="#166534"/>
+    <rect x="-4" y="-38" width="8" height="14"/>
+    <rect x="-4" y="24" width="8" height="14"/>
+    <rect x="-38" y="-4" width="14" height="8"/>
+    <rect x="24" y="-4" width="14" height="8"/>
+  </g>
+  <text x="456" y="252" text-anchor="middle" font-size="16" fill="#111111">Follows its</text>
+  <text x="456" y="272" text-anchor="middle" font-size="16" fill="#111111">instructions</text>
+
+  <!-- Arrow 2 -->
+  <line x1="572" y1="205" x2="628" y2="205" stroke="#333333" stroke-width="4"/>
+  <polygon points="628,197 646,205 628,213" fill="#333333"/>
+
+  <!-- OUTPUT block (orange, screen) -->
+  <rect x="652" y="130" width="220" height="150" rx="18" ry="18" fill="#ffedd5" stroke="#9a3412" stroke-width="3"/>
+  <text x="762" y="120" text-anchor="middle" font-size="20" font-weight="bold" fill="#9a3412">3. OUTPUT</text>
+  <!-- screen icon -->
+  <rect x="712" y="163" width="100" height="60" rx="6" fill="#ffffff" stroke="#9a3412" stroke-width="2"/>
+  <line x1="762" y1="223" x2="762" y2="235" stroke="#9a3412" stroke-width="4"/>
+  <rect x="742" y="235" width="40" height="6" rx="3" fill="#9a3412"/>
+  <text x="762" y="262" text-anchor="middle" font-size="16" fill="#111111">A result: words,</text>
+  <text x="762" y="282" text-anchor="middle" font-size="16" fill="#111111">sound, a printout</text>
+
+  <!-- Downward link to storage -->
+  <line x1="456" y1="280" x2="456" y2="332" stroke="#333333" stroke-width="4"/>
+  <polygon points="448,332 456,350 464,332" fill="#333333"/>
+
+  <!-- STORAGE / MEMORY block (gray) -->
+  <rect x="286" y="352" width="340" height="80" rx="14" ry="14" fill="#e5e7eb" stroke="#374151" stroke-width="3"/>
+  <text x="456" y="386" text-anchor="middle" font-size="19" font-weight="bold" fill="#374151">STORAGE &amp; MEMORY</text>
+  <text x="456" y="412" text-anchor="middle" font-size="15" fill="#111111">Holds information to use now or later</text>
+</svg>

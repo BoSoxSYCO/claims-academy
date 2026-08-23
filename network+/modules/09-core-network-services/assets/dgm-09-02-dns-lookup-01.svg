@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">A DNS lookup turning a name into an IP address</title>
+  <desc id="desc">A DNS lookup turning google.com into an IP address. First the computer checks its local DNS cache. If not found, it asks a DNS resolver, the server DHCP provided. The resolver walks the hierarchy: root servers point to the dot-com servers, which point to the authoritative server for google.com. The IP address, for example 142.250.72.14, returns and is cached for its time to live, then the computer connects. A table lists record types: A maps a name to an IPv4 address, AAAA to an IPv6 address, CNAME to another name as an alias, MX to a mail server, and PTR is the reverse lookup from IP to name.</desc>
+
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">DNS: turning a name into a number</text>
+
+  <!-- name to number banner -->
+  <rect x="60" y="52" width="300" height="44" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+  <text x="210" y="80" text-anchor="middle" font-size="16" font-family="monospace" fill="#5b21b6">google.com</text>
+  <text x="400" y="80" text-anchor="middle" font-size="20" fill="#334155">→</text>
+  <rect x="440" y="52" width="300" height="44" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="590" y="80" text-anchor="middle" font-size="16" font-family="monospace" fill="#1e3a8a">142.250.72.14</text>
+
+  <!-- step 1 cache -->
+  <rect x="40" y="120" width="180" height="60" rx="8" fill="#fffbeb" stroke="#a16207" stroke-width="2"/>
+  <text x="130" y="145" text-anchor="middle" font-size="13" font-weight="bold" fill="#78350f">1. Check cache</text>
+  <text x="130" y="165" text-anchor="middle" font-size="10" fill="#78350f">recent answers (hit → done)</text>
+
+  <!-- step 2 resolver -->
+  <rect x="255" y="120" width="180" height="60" rx="8" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="345" y="145" text-anchor="middle" font-size="13" font-weight="bold" fill="#14532d">2. Ask resolver</text>
+  <text x="345" y="165" text-anchor="middle" font-size="10" fill="#166534">(DNS server from DHCP)</text>
+
+  <line x1="220" y1="150" x2="253" y2="150" stroke="#111" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- step 3 hierarchy -->
+  <text x="600" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">3. Walk the hierarchy</text>
+  <g font-size="12" text-anchor="middle">
+    <rect x="470" y="128" width="90" height="44" rx="6" fill="#eff6ff" stroke="#1d4ed8"/><text x="515" y="148" fill="#1e3a8a">root</text><text x="515" y="164" font-size="9" fill="#475569">(.)</text>
+    <rect x="585" y="128" width="90" height="44" rx="6" fill="#eff6ff" stroke="#1d4ed8"/><text x="630" y="148" fill="#1e3a8a">.com</text><text x="630" y="164" font-size="9" fill="#475569">(TLD)</text>
+    <rect x="700" y="128" width="150" height="44" rx="6" fill="#eff6ff" stroke="#1d4ed8"/><text x="775" y="148" fill="#1e3a8a">google.com server</text><text x="775" y="164" font-size="9" fill="#475569">(authoritative)</text>
+  </g>
+  <g stroke="#111" stroke-width="2" marker-end="url(#ar)">
+    <line x1="435" y1="150" x2="468" y2="150"/>
+    <line x1="560" y1="150" x2="583" y2="150"/>
+    <line x1="675" y1="150" x2="698" y2="150"/>
+  </g>
+
+  <!-- step 4 return -->
+  <line x1="775" y1="180" x2="775" y2="210" stroke="#166534" stroke-width="2" marker-end="url(#gr)"/>
+  <rect x="255" y="205" width="595" height="40" rx="8" fill="#f0fdf4" stroke="#166534" stroke-width="2"/>
+  <text x="552" y="230" text-anchor="middle" font-size="13" fill="#14532d">4. IP returns  →  cached for its <tspan font-weight="bold">TTL</tspan>  →  your computer connects</text>
+
+  <!-- records table -->
+  <rect x="60" y="270" width="780" height="150" rx="10" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="295" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">DNS record types</text>
+  <g font-size="13">
+    <text x="90" y="325" font-weight="bold" font-family="monospace" fill="#1d4ed8">A</text><text x="150" y="325" fill="#111">name → IPv4 address (the main one)</text>
+    <text x="90" y="352" font-weight="bold" font-family="monospace" fill="#1d4ed8">AAAA</text><text x="150" y="352" fill="#111">name → IPv6 address</text>
+    <text x="90" y="379" font-weight="bold" font-family="monospace" fill="#1d4ed8">CNAME</text><text x="150" y="379" fill="#111">name → another name (an alias)</text>
+    <text x="500" y="325" font-weight="bold" font-family="monospace" fill="#1d4ed8">MX</text><text x="560" y="325" fill="#111">domain → mail server</text>
+    <text x="500" y="352" font-weight="bold" font-family="monospace" fill="#1d4ed8">PTR</text><text x="560" y="352" fill="#111">IP → name (reverse lookup)</text>
+    <text x="500" y="379" font-weight="bold" font-family="monospace" fill="#1d4ed8">TXT</text><text x="560" y="379" fill="#111">name → text (notes / verification)</text>
+  </g>
+  <text x="450" y="408" text-anchor="middle" font-size="12" fill="#475569">Names for people · numbers for machines · DNS connects the two.</text>
+
+  <text x="450" y="448" text-anchor="middle" font-size="12" fill="#94a3b8">(142.250.72.14 is an example; real addresses vary and change.)</text>
+
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#111"/></marker>
+    <marker id="gr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L6,3 L0,6 z" fill="#166534"/></marker>
+  </defs>
+</svg>

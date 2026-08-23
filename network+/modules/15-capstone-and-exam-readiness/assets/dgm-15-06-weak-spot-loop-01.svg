@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" role="img" aria-labelledby="ws-title ws-desc" font-family="Segoe UI, Arial, sans-serif">
+  <title id="ws-title">The weak-spot review loop and the three-box Leitner system</title>
+  <desc id="ws-desc">On the left, a review loop: prioritize your weak domains, drill with flashcards using active recall, sort into got-it or review-again, and confirm a spot is closed only when answered cold and correctly twice, spaced. A repeat-after-a-day arrow shows spaced repetition. On the right, three Leitner boxes: Box 1 daily, Box 2 every few days, Box 3 weekly; a card moves up on success and back to Box 1 on a miss.</desc>
+
+  <rect x="0" y="0" width="820" height="500" fill="#ffffff"/>
+  <text x="410" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#12263a">The weak-spot loop</text>
+  <text x="410" y="54" text-anchor="middle" font-size="13" fill="#3a4a5a">Train the weak muscle: recall, don't re-read</text>
+
+  <!-- Left loop -->
+  <rect x="40" y="80" width="330" height="46" rx="8" fill="#eef3f8" stroke="#4a6fa5" stroke-width="2"/>
+  <text x="205" y="108" text-anchor="middle" font-size="14" fill="#12263a">1. PRIORITIZE weak domains (most misses)</text>
+  <line x1="205" y1="126" x2="205" y2="144" stroke="#333" stroke-width="2"/><polygon points="205,144 199,134 211,134" fill="#333"/>
+
+  <rect x="40" y="144" width="330" height="46" rx="8" fill="#e6e0f2" stroke="#5b4a8a" stroke-width="2"/>
+  <text x="205" y="166" text-anchor="middle" font-size="14" fill="#12263a">2. DRILL — flashcards, active recall</text>
+  <text x="205" y="183" text-anchor="middle" font-size="11" fill="#3a4a5a">answer from memory, then check</text>
+  <line x1="205" y1="190" x2="205" y2="208" stroke="#333" stroke-width="2"/><polygon points="205,208 199,198 211,198" fill="#333"/>
+
+  <rect x="40" y="208" width="330" height="46" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="205" y="236" text-anchor="middle" font-size="14" fill="#12263a">3. SORT — "got it" vs "review again"</text>
+  <line x1="205" y1="254" x2="205" y2="272" stroke="#333" stroke-width="2"/><polygon points="205,272 199,262 211,262" fill="#333"/>
+
+  <rect x="40" y="272" width="330" height="52" rx="8" fill="#12263a"/>
+  <text x="205" y="294" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">4. CONFIRM closed</text>
+  <text x="205" y="312" text-anchor="middle" font-size="11" fill="#e8eef5">cold + correct + twice, spaced</text>
+
+  <!-- spaced repetition loop arrow -->
+  <path d="M 40 298 H 20 V 167 H 40" fill="none" stroke="#b5852a" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="40,167 30,161 30,173" fill="#b5852a"/>
+  <text x="14" y="235" text-anchor="middle" font-size="11" fill="#b5852a" transform="rotate(-90 14 235)">repeat after a day (spaced)</text>
+
+  <!-- divider -->
+  <line x1="430" y1="80" x2="430" y2="420" stroke="#cbd5df" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- Right: Leitner boxes -->
+  <text x="640" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#12263a">Leitner boxes (spacing)</text>
+
+  <rect x="480" y="118" width="320" height="54" rx="8" fill="#fde8e8" stroke="#b5452a" stroke-width="2"/>
+  <text x="496" y="140" font-size="13" font-weight="bold" fill="#12263a">Box 1 — review DAILY</text>
+  <text x="496" y="160" font-size="11" fill="#3a4a5a">missed / new cards</text>
+
+  <rect x="480" y="200" width="320" height="54" rx="8" fill="#fdf0d5" stroke="#b5852a" stroke-width="2"/>
+  <text x="496" y="222" font-size="13" font-weight="bold" fill="#12263a">Box 2 — every few days</text>
+  <text x="496" y="242" font-size="11" fill="#3a4a5a">got it once</text>
+
+  <rect x="480" y="282" width="320" height="54" rx="8" fill="#dbeadd" stroke="#2e7d5b" stroke-width="2"/>
+  <text x="496" y="304" font-size="13" font-weight="bold" fill="#12263a">Box 3 — weekly</text>
+  <text x="496" y="324" font-size="11" fill="#3a4a5a">got it twice, spaced</text>
+
+  <!-- up on success -->
+  <line x1="770" y1="200" x2="770" y2="172" stroke="#2e7d5b" stroke-width="2"/><polygon points="770,172 764,182 776,182" fill="#2e7d5b"/>
+  <line x1="770" y1="282" x2="770" y2="254" stroke="#2e7d5b" stroke-width="2"/><polygon points="770,254 764,264 776,264" fill="#2e7d5b"/>
+  <text x="700" y="360" text-anchor="middle" font-size="11" fill="#2e7d5b">correct → move up a box</text>
+  <!-- miss back to box1 -->
+  <path d="M 490 336 H 470 V 145 H 480" fill="none" stroke="#b5452a" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="480,145 470,139 470,151" fill="#b5452a"/>
+  <text x="700" y="380" text-anchor="middle" font-size="11" fill="#b5452a">miss → back to Box 1</text>
+
+  <text x="410" y="450" text-anchor="middle" font-size="13" fill="#12263a">Short daily sprints beat one long cram.</text>
+</svg>
