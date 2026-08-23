@@ -1,0 +1,17 @@
+{
+  "name": "network-city",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "import": "node scripts/import-lessons.mjs",
+    "dev": "npm run import && astro dev",
+    "build": "npm run import && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.41.7",
+    "astro": "^7.2.4",
+    "sharp": "^0.35.3"
+  }
+}

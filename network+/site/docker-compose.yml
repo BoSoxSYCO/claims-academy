@@ -1,0 +1,12 @@
+# Run Network City on your home lab (Proxmox host, NAS, any Docker box).
+#   cd network+/site && docker compose up -d --build
+# then browse to http://<host-ip>:8080
+services:
+  network-city:
+    container_name: network-city
+    build:
+      context: ..              # repo's network+/ folder (needs ../modules)
+      dockerfile: site/Dockerfile
+    ports:
+      - "8080:80"
+    restart: unless-stopped

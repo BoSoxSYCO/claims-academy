@@ -1,0 +1,112 @@
+/* Network City — visual identity layered onto Starlight.
+   Accent = "link-light green" (the real green LED on network gear).
+   Wayfinding amber for highlights. Overpass (highway-sign face) for headings,
+   Newsreader for readable body prose, Overpass Mono for addresses & commands. */
+
+:root {
+  /* Starlight accent ramp (green) */
+  --sl-color-accent-low: #10241c;
+  --sl-color-accent: #12885a;
+  --sl-color-accent-high: #bfe6d3;
+
+  --nc-route: #b9700c;        /* road-sign amber (text-safe on light) */
+  --nc-route-soft: #f6e6c9;
+  --nc-asphalt: #33414e;
+  --nc-lane: #f2f5f8;
+
+  --sl-font: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --sl-font-mono: 'Overpass Mono', ui-monospace, 'SFMono-Regular', monospace;
+}
+
+/* Dark theme accent + amber tuned for the dark ground */
+:root[data-theme='dark'] {
+  --sl-color-accent-low: #10241c;
+  --sl-color-accent: #1f9c68;
+  --sl-color-accent-high: #cdeede;
+  --nc-route: #eaa93a;
+  --nc-route-soft: #33280f;
+  --nc-asphalt: #26323d;
+  --nc-lane: #0e151d;
+}
+
+/* Headings, sidebar, site title in the highway-sign face */
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4,
+site-title,
+.site-title,
+a.site-title,
+nav a,
+.sidebar-content a {
+  font-family: 'Overpass', system-ui, sans-serif;
+}
+
+.sl-markdown-content h2 {
+  letter-spacing: -0.01em;
+  margin-top: 2.4rem;
+  padding-top: 1.2rem;
+  position: relative;
+}
+/* short accent rule as a section marker (won't cross wrapped heading text) */
+.sl-markdown-content h2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--sl-color-accent);
+}
+
+/* Readable measure for body prose */
+.sl-markdown-content {
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+/* Inline code / addresses stand out like plates on signs */
+.sl-markdown-content :not(pre) > code {
+  background: var(--nc-route-soft);
+  border: 1px solid var(--sl-color-hairline);
+  color: var(--sl-color-text);
+  border-radius: 5px;
+  font-size: 0.86em;
+  padding: 0.1em 0.4em;
+}
+
+/* Site title bullet — a transit "stop" dot */
+a.site-title::before {
+  content: '';
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  background: var(--sl-color-accent);
+  box-shadow: 0 0 0 0.22em color-mix(in srgb, var(--sl-color-accent) 22%, transparent);
+  vertical-align: -0.02em;
+}
+
+/* A small "objective + time" badge the importer drops at the top of each lesson */
+.nc-meta {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  font-family: 'Overpass', system-ui, sans-serif;
+  font-size: 0.78rem;
+  margin: 0 0 0.4rem;
+}
+.nc-meta .chip {
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 99px;
+  padding: 0.15rem 0.6rem;
+  color: var(--sl-color-text-accent);
+  background: var(--sl-color-bg-nav);
+}
+.nc-meta .chip.obj {
+  color: var(--nc-route);
+  border-color: color-mix(in srgb, var(--nc-route) 40%, transparent);
+}
