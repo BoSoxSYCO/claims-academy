@@ -39,30 +39,21 @@ npm run build      # imports lessons, builds to ./dist
 npm run preview     # serve the built ./dist locally
 ```
 
-## Self-host on Proxmox / Docker
-
-The simplest path is a Docker container (run it in a Proxmox VM or LXC that has
-Docker, or on any Docker host / NAS):
+## Self-host on Proxmox / Docker at a real URL
 
 ```bash
 cd network+/site
-docker compose up -d --build
+docker compose up -d --build     # serves on port 80
 ```
 
-Then browse to `http://<host-ip>:8080`. The build compiles the site inside the
-image and serves the static files with nginx (~40 MB final image). To update
-after editing lessons, re-run the same command — it rebuilds from the current
-Markdown.
+Then browse to `http://<host-ip>/`. The build compiles the site inside the
+image and serves the static files with nginx (~40 MB final image). Re-run the
+same command after editing lessons to rebuild from the current Markdown.
 
-### Proxmox specifics
-
-- **LXC container** (lightest): create a Debian/Ubuntu LXC, install Docker
-  (`curl -fsSL https://get.docker.com | sh`), clone the repo, then
-  `docker compose up -d --build` in `network+/site`. Point a reverse proxy
-  (or just the host IP:8080) at it.
-- **VM**: same steps inside a small Ubuntu VM if you prefer full isolation.
-- Put it behind your existing reverse proxy (Nginx Proxy Manager, Traefik,
-  Caddy) to give it a hostname and HTTPS on your LAN.
+**Getting a friendly URL on your network** (`http://networkcity.lan/` instead
+of an IP), Proxmox LXC/VM setup, and optional HTTPS are covered step by step in
+**[DEPLOY.md](DEPLOY.md)** — start there if you have Proxmox and nothing else
+set up yet.
 
 ## Publish to a public URL (optional)
 

@@ -12,6 +12,9 @@ WORKDIR /app
 COPY modules ./modules
 COPY site ./site
 WORKDIR /app/site
+# optional: real hostname for canonical links + sitemap (see docker-compose.yml)
+ARG SITE_URL=""
+ENV SITE_URL=$SITE_URL
 RUN npm run build
 
 FROM nginx:alpine

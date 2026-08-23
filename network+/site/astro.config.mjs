@@ -5,7 +5,10 @@ import starlight from '@astrojs/starlight';
 // NetworkAcademy+ — "Network City" learning site.
 // Content is generated from ../modules by scripts/import-lessons.mjs (runs on build).
 export default defineConfig({
-  site: 'http://localhost',
+  // Set SITE_URL (e.g. http://networkcity.lan) so canonical links + sitemap
+  // use your real hostname. Internal navigation is relative, so the site
+  // works on any host even if this is left at the default.
+  site: process.env.SITE_URL || 'http://localhost',
   integrations: [
     starlight({
       title: 'Network City',
